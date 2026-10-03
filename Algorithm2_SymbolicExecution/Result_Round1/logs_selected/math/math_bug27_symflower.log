@@ -1,0 +1,318 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_27b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.addSub: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/fraction/BigFractionField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/fraction/BigFractionField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: internal error: type does not support nil values
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [struct(org/apache/commons/math3/fraction/BigFractionFormat, [], [pointer(reference(org/apache/commons/math3/fraction/AbstractFormat))], [reference(java/io/Serializable)]) org/apache/commons/math3/fraction/BigFractionFormat//format [] [f]]
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/fraction/FractionConversionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/fraction/FractionConversionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/FractionField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/fraction/FractionField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [struct(org/apache/commons/math3/fraction/FractionFormat, [], [pointer(reference(org/apache/commons/math3/fraction/AbstractFormat))], []) org/apache/commons/math3/fraction/FractionFormat//format [] [f]]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+Found 1 Java files
+Found 72 problems in Java files
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: found 29 symbols
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.subtract: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getField: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getField: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getField: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.getField: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.Fraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.abs: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.abs: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.abs: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.abs: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.Fraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.intValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.intValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.intValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.intValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.percentageValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.percentageValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.percentageValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.percentageValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.multiply: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.equals: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.equals: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.equals: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.compareTo: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.compareTo: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.compareTo: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.compareTo: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getDenominator: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getDenominator: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getDenominator: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.getDenominator: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.negate: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.negate: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.negate: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.negate: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.subtract: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.hashCode: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.multiply: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.divide: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.add: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getNumerator: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getNumerator: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getNumerator: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.getNumerator: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.longValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.longValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.longValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.longValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.add: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.Fraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.toString: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.toString: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.toString: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.doubleValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.doubleValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.doubleValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.doubleValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.Fraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.floatValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.floatValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.floatValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.floatValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getReducedFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getReducedFraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.getReducedFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.getReducedFraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.Fraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.Fraction: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.reciprocal: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.reciprocal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.reciprocal: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.reciprocal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: org.apache.commons.math3.fraction.Fraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: internal error: org.apache.commons.math3.fraction.Fraction.divide: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+Analyzed 1 out of 10 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 57 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 10 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 30 cases of "other issues"
+	Description: Uncategorized problems.
+

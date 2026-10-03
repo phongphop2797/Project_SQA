@@ -1,0 +1,136 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_6b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.MaxEvalCallback.trigger: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.MaxIterCallback.trigger: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optim/BaseMultiStartMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/BaseMultiStartMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optim/BaseMultiStartMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomVectorGenerator
+src/main/java/org/apache/commons/math3/optim/BaseMultiStartMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyIterationsException
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/optim/InitialGuess.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/InitialGuess.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/MaxEval.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/MaxIter.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/PointValuePair.java: error: unknown function
+	data: [<nil> getKey [] []]
+src/main/java/org/apache/commons/math3/optim/PointValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/PointValuePair.java: error: unknown function
+	data: [<nil> getValue [] []]
+src/main/java/org/apache/commons/math3/optim/PointValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/PointValuePair.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: unknown function
+	data: [<nil> getKey [] []]
+src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/SimpleBounds.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optim/SimplePointChecker.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optim/SimplePointChecker.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/optim/SimplePointChecker.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/SimpleValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optim/SimpleValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/SimpleValueChecker.java: error: unknown type
+	data: PAIR
+src/main/java/org/apache/commons/math3/optim/SimpleVectorValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optim/SimpleVectorValueChecker.java: error: unknown type
+	data: PAIR
+src/main/java/org/apache/commons/math3/optim/SimpleVectorValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+Found 1 Java files
+Found 44 problems in Java files
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: found 11 symbols
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.incrementEvaluationCount: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.incrementEvaluationCount: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.BaseOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.BaseOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.doOptimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.parseOptimizationData: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.parseOptimizationData: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.incrementIterationCount: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.incrementIterationCount: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.getConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java: org.apache.commons.math3.optim.BaseOptimizer.optimize: computed 0 unit tests
+Analyzed 1 out of 12 source files
+Had 17 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 22 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 3 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+

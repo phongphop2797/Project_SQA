@@ -1,0 +1,649 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_49b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedClass
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/VirtualBeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonInclude
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _filteredProps]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _props]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _objectIdWriter]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer//BeanAsArraySerializer [] [this toIgnore]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _typeId]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e bean name]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _objectIdWriter]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer//BeanAsArraySerializer [] [this unsupported filterId]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown identifier
+	data: typeStr
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) SerializationFeature]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> _customTypeId [] [bean]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _props]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], []) _filteredProps]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown type
+	data: StackOverflowError
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown type
+	data: JsonMappingException/Reference
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> handledType [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown function
+	data: [<nil> _serializeWithObjectId [] [bean gen provider typeSer]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/BeanSerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/StdSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown type
+	data: JsonGenerationException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [activeView]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [activeView]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [activeView]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [activeView]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> _findAndAddDynamic [] [serializers unsupported provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> _findAndAddDynamic [] [serializers cc provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> _findAndAddDynamic [] [serializers unsupported provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContainerSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java: error: unknown function
+	data: [<nil> _findAndAddDynamic [] [serializers cc provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown function
+	data: [<nil> createSchemaNode [] ["string" true]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatTypes
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonArrayFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java: error: unknown type
+	data: JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContainerSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java: error: unknown identifier
+	data: currSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [<nil> hasContentTypeAnnotation [] [provider property]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getValue [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContextualSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: AnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value keyDesc]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getKey [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerationException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [<nil> findConvertingContentSerializer [] [provider property ser]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getKey [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value keyDesc]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContainerSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getValue [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/SerializableString
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SerializedString
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown type
+	data: BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown type
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator/IdKey
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator)) com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator//getScope [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator, [], [unsupported(com/fasterxml/jackson/annotation/ObjectIdGenerators//PropertyGenerator)], []) _scope]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator, [], [unsupported(com/fasterxml/jackson/annotation/ObjectIdGenerators//PropertyGenerator)], []) _scope]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerators
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ObjectIdInfo
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java: error: unknown type
+	data: IdKey
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown identifier
+	data: serializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown identifier
+	data: entries
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/TypeKey
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [unsupported(com/fasterxml/jackson/databind/util/TypeKey), genericInstance(unsupported(com/fasterxml/jackson/databind/JsonSerializer), [pointer(reference(java/lang/Object))])])) java/util/Map<com/fasterxml/jackson/databind/util/TypeKey,com/fasterxml/jackson/databind/JsonSerializer<java/lang/Object>>//entrySet [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap//ReadOnlyClassToSerializerMap [] [src]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: PropertyFilter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: Set
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter//SerializeExceptFilter, [], [pointer(reference(com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter))], [reference(java/io/Serializable)]) Collections]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown identifier
+	data: Collections
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: BeanPropertyFilter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: PropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown type
+	data: HashSet
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown identifier
+	data: properties
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/ObjectNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: FilterProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: internal error: type does not support nil values
+	data: unsupported(PropertyFilter)
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map<java/lang/String,descendant of java/lang/Object>//entrySet [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: PropertyFilter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: BeanPropertyFilter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown identifier
+	data: result
+src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/ArraySerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown function
+	data: [<nil> createSchemaNode [] ["string"]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: AnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown function
+	data: [<nil> isDefaultSerializer [] [ser]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown function
+	data: [<nil> createSchemaNode [] ["array" true]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonArrayFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatTypes
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContextualSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/ContainerSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java: error: unknown function
+	data: [<nil> findConvertingContentSerializer [] [provider property ser]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatTypes
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: JsonGenerationException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown function
+	data: [<nil> createSchemaNode [] ["string" true]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JacksonStdImpl
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: BeanProperty
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [provider e value i]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonArrayFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/StdSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _suppressableValue]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown type
+	data: Base
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [<nil> _handleSelfReference [] [bean gen prov ser]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _serializer]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), unsupported(com/fasterxml/jackson/databind/JsonNode)])) java/util/Map//Entry<java/lang/String,com/fasterxml/jackson/databind/JsonNode>//getKey [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), unsupported(com/fasterxml/jackson/databind/JsonNode)])) java/util/Map//Entry<java/lang/String,com/fasterxml/jackson/databind/JsonNode>//getValue [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown identifier
+	data: ser
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [<nil> get [] [bean]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _dynamicSerializers]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _nonTrivialBaseType]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SerializedString
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/ObjectNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _serializer]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) MARKER_FOR_EMPTY]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _name]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter)) com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter//getType [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _name]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _typeSerializer]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter, [], [unsupported(com/fasterxml/jackson/databind/ser/BeanPropertyWriter)], [reference(java/io/Serializable)]) _dynamicSerializers]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer//UnwrappingBeanSerializer!35a7813d0aeeffd0b4903cbd7ce55255, [variable(src, pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer))), variable(objectIdWriter, pointer(reference(com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter)))], [variable(, pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer))], [new(pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer)))], ModifierNone), =(this, call(select(this, @@constructor!35a7813d0aeeffd0b4903cbd7ce55255), [src, objectIdWriter])), return([this])])) return([call(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer//UnwrappingBeanSerializer!35a7813d0aeeffd0b4903cbd7ce55255, [this, objectIdWriter])])]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> _serializeWithObjectId [] [bean gen provider false]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> serializeFields [] [bean gen provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) _objectIdWriter]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> serializeFieldsFiltered [] [bean gen provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> _serializeWithObjectId [] [bean gen provider typeSer]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/BeanSerializerBase
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer//UnwrappingBeanSerializer!470a65fe79bb78c40f1b5a4e2f541a1c, [variable(src, pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer))), variable(toIgnore, array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0))], [variable(, pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer))], [new(pointer(reference(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer)))], ModifierNone), =(this, call(select(this, @@constructor!470a65fe79bb78c40f1b5a4e2f541a1c), [src, toIgnore])), return([this])])) return([call(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer//UnwrappingBeanSerializer!470a65fe79bb78c40f1b5a4e2f541a1c, [this, toIgnore])])]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) _objectIdWriter]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) _propertyFilterId]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown type
+	data: JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) _propertyFilterId]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> serializeFields [] [bean gen provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> handledType [] []]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) SerializationFeature]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer, [], [unsupported(com/fasterxml/jackson/databind/ser/std/BeanSerializerBase)], [reference(java/io/Serializable)]) _objectIdWriter]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java: error: unknown function
+	data: [<nil> serializeFieldsFiltered [] [bean gen provider]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/core/SerializableString
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//valueOf [] [select(this, id)]]
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(JsonSerializer), [pointer(reference(java/lang/Object))])
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(com/fasterxml/jackson/annotation/ObjectIdGenerator), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//valueOf [] [select(this, id)]]
+Found 1 Java files
+Found 300 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: found 4 symbols
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.WritableObjectId: computing test cases
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.WritableObjectId: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.WritableObjectId: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: internal error: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.WritableObjectId: unknown type kind
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsId: computing test cases
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsId: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: internal error: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsId: unknown type kind
+	data: unsupported(JavaType)
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.generateId: computing test cases
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.generateId: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.generateId: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: internal error: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.generateId: not a struct type
+	data: unsupported(com/fasterxml/jackson/annotation/ObjectIdGenerator)
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsField: computing test cases
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsField: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java: internal error: com.fasterxml.jackson.databind.ser.impl.WritableObjectId.writeAsField: unknown type kind
+	data: unsupported(JavaType)
+Analyzed 1 out of 21 source files
+Had 36 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 115 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 88 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 59 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

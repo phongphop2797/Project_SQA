@@ -1,0 +1,330 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_34b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/jsoup/parser/CharacterReader.java: unsupported: unsupported AST node
+	data: &{0xc000115cc0 <nil> [] 0xc0001dae00 0xc0000db170 {None [] [] None}}
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toLowerCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: warning: overflow of cast
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: HtmlTreeBuilderState
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: FormElement
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: internal error: type does not support nil values
+	data: unsupported(Element)
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown function
+	data: [genericInstance(reference(java/util/ArrayList), [pointer(reference(org/jsoup/parser/ParseError))]) java/util/ArrayList//@@constructor [] [initialCapacity]]
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown type
+	data: E
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Node)])) java/util/List<org/jsoup/nodes/Node>//toArray [] [make(array(unsupported(org/jsoup/nodes/Node), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodeList), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/parser/Parser.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/jsoup/parser/XmlTreeBuilder))), org/jsoup/parser/XmlTreeBuilder//parseFragment!0c7e1f3d460a3ef95abf363e3f8c1aab, [variable(inputFragment, pointer(reference(java/lang/String))), variable(baseUri, pointer(reference(java/lang/String))), variable(errors, pointer(reference(org/jsoup/parser/ParseErrorList)))], [variable(, genericInstance(unsupported(List), [unsupported(Node)]))], block([never_nil(this), call(select(this, initialiseParse!0c7e1f3d460a3ef95abf363e3f8c1aab), [inputFragment, baseUri, errors]), call(select(this, runParser!d41d8cd98f00b204e9800998ecf8427e), []), unsupported])) return([call(select(ensure_not_nil(treeBuilder), parseFragment!0c7e1f3d460a3ef95abf363e3f8c1aab), [fragmentXml, baseUri, call(org/jsoup/parser/ParseErrorList//noTracking!d41d8cd98f00b204e9800998ecf8427e, [])])])]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(org/jsoup/parser/Token)) org/jsoup/parser/Token//getClass [] []]
+src/main/java/org/jsoup/parser/Token.java: internal error: recovered panic
+	data: runtime error: invalid memory address or nil pointer dereference
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, pendingAttributeValue)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [append]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/nodes/Entities
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tokeniser, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, charBuffer)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [chars]]
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: not all elements have the same type
+	data: conditional(start, [call(org/jsoup/parser/Token//StartTag//StartTag!d41d8cd98f00b204e9800998ecf8427e, []), call(org/jsoup/parser/Token//EndTag//EndTag!d41d8cd98f00b204e9800998ecf8427e, [])])
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: DocumentType
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: XmlDeclaration
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+Found 1 Java files
+Found 76 problems in Java files
+src/main/java/org/jsoup/parser/CharacterReader.java: found 30 symbols
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.advance: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.advance: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.advance: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.advance: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consume: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consume: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consume: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consume: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToEnd: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToEnd: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToEnd: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeToEnd: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.isEmpty: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.isEmpty: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.unconsume: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.unconsume: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.unconsume: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.unconsume: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.containsIgnoreCase: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.containsIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.containsIgnoreCase: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.containsIgnoreCase: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.pos: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.pos: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.pos: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.pos: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matches: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeTo: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.nextIndexOf: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.CharacterReader: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.CharacterReader: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.CharacterReader: found 0 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterSequence: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterSequence: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterSequence: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeLetterSequence: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.rewindToMark: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.rewindToMark: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.rewindToMark: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.rewindToMark: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesLetter: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesLetter: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesLetter: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchesLetter: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsume: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsume: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsume: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchConsume: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesAny: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesAny: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesAny: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchesAny: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesDigit: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesDigit: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesDigit: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchesDigit: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeDigitSequence: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeDigitSequence: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeDigitSequence: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeDigitSequence: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeAsString: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeAsString: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeAsString: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeAsString: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.mark: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.mark: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.mark: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.mark: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterThenDigitSequence: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterThenDigitSequence: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeLetterThenDigitSequence: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeLetterThenDigitSequence: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.current: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.current: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.current: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.current: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matches: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matches: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.toString: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.toString: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.toString: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.toString: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesIgnoreCase: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchesIgnoreCase: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchesIgnoreCase: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeTo: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeTo: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToAny: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToAny: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeToAny: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeToAny: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.nextIndexOf: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.nextIndexOf: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsumeIgnoreCase: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsumeIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.matchConsumeIgnoreCase: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.matchConsumeIgnoreCase: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeHexSequence: computing test cases
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeHexSequence: computed 0 unit tests
+src/main/java/org/jsoup/parser/CharacterReader.java: org.jsoup.parser.CharacterReader.consumeHexSequence: found 1 problems
+src/main/java/org/jsoup/parser/CharacterReader.java: internal error: org.jsoup.parser.CharacterReader.consumeHexSequence: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), input), nil) array(primitive(char, 16, true), primitive(int, 32, false), 0)]
+Analyzed 1 out of 11 source files
+Had 7 errors that block a full analysis
+Generated 0 tests
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 45 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 30 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 11 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 3 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 8 cases of "other issues"
+	Description: Uncategorized problems.
+

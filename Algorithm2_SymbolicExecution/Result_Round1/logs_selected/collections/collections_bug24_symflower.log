@@ -1,0 +1,1196 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_24b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.addToIndex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.removeFromIndex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.UnmodifiableBoundedCollection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.UnmodifiableCollection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//toArray [] [object]]
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//containsAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//removeAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//retainAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//addAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown import
+	data: org/apache/commons/collections4/iterators/EmptyIterator
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [reference(E)])) java/util/Collection<E>//removeAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: unsupported operator
+	data: |(changed, unsupported)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/iterators/IteratorChain), [reference(E)])
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Object)) vs genericParameter(E, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: unsupported operator
+	data: |(changed, unsupported)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(E)] [this]]
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown import
+	data: org/apache/commons/collections4/iterators/IteratorChain
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown identifier
+	data: chain
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: unsupported type
+	data: array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0) vs array(genericParameter(T, [pointer(reference(java/lang/Object))]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [reference(E)])) java/util/Collection<E>//retainAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]) java/util/List<java/util/Collection<E>>//addAll [] [unsupported]]
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: error: unknown import
+	data: org/apache/commons/collections4/list/UnmodifiableList
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: not all elements have the same type
+	data: declaration([c], [reference(C)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: unsupported type cast
+	data: [cast(object, reference(C)) genericParameter(C, [pointer(reference(java/lang/Object))])]
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/MultiMap
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/MultiMap), [reference(K), reference(C)])
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/Transformer), [reference(C), reference(K)])
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown type
+	data: E
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: unsupported type cast
+	data: cast(|(changed, call(select(this, remove!4fb2deccef7826b7659de223ac40b91d), [o])), primitive(bool, 0, false))
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/Transformer
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/map/MultiValueMap
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: unsupported: unsupported node
+	data: [==(predicate, nil) genericInstance(unsupported(org/apache/commons/collections4/Predicate), [wildcard(genericParameter(E, [pointer(reference(java/lang/Object))]), pointer(struct(java/lang/Object, [], [], [])))])]
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/Predicate), [wildcard(reference(E), pointer(reference(java/lang/Object)))])
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: unsupported: unsupported type
+	data: genericParameter(E, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: unsupported: unsupported type
+	data: genericInstance(unsupported(org/apache/commons/collections4/Predicate), [wildcard(reference(E), pointer(reference(java/lang/Object)))])
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//addAll [] [coll]]
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: internal error: not all elements have the same type
+	data: declaration([item], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/Predicate
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc000781ce0 <nil> [] 0xc00079d380 0xc0004fcc60 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc000781f40 <nil> [] 0xc00079da00 0xc0004fce10 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e8900 <nil> [] 0xc00079e580 0xc0004fd170 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9fc0 <nil> [] 0xc0007a2300 0xc0005de7e0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e8740 <nil> [] 0xc00079e080 0xc0004fcfc0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005008c0 <nil> [] 0xc0007a2900 0xc0005dea20 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e8b60 <nil> [] 0xc00079ec00 0xc0004fd320 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9140 <nil> [] 0xc00079f900 0xc0004fd710 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9340 <nil> [] 0xc00079fe80 0xc0004fd8c0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9b60 <nil> [] 0xc0007a1380 0xc0004fddd0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e8e00 <nil> [] 0xc00079f180 0xc0004fd4d0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9660 <nil> [] 0xc0007a0680 0xc0004fda70 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e98c0 <nil> [] 0xc0007a0d00 0xc0004fdc20 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005e9e00 <nil> [] 0xc0007a1900 0xc0005de5a0 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: unsupported AST node
+	data: &{0xc0005019c0 <nil> [] 0xc0007a2d80 0xc0005dec60 {None [] [] None}}
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/Transformer
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/Transformer), [wildcard(reference(E), pointer(reference(java/lang/Object))), wildcard(, reference(E))])
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: unsupported: unsupported type cast
+	data: [cast(call(select(ensure_not_nil(collection), toArray!d41d8cd98f00b204e9800998ecf8427e), []), array(reference(E), primitive(int, 32, false), 0)) reference(E)]
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: unsupported: unsupported node
+	data: [==(transformer, nil) genericInstance(unsupported(org/apache/commons/collections4/Transformer), [wildcard(genericParameter(E, [pointer(reference(java/lang/Object))]), pointer(struct(java/lang/Object, [], [], []))), wildcard(, genericParameter(E, [pointer(reference(java/lang/Object))]))])]
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/Transformer), [wildcard(reference(E), pointer(reference(java/lang/Object))), wildcard(, reference(E))])
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(E)] [call(select(ensure_not_nil(coll), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: internal error: not all elements have the same type
+	data: declaration([item], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//addAll [] [call(select(this, transform!2ff46a653aa0c23e30072468ec9c83d9), [coll])]]
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: error: unknown function
+	data: [genericInstance(reference(org/apache/commons/collections4/collection/AbstractCollectionDecorator), [reference(E)]) org/apache/commons/collections4/collection/AbstractCollectionDecorator//@@constructor [] [cast(coll, genericInstance(unsupported(org/apache/commons/collections4/BoundedCollection), [reference(E)]))]]
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/BoundedCollection), [reference(E)])
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/BoundedCollection
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: error: unknown import
+	data: org/apache/commons/collections4/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: unsupported type
+	data: pointer(genericInstance(reference(java/util/Collection), [wildcard(, genericParameter(E, [pointer(reference(java/lang/Object))]))])) vs pointer(genericInstance(reference(java/util/Collection), [reference(E)]))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: error: unknown import
+	data: org/apache/commons/collections4/Unmodifiable
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: error: unknown import
+	data: org/apache/commons/collections4/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/collections4/Unmodifiable)
+Found 9 Java files
+Found 73 problems in Java files
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: found 28 symbols
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: found 7 symbols
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: found 12 symbols
+src/main/java/org/apache/commons/collections4/collection/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: found 20 symbols
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: found 14 symbols
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: found 5 symbols
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: found 20 symbols
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: found 8 symbols
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.isEmpty: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.isEmpty: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.isEmpty: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.isEmpty: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: internal error: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: error: Internal error: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 19), End:location.NewCompactFileLocationRaw(2, 51, 37)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/List",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeGenericInstance{
+		                    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 24), End:location.NewCompactFileLocationRaw(2, 51, 36)},
+		                    Type:             &modelast.TypeReference{
+		                        Name: "java/util/Collection",
+		                    },
+		                    TypeArguments: []modelast.Type{
+		                        &modelast.TypePointer{
+		                            Type: &modelast.TypeReference{
+		                                Name: "java/lang/Object",
+		                            },
+		                        },
+		                    },
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/ArrayList<java/util/Collection<java/lang/Object>>",
+		        []interface {}{
+		            "mkPointer",
+		            "true",
+		            "#x00000007",
+		            "@Tjava/lang/Object",
+		        },
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		        "#x00000000",
+		    },
+		}
+		Stacktrace: goroutine 81 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc00064c720})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0x0, 0x0}, {0x2205608, 0xc00019b3c0}, {0x1230b40, 0xc00064c1c8}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0x0, 0x0}, {0x2205728, 0xc000b80b80}, {0x1230b40, 0xc00064c1e0}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0xc000a42d86, 0x4}, {0x2205608, 0xc00019b200}, {0x1230b40, 0xc00064c1f8}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4113 +0x52c9
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0xc000a42d86, 0x4}, {0x2205728, 0xc000e30ca0}, {0x1230b40, 0xc00064c258}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000dfbba0, 0xc00075ad00, {0xb8?, {0xc0000519c8?, 0x41aa94?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:431 +0xe9f
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000dfbba0, 0xc00075ad00, {0xa5?, {0xc0004f6c40?, 0xc000051b98?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000dfbba0, 0xc00075ad00, {0x0?, {0xc000621110?, 0xc0009c0310?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000dfbba0, 0xc00075ad00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+		:
+		&modelast.TypePointer{
+		    Type: &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 19), End:location.NewCompactFileLocationRaw(2, 51, 37)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/List",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeGenericInstance{
+		                    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 24), End:location.NewCompactFileLocationRaw(2, 51, 36)},
+		                    Type:             &modelast.TypeReference{
+		                        Name: "java/util/Collection",
+		                    },
+		                    TypeArguments: []modelast.Type{
+		                        &modelast.TypeReference{
+		                            Name: "E",
+		                        },
+		                    },
+		                },
+		            },
+		        },
+		    },
+		}
+		Stacktrace: goroutine 81 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de380, 0xc0008f4420}, {0x13c8280, 0xc000b80b80})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0xc000a42d86, 0x4}, {0x2205608, 0xc00019b200}, {0x1230b40, 0xc00064c1f8}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4115 +0x5385
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075ad00, {0xc000a42d86, 0x4}, {0x2205728, 0xc000e30ca0}, {0x1230b40, 0xc00064c258}, 0xc0008f4240)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000dfbba0, 0xc00075ad00, {0xb8?, {0xc0000519c8?, 0x41aa94?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:431 +0xe9f
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000dfbba0, 0xc00075ad00, {0xa5?, {0xc0004f6c40?, 0xc000051b98?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000dfbba0, 0xc00075ad00, {0x0?, {0xc000621110?, 0xc0009c0310?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000dfbba0, 0xc00075ad00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+	
+	data: @o_0
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.add: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.add: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(org/apache/commons/collections4/collection/CompositeCollection//CollectionMutator), [reference(E)]))), org/apache/commons/collections4/collection/CompositeCollection//CollectionMutator//add!8560c0be7a91b92288612e3b9bbc3883, [variable(composite, pointer(genericInstance(reference(org/apache/commons/collections4/collection/CompositeCollection), [reference(E)]))), variable(collections, pointer(genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]))), variable(obj, reference(E))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.iterator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.addAll: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.removeComposited: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.removeComposited: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.removeComposited: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.removeComposited: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/List), [reference(E)]))), java/util/List//remove!4fb2deccef7826b7659de223ac40b91d, [variable(o, pointer(reference(java/lang/Object)))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator.remove: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.toCollection: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getMutator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getMutator: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getMutator: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: internal error: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 19), End:location.NewCompactFileLocationRaw(2, 51, 37)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/List",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeGenericInstance{
+		                    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 24), End:location.NewCompactFileLocationRaw(2, 51, 36)},
+		                    Type:             &modelast.TypeReference{
+		                        Name: "java/util/Collection",
+		                    },
+		                    TypeArguments: []modelast.Type{
+		                        &modelast.TypePointer{
+		                            Type: &modelast.TypeReference{
+		                                Name: "java/lang/Object",
+		                            },
+		                        },
+		                    },
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/ArrayList<java/util/Collection<java/lang/Object>>",
+		        []interface {}{
+		            "mkPointer",
+		            "true",
+		            "#x00000007",
+		            "@Tjava/lang/Object",
+		        },
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		        "#x00000000",
+		    },
+		}
+		Stacktrace: goroutine 65 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc000152330})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0000c5800, {0x0, 0x0}, {0x2205608, 0xc0000b5e00}, {0x1230b40, 0xc000cf1e78}, 0xc0008823c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0000c5800, {0x0, 0x0}, {0x2205728, 0xc000b80b80}, {0x1230b40, 0xc000cf1e90}, 0xc0008823c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0000c5800, {0xc000b53e40, 0x6}, {0x2205608, 0xc0000b5c80}, {0x1230b40, 0xc000cf1ea8}, 0xc0008823c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4113 +0x52c9
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0000c5800, {0xc000b53e40, 0x6}, {0x2205728, 0xc000bbbb20}, {0x1230b40, 0xc000cf1f08}, 0xc0008823c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).dynamicTypeForExpression(0xc000529e10, 0xc0000c5000, {0x2209770, 0xc0007240a0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4367 +0x1e5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).resolveFunctionForDynamicType(0xc000529e10, 0xc0000c5000, 0xc00074a800, {0x2209770, 0xc0007240a0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4294 +0xcd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleCall(0xc000529e10, 0xc0000c5000, 0xc000656180, 0xc000b1ce60)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4009 +0x325
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePathFlowNext(0xc000529e10, 0xc0000c5000, 0xc000656180)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:575 +0x4c7
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000529e10, 0xc0000c5000)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:292 +0x135
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+	
+	data: pointer(genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]))
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.clear: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.clear: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: internal error: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 19), End:location.NewCompactFileLocationRaw(2, 51, 37)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/List",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeGenericInstance{
+		                    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 24), End:location.NewCompactFileLocationRaw(2, 51, 36)},
+		                    Type:             &modelast.TypeReference{
+		                        Name: "java/util/Collection",
+		                    },
+		                    TypeArguments: []modelast.Type{
+		                        &modelast.TypePointer{
+		                            Type: &modelast.TypeReference{
+		                                Name: "java/lang/Object",
+		                            },
+		                        },
+		                    },
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/ArrayList<java/util/Collection<java/lang/Object>>",
+		        []interface {}{
+		            "mkPointer",
+		            "true",
+		            "#x00000007",
+		            "@Tjava/lang/Object",
+		        },
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		        "#x00000000",
+		    },
+		}
+		Stacktrace: goroutine 231 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc0006badf8})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075aa00, {0x0, 0x0}, {0x2205608, 0xc000656940}, {0x1230b40, 0xc0006ba9d8}, 0xc0008835f0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075aa00, {0x0, 0x0}, {0x2205728, 0xc000b80b80}, {0x1230b40, 0xc0006ba9f0}, 0xc0008835f0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075aa00, {0xc000a8e0a0, 0x6}, {0x2205608, 0xc000656200}, {0x1230b40, 0xc0006baa08}, 0xc0008835f0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4113 +0x52c9
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00075aa00, {0xc000a8e0a0, 0x6}, {0x2205728, 0xc0006f8ea0}, {0x1230b40, 0xc0006baa68}, 0xc0008835f0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).dynamicTypeForExpression(0xc000b485b0, 0xc000cfe700, {0x2209770, 0xc000b1c5f0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4367 +0x1e5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).resolveFunctionForDynamicType(0xc000b485b0, 0xc000cfe700, 0xc00074a900, {0x2209770, 0xc000b1c5f0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4294 +0xcd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleCall(0xc000b485b0, 0xc000cfe700, 0xc00001ec40, 0xc000b1d1d0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4009 +0x325
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePathFlowNext(0xc000b485b0, 0xc000cfe700, 0xc00001ec40)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:575 +0x4c7
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000b485b0, 0xc000cfe700)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:292 +0x135
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+	
+	data: pointer(genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]))
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.containsAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.containsAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.containsAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.containsAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.setMutator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.setMutator: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.setMutator: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: internal error: org.apache.commons.collections4.collection.CompositeCollection.CompositeCollection: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 19), End:location.NewCompactFileLocationRaw(2, 51, 37)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/List",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeGenericInstance{
+		                    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 51, 24), End:location.NewCompactFileLocationRaw(2, 51, 36)},
+		                    Type:             &modelast.TypeReference{
+		                        Name: "java/util/Collection",
+		                    },
+		                    TypeArguments: []modelast.Type{
+		                        &modelast.TypePointer{
+		                            Type: &modelast.TypeReference{
+		                                Name: "java/lang/Object",
+		                            },
+		                        },
+		                    },
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/ArrayList<java/util/Collection<java/lang/Object>>",
+		        []interface {}{
+		            "mkPointer",
+		            "true",
+		            "#x00000007",
+		            "@Tjava/lang/Object",
+		        },
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		        "#x00000000",
+		    },
+		}
+		Stacktrace: goroutine 222 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc00064cf18})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00074dc00, {0x0, 0x0}, {0x2205608, 0xc000606e00}, {0x1230b40, 0xc00064caf8}, 0xc000c81590)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00074dc00, {0x0, 0x0}, {0x2205728, 0xc000b80b80}, {0x1230b40, 0xc00064cb10}, 0xc000c81590)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00074dc00, {0xc000b20440, 0x6}, {0x2205608, 0xc000606c40}, {0x1230b40, 0xc00064cb28}, 0xc000c81590)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4113 +0x52c9
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc00074dc00, {0xc000b20440, 0x6}, {0x2205728, 0xc000e64860}, {0x1230b40, 0xc00064cb88}, 0xc000c81590)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).dynamicTypeForExpression(0xc0004e49c0, 0xc00075aa00, {0x2209770, 0xc0007a95e0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4367 +0x1e5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).resolveFunctionForDynamicType(0xc0004e49c0, 0xc00075aa00, 0xc00074aa00, {0x2209770, 0xc0007a95e0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4294 +0xcd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleCall(0xc0004e49c0, 0xc00075aa00, 0xc0006357c0, 0xc000b1d540)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4009 +0x325
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePathFlowNext(0xc0004e49c0, 0xc00075aa00, 0xc0006357c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:575 +0x4c7
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc0004e49c0, 0xc00075aa00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:292 +0x135
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+	
+	data: pointer(genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]))
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.size: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.size: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.size: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.size: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.addComposited: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/List), [reference(E)]))), java/util/List//add!0bf8bb8a1f0e9e249fae3124412ae2c7, [variable(e, reference(E))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getCollections: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getCollections: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.getCollections: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.remove: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.remove: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(org/apache/commons/collections4/collection/CompositeCollection//CollectionMutator), [reference(E)]))), org/apache/commons/collections4/collection/CompositeCollection//CollectionMutator//remove!4cb878e85cb036c6cbd327d84b29716c, [variable(composite, pointer(genericInstance(reference(org/apache/commons/collections4/collection/CompositeCollection), [reference(E)]))), variable(collections, pointer(genericInstance(reference(java/util/List), [pointer(genericInstance(reference(java/util/Collection), [reference(E)]))]))), variable(obj, pointer(reference(java/lang/Object)))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addComposited: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.addComposited: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/List), [reference(E)]))), java/util/List//add!0bf8bb8a1f0e9e249fae3124412ae2c7, [variable(e, reference(E))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.addAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.addAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.contains: computing test cases
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.contains: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: org.apache.commons.collections4.collection.CompositeCollection.contains: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: unsupported: org.apache.commons.collections4.collection.CompositeCollection.contains: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.addAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: unsupported: org.apache.commons.collections4.collection.TransformedCollection.addAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transform: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transform: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.TransformedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.TransformedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.TransformedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: internal error: org.apache.commons.collections4.collection.TransformedCollection.TransformedCollection: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transformingCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transformingCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transformingCollection: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transform: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transform: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transform: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: internal error: org.apache.commons.collections4.collection.TransformedCollection.transform: not a struct type
+	data: unsupported(org/apache/commons/collections4/Transformer)
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: internal error: org.apache.commons.collections4.collection.TransformedCollection.add: not a struct type
+	data: unsupported(org/apache/commons/collections4/Transformer)
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transformedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/TransformedCollection.java: org.apache.commons.collections4.collection.TransformedCollection.transformedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.isEmpty: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.isEmpty: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toString: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.iterator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.decorated: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.decorated: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.size: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.size: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.containsAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.containsAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.contains: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.contains: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.AbstractCollectionDecorator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.equals: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.equals: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.setCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/AbstractCollectionDecorator.java: org.apache.commons.collections4.collection.AbstractCollectionDecorator.setCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.iterator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.iterator: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: org.apache.commons.collections4.collection.SynchronizedCollection.iterator: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.size: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.size: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.size: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toString: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toString: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.synchronizedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.synchronizedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.synchronizedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: internal error: org.apache.commons.collections4.collection.SynchronizedCollection.synchronizedCollection: error: cannot parse literal for "@m_0_0"
+	data: [mkPointer true #x00000000 [@Tjava/util/Collection<java/lang/Object> [mkPointer false #x00000000 invalidAny]]]
+	child error: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(5, 60, 78), End:location.NewCompactFileLocationRaw(5, 60, 90)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/Collection",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeReference{
+		                    Name: "java/lang/Object",
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/Collection<java/lang/Object>",
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		    },
+		}
+		Stacktrace: goroutine 423 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc000183e00})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000888b00, {0xc000d9ca74, 0x6}, {0x2205608, 0xc000159f40}, {0x1230b40, 0xc000183038}, 0xc000d971a0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000888b00, {0xc000d9ca74, 0x6}, {0x2205728, 0xc000e30dc0}, {0x1230b40, 0xc000183050}, 0xc000d971a0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc0004e44e0, 0xc000888b00, {0xb8?, {0x2205728?, 0xc000e30dc0?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:411 +0xacd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc0004e44e0, 0xc000888b00, {0xa5?, {0xc0003c3ab0?, 0xc000051b98?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc0004e44e0, 0xc000888b00, {0xc0?, {0xc0006204d0?, 0xc0006204d0?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc0004e44e0, 0xc000888b00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: org.apache.commons.collections4.collection.SynchronizedCollection.retainAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.equals: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.equals: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.equals: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.contains: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.contains: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.contains: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.containsAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.containsAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.containsAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: org.apache.commons.collections4.collection.SynchronizedCollection.containsAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.removeAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: org.apache.commons.collections4.collection.SynchronizedCollection.removeAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: internal error: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: error: cannot parse literal for "@m_0_0"
+	data: [mkPointer true #x00000000 [@Tjava/util/Collection<java/lang/Object> [mkPointer false #x00000000 invalidAny]]]
+	child error: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(5, 71, 44), End:location.NewCompactFileLocationRaw(5, 71, 56)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/Collection",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeReference{
+		                    Name: "java/lang/Object",
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/Collection<java/lang/Object>",
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		    },
+		}
+		Stacktrace: goroutine 375 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc0009fcca8})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000cff500, {0xc000c3eaf4, 0x6}, {0x2205608, 0xc00056e9c0}, {0x1230b40, 0xc0009fc528}, 0xc000c8b9b0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000cff500, {0xc000c3eaf4, 0x6}, {0x2205728, 0xc0008f1cc0}, {0x1230b40, 0xc0009fc540}, 0xc000c8b9b0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000d0a680, 0xc000cff500, {0xb8?, {0x2205728?, 0xc0008f1cc0?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:411 +0xacd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000d0a680, 0xc000cff500, {0xa5?, {0xc0004407e0?, 0xc000897b98?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000d0a680, 0xc000cff500, {0x40?, {0xc0009c0310?, 0xc0009c0310?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000d0a680, 0xc000cff500)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: internal error: org.apache.commons.collections4.collection.SynchronizedCollection.SynchronizedCollection: error: cannot parse literal for "@m_0_0"
+	data: [mkPointer true #x00000000 [@Tjava/util/Collection<java/lang/Object> [mkPointer false #x00000000 invalidAny]]]
+	child error: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(5, 86, 44), End:location.NewCompactFileLocationRaw(5, 86, 56)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/Collection",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeReference{
+		                    Name: "java/lang/Object",
+		                },
+		            },
+		        },
+		    },
+		    []interface {}{
+		        "@Tjava/util/Collection<java/lang/Object>",
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		    },
+		}
+		Stacktrace: goroutine 451 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc000532828})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0005b6100, {0xc000aebd10, 0x6}, {0x2205608, 0xc000627380}, {0x1230b40, 0xc0005322a0}, 0xc000f5e0c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc0005b6100, {0xc000aebd10, 0x6}, {0x2205728, 0xc000bc21e0}, {0x1230b40, 0xc0005322b8}, 0xc000f5e0c0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000e0ac30, 0xc0005b6100, {0xb8?, {0x2205728?, 0xc000bc2260?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:411 +0xacd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000e0ac30, 0xc0005b6100, {0xa5?, {0xc0000d24d0?, 0xc000897b98?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000e0ac30, 0xc0005b6100, {0x0?, {0xc000620770?, 0xc0009c0310?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000e0ac30, 0xc0005b6100)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.isEmpty: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.isEmpty: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.isEmpty: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.hashCode: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.decorated: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.decorated: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.decorated: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.clear: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.toArray: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.addAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: unsupported: org.apache.commons.collections4.collection.SynchronizedCollection.addAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.add: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: org.apache.commons.collections4.collection.SynchronizedCollection.remove: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.remove: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.remove: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java:98:9: critical: org.apache.commons.collections4.collection.UnmodifiableCollection.remove: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.unmodifiableCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.unmodifiableCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.iterator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.iterator: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.removeAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableCollection.removeAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableCollection.retainAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.add: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java:83:9: critical: org.apache.commons.collections4.collection.UnmodifiableCollection.add: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.addAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableCollection.addAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.clear: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: org.apache.commons.collections4.collection.UnmodifiableCollection.clear: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java:93:9: critical: org.apache.commons.collections4.collection.UnmodifiableCollection.clear: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.maxSize: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.maxSize: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.maxSize: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.iterator: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.iterator: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.removeAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.removeAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.unmodifiableBoundedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.unmodifiableBoundedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.remove: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.remove: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java:131:9: critical: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.remove: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.add: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java:116:9: critical: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.add: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.isFull: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.isFull: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.isFull: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.clear: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.clear: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java:126:9: critical: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.clear: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.retainAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.addAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.addAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.unmodifiableBoundedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.unmodifiableBoundedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.decorated: computing test cases
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.decorated: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.decorated: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: unsupported: org.apache.commons.collections4.collection.UnmodifiableBoundedCollection.decorated: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections4/BoundedCollection)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.IndexedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.IndexedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.IndexedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.IndexedCollection: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.get: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.get: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.get: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.get: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.clear: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.clear: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.clear: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.values: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.values: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.values: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.values: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.containsAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.containsAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.containsAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: org.apache.commons.collections4.collection.IndexedCollection.containsAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.remove: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.add: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.reindex: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.reindex: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.reindex: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.reindex: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.retainAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: unsupported: org.apache.commons.collections4.collection.IndexedCollection.retainAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.nonUniqueIndexedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.nonUniqueIndexedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.nonUniqueIndexedCollection: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.removeAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.contains: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.contains: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.contains: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: internal error: org.apache.commons.collections4.collection.IndexedCollection.contains: not a struct type
+	data: unsupported(org/apache/commons/collections4/MultiMap)
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.uniqueIndexedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.uniqueIndexedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/IndexedCollection.java: org.apache.commons.collections4.collection.IndexedCollection.uniqueIndexedCollection: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.validate: computing test cases
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.validate: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.validate: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: internal error: org.apache.commons.collections4.collection.PredicatedCollection.validate: not a struct type
+	data: unsupported(org/apache/commons/collections4/Predicate)
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.PredicatedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.PredicatedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.PredicatedCollection: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: internal error: org.apache.commons.collections4.collection.PredicatedCollection.PredicatedCollection: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.addAll: computing test cases
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.predicatedCollection: computing test cases
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.predicatedCollection: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.predicatedCollection: found 0 problems
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.add: computing test cases
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: org.apache.commons.collections4.collection.PredicatedCollection.add: found 1 problems
+src/main/java/org/apache/commons/collections4/collection/PredicatedCollection.java: internal error: org.apache.commons.collections4.collection.PredicatedCollection.add: not a struct type
+	data: unsupported(org/apache/commons/collections4/Predicate)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java: generated unit test file src/main/java/org/apache/commons/collections4/collection/CompositeCollectionSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/collection/SynchronizedCollection.java: generated unit test file src/main/java/org/apache/commons/collections4/collection/SynchronizedCollectionSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java: could not generate unit test file for "src/main/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.java": Internal error: encountered an unsupported type:
+	&modelast.TypeUnsupported{
+	    Name: "org/apache/commons/collections4/BoundedCollection",
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d250a0}, {0x13c7fc0, 0xc000cec900})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/model/ast.ResolveStruct(0xc0007df140, {0x2205ba8, 0xc000cec900})
+		gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:525 +0x96
+	gitlab.nethead.at/symflower/symflower/model/ast.ResolveStruct(0xc0007df140, {0x2205608, 0xc000a00180})
+		gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:519 +0x114
+	gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunctionsByNameWithoutMangling(0xc0007df140, {0x22058d8, 0xc0006b7200}, {0xc00075261b, 0x1d})
+		gitlab.nethead.at/symflower/symflower/model/ast/scope.go:966 +0x485
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0003f78f0, {0x2205608?, 0xc000675400?}, {0x21f7de8, 0xc0001fd880}, {0x2208850, 0xc000648200})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1876 +0x1f25
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0003f78f0, {0x21f7de8, 0xc0001fd880}, {0x2205608?, 0xc000675400?}, {0x2208850, 0xc000648200})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0003f78f0, {0x21f7de8, 0xc0001fd880}, {0x2205608?, 0xc0006753c0?}, {0x2208850, 0xc000648200})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0003f78f0, {0x21f7de8, 0xc0001fd880}, {0x2205728?, 0xc00087f480?}, {0x22089b0, 0xc0008a8840})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0003f78f0, {0x2205728, 0xc00087f480}, {0xc000988238, 0x1}, {0x22089b0, 0xc0008a8840}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc0003f78f0, {0x2205728, 0xc00087f480}, {0x22089b0, 0xc0008a8840}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc000675080, 0xc0000cedc0, 0x88?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc000675080, 0xc000626100, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc000675080, 0xc0007df140?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc0007d2f30, 0xc000626100)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc0008c5ad0?, 0xc0001b4bb0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc00087f020, {0xc00087f040, 0x3, 0x2a?}, {0xc000044570?, 0xc000e80480?}, 0xc00075af80?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc00087f020, {0xc000a31cc0, 0x3, 0x4})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc000020421, 0x5b})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc00053c340, 0x31}, 0xc0009e32f0, {0xc000163e40?, 0x1?, 0xc000ee5a00?}, 0x1, 0xc000d2db08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc00059d1d0, 0xc00098a2d0, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc00059d1d0?, 0xc00059d200?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x30?, 0x124bba0?, {0x21eb890?, 0xc000592440?}, {0x50?, 0xa?, 0x1c?, 0x0?}, 0x30?, {0xc00059c810, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000008d8, {0xc000000508?, 0x7278e9ceae18?, 0xc0000008d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000000508}, {0xc00019e000?, 0x0?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000000508?}, {0xc00019e000?, 0xc0001802e0?, 0xc00013ff10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java: could not generate unit test file for "src/main/java/org/apache/commons/collections4/collection/UnmodifiableCollection.java": Internal error: unsupported type:
+	&modelast.TypeGenericInstance{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 71, 42), End:location.NewCompactFileLocationRaw(8, 71, 64)},
+	    Type:             &modelast.TypeReference{
+	        Name: "java/util/Collection",
+	    },
+	    TypeArguments: []modelast.Type{
+	        &modelast.TypeWildcard{
+	            CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 71, 53), End:location.NewCompactFileLocationRaw(8, 71, 63)},
+	            DescendantOf:     &modelast.TypeReference{
+	                Name: "E",
+	            },
+	        },
+	    },
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25c50}, {0x13ea980, 0xc000599880})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).classExpression(0xc0003f7a40?, {0x2205608?, 0xc000599880?})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:2983 +0x77f
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).classExpression(0xc0003f7a40, {0x2205728?, 0xc000b15900})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:2950 +0x3d6
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).reflectionConstructor(0xc0003f7a40, {0x22058d8?, 0xc0006b72c0?}, 0xc000757a00, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:2752 +0x46a
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0003f7a40, {0x2205608?, 0xc000675e00?}, {0x21f7de8, 0xc00069bb80}, {0x2208850, 0xc000462e00})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1894 +0x20c9
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0003f7a40, {0x21f7de8, 0xc00069bb80}, {0x2205608?, 0xc000675e00?}, {0x2208850, 0xc000462e00})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0003f7a40, {0x21f7de8, 0xc00069bb80}, {0x2205608?, 0xc000675dc0?}, {0x2208850, 0xc000462e00})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0003f7a40, {0x21f7de8, 0xc00069bb80}, {0x2205728?, 0xc000cec000?}, {0x22089b0, 0xc000b463f0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0003f7a40, {0x2205728, 0xc000cec000}, {0xc0009889f8, 0x1}, {0x22089b0, 0xc000b463f0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc0003f7a40, {0x2205728, 0xc000cec000}, {0x22089b0, 0xc000b463f0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc000675700, 0xc0005880a0, 0x10?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc000675700, 0xc00045b100, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc000675700, 0xc0007df440?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc0007d3d40, 0xc00045b100)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc00098b1a0?, 0xc000d6c000?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc00087fb40, {0xc00087fb60, 0x3, 0x23?}, {0xc0006a93b0?, 0x0?}, 0x0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc00087fb40, {0xc000871e60, 0x3, 0x4})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc000020541, 0x54})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc00053c340, 0x31}, 0xc0009e32f0, {0xc000163e40?, 0x1?, 0xc000ee5a00?}, 0x1, 0xc000d2db08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc00059d1d0, 0xc00098a2d0, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc00059d1d0?, 0xc00059d200?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x30?, 0x124bba0?, {0x21eb890?, 0xc000592440?}, {0x50?, 0xa?, 0x1c?, 0x0?}, 0x30?, {0xc00059c810, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000008d8, {0xc000000508?, 0x7278e9ceae18?, 0xc0000008d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000000508}, {0xc00019e000?, 0x0?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000000508?}, {0xc00019e000?, 0xc0001802e0?, 0xc00013ff10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Analyzed 9 out of 9 source files
+Had 2 errors that block a full analysis
+Generated 9 tests
+Found 6 potential problems
+The following issues prevent a full analysis:
+
+* 23 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 15 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 13 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 8 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 55 cases of "other issues"
+	Description: Uncategorized problems.
+

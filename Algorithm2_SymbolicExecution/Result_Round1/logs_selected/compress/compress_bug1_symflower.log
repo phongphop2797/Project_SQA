@@ -1,0 +1,335 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_1b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.checkNewFormat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.checkOldFormat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.ensureOpen: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.pad: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readFully: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readBinaryLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readAsciiLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readNewEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readOldAsciiEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readOldBinaryEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readCString: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.ensureOpen: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.setFormat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeNewEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeOldAsciiEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeOldBinaryEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.pad: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeBinaryLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeAsciiLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeCString: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [magic 0 tmp 0 len(ensure_not_nil(magic))]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [more_magic 0 tmp len(ensure_not_nil(magic)) len(ensure_not_nil(more_magic))]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream))), org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream//getNextCPIOEntry!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/compress/archivers/cpio/CpioArchiveEntry)))], block([never_nil(this), call(select(this, ensureOpen!d41d8cd98f00b204e9800998ecf8427e), []), if(!=(select(this, entry), nil), block([call(select(this, closeEntry!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), declaration([magic], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 2)], ModifierVisibilityPublic), call(select(this, readFully!eb0e5f34b3c949b96f42d298f525ed19), [magic, 0, len(ensure_not_nil(magic))]), if(==(call(org/apache/commons/compress/archivers/cpio/CpioUtil//byteArray2long!4bc26425ec6ac3426b0fe1950172229c, [magic, false]), cast(org/apache/commons/compress/archivers/cpio/CpioConstants//MAGIC_OLD_BINARY, primitive(int, 64, false))), block([=(select(this, entry), call(select(this, readOldBinaryEntry!85ac64685274e538d0c53030432a7f30), [false]))]), if(==(call(org/apache/commons/compress/archivers/cpio/CpioUtil//byteArray2long!4bc26425ec6ac3426b0fe1950172229c, [magic, true]), cast(org/apache/commons/compress/archivers/cpio/CpioConstants//MAGIC_OLD_BINARY, primitive(int, 64, false))), block([=(select(this, entry), call(select(this, readOldBinaryEntry!85ac64685274e538d0c53030432a7f30), [true]))]), block([declaration([more_magic], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 4)], ModifierVisibilityPublic), call(select(this, readFully!eb0e5f34b3c949b96f42d298f525ed19), [more_magic, 0, len(ensure_not_nil(more_magic))]), declaration([tmp], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 6)], ModifierVisibilityPublic), unsupported, unsupported, declaration([magicString], [pointer(reference(java/lang/String))], [call(java/lang/String//String!2dcfcbf77da22bb3290a2dcf338b4c85, [tmp])], ModifierVisibilityPublic), if(call(select(ensure_not_nil(magicString), equals!efbb7192f0412fb225b1065a0117385c), [org/apache/commons/compress/archivers/cpio/CpioConstants//MAGIC_NEW]), block([=(select(this, entry), call(select(this, readNewEntry!85ac64685274e538d0c53030432a7f30), [false]))]), if(call(select(ensure_not_nil(magicString), equals!efbb7192f0412fb225b1065a0117385c), [org/apache/commons/compress/archivers/cpio/CpioConstants//MAGIC_NEW_CRC]), block([=(select(this, entry), call(select(this, readNewEntry!85ac64685274e538d0c53030432a7f30), [true]))]), if(call(select(ensure_not_nil(magicString), equals!efbb7192f0412fb225b1065a0117385c), [org/apache/commons/compress/archivers/cpio/CpioConstants//MAGIC_OLD_ASCII]), block([=(select(this, entry), call(select(this, readOldAsciiEntry!d41d8cd98f00b204e9800998ecf8427e), []))]), block([throw(call(java/io/IOException//IOException!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unknown magic ["]), internalConcat!efbb7192f0412fb225b1065a0117385c), [magicString])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["]"])])]))]))))]))), =(select(this, entryBytesRead), 0), =(select(this, entryEOF), false), =(select(this, crc), 0), if(call(select(ensure_not_nil(call(select(ensure_not_nil(select(this, entry)), getName!d41d8cd98f00b204e9800998ecf8427e), [])), equals!9abf27636a492e46fe858f34bef8e9eb), ["TRAILER!!!"]), block([=(select(this, entryEOF), true), return([nil])]), %!s(<nil>)), return([select(this, entry)])])) return([call(select(this, getNextCPIOEntry!d41d8cd98f00b204e9800998ecf8427e), [])])]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: java/io/EOFException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveInputStream
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveOutputStream
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: unsupported: unsupported AST node
+	data: &{0xc000622e40 <nil> [] 0xc0006bec80 0xc0006818c0 {None [] [] None}}
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(java/lang/Long//toOctalString!feb606741437b3116f99f2412027bc86, [number])]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(java/lang/Long//toString!feb606741437b3116f99f2412027bc86, [number])]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(java/lang/Long//toHexString!feb606741437b3116f99f2412027bc86, [number])]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//length [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//insert [] [0 "0"]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//substring [] [-(unsupported, length)]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: java/io/FilterOutputStream
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [number 0 tmp_number 0 len(ensure_not_nil(number))]]
+Found 5 Java files
+Found 20 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: found 44 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: found 10 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: found 9 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioConstants.java: found 0 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: found 2 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: computed 9 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: found 2 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: info: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.001646941s, CPUTimeUser:9.987411s, CPUTimeSystem:11.994ms, MemoryUsage:53432}}
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:527:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setFormat: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setFormat: computed 5 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setFormat: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:560:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setFormat: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: computed 13 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: found 6 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:430:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:433:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:436:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:439:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:430:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:442:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.closeEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.closeEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.closeEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.closeEntry: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), singleByteBuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putNextEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putNextEntry: unknown type kind
+	data: unsupported(java/util/HashMap)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:35:38: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: computed 5 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: found 3 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:73:22: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught NegativeArraySizeException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:78:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:78:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught java.lang.UnsupportedOperationException
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntrySymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtilSymflowerTest.java
+Analyzed 5 out of 5 source files
+Had 0 errors that block a full analysis
+Generated 84 tests
+Found 12 potential problems
+The following issues prevent a full analysis:
+
+* 16 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 8 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 2 cases of "other issues"
+	Description: Uncategorized problems.
+

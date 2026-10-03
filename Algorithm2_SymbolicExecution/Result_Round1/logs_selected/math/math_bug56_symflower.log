@@ -1,0 +1,553 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_56b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: java/math/MathContext
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: java/math/RoundingMode
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/util/BigRealField.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['(']]
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [value]]
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [')']]
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math/exception/ConvergenceException
+src/main/java/org/apache/commons/math/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/ContinuedFraction.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/util/DefaultTransformer.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [a]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown identifier
+	data: StrictMath
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown identifier
+	data: PI
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(<<(cast(i, primitive(int, 64, false)), cast(&(42, 63), primitive(int, 64, false))), 4607182418800017408)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(&(inbits, -9223372036854775808), <<(cast(&(+(exp3, 1023), 2047), primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, -(&(bits, 2147483647), 1))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [a]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//random [] []]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [a]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, +(&(bits, 9223372036854775807), cast(1, primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [a]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(&(inbits, 4503599627370495), 4607182418800017408)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [^(call(java/lang/Double//doubleToLongBits!5bf0b9c067f960fc8e4f1dbf7e8b205e, [x]), cast(1, primitive(int, 64, false)))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, +(&(bits, 2147483647), 1))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [^(call(java/lang/Float//floatToIntBits!0a37bd2ce4b9f5cb8abc17a360491bc5, [x]), 1)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [<<(+(n, 127), &(23, 31))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: internal error: not all elements have the same type
+	data: composite(array(primitive(float, 64, false), primitive(int, 32, false), 0), [0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0, 1.125, 1.25, 1.375, 1.5, 1.625])
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, -(&(bits, 9223372036854775807), cast(1, primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [xl]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [<<(cast(+(n, 1023), primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))]]
+src/main/java/org/apache/commons/math/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [a]]
+src/main/java/org/apache/commons/math/util/Incrementor.java: error: unknown import
+	data: org/apache/commons/math/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/util/Localizable
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [unscaled]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [s3]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(x3max, +(/(s2, x3max), *(x3max, s3)))]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NotFiniteNumberException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown identifier
+	data: this
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [source 0 output 0 call(org/apache/commons/math/util/FastMath//min!2ac0ebcb23011db97774191b8c6fdbe3, [len, len(ensure_not_nil(source))])]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(s2, +(cast(1, primitive(float, 64, false)), *(/(x3max, s2), *(x3max, s3))))]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(genericInstance(reference(org/apache/commons/math/util/Pair), [pointer(reference(java/lang/Double)), array(primitive(float, 64, false), primitive(int, 32, false), 0)]))] [len]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/MathRuntimeException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(s1, /(/(s2, x1max), x1max))]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NonMonotonousSequenceException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NotPositiveException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [source 0 output 0 call(org/apache/commons/math/util/FastMath//min!2ac0ebcb23011db97774191b8c6fdbe3, [len, len(ensure_not_nil(source))])]]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/MathArithmeticException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math/util/MathUtils.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/util/NumberTransformer.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, keys) 0 select(this, keys) 0 length]]
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, values) 0 select(this, values) 0 length]]
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: internal error: missing return statement
+	data: function(<nil>, org/apache/commons/math/util/OpenIntToDoubleHashMap//findInsertionIndex!58002e7704d160bfc09403e6f432c39c, [variable(keys, array(primitive(int, 32, false), primitive(int, 32, false), 0)), variable(states, array(primitive(int, 8, false), primitive(int, 32, false), 0)), variable(key, primitive(int, 32, false)), variable(mask, primitive(int, 32, false))], [variable(, primitive(int, 32, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, states) 0 select(this, states) 0 length]]
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [<nil> org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator//Iterator [pointer(reference(java/lang/Object))] []]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: internal error: missing return statement
+	data: function(<nil>, org/apache/commons/math/util/OpenIntToFieldHashMap//findInsertionIndex!58002e7704d160bfc09403e6f432c39c, [variable(keys, array(primitive(int, 32, false), primitive(int, 32, false), 0)), variable(states, array(primitive(int, 8, false), primitive(int, 32, false), 0)), variable(key, primitive(int, 32, false)), variable(mask, primitive(int, 32, false))], [variable(, primitive(int, 32, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) states]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) values]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, values) 0 select(this, values) 0 length]]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) keys]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, keys) 0 select(this, keys) 0 length]]
+src/main/java/org/apache/commons/math/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, states) 0 select(this, states) 0 length]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [values 0 tempArray select(this, numElements) len(ensure_not_nil(values))]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) 0 tempArray 0 len(ensure_not_nil(select(this, internalArray)))]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) 0 tempArray 0 len(ensure_not_nil(select(this, internalArray)))]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) tempArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) tempArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) elementArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [initialArray 0 select(this, internalArray) 0 len(ensure_not_nil(initialArray))]]
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), reference(org/apache/commons/math/util/NumberTransformer)]) java/util/Map<java/lang/Class<descendant of java/lang/Object>,org/apache/commons/math/util/NumberTransformer>//keySet [] []]
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), reference(org/apache/commons/math/util/NumberTransformer)]) java/util/Map<java/lang/Class<descendant of java/lang/Object>,org/apache/commons/math/util/NumberTransformer>//entrySet [] []]
+src/main/java/org/apache/commons/math/util/TransformerMap.java: error: unknown import
+	data: java/util/HashMap
+Found 1 Java files
+Found 224 problems in Java files
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: found 15 symbols
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.hasNext: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.hasNext: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.hasNext: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.hasNext: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.remove: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.remove: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.remove: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.remove: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.Iterator: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.Iterator: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.Iterator: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.Iterator: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSize: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSize: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSize: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.getSize: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSizes: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSizes: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getSizes: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.getSizes: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getDimension: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getDimension: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getDimension: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.getDimension: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCounts: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCounts: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCounts: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.getCounts: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.toString: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.toString: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.toString: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.next: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.next: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.next: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.next: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.iterator: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.iterator: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.iterator: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCount: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCount: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.getCount: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.getCount: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(java/lang/Integer))]))])), @m_0_0), uniCounterOffset), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCounts: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCounts: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCounts: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCounts: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.MultidimensionalCounter: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.MultidimensionalCounter: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.MultidimensionalCounter: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.MultidimensionalCounter: malformed data
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: computing test cases
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: computed 0 unit tests
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: found 1 problems
+src/main/java/org/apache/commons/math/util/MultidimensionalCounter.java: internal error: org.apache.commons.math.util.MultidimensionalCounter.Iterator.getCount: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/util/MultidimensionalCounter//Iterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(java/lang/Integer))]))])), @m_0_0), counter), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+Analyzed 1 out of 14 source files
+Had 109 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 57 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 54 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 15 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 3 cases of "other issues"
+	Description: Uncategorized problems.
+

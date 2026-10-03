@@ -1,0 +1,251 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_62b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown field
+	data: [this struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown field
+	data: [this struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toLowerCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: FormElement
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: HtmlTreeBuilderState
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: internal error: missing type
+	data: %!v(PANIC=String method: Internal error: type not defined:
+		&modelast.LiteralComposite{
+		    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 435, 44), End:location.NewCompactFileLocationRaw(2, 435, 49)},
+		    Values:           []modelast.Expression{
+		        &modelast.Nil{
+		            CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 435, 45), End:location.NewCompactFileLocationRaw(2, 435, 48)},
+		        },
+		    },
+		}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d258a0}, {0x13dc6c0, 0xc000a51980})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*LiteralComposite).String(0x2d28ad0?)
+			gitlab.nethead.at/symflower/symflower/model/ast/literal.go:444 +0x1cc
+		fmt.(*pp).handleMethods(0xc001998270, 0x15fa10a?)
+			fmt/print.go:673 +0x31f
+		fmt.(*pp).printArg(0xc001998270, {0x13dc6c0, 0xc000a51980}, 0x76)
+			fmt/print.go:756 +0x438
+		fmt.(*pp).doPrint(0xc001998270, {0xc000051570?, 0x1, 0x41b525?})
+			fmt/print.go:1208 +0x45
+		fmt.Sprint({0xc000051570, 0x1, 0x1})
+			fmt/print.go:279 +0x3e
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de380, 0xc0012d80c0}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:91 +0x145
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de540, 0xc001010f70}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:102 +0x637
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de520, 0xc001010f70}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:62 +0x257
+		gitlab.nethead.at/symflower/symflower/language.FormatError({0x220c620, 0x2e6b360}, {0x21de520?, 0xc001010f70?}, 0x1?)
+			gitlab.nethead.at/symflower/symflower/language/format.go:37 +0x2a
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.addProblemToResults({0x40?, 0xe4?, 0xe6?, 0x2?}, {0x220c620?, 0x2e6b360?}, 0x474719?, {0x21de520?, 0xc001010f70?}, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:207 +0x85
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc000469e30, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:139 +0x5c5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc000469e30, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc00004c610?}, {0x90?, 0xf?, 0x1c?, 0x0?}, 0x2a?, {0xc0004694d0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000d63d8, {0xc0000d6008?, 0x7112c5e74778?, 0xc0000d63d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0000d6008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0000d6008?}, {0xc00019e000?, 0xc000180008?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+		)
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: internal error: type does not support nil values
+	data: unsupported(Element)
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: unsupported: unsupported AST node
+	data: &{0xc000a18c80 <nil> [] [] 0xc0005db000 [] [0xc000115440] {None [] [] None}}
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown function
+	data: [genericInstance(reference(java/util/ArrayList), [pointer(reference(org/jsoup/parser/ParseError))]) java/util/ArrayList//@@constructor [] [initialCapacity]]
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown type
+	data: E
+src/main/java/org/jsoup/parser/ParseSettings.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/ParseSettings.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/parser/Parser.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/jsoup/parser/XmlTreeBuilder))), org/jsoup/parser/XmlTreeBuilder//parseFragment!ed003beda58de0303ca37063b4ba605e, [variable(inputFragment, pointer(reference(java/lang/String))), variable(baseUri, pointer(reference(java/lang/String))), variable(errors, pointer(reference(org/jsoup/parser/ParseErrorList))), variable(settings, pointer(reference(org/jsoup/parser/ParseSettings)))], [variable(, genericInstance(unsupported(List), [unsupported(Node)]))], block([never_nil(this), call(select(this, initialiseParse!ed003beda58de0303ca37063b4ba605e), [inputFragment, baseUri, errors, settings]), call(select(this, runParser!d41d8cd98f00b204e9800998ecf8427e), []), unsupported])) return([call(select(ensure_not_nil(treeBuilder), parseFragment!ed003beda58de0303ca37063b4ba605e), [fragmentXml, baseUri, call(org/jsoup/parser/ParseErrorList//noTracking!d41d8cd98f00b204e9800998ecf8427e, []), call(select(ensure_not_nil(treeBuilder), defaultSettings!d41d8cd98f00b204e9800998ecf8427e), [])])])]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Node)])) java/util/List<org/jsoup/nodes/Node>//toArray [] [make(array(unsupported(org/jsoup/nodes/Node), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodeList), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/parser/Token.java: internal error: recovered panic
+	data: runtime error: invalid memory address or nil pointer dereference
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(org/jsoup/parser/Token)) org/jsoup/parser/Token//getClass [] []]
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [append]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//appendCodePoint [] [codepoint]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/BooleanAttribute
+src/main/java/org/jsoup/parser/Token.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(sb), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/nodes/Entities
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tokeniser, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, charsBuilder)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//appendCodePoint [] [index(c, 0)]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//appendCodePoint [] [index(c, 1)]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokeniserState.java: error: unknown import
+	data: org/jsoup/nodes/DocumentType
+src/main/java/org/jsoup/parser/TokeniserState.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(org/jsoup/nodes/Element)] [32]]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: XmlDeclaration
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: DocumentType
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/Jsoup
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/XmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) Document]
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Comment
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+Found 1 Java files
+Found 84 problems in Java files
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: found 0 symbols
+Analyzed 1 out of 13 source files
+Had 10 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 34 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 17 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 12 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 9 cases of "other issues"
+	Description: Uncategorized problems.
+

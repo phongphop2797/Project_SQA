@@ -1,0 +1,564 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_8b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [tmp]]
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomDataImpl
+src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [tmp]]
+src/main/java/org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomDataImpl
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/analysis/solvers/UnivariateSolverUtils
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Beta
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Beta
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/ChiSquaredDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/ChiSquaredDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/ChiSquaredDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: unsupported: unsupported node
+	data: [==(x, nil) genericParameter(T, [pointer(reference(java/lang/Object))])]
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/distribution/DiscreteDistribution, [], [pointer(reference(java/lang/Object))], []) java]
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/MathArrays
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/util/Pair), [reference(T), pointer(reference(java/lang/Double))])
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [genericInstance(unsupported(org/apache/commons/math3/util/Pair), [reference(T), pointer(reference(java/lang/Double))])] [len(ensure_not_nil(select(this, probabilities)))]]
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: unsupported: unsupported AST node
+	data: genericParameter(T, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [call(select(ensure_not_nil(samples), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: unsupported: unsupported AST node
+	data: reference(T)
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [genericInstance(unsupported(org/apache/commons/math3/util/Pair), [pointer(reference(java/lang/Integer)), pointer(reference(java/lang/Double))])] [len(ensure_not_nil(singletons))]]
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/DiscreteIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [genericInstance(unsupported(org/apache/commons/math3/util/Pair), [pointer(reference(java/lang/Double)), pointer(reference(java/lang/Double))])] [len(ensure_not_nil(singletons))]]
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/DiscreteRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/ResizableDoubleArray
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/FDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Beta
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/distribution/GammaDistribution))), org/apache/commons/math3/distribution/GammaDistribution//sample!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/IntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/IntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/fraction/FractionConversionException
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [*(cast(select(this, n), primitive(float, 64, false)), d)]]
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/fraction/BigFraction
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowFieldMatrix
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealMatrix
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [*(cast(select(this, n), primitive(float, 64, false)), d)]]
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/fraction/BigFractionField
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/FieldMatrix
+src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [*(cast(select(this, n), primitive(float, 64, false)), d)]]
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Erf
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/Pair
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math3/distribution/MultivariateRealDistribution)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/EigenDecomposition
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/SingularMatrixException
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealMatrix
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/MathArrays
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math3/distribution/MultivariateRealDistribution)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math3/distribution/MultivariateRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Erf
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Beta
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/RealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/RealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/RealDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/distribution/SaddlePointExpansion.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Beta
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/TDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/special/Gamma
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown import
+	data: org/apache/commons/math3/random/Well19937c
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+Found 1 Java files
+Found 256 problems in Java files
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: found 7 symbols
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.sample: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.sample: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.sample: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.getSamples: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.getSamples: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.getSamples: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.sample: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.sample: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.sample: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.reseedRandomGenerator: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.reseedRandomGenerator: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.reseedRandomGenerator: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: found 1 problems
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: internal error: org.apache.commons.math3.distribution.DiscreteDistribution.DiscreteDistribution: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.probability: computing test cases
+src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java: org.apache.commons.math3.distribution.DiscreteDistribution.probability: computed 0 unit tests
+Analyzed 1 out of 31 source files
+Had 40 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 194 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 12 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 9 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 7 cases of "other issues"
+	Description: Uncategorized problems.
+

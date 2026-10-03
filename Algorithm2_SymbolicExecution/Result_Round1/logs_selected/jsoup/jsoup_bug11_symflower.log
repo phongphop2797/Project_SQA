@@ -1,0 +1,475 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_11b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.Collector: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.Accumulator.Accumulator: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.Accumulator.head: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.Accumulator.tail: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.Selector: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.combinator: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.findElements: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.addElements: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.intersectElements: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.byId: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.byClass: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.byTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.byAttribute: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.allElements: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.indexLessThan: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.indexGreaterThan: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.indexEquals: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.consumeIndex: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.has: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.contains: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.matches: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForChildren: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForDescendants: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForParentsOfDescendants: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForAdjacentSiblings: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForGeneralSiblings: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.filterForSelf: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Collector.java: internal error: type does not support nil values
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Collector.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/select/Collector.java: error: unknown import
+	data: org/jsoup/nodes/Evaluator
+src/main/java/org/jsoup/select/Collector.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/select/Elements.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/select/Elements.java: error: unknown field
+	data: [this struct(org/jsoup/select/Elements, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]))]) Arrays]
+src/main/java/org/jsoup/select/Elements.java: unsupported: unsupported AST node
+	data: block([declaration([element], [unsupported(org/jsoup/nodes/Element)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), unsupported])
+src/main/java/org/jsoup/select/Elements.java: error: unknown type
+	data: HashSet
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//toArray [] [a]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//containsAll [] [c]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//addAll [] [c]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//retainAll [] [c]]
+src/main/java/org/jsoup/select/Elements.java: unsupported: unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: unsupported: unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//removeAll [] [c]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//listIterator [] [index]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown type
+	data: LinkedHashSet
+src/main/java/org/jsoup/select/Elements.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(HashSet), [unsupported(org/jsoup/nodes/Element)])
+src/main/java/org/jsoup/select/Elements.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/select/Elements.java: error: unknown type
+	data: ListIterator
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(org/jsoup/nodes/Element)] [elements]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [<nil> org/jsoup/select/Elements//Elements [] [combo]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//addAll [] [index c]]
+src/main/java/org/jsoup/select/Elements.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Element)]) java/util/List<org/jsoup/nodes/Element>//listIterator [] []]
+src/main/java/org/jsoup/select/NodeTraversor.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/select/NodeVisitor.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/select/Selector.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/select/Selector.java: error: unknown import
+	data: java/util/LinkedHashSet
+src/main/java/org/jsoup/select/Selector.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [unsupported(org/jsoup/nodes/Element)]))
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> org/jsoup/select/Elements//Elements [] [elements]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> select [] [subQuery select(this, elements)]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForChildren [] [select(this, elements) unsupported]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForAdjacentSiblings [] [select(this, elements) unsupported]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//replace [] ["|" ":"]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/select/Selector.java: error: unknown import
+	data: org/jsoup/parser/TokenQueue
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/LinkedHashSet), [unsupported(org/jsoup/nodes/Element)])
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForSelf [] [select(this, elements) candidates]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> org/jsoup/select/Elements//Elements [] [select(this, elements)]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForDescendants [] [select(this, elements) unsupported]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//contains [] ["|"]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForParentsOfDescendants [] [select(this, elements) unsupported]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> select [] [subQuery select(this, elements)]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> filterForGeneralSiblings [] [select(this, elements) unsupported]]
+src/main/java/org/jsoup/select/Selector.java: error: unknown function
+	data: [<nil> select [] [subQuery select(this, elements)]]
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: &{0xc0003bdde0 <nil> [] 0xc0003f2780 0xc0004a9180 {None [] [] None}}
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: &{0xc000401280 <nil> [] 0xc000460580 0xc000462140 {None [] [] None}}
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: &{0xc000401c20 <nil> [] 0xc00046c280 0xc0004628c0 {None [] [] None}}
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: &{0xc0004ac620 <nil> [] 0xc0004c0000 0xc000462c80 {None [] [] None}}
+src/main/java/org/jsoup/select/Selector.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/select/Selector.java: unsupported: unsupported AST node
+	data: &{0xc000400580 <nil> [] 0xc0003f3d80 0xc0004a9540 {None [] [] None}}
+Found 6 Java files
+Found 51 problems in Java files
+src/main/java/org/jsoup/select/Elements.java: found 58 symbols
+src/main/java/org/jsoup/select/NodeTraversor.java: found 2 symbols
+src/main/java/org/jsoup/select/NodeVisitor.java: found 2 symbols
+src/main/java/org/jsoup/select/Selector.java: found 3 symbols
+src/main/java/org/jsoup/select/package-info.java: found 0 symbols
+src/main/java/org/jsoup/select/Collector.java: found 1 symbols
+src/main/java/org/jsoup/select/NodeVisitor.java: org.jsoup.select.NodeVisitor.tail: computing test cases
+src/main/java/org/jsoup/select/NodeVisitor.java: org.jsoup.select.NodeVisitor.tail: function is abstract and therefore inaccessible for tests
+src/main/java/org/jsoup/select/NodeVisitor.java: org.jsoup.select.NodeVisitor.head: computing test cases
+src/main/java/org/jsoup/select/NodeVisitor.java: org.jsoup.select.NodeVisitor.head: function is abstract and therefore inaccessible for tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: computing test cases
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: computed 0 unit tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: found 1 problems
+src/main/java/org/jsoup/select/Selector.java: unsupported: org.jsoup.select.Selector.select: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.SelectorParseException.SelectorParseException: computing test cases
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.SelectorParseException.SelectorParseException: computed 0 unit tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.SelectorParseException.SelectorParseException: found 0 problems
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: computing test cases
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: computed 0 unit tests
+src/main/java/org/jsoup/select/Selector.java: org.jsoup.select.Selector.select: found 1 problems
+src/main/java/org/jsoup/select/Selector.java: unsupported: org.jsoup.select.Selector.select: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.collect: computing test cases
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.collect: computed 0 unit tests
+src/main/java/org/jsoup/select/Collector.java: org.jsoup.select.Collector.collect: found 1 problems
+src/main/java/org/jsoup/select/Collector.java: unsupported: org.jsoup.select.Collector.collect: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Evaluator)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.size: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.size: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.size: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.size: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.clear: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.clear: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.clear: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.clear: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.Elements: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hashCode: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hashCode: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.hashCode: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasClass: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasClass: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasClass: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.hasClass: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: found 0 problems
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.attr: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.is: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.is: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.is: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.is: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.toArray: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.add: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.subList: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.subList: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.subList: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.subList: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.wrap: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.wrap: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.wrap: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.wrap: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.empty: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.empty: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.empty: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.empty: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.attr: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.attr: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeClass: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeClass: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeClass: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.removeClass: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toggleClass: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toggleClass: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toggleClass: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.toggleClass: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.text: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.text: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.text: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.text: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.outerHtml: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.outerHtml: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.outerHtml: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.outerHtml: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.last: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.last: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.last: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.last: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.containsAll: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.containsAll: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.containsAll: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.containsAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.retainAll: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.retainAll: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.retainAll: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.retainAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasText: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasText: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasText: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.hasText: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.set: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.set: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.set: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.set: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.remove: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.parents: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.parents: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.parents: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.parents: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addAll: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addAll: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.add: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.add: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.before: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.before: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.before: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.before: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: found 0 problems
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.first: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.first: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.first: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.first: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.contains: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.contains: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.contains: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.contains: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addAll: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addAll: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.indexOf: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.indexOf: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.indexOf: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.indexOf: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.listIterator: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.val: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.val: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.val: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.val: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.listIterator: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.listIterator: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.get: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.get: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.get: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.get: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.after: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.after: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.after: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.after: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.equals: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.equals: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.equals: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.equals: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.iterator: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.iterator: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.iterator: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.iterator: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.lastIndexOf: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.lastIndexOf: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.lastIndexOf: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.lastIndexOf: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.remove: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAttr: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAttr: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAttr: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.removeAttr: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.val: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.val: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.html: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.html: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.html: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.Elements: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.Elements: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toString: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toString: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toString: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.toString: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.prepend: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.prepend: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.prepend: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.prepend: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.eq: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.eq: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.eq: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.eq: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.append: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.append: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.append: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.append: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.isEmpty: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.isEmpty: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.isEmpty: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.remove: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.remove: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAll: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAll: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.removeAll: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.removeAll: unsupported type
+	data: wildcard(, pointer(reference(java/lang/Object)))
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasAttr: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasAttr: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.hasAttr: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.hasAttr: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addClass: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addClass: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.addClass: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.addClass: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.select: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.select: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: internal error: org.jsoup.select.Elements.select: unknown type kind
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: computing test cases
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: computed 0 unit tests
+src/main/java/org/jsoup/select/Elements.java: org.jsoup.select.Elements.toArray: found 1 problems
+src/main/java/org/jsoup/select/Elements.java: unsupported: org.jsoup.select.Elements.toArray: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.NodeTraversor: computing test cases
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.NodeTraversor: computed 1 unit tests
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.NodeTraversor: found 0 problems
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.traverse: computing test cases
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.traverse: computed 0 unit tests
+src/main/java/org/jsoup/select/NodeTraversor.java: org.jsoup.select.NodeTraversor.traverse: found 1 problems
+src/main/java/org/jsoup/select/NodeTraversor.java: unsupported: org.jsoup.select.NodeTraversor.traverse: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Node)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/select/NodeTraversor.java: generated unit test file src/main/java/org/jsoup/select/NodeTraversorSymflowerTest.java
+Analyzed 6 out of 6 source files
+Had 2 errors that block a full analysis
+Generated 1 test
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 23 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 12 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 5 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 62 cases of "other issues"
+	Description: Uncategorized problems.
+

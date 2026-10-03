@@ -1,0 +1,213 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_25b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.Tag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.register: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toLowerCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: HtmlTreeBuilderState
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown function
+	data: [genericInstance(reference(java/util/ArrayList), [pointer(reference(org/jsoup/parser/ParseError))]) java/util/ArrayList//@@constructor [] [initialCapacity]]
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown type
+	data: E
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Node)])) java/util/List<org/jsoup/nodes/Node>//toArray [] [make(array(unsupported(org/jsoup/nodes/Node), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodeList), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc000953e40 <nil> [] 0xc0009c1b00 0xc00094b830 {None [] [] None}}
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc0009e4900 <nil> [] 0xc0009e7b80 0xc0009c8d80 {None [] [] None}}
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Token.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(org/jsoup/parser/Token)) org/jsoup/parser/Token//getClass [] []]
+src/main/java/org/jsoup/parser/Token.java: internal error: recovered panic
+	data: runtime error: invalid memory address or nil pointer dereference
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: not all elements have the same type
+	data: conditional(start, [call(org/jsoup/parser/Token//StartTag//StartTag!d41d8cd98f00b204e9800998ecf8427e, []), call(org/jsoup/parser/Token//EndTag//EndTag!d41d8cd98f00b204e9800998ecf8427e, [])])
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/nodes/Entities
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tokeniser, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, charBuffer)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/DescendableLinkedList
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: DocumentType
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Comment
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+Found 1 Java files
+Found 66 problems in Java files
+src/main/java/org/jsoup/parser/Tag.java: found 16 symbols
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.formatAsBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.formatAsBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.formatAsBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: found 0 problems
+Analyzed 1 out of 11 source files
+Had 6 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 29 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 14 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 7 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 8 cases of "other issues"
+	Description: Uncategorized problems.
+

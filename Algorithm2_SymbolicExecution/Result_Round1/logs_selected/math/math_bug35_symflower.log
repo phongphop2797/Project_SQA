@@ -1,0 +1,345 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_35b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/genetics/AbstractListChromosome.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math3/genetics/AbstractListChromosome.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [representation]]
+src/main/java/org/apache/commons/math3/genetics/AbstractListChromosome.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/genetics/BinaryChromosome.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/BinaryChromosome.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Integer))] [length]]
+src/main/java/org/apache/commons/math3/genetics/BinaryChromosome.java: error: unknown type
+	data: T
+src/main/java/org/apache/commons/math3/genetics/BinaryMutation.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/BinaryMutation.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Integer))] [call(select(ensure_not_nil(origChrom), getRepresentation!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/genetics/BinaryMutation.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/Chromosome.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/genetics/FixedElapsedTime.java: error: unknown import
+	data: java/util/concurrent/TimeUnit
+src/main/java/org/apache/commons/math3/genetics/FixedElapsedTime.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/genetics/FixedElapsedTime.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//nanoTime [] []]
+src/main/java/org/apache/commons/math3/genetics/FixedGenerationCount.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/genetics/GeneticAlgorithm.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/genetics/GeneticAlgorithm.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/GeneticAlgorithm.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/genetics/GeneticAlgorithm.java: error: unknown import
+	data: org/apache/commons/math3/random/JDKRandomGenerator
+src/main/java/org/apache/commons/math3/genetics/InvalidRepresentationException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/InvalidRepresentationException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/Localizable
+src/main/java/org/apache/commons/math3/genetics/ListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/ListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/genetics/ListPopulation.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/genetics/ListPopulation.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/apache/commons/math3/genetics/Chromosome))] [populationLimit]]
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [call(select(ensure_not_nil(second), getLength!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/genetics/OnePointCrossover.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [call(select(ensure_not_nil(first), getLength!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/genetics/AbstractListChromosome, [], [pointer(reference(org/apache/commons/math3/genetics/Chromosome))], []) function(variable(this, pointer(reference(org/apache/commons/math3/genetics/Chromosome))), org/apache/commons/math3/genetics/Chromosome//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/math3/genetics/Chromosome)))], block([=(select(this, @java/lang/Object), call(select(&(composite(reference(java/lang/Object), [])), @@constructor!d41d8cd98f00b204e9800998ecf8427e), [])), call(select(this, @@init!d41d8cd98f00b204e9800998ecf8427e), []), return([this])]))]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [reference(S)])) java/util/List<S>//indexOf [] [call(select(ensure_not_nil(permutedData), get!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Integer))] [l]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Double))] [l]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> inducedPermutation [] [data sortedData]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: error: unresolved type
+	data: reference(S)
+	child error: (error) Internal error: unknown type:
+		"S"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000af5750})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000842210?, {0x2221c58, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc0000a8ae0, {0x2205848?, 0xc000e9cbe0}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0009a1240, 0xc0000a8ae0, {0x2205728?, 0xc000b21d00?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc0001b6500, 0xc00095c400, {0x0?, 0x0?}, {0x0?, 0x0?, 0xc00051e1f0?}, {0xc000c06570, 0x3, 0x3})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc0001b6500, {0xc000c0f3a0, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000c06570, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc0001b6500, {0x0, 0x0}, {0xc00051e1f0, 0xd}, {0x0, 0x0, 0x0}, {0xc000c06570, 0x3, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc0001b6500, {0xc00051e1f0, 0xd}, {0x0?, 0x0?}, {0x0?, 0xab71e6?, 0xc0000a8ae0?}, {0xc000c06570, 0x3, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc0001b6500, 0xc000958840, 0xc000653140)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc0001b6500, 0xc000958840, {0x21f7d38, 0xc000653140})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementReturn(0xc0001b6500, 0xc000958840, 0xc0006ce380)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4352 +0x7c
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc0001b6500, 0xc000958840, {0x21f74a0, 0xc0006ce380})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4423 +0x745
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc0001b6500, 0xc000958840, {0xc00051aae0, 0x1, 0xc0000a8ae0?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a8ae0, 0xc000842d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc0001b6500, 0xc000958840, 0xc0006c9680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a8ae0, 0xc000843160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc0001b6500, 0xc000958840, {0x2208170, 0xc0006f1980}, 0xc00095c300, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc0001b6500, 0xc000958840, 0xc0006f1980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc0001b6500, 0xc000958840, 0xc0006f1980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc000958840, {0x2207578, 0xc0006f1980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc0001b6500, 0xc000958840, 0xc000843760, 0xc00076db00, 0xc00078aec0, {0x2207578, 0xc0006f1980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc0001b6500, 0x1, 0x2088c58, 0xc000843760, 0xc00076db00, 0xc00078aec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc0001b6500, 0x1, 0x2088c58, 0xc000843760, 0xc00076db00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc0001b6500, 0x1, 0x2088c58, 0xc000843760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc0001b6500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0005801b0, {0x0?, 0x41aa94?, 0x42a965?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0005801b0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00042d380, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00042d380, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc00004c860?}, {0x50?, 0x44?, 0x4?, 0x0?}, 0x29?, {0xc000392060, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0004c43d8, {0xc0004c4008?, 0x7a6c38d73018?, 0xc0004c43d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0004c4008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0004c4008?}, {0xc00003e050?, 0xc00013a078?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Double))] [representation]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Double))] [l]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(S)] [data]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Double))] [call(select(this, getRepresentation!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: error: unresolved type
+	data: reference(S)
+	child error: (error) Internal error: unknown type:
+		"S"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000abc880})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000a30058?, {0x2221c58, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc0000a8ae0, {0x2205848?, 0xc000e9cbe0}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0009a1240, 0xc0000a8ae0, {0x2205728?, 0xc000e9dbc0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc0001b6500, 0xc00095c400, {0x0?, 0x0?}, {0x0?, 0x0?, 0xc000657eb0?}, {0xc000ac0390, 0x3, 0x3})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc0001b6500, {0xc000c0f3a0, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000ac0390, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc0001b6500, {0x0, 0x0}, {0xc000657eb0, 0xd}, {0x0, 0x0, 0x0}, {0xc000ac0390, 0x3, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc0001b6500, {0xc000657eb0, 0xd}, {0x0?, 0x0?}, {0x0?, 0x0?, 0x0?}, {0xc000ac0390, 0x3, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc0001b6500, 0xc000958840, 0xc0004f1ec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc0001b6500, 0xc000958840, {0x21f7d38, 0xc0004f1ec0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleArguments(0xc0001b6500, 0xc000958840, {0xc00051aa80, 0x1, 0x13ea980?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5656 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc0001b6500, 0xc000958840, 0xc000652e40)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5452 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc0001b6500, 0xc000958840, {0x21f7d38, 0xc000652e40})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpressionAssign(0xc0001b6500, 0xc000958840, 0xc00042fc20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3771 +0xe5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc0001b6500?, 0xc000958840?, {0x21f79c8?, 0xc00042fc20?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3932 +0x53
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc0001b6500, 0xc000958840, {0x21f7238, 0xc0006cb780})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc0001b6500, 0xc000958840, {0xc0006c7860, 0x5, 0xc0000a8ae0?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a8ae0, 0xc000a30e90)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc0001b6500, 0xc000958840, 0xc0006c9560)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleConstructorDeclarationBody.(*transpiler).handleScopedBlockStatement.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a8ae0, 0xc000a31158)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleConstructorDeclarationBody(0xc0001b6500, 0xc000958840, 0xc000957e00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1723 +0x2b1
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc0001b6500, 0xc000958840, 0xc0006f1980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1530 +0x30e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc0001b6500, 0xc000958840, 0xc0006f1980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc000958840, {0x2207578, 0xc0006f1980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc0001b6500, 0xc000958840, 0xc000a31760, 0xc00076db00, 0xc00078aec0, {0x2207578, 0xc0006f1980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc0001b6500, 0x1, 0x2088c58, 0xc000a31760, 0xc00076db00, 0xc00078aec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc0001b6500, 0x1, 0x2088c58, 0xc000a31760, 0xc00076db00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc0001b6500, 0x1, 0x2088c58, 0xc000a31760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc0001b6500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0005801b0, {0x0?, 0x41aa94?, 0x42a965?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0005801b0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00042d380, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00042d380, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc00004c860?}, {0x50?, 0x44?, 0x4?, 0x0?}, 0x29?, {0xc000392060, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0004c43d8, {0xc0004c4008?, 0x7a6c38d73018?, 0xc0004c43d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0004c4008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0004c4008?}, {0xc00003e050?, 0xc00013a078?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(S)] [l]]
+src/main/java/org/apache/commons/math3/genetics/RandomKey.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(S)] [originalData]]
+src/main/java/org/apache/commons/math3/genetics/RandomKeyMutation.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/RandomKeyMutation.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/RandomKeyMutation.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Double))] [repr]]
+src/main/java/org/apache/commons/math3/genetics/TournamentSelection.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/genetics/TournamentSelection.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/genetics/TournamentSelection.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/apache/commons/math3/genetics/Chromosome))] [call(select(ensure_not_nil(population), getChromosomes!d41d8cd98f00b204e9800998ecf8427e), [])]]
+Found 1 Java files
+Found 58 problems in Java files
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: found 5 symbols
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.nextGeneration: computing test cases
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.nextGeneration: computed 0 unit tests
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.nextGeneration: found 0 problems
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.setElitismRate: computing test cases
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.setElitismRate: computed 1 unit tests
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.setElitismRate: found 0 problems
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: computing test cases
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: computed 0 unit tests
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: found 0 problems
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: computing test cases
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: computed 0 unit tests
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.ElitisticListPopulation: found 0 problems
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.getElitismRate: computing test cases
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.getElitismRate: computed 1 unit tests
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: org.apache.commons.math3.genetics.ElitisticListPopulation.getElitismRate: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java: generated unit test file src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulationSymflowerTest.java
+Analyzed 1 out of 14 source files
+Had 1 error that blocks a full analysis
+Generated 2 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 33 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 19 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

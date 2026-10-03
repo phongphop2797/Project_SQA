@@ -1,0 +1,260 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_30b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.makeMaps: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read0: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.init: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.initBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.endBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.complete: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.bsR: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.bsGetBit: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.bsGetUByte: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.bsGetInt: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.hbCreateDecodeTables: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.recvDecodingTables: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.createHuffmanDecodingTables: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.getAndMoveToFrontDecode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.getAndMoveToFrontDecode0: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupRandPartA: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupNoRandPartA: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupRandPartB: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupRandPartC: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupNoRandPartB: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.setupNoRandPartC: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data.Data: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data.initTT: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.hbMakeCodeLengths: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.writeRun: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.init: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.initBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.endBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.endCompression: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write0: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.hbAssignCodes: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.bsFinishedWithStream: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.bsW: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.bsPutUByte: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.bsPutInt: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues0: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues1: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues2: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues3: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues4: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues5: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues6: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.sendMTFValues7: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.moveToFrontCodeAndSend: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.blockSort: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.generateMTFValues: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.BZip2Utils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSimpleSort: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fswap: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fvswap: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fmin: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fpush: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fpop: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackQSort3: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.getEclass: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.mainSimpleSort: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.vswap: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.med3: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.mainQSort3: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown function
+	data: [<nil> count [] [1]]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown field
+	data: [System struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) in]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown identifier
+	data: i
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yy 0 yy 1 -(nextSym, 1)]]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(select(this, data), unzftab) 0 cftab 1 256]]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown import
+	data: org/apache/commons/compress/compressors/CompressorInputStream
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: error: unknown function
+	data: [<nil> count [] [conditional(<(r, 0), [-1, 1])]]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/compressors/CompressorOutputStream
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: error: unknown import
+	data: java/util/LinkedHashMap
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: error: unknown import
+	data: org/apache/commons/compress/compressors/FileNameUtil
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: error: unknown import
+	data: java/util/BitSet
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: unsupported: unsupported AST node
+	data: &{0xc0008e76e0 <nil> [] 0xc0008ee100 0xc0009bb710 {None [] [] None}}
+Found 7 Java files
+Found 13 problems in Java files
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: found 3 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: found 5 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: found 7 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java: found 1 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: found 6 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: found 11 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Constants.java: found 0 symbols
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.close: computed 1 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.close: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: computed 9 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: found 4 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java:1021:13: critical: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java:1025:13: critical: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java:1029:13: critical: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java:1021:13: critical: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.matches: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.BZip2CompressorInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.read: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.getBlockSize: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.getBlockSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.getBlockSize: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.chooseBlockSize: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.chooseBlockSize: computed 2 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.chooseBlockSize: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finish: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finish: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finish: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: internal error: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finish: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.flush: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.flush: computed 2 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.flush: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: found 2 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: info: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.008794364s, CPUTimeUser:9.927553s, CPUTimeSystem:79.996ms, MemoryUsage:230380}}
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: info: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.009129854s, CPUTimeUser:9.915872s, CPUTimeSystem:91.998ms, MemoryUsage:230256}}
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: internal error: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.write: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.BZip2CompressorOutputStream: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.close: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: internal error: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.close: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finalize: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finalize: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finalize: found 2 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: info: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finalize: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.010379172s, CPUTimeUser:9.917176s, CPUTimeSystem:91.973ms, MemoryUsage:227008}}
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: info: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.finalize: test generation timed out
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.Data.Data: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.Data.Data: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.Data.Data: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getUncompressedFilename: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getUncompressedFilename: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getUncompressedFilename: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.isCompressedFilename: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.isCompressedFilename: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.isCompressedFilename: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getCompressedFilename: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getCompressedFilename: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java: org.apache.commons.compress.compressors.bzip2.BZip2Utils.getCompressedFilename: found 0 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.blockSort: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.blockSort: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.blockSort: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: internal error: org.apache.commons.compress.compressors.bzip2.BlockSort.blockSort: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/compressors/bzip2/BlockSort, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), stack_ll), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.mainSort: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.mainSort: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.mainSort: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: internal error: org.apache.commons.compress.compressors.bzip2.BlockSort.mainSort: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/compressors/bzip2/BlockSort, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), stack_ll), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: internal error: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/compressors/bzip2/BlockSort, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), stack_ll), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.BlockSort: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.BlockSort: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.BlockSort: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: internal error: org.apache.commons.compress.compressors.bzip2.BlockSort.BlockSort: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream//Data, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), inUse), nil) array(primitive(bool, 0, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java: internal error: org.apache.commons.compress.compressors.bzip2.BlockSort.fallbackSort: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/compressors/bzip2/BlockSort, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), stack_ll), nil) array(primitive(int, 32, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getGlobalCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getGlobalCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getGlobalCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.getGlobalCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.setGlobalCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.setGlobalCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.setGlobalCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.setGlobalCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.CRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.CRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.CRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.CRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.updateCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getFinalCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getFinalCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.getFinalCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.getFinalCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.initialiseCRC: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.initialiseCRC: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: org.apache.commons.compress.compressors.bzip2.CRC.initialiseCRC: found 1 problems
+src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java: internal error: org.apache.commons.compress.compressors.bzip2.CRC.initialiseCRC: malformed data
+src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java: org.apache.commons.compress.compressors.bzip2.Rand.rNums: computing test cases
+src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java: org.apache.commons.compress.compressors.bzip2.Rand.rNums: computed 0 unit tests
+src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java: org.apache.commons.compress.compressors.bzip2.Rand.rNums: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java: generated unit test file src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStreamSymflowerTest.java
+Analyzed 7 out of 7 source files
+Had 2 errors that block a full analysis
+Generated 15 tests
+Found 4 potential problems
+The following issues prevent a full analysis:
+
+* 5 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 5 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 4 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 15 cases of "other issues"
+	Description: Uncategorized problems.
+

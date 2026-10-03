@@ -1,0 +1,6 @@
+Error: Lang-2 is a deprecated bug
+ at /home/ph7/defects4j/framework/core/Utils.pm line 636.
+	Utils::ensure_valid_bid("Lang", 2) called at /home/ph7/defects4j/framework/core/Utils.pm line 657
+	Utils::ensure_valid_vid("Lang", "2b") called at /home/ph7/defects4j/framework/bin/d4j/d4j-checkout line 87
+	require /home/ph7/defects4j/framework/bin/d4j/d4j-checkout called at /home/ph7/defects4j/framework/bin/defects4j line 195
+Compilation failed in require at /home/ph7/defects4j/framework/bin/defects4j line 195.

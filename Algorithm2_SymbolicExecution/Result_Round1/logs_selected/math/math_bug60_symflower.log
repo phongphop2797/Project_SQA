@@ -1,0 +1,322 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_60b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/MathUserException
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/random/RandomDataImpl
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/BrentSolver
+src/main/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils
+src/main/java/org/apache/commons/math/distribution/AbstractDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/AbstractDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/distribution/AbstractDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/random/RandomDataImpl
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Gamma
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Beta
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/distribution/BetaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotPositiveException
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Beta
+src/main/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/ContinuousDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/Distribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Beta
+src/main/java/org/apache/commons/math/distribution/FDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Gamma
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/GammaDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotPositiveException
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/IntegerDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Erf
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotPositiveException
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Beta
+src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/distribution/PoissonDistribution.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Gamma
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math/special/Gamma
+src/main/java/org/apache/commons/math/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/SaddlePointExpansion.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/distribution/SaddlePointExpansion.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Beta
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/special/Gamma
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/TDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/ZipfDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/distribution/ZipfDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/distribution/ZipfDistributionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+Found 1 Java files
+Found 125 problems in Java files
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: found 13 symbols
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.density: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.density: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.density: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.inverseCumulativeProbability: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.inverseCumulativeProbability: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.inverseCumulativeProbability: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.cumulativeProbability: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.cumulativeProbability: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.cumulativeProbability: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getInitialDomain: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getInitialDomain: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getInitialDomain: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainLowerBound: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainLowerBound: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainLowerBound: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getStandardDeviation: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getStandardDeviation: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getStandardDeviation: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getSolverAbsoluteAccuracy: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getSolverAbsoluteAccuracy: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getSolverAbsoluteAccuracy: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainUpperBound: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainUpperBound: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getDomainUpperBound: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.NormalDistributionImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.sample: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.sample: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.sample: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getMean: computing test cases
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: org.apache.commons.math.distribution.NormalDistributionImpl.getMean: found 1 problems
+src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java: internal error: org.apache.commons.math.distribution.NormalDistributionImpl.getMean: unknown type kind
+	data: unsupported(org/apache/commons/math/random/RandomDataImpl)
+Analyzed 1 out of 22 source files
+Had 27 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 98 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 13 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+

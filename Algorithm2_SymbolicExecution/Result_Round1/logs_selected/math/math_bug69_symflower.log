@@ -1,0 +1,205 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_69b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.checkSufficientData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.rankTransform: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Mean
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Variance
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistribution
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistributionImpl
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/stat/regression/SimpleRegression
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(cast(-(select(this, nObs), 2), primitive(float, 64, false)), -(cast(1, primitive(float, 64, false)), *(r, r)))]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(-(cast(1, primitive(float, 64, false)), *(r, r)), cast(-(select(this, nObs), 2), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/stat/ranking/NaturalRanking
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/stat/ranking/RankingAlgorithm
+Found 3 Java files
+Found 21 problems in Java files
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: found 13 symbols
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: found 12 symbols
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: found 8 symbols
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.Covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.Covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.Covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.getCovarianceMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.getCovarianceMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.getCovarianceMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.getN: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.getN: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.getN: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.Covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.computeCovarianceMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.Covariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: internal error: org.apache.commons.math.stat.correlation.Covariance.Covariance: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.correlation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.covarianceToCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.covarianceToCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.covarianceToCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.computeCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.PearsonsCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationStandardErrors: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationStandardErrors: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationStandardErrors: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: internal error: org.apache.commons.math.stat.correlation.PearsonsCorrelation.getCorrelationPValues: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.SpearmansCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.correlation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.correlation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.correlation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getRankCorrelation: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getRankCorrelation: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.getRankCorrelation: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: computing test cases
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: found 1 problems
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: internal error: org.apache.commons.math.stat.correlation.SpearmansCorrelation.computeCorrelationMatrix: unknown type kind
+	data: unsupported(org/apache/commons/math/linear/RealMatrix)
+Analyzed 3 out of 3 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 33 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 17 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 4 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+

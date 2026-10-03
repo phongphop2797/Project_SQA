@@ -1,0 +1,296 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_12b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/random/AbstractWell.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/math3/random/AbstractWell.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/AbstractWell.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [seed 0 select(this, v) 0 call(java/lang/Math//min!2ac0ebcb23011db97774191b8c6fdbe3, [len(ensure_not_nil(seed)), len(ensure_not_nil(select(this, v)))])]]
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealMatrix
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: error: unknown import
+	data: org/apache/commons/math3/linear/RectangularCholeskyDecomposition
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/distribution/NormalDistribution
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/InputStreamReader//InputStreamReader [] [unsupported charset]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/distribution/AbstractRealDistribution
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/StatisticalSummary
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/InputStreamReader//InputStreamReader [] [unsupported charset]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, upperBounds) 0 out 0 len]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [file]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/distribution/RealDistribution
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/SummaryStatistics
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/InputStreamReader//InputStreamReader [] [is charset]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [file]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: error: unknown function
+	data: [<nil> java/io/InputStreamReader//InputStreamReader [] [is charset]]
+src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/random/EmpiricalDistribution//DataAdapter, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/random/ISAACRandom.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/math3/random/ISAACRandom.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/ISAACRandom.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/ISAACRandom.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [seed 0 select(this, rsl) 0 call(java/lang/Math//min!2ac0ebcb23011db97774191b8c6fdbe3, [seedLen, rslLen])]]
+src/main/java/org/apache/commons/math3/random/JDKRandomGenerator.java: error: abstract method is not implemented
+	data: [org/apache/commons/math3/random/JDKRandomGenerator setSeed!feb606741437b3116f99f2412027bc86]
+src/main/java/org/apache/commons/math3/random/MersenneTwister.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/MersenneTwister.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/math3/random/MersenneTwister.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/MersenneTwister.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/RandomAdaptor.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/random/RandomData.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotANumberException
+src/main/java/org/apache/commons/math3/random/RandomData.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotFiniteNumberException
+src/main/java/org/apache/commons/math3/random/RandomData.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/random/RandomData.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: java/security/NoSuchAlgorithmException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/CauchyDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/ExponentialDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: java/security/MessageDigest
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/GammaDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/TDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotFiniteNumberException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/BinomialDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//identityHashCode [] [this]]
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/BetaDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/HypergeometricDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/WeibullDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotANumberException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: java/security/NoSuchProviderException
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: java/security/SecureRandom
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/PascalDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/PoissonDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/ChiSquaredDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/FDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java: error: unknown import
+	data: org/apache/commons/math3/distribution/ZipfDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/distribution/IntegerDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/distribution/RealDistribution
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotANumberException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotFiniteNumberException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: java/security/NoSuchAlgorithmException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: java/security/NoSuchProviderException
+src/main/java/org/apache/commons/math3/random/RandomDataImpl.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/random/UniformRandomGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/UnitSphereRandomVectorGenerator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown function
+	data: [<nil> java/io/InputStreamReader//InputStreamReader [] [unsupported "UTF-8"]]
+src/main/java/org/apache/commons/math3/random/ValueServer.java: error: unknown import
+	data: java/net/MalformedURLException
+Found 1 Java files
+Found 121 problems in Java files
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: found 14 symbols
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextInt: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextInt: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.clear: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.clear: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextGaussian: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextGaussian: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextBytes: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextBytes: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.next: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.next: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextFloat: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextFloat: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextBoolean: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextBoolean: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextDouble: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextDouble: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextInt: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextInt: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.BitsStreamGenerator: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.BitsStreamGenerator: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextLong: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.nextLong: computed 0 unit tests
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: computing test cases
+src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java: org.apache.commons.math3.random.BitsStreamGenerator.setSeed: function is abstract and therefore inaccessible for tests
+Analyzed 1 out of 17 source files
+Had 12 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 80 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 22 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "other issues"
+	Description: Uncategorized problems.
+

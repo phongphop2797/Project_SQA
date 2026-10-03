@@ -1,0 +1,440 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_19b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readObject [] []]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: internal error: not all elements have the same type
+	data: declaration([e], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [<nil> isEqualValue [] [call(select(ensure_not_nil(node), getValue!d41d8cd98f00b204e9800998ecf8427e), []) value]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: java/util/AbstractList
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: internal error: not all elements have the same type
+	data: conditional(==(value, cast(this, pointer(reference(java/lang/Object)))), ["(this Collection)", value])
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [call(select(this, size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [<nil> isEqualValue [] [call(select(ensure_not_nil(node), getValue!d41d8cd98f00b204e9800998ecf8427e), []) value]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [wildcard(, pointer(reference(java/lang/Object)))])) java/util/Collection<descendant of java/lang/Object>//contains [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeObject [] [e]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown import
+	data: org/apache/commons/collections/OrderedIterator
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [<nil> isEqualValue [] [call(select(ensure_not_nil(node), getValue!d41d8cd98f00b204e9800998ecf8427e), []) value]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [wildcard(, pointer(reference(java/lang/Object)))])) java/util/Collection<descendant of java/lang/Object>//contains [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readInt [] []]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [wildcard(, pointer(reference(java/lang/Object)))])) java/util/List<descendant of java/lang/Object>//listIterator [] []]
+src/main/java/org/apache/commons/collections/list/AbstractLinkedList.java: internal error: not all elements have the same type
+	data: declaration([value], [pointer(reference(java/lang/Object))], [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections/list/AbstractListDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [index]]
+src/main/java/org/apache/commons/collections/list/AbstractListDecorator.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/AbstractListDecorator.java: error: unknown import
+	data: org/apache/commons/collections/collection/AbstractCollectionDecorator
+src/main/java/org/apache/commons/collections/list/AbstractListDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [index coll]]
+src/main/java/org/apache/commons/collections/list/AbstractListDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] []]
+src/main/java/org/apache/commons/collections/list/AbstractSerializableListDecorator.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/list/AbstractSerializableListDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/collections/list/AbstractSerializableListDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeObject [] [unsupported]]
+src/main/java/org/apache/commons/collections/list/AbstractSerializableListDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/collections/list/AbstractSerializableListDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readObject [] []]
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown import
+	data: java/lang/ref/WeakReference
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown function
+	data: [<nil> registerCursor [] [cursor]]
+src/main/java/org/apache/commons/collections/list/CursorableLinkedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown import
+	data: org/apache/commons/collections/BoundedCollection
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractListIteratorDecorator
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [0]]
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/list/FixedSizeList//FixedSizeListIterator//FixedSizeListIterator [pointer(reference(java/lang/Object))] [unsupported]]
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [index]]
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/list/FixedSizeList//FixedSizeListIterator//FixedSizeListIterator [pointer(reference(java/lang/Object))] [unsupported]]
+src/main/java/org/apache/commons/collections/list/FixedSizeList.java: error: unknown function
+	data: [<nil> size [] []]
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [unsupported]]
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(E)] [initialSize]]
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [unsupported]]
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [unsupported]]
+src/main/java/org/apache/commons/collections/list/GrowthList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [index coll]]
+src/main/java/org/apache/commons/collections/list/LazyList.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/list/NodeCachingLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/collections/list/NodeCachingLinkedList.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> validate [] [object]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: internal error: not all elements have the same type
+	data: declaration([aColl], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/list/PredicatedList//PredicatedListIterator//PredicatedListIterator [pointer(reference(java/lang/Object))] [unsupported]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> validate [] [object]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> validate [] [object]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractListIteratorDecorator
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> validate [] [aColl]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [index coll]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [i]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown function
+	data: [<nil> validate [] [object]]
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/list/PredicatedList.java: error: unknown import
+	data: org/apache/commons/collections/collection/PredicatedCollection
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(E)] [list]]
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported node
+	data: [==(set, nil) genericInstance(unsupported(java/util/Set), [genericParameter(E, [pointer(reference(java/lang/Object))])])]
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown function
+	data: [<nil> size [] []]
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown function
+	data: [<nil> indexOf [] [object]]
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractListIteratorDecorator
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: org/apache/commons/collections/set/UnmodifiableSet
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported node
+	data: unsupported(java/util/HashSet)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractIteratorDecorator
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: internal error: not all elements have the same type
+	data: declaration([e], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported type cast
+	data: cast(|(result, call(select(this, remove!4fb2deccef7826b7659de223ac40b91d), [name])), primitive(bool, 0, false))
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/list/SynchronizedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [index]]
+src/main/java/org/apache/commons/collections/list/SynchronizedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/SynchronizedList.java: error: unknown import
+	data: org/apache/commons/collections/collection/SynchronizedCollection
+src/main/java/org/apache/commons/collections/list/SynchronizedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] []]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> transform [] [object]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/list/TransformedList//TransformedListIterator//TransformedListIterator [pointer(reference(java/lang/Object))] [unsupported]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> transform [] [object]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> transform [] [object]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown import
+	data: org/apache/commons/collections/collection/TransformedCollection
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractListIteratorDecorator
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> transform [] [coll]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [index coll]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [i]]
+src/main/java/org/apache/commons/collections/list/TransformedList.java: error: unknown function
+	data: [<nil> transform [] [object]]
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/TreeList.java: internal error: not all elements have the same type
+	data: conditional(==(call(select(this, getRightSubTree!d41d8cd98f00b204e9800998ecf8427e), []), nil), [this, call(select(ensure_not_nil(select(this, right)), max!d41d8cd98f00b204e9800998ecf8427e), [])])
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown import
+	data: java/util/AbstractList
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/collections/list/TreeList.java: internal error: not all elements have the same type
+	data: conditional(==(call(select(this, getLeftSubTree!d41d8cd98f00b204e9800998ecf8427e), []), nil), [this, call(select(ensure_not_nil(select(this, left)), min!d41d8cd98f00b204e9800998ecf8427e), [])])
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown import
+	data: org/apache/commons/collections/OrderedIterator
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: illegal operator
+	data: x++(unsupported)
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [select(this, value)]]
+src/main/java/org/apache/commons/collections/list/TreeList.java: error: unknown function
+	data: [<nil> addAll [] [coll]]
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown import
+	data: org/apache/commons/collections/Unmodifiable
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown import
+	data: org/apache/commons/collections/iterators/UnmodifiableListIterator
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/collections/Unmodifiable)
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] []]
+src/main/java/org/apache/commons/collections/list/UnmodifiableList.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] [index]]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/AbstractLinkedList, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/List), [reference(E)]))]) scopeLevelAtEntry:6 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/CursorableLinkedList, [], [pointer(genericInstance(reference(org/apache/commons/collections/list/AbstractLinkedList), [reference(E)]))], [reference(java/io/Serializable)]) scopeLevelAtEntry:6 scopeLevelAtExit:11]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/FixedSizeList, [], [pointer(genericInstance(reference(org/apache/commons/collections/list/AbstractSerializableListDecorator), [reference(E)]))], [genericInstance(unsupported(org/apache/commons/collections/BoundedCollection), [reference(E)])]) scopeLevelAtEntry:6 scopeLevelAtExit:7]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/PredicatedList, [], [genericInstance(unsupported(org/apache/commons/collections/collection/PredicatedCollection), [reference(E)])], [pointer(genericInstance(reference(java/util/List), [reference(E)]))]) scopeLevelAtEntry:13 scopeLevelAtExit:14]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/SetUniqueList, [], [pointer(genericInstance(reference(org/apache/commons/collections/list/AbstractSerializableListDecorator), [reference(E)]))], []) scopeLevelAtEntry:14 scopeLevelAtExit:16]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/TransformedList, [], [genericInstance(unsupported(org/apache/commons/collections/collection/TransformedCollection), [reference(E)])], [pointer(genericInstance(reference(java/util/List), [reference(E)]))]) scopeLevelAtEntry:18 scopeLevelAtExit:19]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/list/TreeList, [], [genericInstance(unsupported(java/util/AbstractList), [reference(E)])], []) scopeLevelAtEntry:19 scopeLevelAtExit:20]
+Found 1 Java files
+Found 133 problems in Java files
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: found 29 symbols
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.set: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.set: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.set: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.set: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractListIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.listIterator: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.remove: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.SetListListIterator: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.SetListListIterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.SetListListIterator: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: internal error: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.SetListListIterator: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.iterator: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.iterator: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.iterator: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.next: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.next: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.next: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListIterator.next: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.previous: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.previous: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.previous: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.previous: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractListIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.clear: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.clear: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.clear: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.setUniqueList: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.setUniqueList: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.setUniqueList: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.setUniqueList: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/List), [reference(E)]))), java/util/List//isEmpty!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetUniqueList: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetUniqueList: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetUniqueList: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: internal error: org.apache.commons.collections.list.SetUniqueList.SetUniqueList: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.set: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.set: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.set: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.set: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.next: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.next: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.next: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.next: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractListIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.addAll: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.addAll: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.addAll: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.remove: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.remove: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.remove: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractListIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.subList: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.subList: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.subList: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.subList: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.addAll: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.remove: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.remove: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.remove: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.remove: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListIterator.remove: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.asSet: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.asSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.asSet: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.asSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.contains: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.contains: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.contains: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.contains: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.add: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.add: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.add: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.SetListListIterator.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/iterators/AbstractListIteratorDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.listIterator: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.listIterator: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.createSetBasedOnList: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.createSetBasedOnList: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.createSetBasedOnList: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.createSetBasedOnList: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.removeAll: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.retainAll: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.retainAll: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.SetListIterator: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.SetListIterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.SetListIterator.SetListIterator: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: internal error: org.apache.commons.collections.list.SetUniqueList.SetListIterator.SetListIterator: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.containsAll: computing test cases
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.containsAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: org.apache.commons.collections.list.SetUniqueList.containsAll: found 1 problems
+src/main/java/org/apache/commons/collections/list/SetUniqueList.java: unsupported: org.apache.commons.collections.list.SetUniqueList.containsAll: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+Analyzed 1 out of 14 source files
+Had 7 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 57 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 42 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 7 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 6 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 40 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,412 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_20b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.checkParameters: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.initializeCMA: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.updateEvolutionPaths: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.updateCovarianceDiagonalOnly: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.updateCovariance: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.updateBD: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.push: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.sortedIndices: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.DoubleIndex.DoubleIndex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.DoubleIndex.compareTo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.DoubleIndex.equals: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.DoubleIndex.hashCode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.FitnessFunction: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.encode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.repairAndDecode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.decode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.value: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.isFeasible: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.setValueRange: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.repair: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.penalty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.log: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.sqrt: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.square: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.times: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.divide: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.selectColumns: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.triu: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.sumRows: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.diag: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.copyColumn: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.ones: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.eye: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.zeros: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.repmat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.sequence: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.max: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.min: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.max: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.min: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.inverse: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.reverse: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.randn: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.randn1: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [steps 0 vertexI 0 +(j, 1)]]
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, simplex) 0 copy 0 len(ensure_not_nil(select(this, simplex)))]]
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealVector
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown type
+	data: StackTraceElement
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/ArrayRealVector
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/MultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/optimization/direct/BOBYQAOptimizer))), org/apache/commons/math3/optimization/direct/BOBYQAOptimizer//trsbox!b3465ecf8efe0f57845d5b3317d8a3cd, [variable(delta, primitive(float, 64, false)), variable(gnew, unsupported(org/apache/commons/math3/linear/ArrayRealVector)), variable(xbdi, unsupported(org/apache/commons/math3/linear/ArrayRealVector)), variable(s, unsupported(org/apache/commons/math3/linear/ArrayRealVector)), variable(hs, unsupported(org/apache/commons/math3/linear/ArrayRealVector)), variable(hred, unsupported(org/apache/commons/math3/linear/ArrayRealVector))], [variable(, array(primitive(float, 64, false), primitive(int, 32, false), 0))], block([unsupported]))
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown function
+	data: [pointer(reference(java/lang/Throwable)) java/lang/Throwable//getStackTrace [] []]
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/optimization/direct/BOBYQAOptimizer))), org/apache/commons/math3/optimization/direct/BOBYQAOptimizer//bobyqb!5197f475ff1a8fe7890a7d1aca15c2aa, [variable(lowerBound, array(primitive(float, 64, false), primitive(int, 32, false), 0)), variable(upperBound, array(primitive(float, 64, false), primitive(int, 32, false), 0))], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/BaseMultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown function
+	data: [<nil> optimizeInternal [] [maxEval f goalType startPoint]]
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/SimpleValueChecker
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/BaseMultivariateSimpleBoundsOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/BaseMultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateSimpleBoundsOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/BaseMultivariateVectorOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown function
+	data: [<nil> optimizeInternal [] [maxEval f t w startPoint]]
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateVectorFunction
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointVectorValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/SimpleVectorValueChecker
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/MathArrays
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/MatrixUtils
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealMatrix
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/random/MersenneTwister
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/linear/EigenDecomposition
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/MultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/SimpleValueChecker
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: unsupported: unsupported AST node
+	data: &{0xc0000d1cc0 <nil> [] 0xc0007cc000 0xc0000fb140 {None [] [] None}}
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathUnsupportedOperationException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/MultiDirectionalSimplex.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/MultiDirectionalSimplex.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Logit
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Sigmoid
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/direct/NelderMeadSimplex.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/NelderMeadSimplex.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/MathArrays
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/MultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/univariate/BracketFinder
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown identifier
+	data: checker
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/univariate/BrentOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown function
+	data: [<nil> optimize [] [unsupported f goal unsupported unsupported unsupported]]
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker
+src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/SimpleValueChecker
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/optimization/direct/SimplexOptimizer))), org/apache/commons/math3/optimization/direct/SimplexOptimizer//doOptimize!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, unsupported(org/apache/commons/math3/optimization/PointValuePair))], block([unsupported]))
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/MultivariateOptimizer
+src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java: error: unknown type
+	data: Deprecated
+Found 1 Java files
+Found 151 problems in Java files
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: found 10 symbols
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsMeanHistory: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsMeanHistory: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsMeanHistory: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsFitnessHistory: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsFitnessHistory: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsFitnessHistory: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.doOptimize: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.doOptimize: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.CMAESOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsSigmaHistory: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsSigmaHistory: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsSigmaHistory: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsDHistory: computing test cases
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsDHistory: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java: internal error: org.apache.commons.math3.optimization.direct.CMAESOptimizer.getStatisticsDHistory: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+Analyzed 1 out of 12 source files
+Had 20 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 110 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 20 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 7 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

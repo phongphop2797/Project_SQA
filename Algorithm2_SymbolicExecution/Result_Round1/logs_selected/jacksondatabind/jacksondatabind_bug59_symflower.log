@@ -1,0 +1,1869 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_59b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/AbstractTypeResolver.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: ObjectIdInfo
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonInclude
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/core/Versioned
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JsonSerialize
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: Annotated
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown identifier
+	data: NopAnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown identifier
+	data: ignorals
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Failed to widen type %s with annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(serClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Internal error: failed to refine value type of %s with concrete-type annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(contentClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ValueInstantiator
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: AnnotationIntrospectorPair
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [currRaw]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Failed to narrow type %s with annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(valueClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/core/Version
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/MapLikeType
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Can not refine serialization type %s into %s; types not related" type call(select(ensure_not_nil(serClass), getName!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/NamedType
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: AnnotatedClass
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/AnnotationIntrospector, [], [pointer(reference(java/lang/Object))], [unsupported(com/fasterxml/jackson/core/Versioned), reference(java/io/Serializable)]) Collections]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Failed to widen key type of %s with concrete-type annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(keyClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [contentClass]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonIgnoreProperties
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [currRaw]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Can not refine serialization content type %s into %s; types not related" contentType call(select(ensure_not_nil(contentClass), getName!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Failed to narrow value type of %s with concrete-type annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(contentClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonCreator
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonProperty
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [serClass]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Can not refine serialization key type %s into %s; types not related" keyType call(select(ensure_not_nil(keyClass), getName!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Enum), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Enum<descendant of java/lang/Object>//name [] []]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Failed to narrow key type of %s with concrete-type annotation (value %s), from '%s': %s" type call(select(ensure_not_nil(keyClass), getName!d41d8cd98f00b204e9800998ecf8427e), []) unsupported call(select(ensure_not_nil(iae), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [currRaw]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [keyClass]]
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown type
+	data: VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JsonPOJOBuilder
+src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Converter
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: Set
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: ObjectIdInfo
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: AnnotatedConstructor
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: java/lang/reflect/Constructor
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: java/lang/reflect/Method
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JsonPOJOBuilder
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Converter
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: AnnotatedClass
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonInclude
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeBindings
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/BeanDescription.java: error: unknown type
+	data: AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonInclude
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Named
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/BeanProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown identifier
+	data: gen
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/annotation
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/Annotated
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Converter
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown type
+	data: JsonFormat/Value
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown type
+	data: ObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ObjectIdInfo
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown type
+	data: ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown identifier
+	data: conv
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: java/util/Locale
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/HandlerInstantiator
+src/main/java/com/fasterxml/jackson/databind/DatabindContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown identifier
+	data: b
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: BaseSettings
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/LinkedNode
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: AnnotatedClass
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/DeserializationProblemHandler
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RootNameLookup
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: SubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: JsonAutoDetect/Visibility
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: FormatFeature
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown function
+	data: [<nil> getClassIntrospector [] []]
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown function
+	data: [<nil> introspectClassAnnotations [] [call(select(ensure_not_nil(baseType), getRawClass!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: NamedType
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: SimpleMixInResolver
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown function
+	data: [<nil> collectFeatureDefaults [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown function
+	data: [<nil> getSubtypeResolver [] []]
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: ConfigOverrides
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: JsonInclude/Value
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: ConfigOverride
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown function
+	data: [<nil> getDefaultTyper [] [baseType]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: PropertyAccessor
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: HandlerInstantiator
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: MapperConfigBase
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/JsonNodeFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/annotation
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg
+src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java: error: unknown type
+	data: JsonParser/Feature
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [instance]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: internal error: type does not support nil values
+	data: unsupported(ContextualDeserializer)
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: Internal error: unknown identifier:
+		"propName"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25970}, {0x12473e0, 0xc002938d40})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Identifier).ExpressionType(0xc00169dce0, 0xc0000a9a40)
+			gitlab.nethead.at/symflower/symflower/model/ast/parameters.go:70 +0x186
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveExpressionType(0xc0000a9a40, {0x2208640?, 0xc00169dce0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:533 +0x29
+		gitlab.nethead.at/symflower/symflower/model/ast.ExpressionPrimitiveType(0xc9e560f032586ff3?, {0x2208640?, 0xc00169dce0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:562 +0x1d
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionCast).InferType(0xc0021736b0, 0xc0000a9a40, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:2649 +0x34
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes.func2(0xc0000a9a40, {0x2203c70, 0xc0021736b0})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:23 +0x7c
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionCast).Walk(0xc0021736b0, 0xc0000a9a40, 0x1, 0xc003e4c960)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:331 +0x20e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*LiteralComposite).Walk(0xc0015e4780, 0xc0000a9a40, 0x1, 0xc003e4c960)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1000 +0x268
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).Walk(0xc00435d950, 0xc0000a9a40, 0x1, 0xc003e4c960)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:146 +0x3d1
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Throw).Walk(0xc00169dcc0, 0xc0000a9a40, 0x1, 0xc003e4c960)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1662 +0x124
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc002173950, 0xc0000a9a40, 0x1, 0xc003e4c960)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes(0xc0000a9a40, {0x2203830, 0xc002173950}, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:17 +0xd9
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).inferBodyTypes(0xc00011c640, {0x2203830, 0xc002173950})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2850 +0x31
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).completeFunctionAndVerify(0xc00011c640, 0xc0011651a0, 0xc001186000)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2777 +0x107
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00011c640, 0xc0011651a0, {0x2208170, 0xc00107b680}, 0xc001186000, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2540 +0x7b5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00011c640, 0xc0011651a0, 0xc00107b680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00011c640, 0xc0011651a0, 0xc00107b680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc0011651a0, {0x2207578, 0xc00107b680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00011c640, 0xc0011651a0, 0xc004021760, 0xc0011316e0, 0xc00116d200, {0x2207578, 0xc00107b680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00011c640, 0x1, 0x2088c58, 0xc004021760, 0xc0011316e0, 0xc00116d200)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00011c640, 0x1, 0x2088c58, 0xc004021760, 0xc0011316e0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00011c640, 0x1, 0x2088c58, 0xc004021760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00011c640)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000010468, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000010468, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00012ec90, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00012ec90, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x34?, 0x124bba0?, {0x21eb890?, 0xc00004c830?}, {0xc0?, 0x63?, 0x4?, 0x0?}, 0x34?, {0xc00012e390, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005aa3d8, {0xc0005aa008?, 0x75ed048ee798?, 0xc0005aa3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0005aa008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0005aa008?}, {0xc00003e050?, 0xc00007e5e0?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000182060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: cast(propName, pointer(reference(java/lang/Object)))
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/exc/InvalidFormatException
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: Calendar
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: internal error: type does not support nil values
+	data: unsupported(ContextualKeyDeserializer)
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getComponentType [] []]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [key]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [instance]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: ArrayBuilders
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: LinkedNode
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: Date
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: internal error: type does not support nil values
+	data: unsupported(ContextualDeserializer)
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Could not resolve type id '%s' into a subtype of %s" typeId baseType]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: java/text/ParseException
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [key]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/exc/InvalidTypeIdException
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: DeserializationProblemHandler
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/impl/ObjectIdReader
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [<nil> reportMappingException [] ["Could not find JsonDeserializer for type %s (via property %s)" type propName]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/JsonNodeFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: UnresolvedForwardReference
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) DeserializationProblemHandler]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: internal error: type does not support nil values
+	data: unsupported(ContextualDeserializer)
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/exc/UnrecognizedPropertyException
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/Annotated
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: DeserializerFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: DeserializerCache
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [<nil> reportMappingException [] ["Could not find JsonDeserializer for type %s" type]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [instance]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//format [] ["Could not resolve type id '%s' into a subtype of %s" id type]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/impl/ReadableObjectId
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeIdResolver
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: ContextualDeserializer
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: ObjectBuffer
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [instance]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [<nil> java/lang/String//internalToString [] [type]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//valueOf [] [value]]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/DeserializationContext, [], [pointer(reference(com/fasterxml/jackson/databind/DatabindContext))], [reference(java/io/Serializable)]) ClassUtil]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown type
+	data: ContextualKeyDeserializer
+src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java: error: unknown identifier
+	data: h
+src/main/java/com/fasterxml/jackson/databind/DeserializationFeature.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ConfigFeature
+src/main/java/com/fasterxml/jackson/databind/InjectableValues.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/InjectableValues.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/InjectableValues.java: error: unknown identifier
+	data: type
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown type
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [select(this, _class)]]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isEnum [] []]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: unsupported: unsupported type
+	data: pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) vs pointer(genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]))
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isPrimitive [] []]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [select(this, _class)]]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/ResolvedType
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeBindings
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//getModifiers [] []]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isInterface [] []]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: unsupported: unsupported type cast
+	data: [cast(select(this, _typeHandler), reference(T)) genericParameter(T, [pointer(reference(java/lang/Object))])]
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown import
+	data: java/lang/reflect/Modifier
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: unsupported: unsupported type cast
+	data: [cast(select(this, _valueHandler), reference(T)) genericParameter(T, [pointer(reference(java/lang/Object))])]
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/BeanDeserializerFactory
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/impl/ObjectIdReader
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonIgnore
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonMappingException, [], [unsupported(JsonProcessingException)], []) _location]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: Internal error: unknown identifier:
+		"cls"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25970}, {0x12473e0, 0xc0005cc530})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Identifier).ExpressionType(0xc001824480, 0xc0000a9a40)
+			gitlab.nethead.at/symflower/symflower/model/ast/parameters.go:70 +0x186
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionUnary).ExpressionType(0xc0028ff260, 0xc0000a9a40)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:1258 +0x2a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunctionWithEffectiveReceiver(0xc0000a9a40, {0x2208dd0?, 0xc0028ff320})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:677 +0x182
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunction(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:662
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).ScopeVisit(0xc00435c280, 0xc0000a9a40)
+			gitlab.nethead.at/symflower/symflower/model/ast/function.go:1084 +0x1a5
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).Walk(0xc00435c280, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:123 +0xf0
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).Walk(0xc00435c230, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:146 +0x3d1
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc002c29140, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc000d6e6c0, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1492 +0x20a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc002c29a10, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc001e7e600, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1487 +0x194
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc002c29aa0, 0xc0000a9a40, 0x1, 0xc0011290f8)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes(0xc0000a9a40, {0x2203830, 0xc002c29aa0}, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:17 +0xd9
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).inferBodyTypes(0xc00011c640, {0x2203830, 0xc002c29aa0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2850 +0x31
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).completeFunctionAndVerify(0xc00011c640, 0xc0011897d0, 0xc0011b6c00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2777 +0x107
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00011c640, 0xc0011897d0, {0x2208170, 0xc00107bec0}, 0xc0011b6c00, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2540 +0x7b5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00011c640, 0xc0011897d0, 0xc00107bec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00011c640, 0xc0011897d0, 0xc00107bec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc0011897d0, {0x2207578, 0xc00107bec0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00011c640, 0xc0011897d0, 0xc003449760, 0xc0011316e0, 0xc0011b0740, {0x2207578, 0xc00107bec0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00011c640, 0xc0011897d0, 0xc003449760, 0xc0011316e0, 0xc0011b0740, {0x2207578, 0xc00107be00})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:880 +0x3b6
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00011c640, 0x1, 0x2088c58, 0xc003449760, 0xc0011316e0, 0xc0011b0740)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00011c640, 0x1, 0x2088c58, 0xc003449760, 0xc0011316e0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00011c640, 0x1, 0x2088c58, 0xc003449760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00011c640)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000010468, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000010468, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00012ec90, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00012ec90, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x34?, 0x124bba0?, {0x21eb890?, 0xc00004c830?}, {0xc0?, 0x63?, 0x4?, 0x0?}, 0x34?, {0xc00012e390, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005aa3d8, {0xc0005aa008?, 0x75ed048ee798?, 0xc0005aa3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0005aa008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0005aa008?}, {0xc00003e050?, 0xc00007e5e0?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000182060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: select(ensure_not_nil(cls), getSimpleName!d41d8cd98f00b204e9800998ecf8427e)
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: JsonLocation
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: internal error: type does not support nil values
+	data: unsupported(JsonParser)
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: internal error: type does not support nil values
+	data: unsupported(JsonParser)
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonMappingException, [], [unsupported(JsonProcessingException)], []) Collections]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: LinkedList
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonMappingException, [], [unsupported(JsonProcessingException)], []) _location]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: error: unknown function
+	data: [pointer(reference(java/lang/Throwable)) java/lang/Throwable//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java: internal error: type does not support nil values
+	data: unsupported(JsonProcessingException)
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown type
+	data: JsonPointer
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) JsonPointer]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) Collections]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/JsonNodeType
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown type
+	data: TreeNode
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) OBJECT]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) MISSING]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) Collections]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/MissingNode
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) ARRAY]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/JsonNode, [], [pointer(reference(com/fasterxml/jackson/databind/JsonSerializable//Base))], [unsupported(TreeNode), pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/JsonNode))]))]) Collections]
+src/main/java/com/fasterxml/jackson/databind/JsonNode.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonSerializable.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/JsonSerializable.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/JsonSerializable.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/PropertyWriter
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable
+src/main/java/com/fasterxml/jackson/databind/KeyDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/KeyDeserializer.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/MapperFeature.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ConfigFeature
+src/main/java/com/fasterxml/jackson/databind/MapperFeature.java: error: unknown import
+	data: com/fasterxml/jackson/databind/annotation/JsonSerialize
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/MappingIterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [reference(T)])), reference(java/io/Closeable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: JsonLocation
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: error: unresolved type
+	data: reference(L)
+	child error: (error) Internal error: unknown type:
+		"L"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc003a84b50})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc0025c8330?, {0x2221c20, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc0000a9a40, {0x2205848?, 0xc0001c0740}, 0xc0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveReferencesAndPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:343
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).compareTypeSpecificity(0xc00011c640, {0x2205848?, 0xc0001c0740?}, {0x2205848?, 0xc0001c0980?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:564 +0x1c7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).compareFunctionSpecificity(0xc00011c640, 0xc0011d3b00, 0xc0011d3c00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:527 +0x1ad
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc00011c640, {0xc001a92060, 0x3, 0x4}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc003a848d0, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:481 +0x90f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc00011c640, {0x0, 0x0}, {0xc00086e760, 0x7}, {0x0, 0x0, 0x0}, {0xc003a848d0, 0x1, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc00011c640, {0xc00086e760, 0x7}, {0x0?, 0x0?}, {0x0?, 0x474719?, 0x20?}, {0xc003a848d0, 0x1, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc00011c640, 0xc0011bfbf0, 0xc00089fe00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc00011c640, 0xc0011bfbf0, {0x21f7d38, 0xc00089fe00})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementReturn(0xc00011c640, 0xc0011bfbf0, 0xc000944800)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4352 +0x7c
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc00011c640, 0xc0011bfbf0, {0x21f74a0, 0xc000944800})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4423 +0x745
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc00011c640, 0xc0011bfbf0, {0xc0008884d0, 0x1, 0xc000184808?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a9a40, 0xc0025c8d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc00011c640, 0xc0011bfbf0, 0xc0008f2900)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a9a40, 0xc0025c9160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00011c640, 0xc0011bfbf0, {0x2208170, 0xc0011c0780}, 0xc0011d3a00, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00011c640, 0xc0011bfbf0, 0xc0011c0780)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00011c640, 0xc0011bfbf0, 0xc0011c0780)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc0011bfbf0, {0x2207578, 0xc0011c0780})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00011c640, 0xc0011bfbf0, 0xc0025c9760, 0xc0011316e0, 0xc0011c7980, {0x2207578, 0xc0011c0780})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00011c640, 0x1, 0x2088c58, 0xc0025c9760, 0xc0011316e0, 0xc0011c7980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00011c640, 0x1, 0x2088c58, 0xc0025c9760, 0xc0011316e0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00011c640, 0x1, 0x2088c58, 0xc0025c9760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00011c640)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000010468, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000010468, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00012ec90, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00012ec90, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x34?, 0x124bba0?, {0x21eb890?, 0xc00004c830?}, {0xc0?, 0x63?, 0x4?, 0x0?}, 0x34?, {0xc00012e390, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005aa3d8, {0xc0005aa008?, 0x75ed048ee798?, 0xc0005aa3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0005aa008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0005aa008?}, {0xc00003e050?, 0xc00007e5e0?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000182060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/MappingIterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [reference(T)])), reference(java/io/Closeable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: FormatSchema
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/MappingIterator, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [reference(T)])), reference(java/io/Closeable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: NoSuchElementException
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown type
+	data: JsonStreamContext
+src/main/java/com/fasterxml/jackson/databind/MappingIterator.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/MappingIterator//MappingIterator [pointer(reference(java/lang/Object))] [nil nil nil nil false nil]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown import
+	data: com/fasterxml/jackson/core/format/MatchStrength
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> setCodec [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/MappingJsonFactory, [], [unsupported(JsonFactory)], []) _objectCodec]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> _checkInvalidCopy [] [call(java/lang/Class//Class!e3b1fa59c6d86c11414ab72a3dd3145b, ["MappingJsonFactory", "com.fasterxml.jackson.databind.MappingJsonFactory", "MappingJsonFactory"])]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> hasJSONFormat [] [acc]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown import
+	data: com/fasterxml/jackson/core/format/InputAccessor
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectMapper//ObjectMapper [] [this]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> setCodec [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectMapper//ObjectMapper [] [this]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/MappingJsonFactory//MappingJsonFactory [] [this nil]]
+src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/MappingJsonFactory, [], [unsupported(JsonFactory)], []) FORMAT_NAME_JSON]
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/BeanSerializerModifier
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: JsonGenerator/Feature
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/KeyDeserializers
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/NamedType
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: JsonFactory/Feature
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MutableConfigOverride
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/BeanDeserializerModifier
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/Serializers
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeModifier
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: ObjectCodec
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/DeserializationProblemHandler
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/Deserializers
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ValueInstantiators
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: Versioned
+src/main/java/com/fasterxml/jackson/databind/Module.java: error: unknown type
+	data: JsonParser/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/HandlerInstantiator
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: SubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonNodeFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DataInput
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> findModules [] [nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newReader [] [call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) type nil nil select(this, _injectableValues)]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ServiceLoader
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: an unsupported collection type has been used for this operation
+	data: genericInstance(unsupported(ServiceLoader), [pointer(reference(com/fasterxml/jackson/databind/Module))])
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonInclude]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/CharacterEscapes
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DefaultSerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) VisibilityChecker]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DefaultDeserializationContext/Impl
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: SetupContext
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(com/fasterxml/jackson/databind/Module))]))
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown identifier
+	data: typer
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: internal error: either catch or finally must be defined
+	data: try(block([declaration([result], [pointer(reference(java/lang/Object))], [nil], ModifierVisibilityPublic), declaration([t], [unsupported(JsonToken)], [unsupported], ModifierVisibilityPublic), if(==(t, unsupported), block([declaration([ctxt], [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext))], [unsupported], ModifierVisibilityPublic), =(result, call(select(ensure_not_nil(call(select(this, _findRootDeserializer!4db253f9f7fe1612f2bf609cd201ad22), [ctxt, valueType])), getNullValue!ae23d45f0e98730c9d7843f978fd8eda), [ctxt]))]), if(||(==(t, unsupported), ==(t, unsupported)), block([=(result, nil)]), block([declaration([cfg], [pointer(reference(com/fasterxml/jackson/databind/DeserializationConfig))], [call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), declaration([ctxt], [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext))], [unsupported], ModifierVisibilityPublic), declaration([deser], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/JsonDeserializer), [pointer(reference(java/lang/Object))]))], [call(select(this, _findRootDeserializer!4db253f9f7fe1612f2bf609cd201ad22), [ctxt, valueType])], ModifierVisibilityPublic), if(unsupported, block([unsupported]), block([unsupported])), call(select(ensure_not_nil(ctxt), checkUnresolvedObjectId!d41d8cd98f00b204e9800998ecf8427e), [])]))), unsupported, return([result])]), [], %!s(<nil>))
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: NamedType
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RootNameLookup
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DeserializationProblemHandler
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: File
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [reference(T)])) java/lang/Class<T>//isInstance [] [ob]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/annotation
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DefaultSerializerProvider/Impl
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: LinkedHashSet
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: SerializerFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Set
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonParser/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: com/fasterxml/jackson/databind/jsonschema/JsonSchema
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) SimpleType]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/ResolvedType
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ObjectNode
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: POJONode
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/JavaType)) com/fasterxml/jackson/databind/JavaType//isReferenceType [] []]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Versioned
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: FormatSchema
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TreeTraversingParser
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: java/util/concurrent/ConcurrentHashMap
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonAutoDetect/Visibility
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newReader [] [call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) nil nil nil injectableValues]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ArrayNode
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ByteArrayBuilder
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: java/net/URL
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DataOutput
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: [com/fasterxml/jackson/databind cfg]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext)) com/fasterxml/jackson/databind/DeserializationContext//reportMappingException [] ["Root name '%s' does not match expected ('%s') for type %s" actualName expSimpleName rootType]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TypeFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ClassIntrospector/MixInResolver
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonTypeInfo]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonFactory/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonGenerationException
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) BeanSerializerFactory]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TreeNode
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(com/fasterxml/jackson/databind/ObjectMapper))), com/fasterxml/jackson/databind/ObjectMapper//_serializerProvider!f8535801b1de616d2e55a672cfe17159, [variable(config, pointer(reference(com/fasterxml/jackson/databind/SerializationConfig)))], [variable(, unsupported(DefaultSerializerProvider))], block([never_nil(this), return([unsupported])])) return([call(select(this, _serializerProvider!f8535801b1de616d2e55a672cfe17159), [select(this, _serializationConfig)])])]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> createDeserializationContext [] [nil call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) p]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core/util
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: PrettyPrinter
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) TypeFactory]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newReader [] [call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) type nil nil select(this, _injectableValues)]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newWriter [] [call(select(this, getSerializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) rootType nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonTypeInfo/As
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> createDeserializationContext [] [nil call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/TokenBuffer
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Writer
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) NullNode]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ObjectCodec
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: PropertyAccessor
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: FilterProvider
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonTypeInfo]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonInclude/Include
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> java/lang/String//internalToString [] [valueType]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: DefaultDeserializationContext
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ClassLoader
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/BaseSettings
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonInclude/Value
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newReader [] [call(select(this, getDeserializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) t valueToUpdate nil select(this, _injectableValues)]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MutableConfigOverride
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: SimpleMixInResolver
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JacksonAnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/TypeReference
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/StdDateFormat
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: BasicClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonTypeInfo]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown identifier
+	data: ServiceLoader
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [<nil> _newWriter [] [call(select(this, getSerializationConfig!d41d8cd98f00b204e9800998ecf8427e), []) rootType nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SegmentedStringWriter
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ConfigOverrides
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonGenerator/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: JsonParseException
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) com/fasterxml/jackson/databind/ObjectMapper//@@constructor [] [nil nil nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectMapper, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [reference(T)])) java/lang/Class<T>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/SimpleType
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [<nil> createDeserializationContext [] [nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/JavaType)) com/fasterxml/jackson/databind/JavaType//equals [] [select(this, _valueType)]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: java/net/URL
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/DeserializationProblemHandler
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonParser/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) p]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: ObjectCodec
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/TypeReference
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: FormatSchema
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: DataInput
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/NullNode
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/filter/TokenFilter
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [f]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/ResolvedType
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/JsonNodeFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonPointer
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) p]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: internal error: either catch or finally must be defined
+	data: try(block([return([unsupported])]), [], %!s(<nil>))
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/DataFormatReaders
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/DefaultDeserializationContext
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: TreeNode
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/node/TreeTraversingParser
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) com/fasterxml/jackson/databind/ObjectReader//@@constructor [] [mapper config nil nil nil nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: java/util/concurrent/ConcurrentHashMap
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext)) com/fasterxml/jackson/databind/DeserializationContext//reportMappingException [] ["Root name '%s' does not match expected ('%s') for type %s" actualName expSimpleName rootType]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: Versioned
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: File
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectReader, [], [unsupported(ObjectCodec)], [unsupported(Versioned), reference(java/io/Serializable)]) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext)) com/fasterxml/jackson/databind/DeserializationContext//reportMappingException [] ["Can not find a deserializer for type %s" com/fasterxml/jackson/databind/ObjectReader//JSON_NODE_TYPE]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: FormatFeature
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: [com/fasterxml/jackson/databind cfg]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [<nil> treeAsTokens [] [src]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonParseException
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/filter/JsonPointerBasedFilter
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: internal error: either catch or finally must be defined
+	data: try(block([declaration([result], [pointer(reference(java/lang/Object))], [nil], ModifierVisibilityPublic), declaration([ctxt], [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext))], [unsupported], ModifierVisibilityPublic), declaration([t], [unsupported(JsonToken)], [unsupported], ModifierVisibilityPublic), if(==(t, unsupported), block([if(==(select(this, _valueToUpdate), nil), block([=(result, call(select(ensure_not_nil(call(select(this, _findRootDeserializer!ae23d45f0e98730c9d7843f978fd8eda), [ctxt])), getNullValue!ae23d45f0e98730c9d7843f978fd8eda), [ctxt]))]), block([=(result, select(this, _valueToUpdate))]))]), if(||(==(t, unsupported), ==(t, unsupported)), block([=(result, select(this, _valueToUpdate))]), block([declaration([deser], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/JsonDeserializer), [pointer(reference(java/lang/Object))]))], [call(select(this, _findRootDeserializer!ae23d45f0e98730c9d7843f978fd8eda), [ctxt])], ModifierVisibilityPublic), if(select(this, _unwrapRoot), block([unsupported]), block([if(==(select(this, _valueToUpdate), nil), block([unsupported]), block([unsupported, =(result, select(this, _valueToUpdate))]))]))]))), return([result])]), [], %!s(<nil>))
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/DeserializationContext)) com/fasterxml/jackson/databind/DeserializationContext//reportMappingException [] ["Can not find a deserializer for type %s" t]]
+src/main/java/com/fasterxml/jackson/databind/ObjectReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/filter/FilteringParserDelegate
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/TypeReference
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: java/text
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: FilterProvider
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SegmentedStringWriter
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SerializedString
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/CharacterEscapes
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonGenerationException
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: ByteArrayBuilder
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectWriter//GeneratorSettings//GeneratorSettings [] [nil s nil nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: [com/fasterxml/jackson/databind cfg]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: SerializerFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonGenerator/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: FormatFeature
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: File
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown function
+	data: [pointer(reference(com/fasterxml/jackson/databind/JavaType)) com/fasterxml/jackson/databind/JavaType//equals [] [select(this, rootType)]]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectWriter//Prefetch//Prefetch [] [newType ser nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectWriter//GeneratorSettings//GeneratorSettings [] [nil nil nil nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: DateFormat
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: DefaultSerializerProvider
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: FormatSchema
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: internal error: type does not support nil values
+	data: unsupported(com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer)
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Versioned
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Writer
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: MinimalPrettyPrinter
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core/util
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: DataOutput
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: SerializableString
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: JsonParser/Feature
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/ObjectWriter, [], [pointer(reference(java/lang/Object))], [unsupported(Versioned), reference(java/io/Serializable)]) JsonEncoding]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: Instantiatable
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/ObjectWriter//Prefetch//Prefetch [] [nil nil nil]]
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java: error: unknown type
+	data: PrettyPrinter
+src/main/java/com/fasterxml/jackson/databind/PropertyMetadata.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown import
+	data: com/fasterxml/jackson/core/SerializableString
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SerializedString
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown import
+	data: com/fasterxml/jackson/core/util/InternCache
+src/main/java/com/fasterxml/jackson/databind/PropertyName.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//setCharAt [] [0 uc]]
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//insert [] [-(call(select(ensure_not_nil(result), length!d41d8cd98f00b204e9800998ecf8427e), []), 1) '-']]
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/MapperConfig
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedField
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedParameter
+src/main/java/com/fasterxml/jackson/databind/RuntimeJsonMappingException.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/RuntimeJsonMappingException.java: error: unknown function
+	data: [struct(java/lang/RuntimeException, [], [pointer(reference(java/lang/Exception))], []) java/lang/RuntimeException//@@constructor [] [cause]]
+src/main/java/com/fasterxml/jackson/databind/RuntimeJsonMappingException.java: error: unknown function
+	data: [struct(java/lang/RuntimeException, [], [pointer(reference(java/lang/Exception))], []) java/lang/RuntimeException//@@constructor [] [message cause]]
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/DefaultSerializerProvider
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [wildcard(, pointer(reference(java/lang/Object)))]))
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown type
+	data: Versioned
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown type
+	data: [com/fasterxml/jackson/databind cfg]
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java: error: an unsupported collection type has been used for this operation
+	data: genericParameter(C, [pointer(genericInstance(reference(java/util/Collection), [wildcard(, pointer(reference(java/lang/Object)))]))])
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: FormatFeature
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: TimeZone
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: MapperConfigBase
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: BaseSettings
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: ConfigOverride
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/annotation
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/util/Instantiatable
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/SubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: PrettyPrinter
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: HandlerInstantiator
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown function
+	data: [<nil> collectFeatureDefaults [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/FilterProvider
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonFactory
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: Locale
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RootNameLookup
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonInclude/Value
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: ConfigOverrides
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/util/DefaultPrettyPrinter
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown function
+	data: [<nil> getClassIntrospector [] []]
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/SimpleMixInResolver
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/SerializerFactory
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonAutoDetect/Visibility
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonGenerator/Feature
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: JsonInclude/Include
+src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java: error: unknown type
+	data: PropertyAccessor
+src/main/java/com/fasterxml/jackson/databind/SerializationFeature.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ConfigFeature
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(com/fasterxml/jackson/databind/JsonSerializer), [wildcard(, pointer(reference(java/lang/Object)))])) com/fasterxml/jackson/databind/JsonSerializer<descendant of java/lang/Object>//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: internal error: type does not support nil values
+	data: unsupported(ContextualSerializer)
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: java/util/Locale
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: SerializerFactory
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: internal error: type does not support nil values
+	data: unsupported(ContextualSerializer)
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//valueOf [] [value]]
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/UnknownSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/WritableObjectId
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: ContextualSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: internal error: type does not support nil values
+	data: unsupported(ResolvableSerializer)
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ContextualDeserializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown function
+	data: [<nil> reportMappingProblem [] ["Incompatible types: declared root type (%s) vs %s" rootType unsupported]]
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: internal error: type does not support nil values
+	data: unsupported(ResolvableSerializer)
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: FilterProvider
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: Internal error: unknown identifier:
+		"propName"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25970}, {0x12473e0, 0xc0068d5ad0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Identifier).ExpressionType(0xc0066729e0, 0xc0000a9a40)
+			gitlab.nethead.at/symflower/symflower/model/ast/parameters.go:70 +0x186
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveExpressionType(0xc0000a9a40, {0x2208640?, 0xc0066729e0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:533 +0x29
+		gitlab.nethead.at/symflower/symflower/model/ast.ExpressionPrimitiveType(0xbe2220e5612e6f3b?, {0x2208640?, 0xc0066729e0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:562 +0x1d
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionCast).InferType(0xc002c0a660, 0xc0000a9a40, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:2649 +0x34
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes.func2(0xc0000a9a40, {0x2203c70, 0xc002c0a660})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:23 +0x7c
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionCast).Walk(0xc002c0a660, 0xc0000a9a40, 0x1, 0xc0082817a0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:331 +0x20e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*LiteralComposite).Walk(0xc005767d80, 0xc0000a9a40, 0x1, 0xc0082817a0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1000 +0x268
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).Walk(0xc003e10640, 0xc0000a9a40, 0x1, 0xc0082817a0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:146 +0x3d1
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Throw).Walk(0xc0066729c0, 0xc0000a9a40, 0x1, 0xc0082817a0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1662 +0x124
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc002c0a840, 0xc0000a9a40, 0x1, 0xc0082817a0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes(0xc0000a9a40, {0x2203830, 0xc002c0a840}, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:17 +0xd9
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).inferBodyTypes(0xc00011c640, {0x2203830, 0xc002c0a840})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2850 +0x31
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).completeFunctionAndVerify(0xc00011c640, 0xc0015746f0, 0xc001588100)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2777 +0x107
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00011c640, 0xc0015746f0, {0x2208170, 0xc00157a180}, 0xc001588100, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2540 +0x7b5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00011c640, 0xc0015746f0, 0xc00157a180)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00011c640, 0xc0015746f0, 0xc00157a180)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc0015746f0, {0x2207578, 0xc00157a180})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00011c640, 0xc0015746f0, 0xc00879d760, 0xc0011316e0, 0xc001572cc0, {0x2207578, 0xc00157a180})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00011c640, 0x1, 0x2088c58, 0xc00879d760, 0xc0011316e0, 0xc001572cc0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00011c640, 0x1, 0x2088c58, 0xc00879d760, 0xc0011316e0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00011c640, 0x1, 0x2088c58, 0xc00879d760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00011c640)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000010468, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000010468, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc00012ec90, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc00012ec90, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x34?, 0x124bba0?, {0x21eb890?, 0xc00004c830?}, {0xc0?, 0x63?, 0x4?, 0x0?}, 0x34?, {0xc00012e390, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005aa3d8, {0xc0005aa008?, 0x75ed048ee798?, 0xc0005aa3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0005aa008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0005aa008?}, {0xc00003e050?, 0xc00007e5e0?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000182060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: cast(propName, pointer(reference(java/lang/Object)))
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: SerializerCache
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: java/util/Date
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonFormat
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/impl/FailingSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/std/NullSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown type
+	data: ResolvableSerializer
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonInclude
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/cfg/ContextAttributes
+src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/Annotated
+Found 1 Java files
+Found 702 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: found 55 symbols
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withTypeHandler: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeCount: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeCount: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentType: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isInterface: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isInterface: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getKeyType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getKeyType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.findTypeParameters: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.findTypeParameters: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getBindings: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getBindings: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isContainerType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isContainerType: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getTypeHandler: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isArrayType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isArrayType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isThrowable: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isThrowable: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasContentType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasContentType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getRawClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getRawClass: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getErasedSignature: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getErasedSignature: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.toString: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.toString: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.equals: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.equals: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getInterfaces: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getInterfaces: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isAbstract: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isAbstract: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.forcedNarrowBy: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.forcedNarrowBy: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentValueHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentValueHandler: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentTypeHandler: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasGenericTypes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasGenericTypes: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.findSuperType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.findSuperType: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isEnumType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isEnumType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isFinal: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isFinal: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeOrUnknown: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeOrUnknown: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withStaticTyping: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withStaticTyping: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasRawClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasRawClass: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isConcrete: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isConcrete: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.JavaType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.JavaType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.JavaType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.JavaType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedTypeName: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isJavaLangObject: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isJavaLangObject: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasValueHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasValueHandler: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.useStaticType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.useStaticType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getValueHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getValueHandler: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getSuperClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getSuperClass: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasHandlers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hasHandlers: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isCollectionLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isCollectionLikeType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.containedType: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getReferencedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getReferencedType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentValueHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getContentValueHandler: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withValueHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withValueHandler: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.refine: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.refine: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getGenericSignature: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getGenericSignature: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hashCode: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.hashCode: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isTypeOrSubTypeOf: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isTypeOrSubTypeOf: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getErasedSignature: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getErasedSignature: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isMapLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isMapLikeType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getParameterSource: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getParameterSource: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getGenericSignature: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.getGenericSignature: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.withContentTypeHandler: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType._narrow: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType._narrow: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isPrimitive: computing test cases
+src/main/java/com/fasterxml/jackson/databind/JavaType.java: com.fasterxml.jackson.databind.JavaType.isPrimitive: computed 0 unit tests
+Analyzed 1 out of 31 source files
+Had 81 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 252 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 242 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 108 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 3 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 15 cases of "other issues"
+	Description: Uncategorized problems.
+

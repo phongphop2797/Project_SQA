@@ -1,0 +1,217 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_58b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.TheoreticalValuesFunction.TheoreticalValuesFunction: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.TheoreticalValuesFunction.jacobian: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.TheoreticalValuesFunction.value: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.basicGuess: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.findMaxY: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.interpolateXAtY: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.getInterpolationPointsForY: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.isBetween: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.createWeightedObservedPointComparator: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.sortObservations: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guessAOmega: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guessPhi: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.ParametricPolynomial.gradient: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.ParametricPolynomial.value: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: error: unknown import
+	data: org/apache/commons/math/optimization/VectorialPointValuePair
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableMultivariateVectorialFunction
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/ParametricUnivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/MultivariateMatrixFunction
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/ZeroException
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math/optimization/fitting/CurveFitter, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math/optimization/fitting/WeightedObservedPoint)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(2.0, call(java/lang/Math//log!5bf0b9c067f960fc8e4f1dbf7e8b205e, [2.0]))]]
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/OutOfRangeException
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/function/Gaussian
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/ParametricUnivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/function/HarmonicOscillator
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/ZeroException
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math/optimization/fitting/CurveFitter, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math/optimization/fitting/WeightedObservedPoint)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown field
+	data: [Math struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) PI]
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/ParametricUnivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: error: unknown import
+	data: org/apache/commons/math/analysis/polynomials/PolynomialFunction
+Found 5 Java files
+Found 35 problems in Java files
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: found 5 symbols
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: found 4 symbols
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: found 4 symbols
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: found 8 symbols
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: found 5 symbols
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: internal error: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guess: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guess: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guess: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: internal error: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.guess: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/optimization/fitting/HarmonicFitter//ParameterGuesser, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), observations), nil) array(pointer(reference(org/apache/commons/math/optimization/fitting/WeightedObservedPoint)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.HarmonicFitter: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.HarmonicFitter: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.ParameterGuesser: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.ParameterGuesser: computed 1 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.ParameterGuesser: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java:195:17: critical: org.apache.commons.math.optimization.fitting.HarmonicFitter.ParameterGuesser.ParameterGuesser: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: internal error: org.apache.commons.math.optimization.fitting.HarmonicFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.addObservedPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.addObservedPoint: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: internal error: org.apache.commons.math.optimization.fitting.PolynomialFitter.addObservedPoint: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.PolynomialFitter: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.PolynomialFitter: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: internal error: org.apache.commons.math.optimization.fitting.PolynomialFitter.PolynomialFitter: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.clearObservations: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.clearObservations: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: internal error: org.apache.commons.math.optimization.fitting.PolynomialFitter.clearObservations: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: org.apache.commons.math.optimization.fitting.PolynomialFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/PolynomialFitter.java: internal error: org.apache.commons.math.optimization.fitting.PolynomialFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getX: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getX: computed 1 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getX: found 0 problems
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getY: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getY: computed 1 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getY: found 0 problems
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint: computed 1 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.WeightedObservedPoint: found 0 problems
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getWeight: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getWeight: computed 1 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: org.apache.commons.math.optimization.fitting.WeightedObservedPoint.getWeight: found 0 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.CurveFitter: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.CurveFitter: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.CurveFitter: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.getObservations: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.getObservations: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.getObservations: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.clearObservations: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.clearObservations: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.clearObservations: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.addObservedPoint: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: org.apache.commons.math.optimization.fitting.CurveFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java: internal error: org.apache.commons.math.optimization.fitting.CurveFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: internal error: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: internal error: org.apache.commons.math.optimization.fitting.GaussianFitter.fit: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer)
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.GaussianFitter: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.GaussianFitter: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.ParameterGuesser: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.ParameterGuesser: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.ParameterGuesser: found 0 problems
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.guess: computing test cases
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.guess: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.guess: found 1 problems
+src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java: internal error: org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser.guess: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math/optimization/fitting/GaussianFitter//ParameterGuesser, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), observations), nil) array(pointer(reference(org/apache/commons/math/optimization/fitting/WeightedObservedPoint)), primitive(int, 32, false), 0)]
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitter.java: generated unit test file src/main/java/org/apache/commons/math/optimization/fitting/HarmonicFitterSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java: generated unit test file src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPointSymflowerTest.java
+Analyzed 5 out of 5 source files
+Had 6 errors that block a full analysis
+Generated 5 tests
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 24 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 18 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

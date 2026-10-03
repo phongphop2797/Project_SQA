@@ -1,0 +1,1331 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/cli_8b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/Set
+src/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/HashSet
+src/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/LinkedList
+src/java/org/apache/commons/cli/CommandLineParser.java: error: unknown import
+	data: java/util/Properties
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [select(this, defaultSyntaxPrefix)]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [',']]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//length [] []]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [8]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" | "]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(text), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [text])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(call(select(ensure_not_nil(prefixList), get!82a13d2b9378b45b5451d30242dc1218), [x++(x)])), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/java/org/apache/commons/cli/HelpFormatter.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/cli/HelpFormatter))), org/apache/commons/cli/HelpFormatter//renderWrappedText!1bf3ef4cb43cd205e8622a1defc45fc3, [variable(sb, pointer(reference(java/lang/StringBuffer))), variable(width, primitive(int, 32, false)), variable(nextLineTabStop, primitive(int, 32, false)), variable(text, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/StringBuffer)))], block([unsupported]))
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/util/Collections
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" <"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, defaultNewLine)]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [text]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(group), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [dpad]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [len]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" <"]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/io/PrintWriter
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/StringBuffer, [], [pointer(reference(java/lang/Object))], []) java/lang/StringBuffer//append [] ["[ option: "]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, opt)]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [select(this, values)]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ARG...]"]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" [ARG]"]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown import
+	data: java/util/HashMap
+src/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/Collections
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [opts]]
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ Options: [ short "]]
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ] [ long "]]
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashMap
+src/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashSet
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(select(this, shortOpts)), values!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(select(this, shortOpts)), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, longOpts)]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/ListIterator
+src/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Properties
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(==(call(select(ensure_not_nil(select(this, requiredOptions)), size!d41d8cd98f00b204e9800998ecf8427e), []), 1), ["", "s"])]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Arrays
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil false]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil stopAtNonOption]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["Missing required option"]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [": "]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(iter), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Enumeration
+src/java/org/apache/commons/cli/PosixParser.java: error: unknown import
+	data: java/util/Arrays
+src/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [variable(s, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/Double)))], block([call(java/lang/Symflower//evaluatePartialPath!d41d8cd98f00b204e9800998ecf8427e, []), return([nil])])) return([call(java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [str])])]
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/io/File
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/URL
+src/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [variable(str, pointer(reference(java/lang/String)))], [variable(, unsupported(java/util/Date))], block([throw(call(java/lang/UnsupportedOperationException//UnsupportedOperationException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Not yet implemented"])]))])) return([call(org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [str])])]
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [])) java/lang/Class<java/lang/Object>//newInstance [] []]
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [str]]
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/MalformedURLException
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/util/Date
+src/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [str]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["buildfile"])]) "mybuild.xml"]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["projecthelp"])])]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["block-size"])])]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["value" index(opts, 1)]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["value1" index(opts, 3)]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected exception:"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["block-size"])]) "10"]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected exception:"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["property" index(opts, 0)]]
+src/test/org/apache/commons/cli/ApplicationTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["property1" index(opts, 2)]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertFalse [] ["Confirm -attr is not set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["attr"])])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -p is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["p"])])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -attr is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["attr"])])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm all arguments recognized" ==(len(ensure_not_nil(call(select(ensure_not_nil(cl), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))), 0)]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -attr" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["attr"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["p"])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm all arguments recognized" ==(len(ensure_not_nil(call(select(ensure_not_nil(cl), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))), 0)]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -attr is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["attr"])])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm all arguments recognized" ==(len(ensure_not_nil(call(select(ensure_not_nil(cl), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))), 0)]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertFalse [] ["Confirm -p is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["p"])])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -attr" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["attr"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["p"])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ArgumentIsOptionTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -p is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["p"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: java/util/Properties
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["NullPointer caught: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected Exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] ["Expected exception not caught."]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(option), getValue!d41d8cd98f00b204e9800998ecf8427e), []) "c"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ovalue" call(select(ensure_not_nil(cl), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['o'])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected Exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(cmd), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['b']) "value"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [index(values, 2) "file3"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: java/io/PrintWriter
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: java/io/StringWriter
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected Exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [index(values, 1) "/opt/java"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["verbose"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [index(values, 0) "JAVA_HOME"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [index(values, 0) "file1"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(opt), getValue!82a13d2b9378b45b5451d30242dc1218), [0]) "JAVA_HOME"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/cli/ParseException)) org/apache/commons/cli/ParseException//getClass [] []]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected Exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] ["exec option not found"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [index(values, 1) "file2"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(opt), getValue!82a13d2b9378b45b5451d30242dc1218), [1]) "/opt/java"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(cmd), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['b']) "value"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] ["MissingArgumentException not caught."]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> java/io/PrintStream//PrintStream [] [bytes]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected Exception: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["usage: dir"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [eol])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [" -d <arg>   dir"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [eol]) unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(opt), getValue!82a13d2b9378b45b5451d30242dc1218), [2]) "file3"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["test"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["Two Words" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["m"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["usage: foobar"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [""])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Header"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [""])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Footer"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP]) unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["usage: foobar [-a] [--bbb] [-c]"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["  -a,--aaa  aaaaaaa"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["     --bbb  bbbbbbb"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["  -c        ccccccc"])])])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [SEP]) unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> java/io/PrintStream//PrintStream [] [bytes]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] ["Expected exception not caught."]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cl), hasOption!22f368feafe600249c22fbf1c1598d25), ['o'])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] ["-D option not found"]]
+src/test/org/apache/commons/cli/BugsTest.java: internal error: not all elements have the same type
+	data: primitive(int, 32, false) vs primitive(char, 16, true)
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!=(exp, nil)]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//setOut [] [unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> fail [] [unsupported]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(opt), getValue!82a13d2b9378b45b5451d30242dc1218), [0]) "file1"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(opt), getValue!82a13d2b9378b45b5451d30242dc1218), [1]) "file2"]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["exec_opt1"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["exec_opt2"])])]]
+src/test/org/apache/commons/cli/BugsTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//setOut [] [oldSystemOut]]
+src/test/org/apache/commons/cli/BuildTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/BuildTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/BuildTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/BuildTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["last one in wins" "toggle -a*" call(select(ensure_not_nil(call(select(ensure_not_nil(opts), getOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/BuildTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["last one in wins" "toggle -a*" call(select(ensure_not_nil(call(select(ensure_not_nil(opts), getOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm MissingArgumentException caught" caught]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  3 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["foobar"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["foobar"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm 2 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  3 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])]))]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["-"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  3 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm UnrecognizedOptionException caught" caught]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["-"])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/GnuParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm 1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["multi-line padded text" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple wrapped option" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["long non-wrapped option" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple auto usage" expected unsupported]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["long wrapped option" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple auto usage" expected unsupported]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown identifier
+	data: junit
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["wrap position 3" 4 call(select(ensure_not_nil(hf), findWrapPos!665af530d58c36c3773922e3c721c93d), [text, 3, 0])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple non-wrapped option" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["wrap position 2" -1 call(select(ensure_not_nil(hf), findWrapPos!665af530d58c36c3773922e3c721c93d), [text, 8, 8])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["multiple wrapped options" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["single line padded text 2" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//setLength [] [0]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["usage: app [-a] [-b] [-c]"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [org/apache/commons/cli/HelpFormatterTest//EOL]) unsupported]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown import
+	data: java/io/PrintWriter
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["wrap position" 7 call(select(ensure_not_nil(hf), findWrapPos!665af530d58c36c3773922e3c721c93d), [text, 8, 0])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["multi line text" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["single line text" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/HelpFormatterTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["single line padded text" expected call(select(ensure_not_nil(sb), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])]) "5"]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["age"])]) "5"]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["file"])]) "filename"]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["v"])])]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["l"])]) "10"]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["limit"])]) "10"]]
+src/test/org/apache/commons/cli/LongOptionWithShort.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Unexpected exception:"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["dimple option" call(select(ensure_not_nil(simple), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(simple), hasArgs!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["s" call(select(ensure_not_nil(simple), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple option" call(select(ensure_not_nil(simple), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["this is a simple option" call(select(ensure_not_nil(simple), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), isRequired!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(base), hasArg!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] ["IllegalArgumentException caught"]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] [2 call(select(ensure_not_nil(opt), getArgs!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), hasArg!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), hasArgs!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["this is a dimple option" call(select(ensure_not_nil(simple), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["o" call(select(ensure_not_nil(base), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["?" call(select(ensure_not_nil(opt), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] ["IllegalArgumentException not caught"]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] ["IllegalArgumentException not caught"]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] ["IllegalArgumentException caught"]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//getClass [] []]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] [unsupported call(java/lang/Class//Class!e3b1fa59c6d86c11414ab72a3dd3145b, ["Float", "java.lang.Float", "Float"])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(simple), getType!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["o" call(select(ensure_not_nil(base), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(base), hasArg!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["s" call(select(ensure_not_nil(simple), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), hasArg!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(simple), isRequired!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), hasArgs!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["d" call(select(ensure_not_nil(simple), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), hasArg!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["option description" call(select(ensure_not_nil(base), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["@" call(select(ensure_not_nil(opt), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown import
+	data: junit/textui/TestRunner
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["simple option" call(select(ensure_not_nil(simple), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(simple), isRequired!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["option description" call(select(ensure_not_nil(base), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] ["IllegalArgumentException caught"]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["this is a simple option" call(select(ensure_not_nil(simple), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] [unsupported call(java/lang/Class//Class!e3b1fa59c6d86c11414ab72a3dd3145b, ["Float", "java.lang.Float", "Float"])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] ["two arguments from group not allowed"]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm no extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["incorrect exception caught:"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm no extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] ["two arguments from group not allowed"]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm no extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm --export is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["export"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm no extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["incorrect exception caught:"]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -s is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["s"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm no extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm TWO extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm NO extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -r is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["r"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -d is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm --import is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["import"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -f is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionGroupTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/cli/Option)) org/apache/commons/cli/Option//getClass [] []]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(java/lang/Class//Class!e3b1fa59c6d86c11414ab72a3dd3145b, ["DefaultOption", "org.apache.commons.cli.OptionTest.DefaultOption", "DefaultOption"]) unsupported]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [0 call(select(ensure_not_nil(call(select(ensure_not_nil(option), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [0 call(select(ensure_not_nil(call(select(ensure_not_nil(option), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [a b]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertNotSame [] [a b]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [1 call(select(ensure_not_nil(a), getArgs!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [0 call(select(ensure_not_nil(call(select(ensure_not_nil(a), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [2 len(ensure_not_nil(call(select(ensure_not_nil(b), getValues!d41d8cd98f00b204e9800998ecf8427e), [])))]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] [1 call(select(ensure_not_nil(call(select(ensure_not_nil(option), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["" call(select(ensure_not_nil(b), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["myfile.txt" call(select(ensure_not_nil(clone), getValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Everything in help should be in all" unsupported]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> fail [] ["Expected MissingOptionException to be thrown"]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> fail [] ["Expected MissingOptionException to be thrown"]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["Missing required options: fx" call(select(ensure_not_nil(e), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Everything in all should be in help" unsupported]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [])) java/util/Collection<java/lang/Object>//containsAll [] [helpOptions]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["Missing required option: f" call(select(ensure_not_nil(e), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/OptionsTest.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [])) java/util/Collection<java/lang/Object>//containsAll [] [allOptions]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> fail [] ["exception should have been thrown"]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["file"])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is NOT set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])]))]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm NO of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["file"])]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm NO of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/ParseRequiredTest.java: error: unknown function
+	data: [<nil> fail [] ["expected to catch MissingOptionException"]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["-"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["-"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of --bfile" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["bfile"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["foobar"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm 1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm MissingArgumentException caught" caught]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm 2 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  2 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  3 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 3)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  1 extra arg: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm UnrecognizedOptionException caught" caught]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  2 extra args: ", convert(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))) ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is not set" !(call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])]))]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -b is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -a is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm size of extra args" ==(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), size!d41d8cd98f00b204e9800998ecf8427e), []), 2)]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm arg of -b" call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["toast"])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] [+("Confirm  value of extra arg: ", call(java/lang/String//internalToString!4fb2deccef7826b7659de223ac40b91d, [call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])])) call(select(ensure_not_nil(call(select(ensure_not_nil(call(select(ensure_not_nil(cl), getArgList!d41d8cd98f00b204e9800998ecf8427e), [])), get!82a13d2b9378b45b5451d30242dc1218), [0])), equals!4fb2deccef7826b7659de223ac40b91d), [cast(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["foobar"]), pointer(reference(java/lang/Object)))])]]
+src/test/org/apache/commons/cli/ParseTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["Confirm -c is set" call(select(ensure_not_nil(cl), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["flag a" "foo" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["object flag b" unsupported call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["url flag t" unsupported call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["t"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["flag a" "foo" call(select(ensure_not_nil(line), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['a'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["string flag a" "foo" call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['a'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["boolean true flag c" call(select(ensure_not_nil(line), hasOption!22f368feafe600249c22fbf1c1598d25), ['c'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["file flag e" unsupported call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['e'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["number flag n" call(java/lang/Double//Double!5bf0b9c067f960fc8e4f1dbf7e8b205e, [4.5]) call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['n'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown type
+	data: java/util/Vector
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["file flag e" unsupported call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["class flag f" unsupported call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["f"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["object flag b" unsupported call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['b'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(ensure_not_nil(exp), getMessage!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown type
+	data: java/net/MalformedURLException
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["string flag a" "foo" call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown type
+	data: java/io/File
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["number flag n" call(java/lang/Double//Double!5bf0b9c067f960fc8e4f1dbf7e8b205e, [4.5]) call(select(ensure_not_nil(line), getOptionObject!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["n"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["class flag f" unsupported call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['f'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["url flag t" unsupported call(select(ensure_not_nil(line), getOptionObject!22f368feafe600249c22fbf1c1598d25), ['t'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertTrue [] ["boolean true flag c" call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertFalse [] ["boolean false flag d" call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown type
+	data: java/net/URL
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> assertFalse [] ["boolean false flag d" call(select(ensure_not_nil(line), hasOption!22f368feafe600249c22fbf1c1598d25), ['d'])]]
+src/test/org/apache/commons/cli/PatternOptionBuilderTest.java: error: unknown function
+	data: [<nil> fail [] [unsupported]]
+src/test/org/apache/commons/cli/UtilTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/UtilTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["f" call(org/apache/commons/cli/Util//stripLeadingHyphens!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["-f"])])]]
+src/test/org/apache/commons/cli/UtilTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["foo" call(org/apache/commons/cli/Util//stripLeadingHyphens!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["--foo"])])]]
+src/test/org/apache/commons/cli/UtilTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(org/apache/commons/cli/Util//stripLeadingHyphens!efbb7192f0412fb225b1065a0117385c, [nil])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ink" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fish"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["house" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])]), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["everything" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ink" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["idea" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])]), 1)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["gold" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["gravy"])]), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["isotope" index(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown import
+	data: java/util/Arrays
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cl)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNotNull [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fish"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ink" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])]), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [len(ensure_not_nil(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))) 2]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["head" index(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown import
+	data: java/util/Properties
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ink" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])]) "foo"]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["hair" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])]), 1)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [len(ensure_not_nil(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))) 1]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fake"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["gravy"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["seek" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["face" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fish"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cl)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cl)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["garden" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["gravy"])]), 1)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fake"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["found" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [len(ensure_not_nil(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))) 0]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ice" index(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [!(call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])]))]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNotNull [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cl)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["ink" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])]), 0)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["idea" index(call(select(ensure_not_nil(cmd), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])]), 1)]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [call(select(ensure_not_nil(select(this, _cl)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]) "bar"]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["house" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["hide"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(cmd), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["fish"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] ["gold" call(select(ensure_not_nil(cmd), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["gravy"])])]]
+src/test/org/apache/commons/cli/ValueTest.java: error: unknown function
+	data: [<nil> assertEquals [] [len(ensure_not_nil(call(select(ensure_not_nil(cmd), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))) 0]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown import
+	data: java/util/Arrays
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> fail [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Cannot setUp() CommandLine: "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(e), toString!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"])]))), 4)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown import
+	data: junit/framework/Test
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["h"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertEquals [] [4 len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!22f368feafe600249c22fbf1c1598d25), ['j'])))]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["g"])]))), 2)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["i"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["h"])]))), 2)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])]))), 1)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])]))), 1)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])]))), 2)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!22f368feafe600249c22fbf1c1598d25), ['m'])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertNull [] [call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["c"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["b"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["foo"])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["e"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertEquals [] [4 len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["j"])])))]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!22f368feafe600249c22fbf1c1598d25), ['k']))), 4)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["m"])]))), 2)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValues!22f368feafe600249c22fbf1c1598d25), ['m']))), 2)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [==(len(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getArgs!d41d8cd98f00b204e9800998ecf8427e), []))), 3)]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["m"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [unsupported]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown import
+	data: junit/framework/TestSuite
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(call(select(ensure_not_nil(select(this, _cmdline)), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["d"])])), equals!9abf27636a492e46fe858f34bef8e9eb), ["bar"])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["g"])])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!22f368feafe600249c22fbf1c1598d25), ['j'])]]
+src/test/org/apache/commons/cli/ValuesTest.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(select(this, _cmdline)), hasOption!22f368feafe600249c22fbf1c1598d25), ['k'])]]
+src/test/org/apache/commons/cli/bug/BugCLI133Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI133Test.java: error: unknown function
+	data: [<nil> assertFalse [] [call(select(ensure_not_nil(line), hasOption!efbb7192f0412fb225b1065a0117385c), [nil])]]
+src/test/org/apache/commons/cli/bug/BugCLI13Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI13Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["true" call(select(ensure_not_nil(commandLine), getOptionValue!efbb7192f0412fb225b1065a0117385c), [debugOpt])]]
+src/test/org/apache/commons/cli/bug/BugCLI13Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["true" call(select(ensure_not_nil(commandLine), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['d'])]]
+src/test/org/apache/commons/cli/bug/BugCLI13Test.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(commandLine), hasOption!22f368feafe600249c22fbf1c1598d25), ['d'])]]
+src/test/org/apache/commons/cli/bug/BugCLI13Test.java: error: unknown function
+	data: [<nil> assertTrue [] [call(select(ensure_not_nil(commandLine), hasOption!efbb7192f0412fb225b1065a0117385c), [debugOpt])]]
+src/test/org/apache/commons/cli/bug/BugCLI148Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI148Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["-something" call(select(ensure_not_nil(commandLine), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['t'])]]
+src/test/org/apache/commons/cli/bug/BugCLI148Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["-something" call(select(ensure_not_nil(commandLine), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['t'])]]
+src/test/org/apache/commons/cli/bug/BugCLI18Test.java: error: unknown import
+	data: java/io/PrintWriter
+src/test/org/apache/commons/cli/bug/BugCLI18Test.java: error: unknown import
+	data: java/io/StringWriter
+src/test/org/apache/commons/cli/bug/BugCLI18Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI51Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI51Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["-something" call(select(ensure_not_nil(commandLine), getOptionValue!22f368feafe600249c22fbf1c1598d25), ['t'])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["a" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"])])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> fail [] ["MissingArgumentException expected"]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["Caesar" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["a" call(select(ensure_not_nil(line), getOptionValue!79eb8023557afa54ffe803475793661a), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"]), call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown import
+	data: junit/framework/TestCase
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["Caesar" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["A" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["k"])])]]
+src/test/org/apache/commons/cli/bug/BugCLI71Test.java: error: unknown function
+	data: [<nil> assertEquals [] ["Caesar" call(select(ensure_not_nil(line), getOptionValue!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a"])])]]
+Found 0 Java files
+Analyzed 0 out of 32 source files
+Had 1 error that blocks a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 559 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 82 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

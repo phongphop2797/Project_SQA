@@ -1,0 +1,1813 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_75b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/stat/Frequency.java: org.apache.commons.math.stat.Frequency.NaturalComparator.compare: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/StatUtils.java: org.apache.commons.math.stat.StatUtils.StatUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.assignPointsToClusters: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.chooseInitialCenters: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.getNearestCluster: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: org.apache.commons.math.stat.correlation.Covariance.checkSufficientData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: org.apache.commons.math.stat.correlation.PearsonsCorrelation.checkSufficientData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: org.apache.commons.math.stat.correlation.SpearmansCorrelation.rankTransform: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics.AggregatingSummaryStatistics.AggregatingSummaryStatistics: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics.AggregatingSummaryStatistics.addValue: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics.AggregatingSummaryStatistics.equals: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics.AggregatingSummaryStatistics.hashCode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.getResults: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.append: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.setImpl: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.checkEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.checkDimension: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.checkEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/moment/GeometricMean.java: org.apache.commons.math.stat.descriptive.moment.GeometricMean.checkEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: org.apache.commons.math.stat.inference.ChiSquareTestImpl.checkArray: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: org.apache.commons.math.stat.inference.ChiSquareTestImpl.checkRectangular: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: org.apache.commons.math.stat.inference.ChiSquareTestImpl.checkPositive: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: org.apache.commons.math.stat.inference.ChiSquareTestImpl.checkNonNegative: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: org.apache.commons.math.stat.inference.ChiSquareTestImpl.checkNonNegative: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: org.apache.commons.math.stat.inference.OneWayAnovaImpl.anovaStats: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: org.apache.commons.math.stat.inference.OneWayAnovaImpl.AnovaStats.AnovaStats: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: org.apache.commons.math.stat.inference.TTestImpl.checkSignificanceLevel: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: org.apache.commons.math.stat.inference.TTestImpl.checkSampleData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: org.apache.commons.math.stat.inference.TTestImpl.checkSampleData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.removeNaNs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.recodeNaNs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.containsNaNs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.resolveTie: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.fill: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.restoreNaNs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.getNanPositions: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.IntDoublePair.IntDoublePair: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.IntDoublePair.compareTo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.IntDoublePair.getValue: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: org.apache.commons.math.stat.ranking.NaturalRanking.IntDoublePair.getPosition: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: org.apache.commons.math.stat.regression.SimpleRegression.getIntercept: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: org.apache.commons.math.stat.regression.SimpleRegression.getRegressionSumSquares: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [], block([unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [], block([never_nil(this), if(instanceOf(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))), block([call(select(this, addValue!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])]), block([throw(unsupported)]))])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!80b29033d3626de48588e7dcb194a372, [variable(v, pointer(reference(java/lang/Integer)))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [], block([never_nil(this), unsupported]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [value])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['\n']]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [], block([unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [], block([never_nil(this), if(instanceOf(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))), block([call(select(this, addValue!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])]), block([throw(unsupported)]))])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!80b29033d3626de48588e7dcb194a372, [variable(v, pointer(reference(java/lang/Integer)))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [], block([never_nil(this), unsupported]))] [call(java/lang/Character//valueOf!22f368feafe600249c22fbf1c1598d25, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(==(call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), []), 0), block([return([0])]), %!s(<nil>)), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCumFreq!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([c], [pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [cast(unsupported, pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))])))], ModifierVisibilityPublic), if(==(c, nil), block([=(c, cast(call(org/apache/commons/math/stat/Frequency//NaturalComparator//NaturalComparator!d41d8cd98f00b204e9800998ecf8427e, []), pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))))]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([value], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(value, nil), block([=(result, call(select(ensure_not_nil(value), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([return([result])]))], %!s(<nil>)), if(<(unsupported, 0), block([return([0])]), %!s(<nil>)), if(>=(unsupported, 0), block([return([call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])])]), %!s(<nil>)), declaration([values], [pointer(genericInstance(reference(java/util/Iterator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [call(select(this, valuesIterator!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), loop(call(select(ensure_not_nil(values), hasNext!d41d8cd98f00b204e9800998ecf8427e), []), block([declaration([nextValue], [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))], [call(select(ensure_not_nil(values), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), if(>(call(select(ensure_not_nil(c), compare!8c7bb65b3144e32e6758c2eb9096f867), [v, nextValue]), 0), block([=(result, cast(+(result, call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [nextValue])), primitive(int, 64, false)))]), block([return([result])]))]), %!s(<nil>), %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCount!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([count], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(count, nil), block([=(result, call(select(ensure_not_nil(count), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([]))], %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Character//valueOf!22f368feafe600249c22fbf1c1598d25, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["Value \t Freq. \t Pct. \t Cum Pct. \n"]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCount!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([count], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(count, nil), block([=(result, call(select(ensure_not_nil(count), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([]))], %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Character//valueOf!22f368feafe600249c22fbf1c1598d25, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Character//valueOf!22f368feafe600249c22fbf1c1598d25, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: unsupported: unsupported node
+	data: [==(select(this, freqTable), nil) genericInstance(unsupported(java/util/TreeMap), [pointer(genericInstance(struct(java/lang/Comparable, [], [pointer(reference(java/lang/Object))], []), [wildcard(, pointer(struct(java/lang/Object, [], [], [])))])), pointer(struct(java/lang/Long, [], [pointer(reference(java/lang/Object))], []))])]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: abstract method is not implemented
+	data: [org/apache/commons/math/stat/Frequency//NaturalComparator compare!cedc68731dc5eb29393063148694a617]
+src/main/java/org/apache/commons/math/stat/Frequency.java: unsupported: unsupported type
+	data: pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])) vs primitive(int, 64, false)
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(==(call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), []), 0), block([return([0])]), %!s(<nil>)), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCumFreq!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([c], [pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [cast(unsupported, pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))])))], ModifierVisibilityPublic), if(==(c, nil), block([=(c, cast(call(org/apache/commons/math/stat/Frequency//NaturalComparator//NaturalComparator!d41d8cd98f00b204e9800998ecf8427e, []), pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))))]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([value], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(value, nil), block([=(result, call(select(ensure_not_nil(value), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([return([result])]))], %!s(<nil>)), if(<(unsupported, 0), block([return([0])]), %!s(<nil>)), if(>=(unsupported, 0), block([return([call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])])]), %!s(<nil>)), declaration([values], [pointer(genericInstance(reference(java/util/Iterator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [call(select(this, valuesIterator!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), loop(call(select(ensure_not_nil(values), hasNext!d41d8cd98f00b204e9800998ecf8427e), []), block([declaration([nextValue], [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))], [call(select(ensure_not_nil(values), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), if(>(call(select(ensure_not_nil(c), compare!8c7bb65b3144e32e6758c2eb9096f867), [v, nextValue]), 0), block([=(result, cast(+(result, call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [nextValue])), primitive(int, 64, false)))]), block([return([result])]))]), %!s(<nil>), %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Character//valueOf!22f368feafe600249c22fbf1c1598d25, [v])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['\t']]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Comparable<descendant of java/lang/Object>//getClass [] []]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [cast(v, primitive(int, 64, false))])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: unsupported: unsupported type cast
+	data: [cast(o2, reference(T)) genericParameter(T, [pointer(genericInstance(reference(java/lang/Comparable), [reference(T)]))])]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown import
+	data: java/util/TreeMap
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [], block([unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [], block([never_nil(this), if(instanceOf(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))), block([call(select(this, addValue!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])]), block([throw(unsupported)]))])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!80b29033d3626de48588e7dcb194a372, [variable(v, pointer(reference(java/lang/Integer)))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [], block([never_nil(this), unsupported]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [cast(v, primitive(int, 64, false))])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/stat/Frequency.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/TreeMap), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Long))])
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['\t']]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCount!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([count], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(count, nil), block([=(result, call(select(ensure_not_nil(count), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([]))], %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCount!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [cast(v, primitive(int, 64, false))])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(float, 64, false))], block([never_nil(this), declaration([sumFreq], [primitive(int, 64, false)], [call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(sumFreq, 0), block([return([unsupported])]), %!s(<nil>)), return([/(cast(call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [v]), primitive(float, 64, false)), cast(sumFreq, primitive(float, 64, false)))])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([call(select(this, getCumPct!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getPct!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(float, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [cast(v, primitive(int, 64, false))])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, primitive(int, 64, false))], block([never_nil(this), if(==(call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), []), 0), block([return([0])]), %!s(<nil>)), if(instanceOf(v, pointer(reference(java/lang/Integer))), block([return([call(select(this, getCumFreq!feb606741437b3116f99f2412027bc86), [call(select(ensure_not_nil(cast(v, pointer(reference(java/lang/Integer)))), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])])]), %!s(<nil>)), declaration([c], [pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [cast(unsupported, pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))])))], ModifierVisibilityPublic), if(==(c, nil), block([=(c, cast(call(org/apache/commons/math/stat/Frequency//NaturalComparator//NaturalComparator!d41d8cd98f00b204e9800998ecf8427e, []), pointer(genericInstance(reference(java/util/Comparator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))))]), %!s(<nil>)), declaration([result], [primitive(int, 64, false)], [0], ModifierVisibilityPublic), try(block([declaration([value], [pointer(reference(java/lang/Long))], [unsupported], ModifierVisibilityPublic), if(!=(value, nil), block([=(result, call(select(ensure_not_nil(value), longValue!d41d8cd98f00b204e9800998ecf8427e), []))]), %!s(<nil>))]), [catch([pointer(reference(java/lang/ClassCastException))], ex , block([return([result])]))], %!s(<nil>)), if(<(unsupported, 0), block([return([0])]), %!s(<nil>)), if(>=(unsupported, 0), block([return([call(select(this, getSumFreq!d41d8cd98f00b204e9800998ecf8427e), [])])]), %!s(<nil>)), declaration([values], [pointer(genericInstance(reference(java/util/Iterator), [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))]))], [call(select(this, valuesIterator!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), loop(call(select(ensure_not_nil(values), hasNext!d41d8cd98f00b204e9800998ecf8427e), []), block([declaration([nextValue], [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))], [call(select(ensure_not_nil(values), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic), if(>(call(select(ensure_not_nil(c), compare!8c7bb65b3144e32e6758c2eb9096f867), [v, nextValue]), 0), block([=(result, cast(+(result, call(select(this, getCount!2b4720e9d6af2633f1db6f7763baba08), [nextValue])), primitive(int, 64, false)))]), block([return([result])]))]), %!s(<nil>), %!s(<nil>)), return([result])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([call(select(this, getCumFreq!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//getCumFreq!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [variable(, primitive(int, 64, false))], block([never_nil(this), return([unsupported])]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [cast(v, primitive(int, 64, false))])]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [value]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['\t']]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/Frequency.java: error: call is ambiguous
+	data: [[function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!22f368feafe600249c22fbf1c1598d25, [variable(v, primitive(char, 16, true))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!2b4720e9d6af2633f1db6f7763baba08, [variable(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))], [], block([unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!4fb2deccef7826b7659de223ac40b91d, [variable(v, pointer(reference(java/lang/Object)))], [], block([never_nil(this), if(instanceOf(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))]))), block([call(select(this, addValue!2b4720e9d6af2633f1db6f7763baba08), [cast(v, pointer(genericInstance(reference(java/lang/Comparable), [wildcard(, pointer(reference(java/lang/Object)))])))])]), block([throw(unsupported)]))])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!80b29033d3626de48588e7dcb194a372, [variable(v, pointer(reference(java/lang/Integer)))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!82a13d2b9378b45b5451d30242dc1218, [variable(v, primitive(int, 32, false))], [], block([never_nil(this), unsupported])) function(variable(this, pointer(reference(org/apache/commons/math/stat/Frequency))), org/apache/commons/math/stat/Frequency//addValue!feb606741437b3116f99f2412027bc86, [variable(v, primitive(int, 64, false))], [], block([never_nil(this), unsupported]))] [call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [call(select(ensure_not_nil(v), longValue!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/main/java/org/apache/commons/math/stat/StatUtils.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [")"]]
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Integer)) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["("]]
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [index(coordinates, i)]]
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> chooseInitialCenters [] [points k select(this, random)]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: unsupported: unsupported AST node
+	data: genericParameter(T, [pointer(genericInstance(reference(org/apache/commons/math/stat/clustering/Clusterable), [reference(T)]))])
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> assignPointsToClusters [] [newClusters points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> getNearestCluster [] [clusters p]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> getNearestCluster [] [resultSet p]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> assignPointsToClusters [] [clusters points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: unsupported: unsupported AST node
+	data: reference(T)
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [pointer(reference(java/util/Random)) java/util/Random//nextInt [] [call(select(ensure_not_nil(pointSet), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(-(cast(1, primitive(float, 64, false)), *(r, r)), cast(-(select(this, nObs), 2), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(cast(-(select(this, nObs), 2), primitive(float, 64, false)), -(cast(1, primitive(float, 64, false)), *(r, r)))]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistribution
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistributionImpl
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087f720 <nil> [] 0xc0001d5a80 0xc0006f34d0 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087f8c0 <nil> [] 0xc0001d5f00 0xc0006f3680 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087fa60 <nil> [] 0xc000416400 0xc0006f3830 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087ff40 <nil> [] 0xc000417180 0xc0006f3d40 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc0007b11e0 <nil> [] 0xc0007b3880 0xc00087bc20 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087f240 <nil> [] 0xc000171780 0xc0006f2fc0 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087f580 <nil> [] 0xc0001d4080 0xc0006f3320 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087fc00 <nil> [] 0xc000416880 0xc0006f39e0 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087fda0 <nil> [] 0xc000416d00 0xc0006f3b90 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc000046400 <nil> [] 0xc0004d2780 0xc0006f3ef0 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc000535a80 <nil> [] 0xc0004d2c00 0xc00087b170 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc000028ee0 <nil> [] 0xc0004d3280 0xc00087b320 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc00087f3e0 <nil> [] 0xc000171c00 0xc0006f3170 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["n: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["std dev: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["kurtosis: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["mean: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["median: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/ResizableDoubleArray
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["min: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["skewness: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [reference(org/apache/commons/math/stat/descriptive/UnivariateStatistic) org/apache/commons/math/stat/descriptive/UnivariateStatistic//getClass [] []]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(this, getVariance!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [struct(org/apache/commons/math/stat/descriptive/UnivariateStatistic, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math/stat/descriptive/UnivariateStatistic//getClass [] []]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["max: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["DescriptiveStatistics:"]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [newImpl 0 oldImpl 0 len(ensure_not_nil(newImpl))]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [+(+("n: ", convert(call(select(this, getN!d41d8cd98f00b204e9800998ecf8427e), []), primitive(string, 37, false))), "\n")]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [separator]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["MultivariateSummaryStatistics:\n"]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [suffix]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [prefix]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [index(data, i)]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalMultivariateSummary.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [select(this, variance)]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["standard deviation: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["sum of logs: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["SummaryStatistics:"]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["n: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["max: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["mean: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["geometric mean: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(this, getVariance!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["min: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["variance: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["sum of squares: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatistics.java: unsupported: unsupported AST node
+	data: &{0xc0009de580 <nil> [] 0xc0009e0280 0xc0009d9320 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatistics.java: unsupported: unsupported AST node
+	data: &{0xc0005ad660 <nil> [] 0xc0005b6500 0xc0005a9050 {None [] [] None}}
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FourthMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FourthMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/GeometricMean.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/moment/GeometricMean.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(variance), getResult!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [variance]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [variance]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(select(this, variance)), getResult!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(select(this, variance)), evaluate!b76ec1869ae3a59ac6af674a4ee08d01), [values])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(select(this, variance)), evaluate!b58db4ec2cd41895d0d59fa4ef07c4c2), [values, begin, length])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(select(this, variance)), evaluate!a9417f674c36b933aa75e24edfcf790e), [values, mean, begin, length])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(ensure_not_nil(select(this, variance)), evaluate!8c1f04c885e3baaea5d1424b55089316), [values, mean])]]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java: error: unknown import
+	data: org/apache/commons/math/linear/MatrixUtils
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java: error: unknown import
+	data: org/apache/commons/math/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialMean.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialMean.java: error: unknown import
+	data: org/apache/commons/math/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Max.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Max.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Max.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Min.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Min.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Min.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [pos]]
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [values begin sorted 0 length]]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Product.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Product.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Product.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Product.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/ChiSquaredDistribution
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/ChiSquaredDistributionImpl
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(cast(countSum1, primitive(float, 64, false)), cast(countSum2, primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/FDistribution
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/FDistributionImpl
+src/main/java/org/apache/commons/math/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistribution
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistributionImpl
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(v, n)]]
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(/(v1, n1), /(v2, n2))]]
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(pooledVariance, +(/(1.0, n1), /(1.0, n2)))]]
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/inference/UnknownDistributionChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown import
+	data: org/apache/commons/math/random/RandomGenerator
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown import
+	data: org/apache/commons/math/random/RandomDataImpl
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: unsupported: unsupported operand
+	data: call(select(ensure_not_nil(call(select(ensure_not_nil(iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])), intValue!d41d8cd98f00b204e9800998ecf8427e), [])
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown import
+	data: org/apache/commons/math/random/RandomData
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [outRanks 0 returnRanks 0 j]]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: unsupported: unsupported operand
+	data: call(select(ensure_not_nil(index(ranks, 0)), getPosition!d41d8cd98f00b204e9800998ecf8427e), [])
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//round [] [c]]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//round [] [c]]
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: error: unknown identifier
+	data: iterator
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: unsupported: unsupported operand
+	data: call(select(ensure_not_nil(iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(sigma, index(index(betaVariance, i), i))]]
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealVector
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/ArrayRealVector
+src/main/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/LUDecompositionImpl
+src/main/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealVector
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/LUDecompositionImpl
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/QRDecomposition
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/QRDecompositionImpl
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: error: unknown import
+	data: org/apache/commons/math/linear/RealVector
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [call(select(this, getRSquare!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(call(select(this, getMeanSquareError!d41d8cd98f00b204e9800998ecf8427e), []), select(this, sumXX))]]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistribution
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown import
+	data: org/apache/commons/math/distribution/TDistributionImpl
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(call(select(this, getMeanSquareError!d41d8cd98f00b204e9800998ecf8427e), []), +(/(1.0, cast(select(this, n), primitive(float, 64, false))), /(*(select(this, xbar), select(this, xbar)), select(this, sumXX))))]]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+Found 61 Java files
+Found 290 problems in Java files
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: found 2 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: found 31 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatistics.java: found 35 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java: found 8 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Max.java: found 9 symbols
+src/main/java/org/apache/commons/math/stat/ranking/TiesStrategy.java: found 0 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: found 10 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/UnivariateStatistic.java: found 3 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/WeightedEvaluation.java: found 2 symbols
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTest.java: found 6 symbols
+src/main/java/org/apache/commons/math/stat/ranking/NaturalRanking.java: found 9 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: found 17 symbols
+src/main/java/org/apache/commons/math/stat/ranking/RankingAlgorithm.java: found 1 symbols
+src/main/java/org/apache/commons/math/stat/StatUtils.java: found 25 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: found 48 symbols
+src/main/java/org/apache/commons/math/stat/regression/OLSMultipleLinearRegression.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java: found 12 symbols
+src/main/java/org/apache/commons/math/stat/inference/TTestImpl.java: found 30 symbols
+src/main/java/org/apache/commons/math/stat/clustering/Cluster.java: found 4 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: found 37 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatistics.java: found 15 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java: found 31 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java: found 21 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Median.java: found 2 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Sum.java: found 11 symbols
+src/main/java/org/apache/commons/math/stat/inference/TestUtils.java: found 41 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java: found 10 symbols
+src/main/java/org/apache/commons/math/stat/inference/TTest.java: found 20 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: found 5 symbols
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java: found 4 symbols
+src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java: found 12 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java: found 10 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: found 9 symbols
+src/main/java/org/apache/commons/math/stat/inference/UnknownDistributionChiSquareTest.java: found 3 symbols
+src/main/java/org/apache/commons/math/stat/regression/AbstractMultipleLinearRegression.java: found 14 symbols
+src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java: found 25 symbols
+src/main/java/org/apache/commons/math/stat/correlation/SpearmansCorrelation.java: found 8 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummary.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/FourthMoment.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/GeometricMean.java: found 12 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java: found 10 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/VectorialMean.java: found 6 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/rank/Min.java: found 9 symbols
+src/main/java/org/apache/commons/math/stat/regression/GLSMultipleLinearRegression.java: found 6 symbols
+src/main/java/org/apache/commons/math/stat/correlation/Covariance.java: found 13 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalMultivariateSummary.java: found 11 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/Mean.java: found 12 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/summary/Product.java: found 11 symbols
+src/main/java/org/apache/commons/math/stat/regression/MultipleLinearRegression.java: found 5 symbols
+src/main/java/org/apache/commons/math/stat/Frequency.java: found 34 symbols
+src/main/java/org/apache/commons/math/stat/clustering/Clusterable.java: found 2 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java: found 17 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: found 10 symbols
+src/main/java/org/apache/commons/math/stat/ranking/NaNStrategy.java: found 0 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java: found 9 symbols
+src/main/java/org/apache/commons/math/stat/inference/OneWayAnova.java: found 3 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: computed 2 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java:160:18: critical: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getResult: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getResult: computed 1 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getResult: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getN: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getN: computed 1 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.getN: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: computed 1 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.evaluate: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.evaluate: computed 0 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.evaluate: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: computed 3 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: found 2 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java:160:9: critical: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java:160:18: critical: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.copy: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: computed 1 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.SumOfLogs: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.increment: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.increment: computed 0 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.increment: found 0 problems
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.clear: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.clear: computed 1 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java: org.apache.commons.math.stat.descriptive.summary.SumOfLogs.clear: found 0 problems
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer: computing test cases
+runtime: goroutine stack exceeds 1000000000-byte limit
+runtime: sp=0xc04a524340 stack=[0xc04a524000, 0xc06a524000]
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw({0x14188fb?, 0x431d7c?})
+	runtime/panic.go:1101 +0x48 fp=0x781c3c9fd088 sp=0x781c3c9fd058 pc=0x476ac8
+runtime.newstack()
+	runtime/stack.go:1107 +0x5bb fp=0x781c3c9fd1c0 sp=0x781c3c9fd088 pc=0x45c73b
+runtime.morestack()
+	runtime/asm_amd64.s:621 +0x7a fp=0x781c3c9fd1c8 sp=0x781c3c9fd1c0 pc=0x47c97a
+
+goroutine 324 gp=0xc000002000 m=4 mp=0xc000081808 [running]:
+internal/runtime/maps.(*Map).getWithoutKeySmallFastStr(0xc06a522e60?, 0x12bcb20?, {0xc000a04080, 0x33})
+	internal/runtime/maps/runtime_faststr_swiss.go:17 +0x245 fp=0xc04a524350 sp=0xc04a524348 pc=0x409645
+runtime.mapaccess2_faststr(0x3c656c6261726574?, 0x636170612f67726f?, {0xc000a04080?, 0x2f6874616d2f736e?})
+	internal/runtime/maps/runtime_faststr_swiss.go:179 +0xe7 fp=0xc04a5243d0 sp=0xc04a524350 pc=0x40d127
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205848?, 0xc003f43680}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:237 +0x985 fp=0xc04a524588 sp=0xc04a5243d0 pc=0xab7585
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab500}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:185 +0x526 fp=0xc04a524740 sp=0xc04a524588 pc=0xab7126
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac5a0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a5248f8 sp=0xc04a524740 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab540}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a524ab0 sp=0xc04a5248f8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac5c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a524c68 sp=0xc04a524ab0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab580}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a524e20 sp=0xc04a524c68 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac5e0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a524fd8 sp=0xc04a524e20 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab5c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a525190 sp=0xc04a524fd8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac600}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a525348 sp=0xc04a525190 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab600}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a525500 sp=0xc04a525348 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac620}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a5256b8 sp=0xc04a525500 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab640}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a525870 sp=0xc04a5256b8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac640}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a525a28 sp=0xc04a525870 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab680}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a525be0 sp=0xc04a525a28 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac660}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a525d98 sp=0xc04a525be0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab6c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a525f50 sp=0xc04a525d98 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac680}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a526108 sp=0xc04a525f50 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab700}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a5262c0 sp=0xc04a526108 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac6a0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a526478 sp=0xc04a5262c0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab740}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a526630 sp=0xc04a526478 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac6c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a5267e8 sp=0xc04a526630 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab780}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a5269a0 sp=0xc04a5267e8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac6e0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a526b58 sp=0xc04a5269a0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab7c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a526d10 sp=0xc04a526b58 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac700}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a526ec8 sp=0xc04a526d10 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab800}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a527080 sp=0xc04a526ec8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac720}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a527238 sp=0xc04a527080 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab840}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a5273f0 sp=0xc04a527238 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac740}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a5275a8 sp=0xc04a5273f0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab880}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a527760 sp=0xc04a5275a8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac760}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a527918 sp=0xc04a527760 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab8c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a527ad0 sp=0xc04a527918 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac780}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a527c88 sp=0xc04a527ad0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab900}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a527e40 sp=0xc04a527c88 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac7a0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a527ff8 sp=0xc04a527e40 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab940}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a5281b0 sp=0xc04a527ff8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac7c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a528368 sp=0xc04a5281b0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab980}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a528520 sp=0xc04a528368 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac7e0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a5286d8 sp=0xc04a528520 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006bab9c0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a528890 sp=0xc04a5286d8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac800}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a528a48 sp=0xc04a528890 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006baba00}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a528c00 sp=0xc04a528a48 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac820}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a528db8 sp=0xc04a528c00 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006baba40}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a528f70 sp=0xc04a528db8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac840}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a529128 sp=0xc04a528f70 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006baba80}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a5292e0 sp=0xc04a529128 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc006bac860}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc04a529498 sp=0xc04a5292e0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc006babac0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc04a529650 sp=0xc04a529498 pc=0xab77bd
+...1220074 frames elided...
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc0051881c0}, 0x9c, 0xc0051a8e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a520238 sp=0xc06a520080 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186d40}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a5203f0 sp=0xc06a520238 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc0051881e0}, 0x9c, 0xc0051a8e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a5205a8 sp=0xc06a5203f0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186d80}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a520760 sp=0xc06a5205a8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188200}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a520918 sp=0xc06a520760 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186dc0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a520ad0 sp=0xc06a520918 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188220}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a520c88 sp=0xc06a520ad0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186e00}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a520e40 sp=0xc06a520c88 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188240}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a520ff8 sp=0xc06a520e40 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186e40}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a5211b0 sp=0xc06a520ff8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188260}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a521368 sp=0xc06a5211b0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186e80}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a521520 sp=0xc06a521368 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188280}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a5216d8 sp=0xc06a521520 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186ec0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a521890 sp=0xc06a5216d8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc0051882a0}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a521a48 sp=0xc06a521890 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186f00}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a521c00 sp=0xc06a521a48 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc0051882c0}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a521db8 sp=0xc06a521c00 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186f40}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a521f70 sp=0xc06a521db8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc0051882e0}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a522128 sp=0xc06a521f70 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186f80}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a5222e0 sp=0xc06a522128 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188300}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a522498 sp=0xc06a5222e0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005186fc0}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a522650 sp=0xc06a522498 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188320}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a522808 sp=0xc06a522650 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005187000}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a5229c0 sp=0xc06a522808 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205728?, 0xc005188340}, 0x9c, 0xc0051a0e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc06a522b78 sp=0xc06a5229c0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc001763920, {0x2205608?, 0xc005187040}, 0x9c, 0xc06a522e60)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc06a522d30 sp=0xc06a522b78 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNested(0xc001763920, {0x2205608, 0xc005187040}, 0x9c)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:59 +0x18b fp=0xc06a522ea0 sp=0xc06a522d30 pc=0xab6bab
+gitlab.nethead.at/symflower/symflower/model/ast.Resolve(...)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:8
+gitlab.nethead.at/symflower/symflower/model.typeDependenciesFilterBase(0xac6ede?, {0x2205608?, 0xc005187040?})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:367 +0x24a fp=0xc06a522ed0 sp=0xc06a522ea0 pc=0xb21d0a
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc005187040})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:314 +0x6c fp=0xc06a522fb0 sp=0xc06a522ed0 pc=0xb2168c
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc003f44d80})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a523090 sp=0xc06a522fb0 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc000da4540})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a523170 sp=0xc06a523090 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc0001dc680})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a523250 sp=0xc06a523170 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc00314e1c0})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a523330 sp=0xc06a523250 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc001eddc80})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a523410 sp=0xc06a523330 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc001763920, 0xc001e7f470, 0xc06a5235e0, {0x2205608, 0xc001e8f040})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc06a5234f0 sp=0xc06a523410 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.TypeDependencies(0xc001763920, {0x2205728, 0xc0012f80e0})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:306 +0xd1 fp=0xc06a523628 sp=0xc06a5234f0 pc=0xb215b1
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).AddType(0xc00062cd00, {0x2205728, 0xc0012f80e0})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/path.go:556 +0x6d fp=0xc06a523668 sp=0xc06a523628 pc=0xf521ed
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).smtLibv2Constraint(0xc00062cd00, {0x2204248?, 0xc000706d80})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:1539 +0xc6 fp=0xc06a5237e8 sp=0xc06a523668 pc=0xf691c6
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).smtLibv2Constraints(0xc00062cd00, 0xc06a5238d8)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:946 +0x2f8 fp=0xc06a5238b0 sp=0xc06a5237e8 pc=0xf61398
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).SATSMTLibv2(0xc00062cd00)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:1064 +0x2d fp=0xc06a523908 sp=0xc06a5238b0 pc=0xf62bed
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).isPathSAT(0xc001c608f0, 0xc00062cd00)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:314 +0x6f fp=0xc06a523968 sp=0xc06a523908 pc=0xf270af
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).checkExpressionForNilDereferenceProblem.func1(0xc00062cd00)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1845 +0x1ea fp=0xc06a523a08 sp=0xc06a523968 pc=0xf386ea
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).withNewErrorPath(0xc001c608f0, 0xc00062cb00, {0x2203478, 0xc0012701b0}, 0x40, 0xc001dc7a90)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1801 +0xc2 fp=0xc06a523a48 sp=0xc06a523a08 pc=0xf38202
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).checkExpressionForNilDereferenceProblem(0xc001c608f0, 0xc00062cb00, 0xc001e8e640, {0x2208dd0, 0xc0012701b0}, {0x2209770?, 0xc002ac4fa0?})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1817 +0x14a fp=0xc06a523ae8 sp=0xc06a523a48 pc=0xf383ca
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleExpressionSelect(0xc001c608f0, 0xc00062cb00, 0xc001e8e640, 0xc0012701b0)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:2609 +0x1b0 fp=0xc06a523b90 sp=0xc06a523ae8 pc=0xf3d510
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePathFlowNext(0xc001c608f0, 0xc00062cb00, 0xc001e87940)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:543 +0x25d fp=0xc06a523c28 sp=0xc06a523b90 pc=0xf2ec1d
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc001c608f0, 0xc00062cb00)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:292 +0x135 fp=0xc06a523ca8 sp=0xc06a523c28 pc=0xf2dad5
+gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185 fp=0xc06a523fe0 sp=0xc06a523ca8 pc=0xf20685
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc06a523fe8 sp=0xc06a523fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+
+goroutine 1 gp=0xc000002380 m=nil [select, 137 minutes]:
+runtime.gopark(0xc0023cd758?, 0x4?, 0x0?, 0x0?, 0xc0023cd718?)
+	runtime/proc.go:435 +0xce fp=0xc0000f9598 sp=0xc0000f9578 pc=0x476bee
+runtime.selectgo(0xc0000f9758, 0xc0023cd710, 0x0?, 0x0, 0x0?, 0x1)
+	runtime/select.go:351 +0x837 fp=0xc0000f96d0 sp=0xc0000f9598 pc=0x455ed7
+gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:62 +0x185 fp=0xc0000f9840 sp=0xc0000f96d0 pc=0xf1ede5
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc00013f170, {0x21e8348, 0xc00360d2c0}, 0xc000a063c0)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5 fp=0xc0000f9a50 sp=0xc0000f9840 pc=0xf94ba5
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc00013f170, 0xc00013f1a0, 0x0?)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3 fp=0xc0000f9bd8 sp=0xc0000f9a50 pc=0xf94253
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc000121020?}, {0xe0?, 0xa1?, 0x64?, 0x0?}, 0x29?, {0xc00025f0b0, ...})
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98 fp=0xc0000f9c48 sp=0xc0000f9bd8 pc=0xf926b8
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00058e3d8, {0xc00058e008?, 0x781c3c0b19d8?, 0xc00058e3d8?})
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6 fp=0xc0000f9d90 sp=0xc0000f9c48 pc=0x1053c66
+gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00058e008}, {0xc00021e000?, 0x44?, 0x0?})
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad fp=0xc0000f9e60 sp=0xc0000f9d90 pc=0xb2c56d
+gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00058e008?}, {0xc00021e000?, 0xc00011a000?, 0xc0000b9f10?})
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26 fp=0xc0000f9ec8 sp=0xc0000f9e60 pc=0xb2c1e6
+gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+main.main.func1()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34 fp=0xc0000f9f00 sp=0xc0000f9ec8 pc=0x1056414
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000182060?, 0x0?)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33 fp=0xc0000f9f20 sp=0xc0000f9f00 pc=0x1045df3
+main.main()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f fp=0xc0000f9f50 sp=0xc0000f9f20 pc=0x10563bf
+runtime.main()
+	runtime/proc.go:283 +0x28b fp=0xc0000f9fe0 sp=0xc0000f9f50 pc=0x443a6b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0000f9fe8 sp=0xc0000f9fe0 pc=0x47e821
+
+goroutine 2 gp=0xc000002e00 m=nil [force gc (idle), 137 minutes]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007afa8 sp=0xc00007af88 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.forcegchelper()
+	runtime/proc.go:348 +0xb3 fp=0xc00007afe0 sp=0xc00007afa8 pc=0x443db3
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007afe8 sp=0xc00007afe0 pc=0x47e821
+created by runtime.init.7 in goroutine 1
+	runtime/proc.go:336 +0x1a
+
+goroutine 3 gp=0xc000003340 m=nil [GC sweep wait]:
+runtime.gopark(0x2e6aa01?, 0x2e6aa20?, 0xc?, 0x9?, 0x1?)
+	runtime/proc.go:435 +0xce fp=0xc00007b780 sp=0xc00007b760 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.bgsweep(0xc0000a6000)
+	runtime/mgcsweep.go:316 +0xdf fp=0xc00007b7c8 sp=0xc00007b780 pc=0x42db3f
+runtime.gcenable.gowrap1()
+	runtime/mgc.go:204 +0x25 fp=0xc00007b7e0 sp=0xc00007b7c8 pc=0x421fc5
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007b7e8 sp=0xc00007b7e0 pc=0x47e821
+created by runtime.gcenable in goroutine 1
+	runtime/mgc.go:204 +0x66
+
+goroutine 4 gp=0xc000003500 m=nil [GC scavenge wait]:
+runtime.gopark(0xbb453f?, 0xb0155f?, 0x0?, 0x0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007bf78 sp=0xc00007bf58 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.(*scavengerState).park(0x2e6bf60)
+	runtime/mgcscavenge.go:425 +0x49 fp=0xc00007bfa8 sp=0xc00007bf78 pc=0x42b5a9
+runtime.bgscavenge(0xc0000a6000)
+	runtime/mgcscavenge.go:658 +0x59 fp=0xc00007bfc8 sp=0xc00007bfa8 pc=0x42bb39
+runtime.gcenable.gowrap2()
+	runtime/mgc.go:205 +0x25 fp=0xc00007bfe0 sp=0xc00007bfc8 pc=0x421f65
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007bfe8 sp=0xc00007bfe0 pc=0x47e821
+created by runtime.gcenable in goroutine 1
+	runtime/mgc.go:205 +0xa5
+
+goroutine 34 gp=0xc000186380 m=nil [finalizer wait, 137 minutes]:
+runtime.gopark(0x0?, 0x20875c8?, 0xe0?, 0x60?, 0x2000000020?)
+	runtime/proc.go:435 +0xce fp=0xc00007a630 sp=0xc00007a610 pc=0x476bee
+runtime.runfinq()
+	runtime/mfinal.go:196 +0x107 fp=0xc00007a7e0 sp=0xc00007a630 pc=0x420f87
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007a7e8 sp=0xc00007a7e0 pc=0x47e821
+created by runtime.createfing in goroutine 1
+	runtime/mfinal.go:166 +0x3d
+
+goroutine 35 gp=0xc000418540 m=nil [chan receive]:
+runtime.gopark(0xc000476e60?, 0xc001084060?, 0x60?, 0x1f?, 0x613368?)
+	runtime/proc.go:435 +0xce fp=0xc000a21f18 sp=0xc000a21ef8 pc=0x476bee
+runtime.chanrecv(0xc000218690, 0x0, 0x1)
+	runtime/chan.go:664 +0x445 fp=0xc000a21f90 sp=0xc000a21f18 pc=0x4134e5
+runtime.chanrecv1(0x0?, 0x0?)
+	runtime/chan.go:506 +0x12 fp=0xc000a21fb8 sp=0xc000a21f90 pc=0x413072
+runtime.unique_runtime_registerUniqueMapCleanup.func2(...)
+	runtime/mgc.go:1796
+runtime.unique_runtime_registerUniqueMapCleanup.gowrap1()
+	runtime/mgc.go:1799 +0x2f fp=0xc000a21fe0 sp=0xc000a21fb8 pc=0x42510f
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000a21fe8 sp=0xc000a21fe0 pc=0x47e821
+created by unique.runtime_registerUniqueMapCleanup in goroutine 1
+	runtime/mgc.go:1794 +0x79
+
+goroutine 50 gp=0xc000418700 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3df9dc808e?, 0x3?, 0x22?, 0x5?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000076f38 sp=0xc000076f18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc000076fc8 sp=0xc000076f38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc000076fe0 sp=0xc000076fc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000076fe8 sp=0xc000076fe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 37 gp=0xc0004188c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3df9dc79f0?, 0x1?, 0x2a?, 0xb8?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000077738 sp=0xc000077718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0000777c8 sp=0xc000077738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0000777e0 sp=0xc0000777c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0000777e8 sp=0xc0000777e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 19 gp=0xc0001868c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3e0043ed8b?, 0x1?, 0xb?, 0x59?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc0001b2738 sp=0xc0001b2718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0001b27c8 sp=0xc0001b2738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0001b27e0 sp=0xc0001b27c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b27e8 sp=0xc0001b27e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 5 gp=0xc000003a40 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3e01125255?, 0x3?, 0xae?, 0x5?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007c738 sp=0xc00007c718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc00007c7c8 sp=0xc00007c738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc00007c7e0 sp=0xc00007c7c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007c7e8 sp=0xc00007c7e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 6 gp=0xc000003c00 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3e006778fe?, 0x1?, 0xc4?, 0xb6?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007cf38 sp=0xc00007cf18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc00007cfc8 sp=0xc00007cf38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc00007cfe0 sp=0xc00007cfc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007cfe8 sp=0xc00007cfe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 38 gp=0xc000418a80 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b39ec93fe5b?, 0x1?, 0x46?, 0xb0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000077f38 sp=0xc000077f18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc000077fc8 sp=0xc000077f38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc000077fe0 sp=0xc000077fc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000077fe8 sp=0xc000077fe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 20 gp=0xc000186a80 m=nil [GC worker (idle)]:
+runtime.gopark(0x3b3e0025cdb0?, 0xc00023eee0?, 0x1b?, 0xa?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc0001b2f38 sp=0xc0001b2f18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0001b2fc8 sp=0xc0001b2f38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0001b2fe0 sp=0xc0001b2fc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b2fe8 sp=0xc0001b2fe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 39 gp=0xc000418c40 m=nil [GC worker (idle)]:
+runtime.gopark(0x2e95720?, 0x1?, 0x5d?, 0x2c?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000078738 sp=0xc000078718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc00017c4d0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0000787c8 sp=0xc000078738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0000787e0 sp=0xc0000787c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0000787e8 sp=0xc0000787e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 84 gp=0xc0006621c0 m=nil [sleep]:
+runtime.gopark(0x3b3e04d280d7?, 0x3b1d1dd1cb70?, 0x37?, 0xd1?, 0x700000000000001?)
+	runtime/proc.go:435 +0xce fp=0xc0000508c0 sp=0xc0000508a0 pc=0x476bee
+time.Sleep(0x1dcd6500)
+	runtime/time.go:338 +0x165 fp=0xc000050918 sp=0xc0000508c0 pc=0x47ab45
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.enforceMemoryLimit.func1()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:297 +0x4c fp=0xc000051fe0 sp=0xc000050918 pc=0x104674c
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000051fe8 sp=0xc000051fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.enforceMemoryLimit in goroutine 1
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:292 +0xde
+
+goroutine 40 gp=0xc000186c40 m=nil [select, 137 minutes, locked to thread]:
+runtime.gopark(0xc0001b17a8?, 0x2?, 0x40?, 0xd1?, 0xc0001b1794?)
+	runtime/proc.go:435 +0xce fp=0xc0001b1620 sp=0xc0001b1600 pc=0x476bee
+runtime.selectgo(0xc0001b17a8, 0xc0001b1790, 0x0?, 0x0, 0xc000442310?, 0x1)
+	runtime/select.go:351 +0x837 fp=0xc0001b1758 sp=0xc0001b1620 pc=0x455ed7
+runtime.ensureSigM.func1()
+	runtime/signal_unix.go:1085 +0x192 fp=0xc0001b17e0 sp=0xc0001b1758 pc=0x471572
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b17e8 sp=0xc0001b17e0 pc=0x47e821
+created by runtime.ensureSigM in goroutine 1
+	runtime/signal_unix.go:1068 +0xc8
+
+goroutine 244 gp=0xc000186e00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00148cea0?, 0x50000000127dfa0?, 0xf8?, 0x8d?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc0019d8ec0 sp=0xc0019d8ea0 pc=0x476bee
+runtime.chansend(0xc000dbfe30, 0xc0019d8fc0, 0x1, 0xc0019d8f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019d8f30 sp=0xc0019d8ec0 pc=0x4125a5
+runtime.chansend1(0xc0002752d0?, 0x202020203a6e6f69?)
+	runtime/chan.go:161 +0x17 fp=0xc0019d8f60 sp=0xc0019d8f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019d8fe0 sp=0xc0019d8f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019d8fe8 sp=0xc0019d8fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 21 gp=0xc000186fc0 m=nil [chan receive, 137 minutes]:
+runtime.gopark(0xc0000a8e40?, 0xc000110000?, 0x10?, 0xe7?, 0x3?)
+	runtime/proc.go:435 +0xce fp=0xc0001ae6c8 sp=0xc0001ae6a8 pc=0x476bee
+runtime.chanrecv(0xc00057c460, 0xc0001ae7b8, 0x1)
+	runtime/chan.go:664 +0x445 fp=0xc0001ae740 sp=0xc0001ae6c8 pc=0x4134e5
+runtime.chanrecv1(0xa1b4cf?, 0x0?)
+	runtime/chan.go:506 +0x12 fp=0xc0001ae768 sp=0xc0001ae740 pc=0x413072
+github.com/zimmski/osutil.ContextWithInterrupt.func1()
+	github.com/zimmski/osutil/context.go:21 +0x54 fp=0xc0001ae7e0 sp=0xc0001ae768 pc=0x8123d4
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001ae7e8 sp=0xc0001ae7e0 pc=0x47e821
+created by github.com/zimmski/osutil.ContextWithInterrupt in goroutine 1
+	github.com/zimmski/osutil/context.go:18 +0x177
+
+goroutine 11 gp=0xc000187180 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00021c120?, 0x50100000127dfa0?, 0xf8?, 0x78?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc00007d6c0 sp=0xc00007d6a0 pc=0x476bee
+runtime.chansend(0xc00065c460, 0xc00007d7c0, 0x1, 0xc00007d701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00007d730 sp=0xc00007d6c0 pc=0x4125a5
+runtime.chansend1(0xc0004421c0?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc00007d760 sp=0xc00007d730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00007d7e0 sp=0xc00007d760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007d7e8 sp=0xc00007d7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 1
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 219 gp=0xc0005828c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0015d00c0?, 0x50000000127dfa0?, 0x58?, 0xb6?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc0001afec0 sp=0xc0001afea0 pc=0x476bee
+runtime.chansend(0xc0013b64d0, 0xc0001affc0, 0x1, 0xc0001aff01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001aff30 sp=0xc0001afec0 pc=0x4125a5
+runtime.chansend1(0xc00046c1c0?, 0xa1b4cf?)
+	runtime/chan.go:161 +0x17 fp=0xc0001aff60 sp=0xc0001aff30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001affe0 sp=0xc0001aff60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001affe8 sp=0xc0001affe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 277
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 115 gp=0xc000582a80 m=8 mp=0xc000580008 [syscall, 137 minutes]:
+runtime.notetsleepg(0x2e949e0, 0xffffffffffffffff)
+	runtime/lock_futex.go:123 +0x29 fp=0xc0001af7a0 sp=0xc0001af778 pc=0x418aa9
+os/signal.signal_recv()
+	runtime/sigqueue.go:152 +0x29 fp=0xc0001af7c0 sp=0xc0001af7a0 pc=0x478dc9
+os/signal.loop()
+	os/signal/signal_unix.go:23 +0x13 fp=0xc0001af7e0 sp=0xc0001af7c0 pc=0x7f6a93
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001af7e8 sp=0xc0001af7e0 pc=0x47e821
+created by os/signal.Notify.func1.1 in goroutine 1
+	os/signal/signal.go:152 +0x1f
+
+goroutine 175 gp=0xc000102700 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000abc2a0?, 0x50100000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0001b3ec0 sp=0xc0001b3ea0 pc=0x476bee
+runtime.chansend(0xc00017dea0, 0xc0001b3fc0, 0x1, 0xc0001b3f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b3f30 sp=0xc0001b3ec0 pc=0x4125a5
+runtime.chansend1(0xc000770ee0?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b3f60 sp=0xc0001b3f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b3fe0 sp=0xc0001b3f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b3fe8 sp=0xc0001b3fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 26 gp=0xc0001028c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001eaf080?, 0x50000000127dfa0?, 0xf8?, 0x4a?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0001b46c0 sp=0xc0001b46a0 pc=0x476bee
+runtime.chansend(0xc00065d1f0, 0xc0001b47c0, 0x1, 0xc0001b4701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b4730 sp=0xc0001b46c0 pc=0x4125a5
+runtime.chansend1(0xc0004c0460?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b4760 sp=0xc0001b4730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b47e0 sp=0xc0001b4760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b47e8 sp=0xc0001b47e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 30 gp=0xc000102c40 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00218c000?, 0x50100000127dfa0?, 0x58?, 0x7a?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc0001b56c0 sp=0xc0001b56a0 pc=0x476bee
+runtime.chansend(0xc0013b6070, 0xc0001b57c0, 0x1, 0xc0001b5701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b5730 sp=0xc0001b56c0 pc=0x4125a5
+runtime.chansend1(0xc0004c0930?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b5760 sp=0xc0001b5730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b57e0 sp=0xc0001b5760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b57e8 sp=0xc0001b57e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 162 gp=0xc000102fc0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002173ec0?, 0x50000000127dfa0?, 0xa8?, 0xb9?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc0001aeec0 sp=0xc0001aeea0 pc=0x476bee
+runtime.chansend(0xc0013b6150, 0xc0001aefc0, 0x1, 0xc0001aef01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001aef30 sp=0xc0001aeec0 pc=0x4125a5
+runtime.chansend1(0xc0004c0d20?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001aef60 sp=0xc0001aef30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001aefe0 sp=0xc0001aef60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001aefe8 sp=0xc0001aefe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 70 gp=0xc000418380 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fc0120?, 0x50100000127dfa0?, 0x60?, 0x60?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc0019daec0 sp=0xc0019daea0 pc=0x476bee
+runtime.chansend(0xc00017d730, 0xc0019dafc0, 0x1, 0xc0019daf01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019daf30 sp=0xc0019daec0 pc=0x4125a5
+runtime.chansend1(0xc000478460?, 0x5?)
+	runtime/chan.go:161 +0x17 fp=0xc0019daf60 sp=0xc0019daf30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019dafe0 sp=0xc0019daf60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019dafe8 sp=0xc0019dafe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 119 gp=0xc000582c40 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0020918c0?, 0x50000000127dfa0?, 0xa8?, 0xb9?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc0001b06c0 sp=0xc0001b06a0 pc=0x476bee
+runtime.chansend(0xc0001829a0, 0xc0001b07c0, 0x1, 0xc0001b0701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b0730 sp=0xc0001b06c0 pc=0x4125a5
+runtime.chansend1(0xc000488310?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b0760 sp=0xc0001b0730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b07e0 sp=0xc0001b0760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b07e8 sp=0xc0001b07e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 211 gp=0xc000582e00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00148c060?, 0x50101000127dfa0?, 0xe8?, 0xd1?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc00268cec0 sp=0xc00268cea0 pc=0x476bee
+runtime.chansend(0xc00017df80, 0xc00268cfc0, 0x1, 0xc00268cf01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268cf30 sp=0xc00268cec0 pc=0x4125a5
+runtime.chansend1(0xc000771420?, 0x31202c3538202c36?)
+	runtime/chan.go:161 +0x17 fp=0xc00268cf60 sp=0xc00268cf30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268cfe0 sp=0xc00268cf60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268cfe8 sp=0xc00268cfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 123 gp=0xc000582fc0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0005b8060?, 0x50000000127dfa0?, 0x18?, 0xe3?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0001b1ec0 sp=0xc0001b1ea0 pc=0x476bee
+runtime.chansend(0xc000182b60, 0xc0001b1fc0, 0x1, 0xc0001b1f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b1f30 sp=0xc0001b1ec0 pc=0x4125a5
+runtime.chansend1(0xc0004887e0?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b1f60 sp=0xc0001b1f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b1fe0 sp=0xc0001b1f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b1fe8 sp=0xc0001b1fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 166 gp=0xc000103500 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001d7e960?, 0x50000000127dfa0?, 0x18?, 0xe3?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc002691ec0 sp=0xc002691ea0 pc=0x476bee
+runtime.chansend(0xc0013b6380, 0xc002691fc0, 0x1, 0xc002691f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc002691f30 sp=0xc002691ec0 pc=0x4125a5
+runtime.chansend1(0xc0004c1260?, 0x2e7473616c65646f?)
+	runtime/chan.go:161 +0x17 fp=0xc002691f60 sp=0xc002691f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc002691fe0 sp=0xc002691f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc002691fe8 sp=0xc002691fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 22
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 171 gp=0xc000583180 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001f9efc0?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019d96c0 sp=0xc0019d96a0 pc=0x476bee
+runtime.chansend(0xc00017dc70, 0xc0019d97c0, 0x1, 0xc0019d9701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019d9730 sp=0xc0019d96c0 pc=0x4125a5
+runtime.chansend1(0xc0007709a0?, 0x526e6f697461636f?)
+	runtime/chan.go:161 +0x17 fp=0xc0019d9760 sp=0xc0019d9730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019d97e0 sp=0xc0019d9760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019d97e8 sp=0xc0019d97e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 57 gp=0xc000583340 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001eae000?, 0x50100000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019db6c0 sp=0xc0019db6a0 pc=0x476bee
+runtime.chansend(0xc000182150, 0xc0019db7c0, 0x1, 0xc0019db701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019db730 sp=0xc0019db6c0 pc=0x4125a5
+runtime.chansend1(0xc000770150?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0019db760 sp=0xc0019db730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019db7e0 sp=0xc0019db760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019db7e8 sp=0xc0019db7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 61 gp=0xc000103340 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e24000?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019d7ec0 sp=0xc0019d7ea0 pc=0x476bee
+runtime.chansend(0xc000218150, 0xc0019d7fc0, 0x1, 0xc0019d7f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019d7f30 sp=0xc0019d7ec0 pc=0x4125a5
+runtime.chansend1(0xc0004c02a0?, 0xe?)
+	runtime/chan.go:161 +0x17 fp=0xc0019d7f60 sp=0xc0019d7f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019d7fe0 sp=0xc0019d7f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019d7fe8 sp=0xc0019d7fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 65 gp=0xc000103a40 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e24060?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019dbec0 sp=0xc0019dbea0 pc=0x476bee
+runtime.chansend(0xc0002181c0, 0xc0019dbfc0, 0x1, 0xc0019dbf01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019dbf30 sp=0xc0019dbec0 pc=0x4125a5
+runtime.chansend1(0xc0004c0770?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0019dbf60 sp=0xc0019dbf30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019dbfe0 sp=0xc0019dbf60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019dbfe8 sp=0xc0019dbfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 44 gp=0xc000103c00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00195e120?, 0x50000000127dfa0?, 0xb8?, 0x2b?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc0019dc6c0 sp=0xc0019dc6a0 pc=0x476bee
+runtime.chansend(0xc0018f0620, 0xc0019dc7c0, 0x1, 0xc0019dc701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019dc730 sp=0xc0019dc6c0 pc=0x4125a5
+runtime.chansend1(0xc0004741c0?, 0x6f697461636f6c20?)
+	runtime/chan.go:161 +0x17 fp=0xc0019dc760 sp=0xc0019dc730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019dc7e0 sp=0xc0019dc760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019dc7e8 sp=0xc0019dc7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 181 gp=0xc000103dc0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e240c0?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019dcec0 sp=0xc0019dcea0 pc=0x476bee
+runtime.chansend(0xc0002187e0, 0xc0019dcfc0, 0x1, 0xc0019dcf01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019dcf30 sp=0xc0019dcec0 pc=0x4125a5
+runtime.chansend1(0xc0004c0b60?, 0x2c7d293733202c35?)
+	runtime/chan.go:161 +0x17 fp=0xc0019dcf60 sp=0xc0019dcf30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019dcfe0 sp=0xc0019dcf60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019dcfe8 sp=0xc0019dcfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 48 gp=0xc000418e00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002117440?, 0x50000000127dfa0?, 0x48?, 0xa6?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc0019dd6c0 sp=0xc0019dd6a0 pc=0x476bee
+runtime.chansend(0xc0018f0770, 0xc0019dd7c0, 0x1, 0xc0019dd701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019dd730 sp=0xc0019dd6c0 pc=0x4125a5
+runtime.chansend1(0xc0004747e0?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0019dd760 sp=0xc0019dd730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019dd7e0 sp=0xc0019dd760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019dd7e8 sp=0xc0019dd7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 185 gp=0xc000418fc0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e24240?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0001b0ec0 sp=0xc0001b0ea0 pc=0x476bee
+runtime.chansend(0xc000218850, 0xc0001b0fc0, 0x1, 0xc0001b0f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0001b0f30 sp=0xc0001b0ec0 pc=0x4125a5
+runtime.chansend1(0xc0004c1110?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0001b0f60 sp=0xc0001b0f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001b0fe0 sp=0xc0001b0f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001b0fe8 sp=0xc0001b0fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 323 gp=0xc000419180 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000b8c720?, 0x50000000127dfa0?, 0x18?, 0xf2?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc002690ec0 sp=0xc002690ea0 pc=0x476bee
+runtime.chansend(0xc001fa3960, 0xc002690fc0, 0x1, 0xa?)
+	runtime/chan.go:283 +0x3a5 fp=0xc002690f30 sp=0xc002690ec0 pc=0x4125a5
+runtime.chansend1(0xc0006021c0?, 0x6c65646f6d262020?)
+	runtime/chan.go:161 +0x17 fp=0xc002690f60 sp=0xc002690f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc002690fe0 sp=0xc002690f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc002690fe8 sp=0xc002690fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 306
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 189 gp=0xc000419340 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e242a0?, 0x50100000127dfa0?, 0xb8?, 0x9c?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc0026916c0 sp=0xc0026916a0 pc=0x476bee
+runtime.chansend(0xc000218c40, 0xc0026917c0, 0x1, 0xc002691701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc002691730 sp=0xc0026916c0 pc=0x4125a5
+runtime.chansend1(0xc0004c1420?, 0x2020202020203a6e?)
+	runtime/chan.go:161 +0x17 fp=0xc002691760 sp=0xc002691730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0026917e0 sp=0xc002691760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0026917e8 sp=0xc0026917e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 53
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 248 gp=0xc000419500 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc002e24480?, 0x50100000127dfa0?, 0xb8?, 0x2b?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc00007dec0 sp=0xc00007dea0 pc=0x476bee
+runtime.chansend(0xc000dbfea0, 0xc00007dfc0, 0x1, 0xc00007df01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00007df30 sp=0xc00007dec0 pc=0x4125a5
+runtime.chansend1(0xc000275650?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc00007df60 sp=0xc00007df30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00007dfe0 sp=0xc00007df60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007dfe8 sp=0xc00007dfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 194 gp=0xc0004196c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001c6d380?, 0x50000000127dfa0?, 0x18?, 0xde?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc000078ec0 sp=0xc000078ea0 pc=0x476bee
+runtime.chansend(0xc0002198f0, 0xc000078fc0, 0x1, 0xc000078f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000078f30 sp=0xc000078ec0 pc=0x4125a5
+runtime.chansend1(0xc0004c1960?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc000078f60 sp=0xc000078f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc000078fe0 sp=0xc000078f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000078fe8 sp=0xc000078fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 190
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 127 gp=0xc000419880 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0018ec0c0?, 0x50100000127dfa0?, 0xf8?, 0x8d?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc0000796c0 sp=0xc0000796a0 pc=0x476bee
+runtime.chansend(0xc0018f0460, 0xc0000797c0, 0x1, 0xc000079701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000079730 sp=0xc0000796c0 pc=0x4125a5
+runtime.chansend1(0xc0008d48c0?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc000079760 sp=0xc000079730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0000797e0 sp=0xc000079760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0000797e8 sp=0xc0000797e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 198 gp=0xc000419a40 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0032d8000?, 0x50000000127dfa0?, 0xb8?, 0x9c?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc000079ec0 sp=0xc000079ea0 pc=0x476bee
+runtime.chansend(0xc000219960, 0xc000079fc0, 0x1, 0xc000079f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000079f30 sp=0xc000079ec0 pc=0x4125a5
+runtime.chansend1(0xc0004c1d50?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc000079f60 sp=0xc000079f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc000079fe0 sp=0xc000079f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000079fe8 sp=0xc000079fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 190
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 233 gp=0xc000419c00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0017b2000?, 0x50100000127dfa0?, 0xe0?, 0x6e?, 0x781c844d7108?)
+	runtime/proc.go:435 +0xce fp=0xc0019d66c0 sp=0xc0019d66a0 pc=0x476bee
+runtime.chansend(0xc0013b69a0, 0xc0019d67c0, 0x1, 0xc0019d6701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019d6730 sp=0xc0019d66c0 pc=0x4125a5
+runtime.chansend1(0xc0000ee2a0?, 0x5?)
+	runtime/chan.go:161 +0x17 fp=0xc0019d6760 sp=0xc0019d6730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019d67e0 sp=0xc0019d6760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019d67e8 sp=0xc0019d67e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 306
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 202 gp=0xc000419dc0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000abc180?, 0x50000000127dfa0?, 0x78?, 0x3e?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc0019d6ec0 sp=0xc0019d6ea0 pc=0x476bee
+runtime.chansend(0xc0002199d0, 0xc0019d6fc0, 0x1, 0xc0019d6f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc0019d6f30 sp=0xc0019d6ec0 pc=0x4125a5
+runtime.chansend1(0xc00057c690?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc0019d6f60 sp=0xc0019d6f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0019d6fe0 sp=0xc0019d6f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0019d6fe8 sp=0xc0019d6fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 190
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 157 gp=0xc000662380 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fc00c0?, 0x50101000127dfa0?, 0x88?, 0x85?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc000a256c0 sp=0xc000a256a0 pc=0x476bee
+runtime.chansend(0xc001fa2540, 0xc000a257c0, 0x1, 0xc000a25701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000a25730 sp=0xc000a256c0 pc=0x4125a5
+runtime.chansend1(0xc000478380?, 0x6638396463386431?)
+	runtime/chan.go:161 +0x17 fp=0xc000a25760 sp=0xc000a25730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc000a257e0 sp=0xc000a25760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000a257e8 sp=0xc000a257e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 207 gp=0xc000662700 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001afe1e0?, 0x50000000127dfa0?, 0xf8?, 0x8d?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc00268a6c0 sp=0xc00268a6a0 pc=0x476bee
+runtime.chansend(0xc000dbf9d0, 0xc00268a7c0, 0x1, 0xc00268a701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268a730 sp=0xc00268a6c0 pc=0x4125a5
+runtime.chansend1(0xc0002748c0?, 0x20202c7d20202020?)
+	runtime/chan.go:161 +0x17 fp=0xc00268a760 sp=0xc00268a730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268a7e0 sp=0xc00268a760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268a7e8 sp=0xc00268a7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 203
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 161 gp=0xc0006628c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000abc300?, 0x50000000127dfa0?, 0x88?, 0x85?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc00268aec0 sp=0xc00268aea0 pc=0x476bee
+runtime.chansend(0xc001fa2620, 0xc00268afc0, 0x1, 0xc00268af01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268af30 sp=0xc00268aec0 pc=0x4125a5
+runtime.chansend1(0xc000478850?, 0x656c694674636170?)
+	runtime/chan.go:161 +0x17 fp=0xc00268af60 sp=0xc00268af30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268afe0 sp=0xc00268af60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268afe8 sp=0xc00268afe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 237 gp=0xc000662a80 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000b8cc60?, 0x50000000127dfa0?, 0xf8?, 0x70?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc00268b6c0 sp=0xc00268b6a0 pc=0x476bee
+runtime.chansend(0xc0013b6a10, 0xc00268b7c0, 0x1, 0xc00268b701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268b730 sp=0xc00268b6c0 pc=0x4125a5
+runtime.chansend1(0xc0000ee7e0?, 0x4c656c6946746361?)
+	runtime/chan.go:161 +0x17 fp=0xc00268b760 sp=0xc00268b730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268b7e0 sp=0xc00268b760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268b7e8 sp=0xc00268b7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 306
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 229 gp=0xc000662c40 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0013d0660?, 0x50000000127dfa0?, 0x78?, 0x3e?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc00268bec0 sp=0xc00268bea0 pc=0x476bee
+runtime.chansend(0xc001fa2770, 0xc00268bfc0, 0x1, 0xc00268bf01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268bf30 sp=0xc00268bec0 pc=0x4125a5
+runtime.chansend1(0xc000478d20?, 0x207b6b636f6c4274?)
+	runtime/chan.go:161 +0x17 fp=0xc00268bf60 sp=0xc00268bf30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268bfe0 sp=0xc00268bf60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268bfe8 sp=0xc00268bfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 215 gp=0xc000583500 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc000abc480?, 0x50000000127dfa0?, 0x80?, 0x2c?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc00268d6c0 sp=0xc00268d6a0 pc=0x476bee
+runtime.chansend(0xc001488070, 0xc00268d7c0, 0x1, 0xc00268d701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268d730 sp=0xc00268d6c0 pc=0x4125a5
+runtime.chansend1(0xc000771960?, 0x2c3631287761526e?)
+	runtime/chan.go:161 +0x17 fp=0xc00268d760 sp=0xc00268d730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268d7e0 sp=0xc00268d760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268d7e8 sp=0xc00268d7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 167
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 252 gp=0xc000583c00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001f18000?, 0x50100000127dfa0?, 0x48?, 0xa6?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc00268dec0 sp=0xc00268dea0 pc=0x476bee
+runtime.chansend(0xc000dbff10, 0xc00268dfc0, 0x1, 0xc00268df01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268df30 sp=0xc00268dec0 pc=0x4125a5
+runtime.chansend1(0xc000275dc0?, 0x2e7473616c65646f?)
+	runtime/chan.go:161 +0x17 fp=0xc00268df60 sp=0xc00268df30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268dfe0 sp=0xc00268df60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268dfe8 sp=0xc00268dfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 256 gp=0xc000662e00 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc00107d620?, 0x50000000127dfa0?, 0xf8?, 0x8d?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc00268eec0 sp=0xc00268eea0 pc=0x476bee
+runtime.chansend(0xc000dbff80, 0xc00268efc0, 0x1, 0xc00268ef01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268ef30 sp=0xc00268eec0 pc=0x4125a5
+runtime.chansend1(0xc000d441c0?, 0x6d6f432e6e6f6974?)
+	runtime/chan.go:161 +0x17 fp=0xc00268ef60 sp=0xc00268ef30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268efe0 sp=0xc00268ef60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268efe8 sp=0xc00268efe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 289 gp=0xc000663180 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001f382a0?, 0x50000000127dfa0?, 0xc8?, 0xac?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc00268f6c0 sp=0xc00268f6a0 pc=0x476bee
+runtime.chansend(0xc00065c150, 0xc00268f7c0, 0x1, 0xc00268f701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268f730 sp=0xc00268f6c0 pc=0x4125a5
+runtime.chansend1(0xc0000c01c0?, 0x2020202020202020?)
+	runtime/chan.go:161 +0x17 fp=0xc00268f760 sp=0xc00268f730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268f7e0 sp=0xc00268f760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268f7e8 sp=0xc00268f7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 220
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 260 gp=0xc000663340 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fae000?, 0x50000000127dfa0?, 0xf8?, 0x8d?, 0x781c844d7f30?)
+	runtime/proc.go:435 +0xce fp=0xc00268fec0 sp=0xc00268fea0 pc=0x476bee
+runtime.chansend(0xc001aa04d0, 0xc00268ffc0, 0x1, 0xc00268ff01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00268ff30 sp=0xc00268fec0 pc=0x4125a5
+runtime.chansend1(0xc000d44620?, 0x2020202020202020?)
+	runtime/chan.go:161 +0x17 fp=0xc00268ff60 sp=0xc00268ff30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00268ffe0 sp=0xc00268ff60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00268ffe8 sp=0xc00268ffe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 264 gp=0xc000663880 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fae060?, 0x50000000127dfa0?, 0xb8?, 0x2b?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc000a206c0 sp=0xc000a206a0 pc=0x476bee
+runtime.chansend(0xc001aa0690, 0xc000a207c0, 0x1, 0xc000a20701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000a20730 sp=0xc000a206c0 pc=0x4125a5
+runtime.chansend1(0xc000d44a80?, 0x532e7473616c6564?)
+	runtime/chan.go:161 +0x17 fp=0xc000a20760 sp=0xc000a20730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc000a207e0 sp=0xc000a20760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000a207e8 sp=0xc000a207e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 276 gp=0xc0012741c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fae0c0?, 0x50000000127dfa0?, 0xb8?, 0x2b?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc001382ec0 sp=0xc001382ea0 pc=0x476bee
+runtime.chansend(0xc0018f0a80, 0xc001382fc0, 0x1, 0xc001382f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc001382f30 sp=0xc001382ec0 pc=0x4125a5
+runtime.chansend1(0xc000474c40?, 0xc000da6458?)
+	runtime/chan.go:161 +0x17 fp=0xc001382f60 sp=0xc001382f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc001382fe0 sp=0xc001382f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc001382fe8 sp=0xc001382fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 208
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 310 gp=0xc001274380 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0000a8120?, 0x50000000127dfa0?, 0xc8?, 0xac?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc0013836c0 sp=0xc0013836a0 pc=0x476bee
+runtime.chansend(0xc00065ca10, 0xc0013837c0, 0x1, 0xc001383701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc001383730 sp=0xc0013836c0 pc=0x4125a5
+runtime.chansend1(0xc0000c0690?, 0xc001383830?)
+	runtime/chan.go:161 +0x17 fp=0xc001383760 sp=0xc001383730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0013837e0 sp=0xc001383760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0013837e8 sp=0xc0013837e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 306
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 281 gp=0xc001274540 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001fae240?, 0x50000000127dfa0?, 0x48?, 0xa6?, 0x781c844d7a78?)
+	runtime/proc.go:435 +0xce fp=0xc001383ec0 sp=0xc001383ea0 pc=0x476bee
+runtime.chansend(0xc001fa2930, 0xc001383fc0, 0x1, 0xc001383f01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc001383f30 sp=0xc001383ec0 pc=0x4125a5
+runtime.chansend1(0xc0004751f0?, 0x6c61726574694c2e?)
+	runtime/chan.go:161 +0x17 fp=0xc001383f60 sp=0xc001383f30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc001383fe0 sp=0xc001383f60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc001383fe8 sp=0xc001383fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 277
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 285 gp=0xc0012748c0 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc001480000?, 0x50000000127dfa0?, 0xb8?, 0x2b?, 0x781c844d83e8?)
+	runtime/proc.go:435 +0xce fp=0xc000a1eec0 sp=0xc000a1eea0 pc=0x476bee
+runtime.chansend(0xc001fa2bd0, 0xc000a1efc0, 0x1, 0xc000a1ef01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000a1ef30 sp=0xc000a1eec0 pc=0x4125a5
+runtime.chansend1(0xc0004755e0?, 0x746e656d65746174?)
+	runtime/chan.go:161 +0x17 fp=0xc000a1ef60 sp=0xc000a1ef30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc000a1efe0 sp=0xc000a1ef60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000a1efe8 sp=0xc000a1efe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 277
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 224 gp=0xc001772000 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0021695c0?, 0x50000000127dfa0?, 0x58?, 0xb6?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc00137e6c0 sp=0xc00137e6a0 pc=0x476bee
+runtime.chansend(0xc0013b6850, 0xc00137e7c0, 0x1, 0xc00137e701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00137e730 sp=0xc00137e6c0 pc=0x4125a5
+runtime.chansend1(0xc00046c700?, 0xc001979800?)
+	runtime/chan.go:161 +0x17 fp=0xc00137e760 sp=0xc00137e730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00137e7e0 sp=0xc00137e760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00137e7e8 sp=0xc00137e7e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 220
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 292 gp=0xc001772540 m=nil [chan send, 137 minutes]:
+runtime.gopark(0xc0000a8000?, 0x50100000127dfa0?, 0xc8?, 0xac?, 0x781c844d75c0?)
+	runtime/proc.go:435 +0xce fp=0xc00137fec0 sp=0xc00137fea0 pc=0x476bee
+runtime.chansend(0xc0013b68c0, 0xc00137ffc0, 0x1, 0xc00137ff01?)
+	runtime/chan.go:283 +0x3a5 fp=0xc00137ff30 sp=0xc00137fec0 pc=0x4125a5
+runtime.chansend1(0xc00046cb60?, 0x200a2c3034783020?)
+	runtime/chan.go:161 +0x17 fp=0xc00137ff60 sp=0xc00137ff30 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc00137ffe0 sp=0xc00137ff60 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00137ffe8 sp=0xc00137ffe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 220
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f

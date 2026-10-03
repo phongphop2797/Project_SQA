@@ -1,0 +1,484 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/cli_31b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.appendOptionGroup: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.appendOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.OptionComparator.compare: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["Ambiguous option: '"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [option]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'  (could be: "]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [")"]]
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [])) java/util/List<java/lang/Object>//addAll [] [call(select(ensure_not_nil(option), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil stopAtNonOption]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getRequiredOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown import
+	data: java/util/Enumeration
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, defaultNewLine)]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["<"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//length [] []]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/cli/HelpFormatter))), org/apache/commons/cli/HelpFormatter//renderWrappedText!1bf3ef4cb43cd205e8622a1defc45fc3, [variable(sb, pointer(reference(java/lang/StringBuffer))), variable(width, primitive(int, 32, false)), variable(nextLineTabStop, primitive(int, 32, false)), variable(text, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/StringBuffer)))], block([unsupported]))
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [select(this, defaultSyntaxPrefix)]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(group), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [text])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [dpad]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" | "]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [len]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(text), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(call(select(ensure_not_nil(prefixList), get!82a13d2b9378b45b5451d30242dc1218), [x++(x)])), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(call(select(ensure_not_nil(option), hasLongOpt!d41d8cd98f00b204e9800998ecf8427e), []), [select(this, longOptSeparator), call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [" "])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/io/PrintWriter
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["<"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [',']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [text]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(==(call(select(ensure_not_nil(option), getOpt!d41d8cd98f00b204e9800998ecf8427e), []), nil), [select(this, longOptSeparator), call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [" "])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["Missing required option"]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(==(call(select(ensure_not_nil(missingOptions), size!d41d8cd98f00b204e9800998ecf8427e), []), 1), ["", "s"])]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [": "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/StringBuffer, [], [pointer(reference(java/lang/Object))], []) java/lang/StringBuffer//append [] ["[ option: "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, opt)]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [select(this, values)]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ARG...]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" [ARG]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), []) java/util/Map<java/lang/Object,java/lang/Object>//keySet [] []]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ Options: [ short "]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(select(this, shortOpts)), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ] [ long "]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(select(this, shortOpts)), values!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, longOpts)]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), []) java/util/Map<java/lang/Object,java/lang/Object>//keySet [] []]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Enumeration
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getRequiredOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil false]]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil stopAtNonOption]]
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/cli/PosixParser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [])) java/lang/Class<java/lang/Object>//newInstance [] []]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [pointer(reference(java/lang/Exception)) java/lang/Exception//getClass [] []]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/MalformedURLException
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [variable(str, pointer(reference(java/lang/String)))], [variable(, unsupported(java/util/Date))], block([throw(call(java/lang/UnsupportedOperationException//UnsupportedOperationException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Not yet implemented"])]))])) return([call(org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [str])])]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [classname]]
+src/main/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [variable(s, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/Double)))], block([call(java/lang/Symflower//evaluatePartialPath!d41d8cd98f00b204e9800998ecf8427e, []), return([nil])])) return([call(java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [str])])]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [classname]]
+Found 1 Java files
+Found 112 problems in Java files
+src/main/java/org/apache/commons/cli/HelpFormatter.java: found 38 symbols
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getDescPadding: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getDescPadding: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getDescPadding: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getSyntaxPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getSyntaxPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getSyntaxPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLeftPadding: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLeftPadding: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLeftPadding: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setDescPadding: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setDescPadding: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setDescPadding: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printUsage: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptionComparator: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptionComparator: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptionComparator: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: internal error: org.apache.commons.cli.HelpFormatter.setOptionComparator: error: cannot parse literal for "@m_0_1"
+	data: [mkPointer true #x00000033 [@Torg/apache/commons/cli/HelpFormatter [mkPointer true #x00000000 @Tjava/lang/Object] #x00000000 #x00000000 #x00000000 [mkPointer false #x00000000 invalidAny] [mkPointer false #x00000000 invalidAny] [mkPointer false #x00000000 invalidAny] [mkPointer false #x00000000 invalidAny] [mkPointer false #x00000000 invalidAny] [mkPointer false #x00000000 invalidAny] [mkPointer true #x00000000 [@Tjava/util/Comparator<java/lang/Object> [mkPointer false #x00000000 invalidAny]]]]]
+	child error: Internal error: Internal error: invalid encoding for data:
+		[]interface {}{
+		    &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 141, 15), End:location.NewCompactFileLocationRaw(8, 141, 24)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/Comparator",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeReference{
+		                    Name: "java/lang/Object",
+		                },
+		            },
+		        },
+		        IsRaw: true,
+		    },
+		    []interface {}{
+		        "@Tjava/util/Comparator<java/lang/Object>",
+		        []interface {}{
+		            "mkPointer",
+		            "false",
+		            "#x00000000",
+		            "invalidAny",
+		        },
+		    },
+		}
+		Stacktrace: goroutine 194 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d24e20}, {0x1230b40, 0xc000eb2048})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0x0, 0x0}, {0x2205608, 0xc000c239c0}, {0x1230b40, 0xc0005cd0b0}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4035 +0x45dd
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0x0, 0x0}, {0x2205728, 0xc0008d34a0}, {0x1230b40, 0xc0005cd0c8}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0xc00057b250, 0x6}, {0x2205848, 0xc000bdd000}, {0x1230b40, 0xc0005cd0e0}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4113 +0x52c9
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0xc00057b250, 0x6}, {0x2205728, 0xc000db16e0}, {0x1230b40, 0xc0005cd140}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000eaf110, 0xc000028100, {0x20?, {0x2205728?, 0xc000942060?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:395 +0x5de
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000eaf110, 0xc000028100, {0x90?, {0xc00053c080?, 0xc000479c18?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000eaf110, 0xc000028100, {0x80?, {0xc0004943f0?, 0xc0004943f0?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000eaf110, 0xc000028100)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+		:
+		&modelast.TypePointer{
+		    Type: &modelast.TypeGenericInstance{
+		        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 141, 15), End:location.NewCompactFileLocationRaw(8, 141, 24)},
+		        Type:             &modelast.TypeReference{
+		            Name: "java/util/Comparator",
+		        },
+		        TypeArguments: []modelast.Type{
+		            &modelast.TypePointer{
+		                Type: &modelast.TypeReference{
+		                    Name: "java/lang/Object",
+		                },
+		            },
+		        },
+		        IsRaw: true,
+		    },
+		}
+		Stacktrace: goroutine 194 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de380, 0xc000b3cde0}, {0x13c8280, 0xc0008d34a0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0xc00057b250, 0x6}, {0x2205848, 0xc000bdd000}, {0x1230b40, 0xc0005cd0e0}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4115 +0x5385
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).parseSMTLibv2Constant(0xc000028100, {0xc00057b250, 0x6}, {0x2205728, 0xc000db16e0}, {0x1230b40, 0xc0005cd140}, 0xc000b3c630)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:4299 +0x4f8
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathDirectly(0xc000eaf110, 0xc000028100, {0x20?, {0x2205728?, 0xc000942060?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:395 +0x5de
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePath(0xc000eaf110, 0xc000028100, {0x90?, {0xc00053c080?, 0xc000479c18?}})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:764 +0x5ae
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solvePathAndSendTest(0xc000eaf110, 0xc000028100, {0x80?, {0xc0004943f0?, 0xc0004943f0?}}, 0x0)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:865 +0x37
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).solveCompletePathAndSendTest(...)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:852
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc000eaf110, 0xc000028100)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:333 +0x34e
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185
+		created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLeftPadding: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLeftPadding: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLeftPadding: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setArgName: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setArgName: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setArgName: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.renderWrappedText: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.renderWrappedText: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setWidth: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setWidth: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setWidth: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setOptPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printHelp: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printWrapped: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptSeparator: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptSeparator: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptSeparator: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getNewLine: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getNewLine: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getNewLine: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getArgName: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getArgName: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getArgName: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptionComparator: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptionComparator: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptionComparator: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printWrapped: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printWrapped: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptSeparator: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptSeparator: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptSeparator: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getLongOptPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printOptions: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printOptions: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printOptions: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printOptions: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getWidth: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getWidth: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getWidth: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setNewLine: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setNewLine: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setNewLine: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setLongOptPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.rtrim: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.rtrim: computed 2 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.rtrim: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setSyntaxPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setSyntaxPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.setSyntaxPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.findWrapPos: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.findWrapPos: computed 4 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.findWrapPos: found 6 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: info: org.apache.commons.cli.HelpFormatter.findWrapPos: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.003412992s, CPUTimeUser:9.978542s, CPUTimeSystem:24.006ms, MemoryUsage:127972}}
+src/main/java/org/apache/commons/cli/HelpFormatter.java: info: org.apache.commons.cli.HelpFormatter.findWrapPos: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.002878097s, CPUTimeUser:9.973766s, CPUTimeSystem:28.004ms, MemoryUsage:100884}}
+src/main/java/org/apache/commons/cli/HelpFormatter.java: info: org.apache.commons.cli.HelpFormatter.findWrapPos: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.002182871s, CPUTimeUser:9.977229s, CPUTimeSystem:24.002ms, MemoryUsage:50124}}
+src/main/java/org/apache/commons/cli/HelpFormatter.java: info: org.apache.commons.cli.HelpFormatter.findWrapPos: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.002568822s, CPUTimeUser:9.969394s, CPUTimeSystem:32.004ms, MemoryUsage:90712}}
+src/main/java/org/apache/commons/cli/HelpFormatter.java: info: org.apache.commons.cli.HelpFormatter.findWrapPos: test generation timed out
+src/main/java/org/apache/commons/cli/HelpFormatter.java:906:21: critical: org.apache.commons.cli.HelpFormatter.findWrapPos: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printHelp: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptPrefix: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptPrefix: computed 1 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.getOptPrefix: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printUsage: found 1 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: unsupported: org.apache.commons.cli.HelpFormatter.printUsage: encountered an unsupported type
+	data: unsupported(java/io/PrintWriter)
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.createPadding: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.createPadding: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.createPadding: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.printHelp: found 0 problems
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.renderOptions: computing test cases
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.renderOptions: computed 0 unit tests
+src/main/java/org/apache/commons/cli/HelpFormatter.java: org.apache.commons.cli.HelpFormatter.renderOptions: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/cli/HelpFormatter.java: generated unit test file src/main/java/org/apache/commons/cli/HelpFormatterSymflowerTest.java
+Analyzed 1 out of 12 source files
+Had 0 errors that block a full analysis
+Generated 25 tests
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 87 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 22 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 14 cases of "other issues"
+	Description: Uncategorized problems.
+

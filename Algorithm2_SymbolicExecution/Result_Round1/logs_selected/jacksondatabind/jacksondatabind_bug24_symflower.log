@@ -1,0 +1,713 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_24b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl._copy: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonAutoDetect
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: java/util/Locale
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/StdDateFormat
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown type
+	data: AnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown type
+	data: PropertyNamingStrategy
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/PropertyAccessor
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/core/Base64Variant
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: unsupported: unsupported node
+	data: [==(select(this, _visibilityChecker), vc) genericInstance(unsupported(com/fasterxml/jackson/databind/introspect/VisibilityChecker), [wildcard(, pointer(struct(java/lang/Object, [], [], [])))])]
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(com/fasterxml/jackson/databind/introspect/VisibilityChecker), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: unsupported: unsupported node
+	data: [==(select(this, _typeResolverBuilder), typer) genericInstance(unsupported(com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder), [wildcard(, pointer(struct(java/lang/Object, [], [], [])))])]
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: type does not support nil values
+	data: unsupported(com/fasterxml/jackson/databind/util/StdDateFormat)
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/cfg/ContextAttributes//Impl, [], [pointer(reference(com/fasterxml/jackson/databind/cfg/ContextAttributes))], [reference(java/io/Serializable)]) Collections]
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown type
+	data: KeyDeserializers
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown type
+	data: ValueInstantiators
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/AbstractTypeResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/std/StdKeyDeserializers
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ArrayIterator
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown type
+	data: Deserializers
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown type
+	data: BeanDeserializerModifier
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ArrayBuilders
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: DeserializationConfig
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: SerializationConfig
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: PropertyNamingStrategy
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ValueInstantiator
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeIdResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Converter
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: KeyDeserializer
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: JsonSerializer
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/Annotated
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser/VirtualBeanPropertyWriter
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/SerializableString
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/SerializedString
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/TypeReference
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeIdResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: BeanDescription
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/cfg/MapperConfig, [], [pointer(reference(java/lang/Object))], [unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector//MixInResolver), reference(java/io/Serializable)]) MapperFeature]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(com/fasterxml/jackson/core/type/TypeReference), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/core/Base64Variant
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/cfg/MapperConfig, [], [pointer(reference(java/lang/Object))], [unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector//MixInResolver), reference(java/io/Serializable)]) MapperFeature]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/Annotated
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: AnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: PropertyNamingStrategy
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeBindings
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown type
+	data: MapperFeature
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/annotation
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: unsupported: unsupported AST node
+	data: [0xc00001d600 0xc00001d6b0]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: unsupported: unsupported type
+	data: unsupported(com/fasterxml/jackson/databind/jsontype/TypeIdResolver)
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: java/util/Locale
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown identifier
+	data: builder
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/SubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/cfg/MapperConfig, [], [pointer(reference(java/lang/Object))], [unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector//MixInResolver), reference(java/io/Serializable)]) MapperFeature]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/PropertyAccessor
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/AnnotationIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/MapperFeature
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector/MixInResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/VisibilityChecker
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeFactory
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/JsonAutoDetect
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: java/text/DateFormat
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: java/util/Locale
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [<nil> collectFeatureDefaults [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src base]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ClassIntrospector
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/SimpleMixInResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: internal error: no supported constructor available
+	data: [struct(com/fasterxml/jackson/databind/cfg/MapperConfig, [], [pointer(reference(java/lang/Object))], [unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector//MixInResolver), reference(java/io/Serializable)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyNamingStrategy
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/SubtypeResolver
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyName
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown function
+	data: [genericInstance(reference(com/fasterxml/jackson/databind/cfg/MapperConfig), [reference(T)]) com/fasterxml/jackson/databind/cfg/MapperConfig//@@constructor [] [src mapperFeatures]]
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/core/Base64Variant
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RootNameLookup
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: unsupported: unsupported node
+	data: unsupported(com/fasterxml/jackson/databind/MapperFeature)
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: error: unknown import
+	data: com/fasterxml/jackson/core/Versioned
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: error: unknown import
+	data: com/fasterxml/jackson/core/util/VersionUtil
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: error: unknown import
+	data: com/fasterxml/jackson/core/Version
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ArrayBuilders
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ArrayIterator
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: error: unknown import
+	data: com/fasterxml/jackson/databind/ser
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: error: unknown type
+	data: Serializers
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: error: unknown type
+	data: BeanSerializerModifier
+Found 10 Java files
+Found 114 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: found 3 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: found 15 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: found 42 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: found 1 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/package-info.java: found 0 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: found 17 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: found 11 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: found 39 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: found 11 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: found 26 symbols
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withoutSharedAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withoutSharedAttribute: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withPerCallAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withPerCallAttribute: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttributes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttributes: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttributes: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.Impl: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.getAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.getAttribute: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withSharedAttributes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withSharedAttributes: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getAttribute: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withSharedAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.withSharedAttribute: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withPerCallAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withPerCallAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withPerCallAttribute: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withSharedAttribute: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getEmpty: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getEmpty: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.getEmpty: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.nonSharedInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.nonSharedInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.nonSharedInstance: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withoutSharedAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withoutSharedAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.Impl.withoutSharedAttribute: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.getEmpty: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.getEmpty: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ContextAttributes.java: com.fasterxml.jackson.databind.cfg.ContextAttributes.getEmpty: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withoutAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withoutAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findRootName: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getSubtypeResolver: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getSubtypeResolver: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.mixInCount: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.mixInCount: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAttribute: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAttribute: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getRootName: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.copy: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.copy: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withVisibility: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withVisibility: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getAttributes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getAttributes: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAppendedAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAppendedAnnotationIntrospector: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withView: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withView: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withInsertedAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withInsertedAnnotationIntrospector: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAttributes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withAttributes: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withRootName: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getActiveView: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getActiveView: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findMixInClassFor: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findMixInClassFor: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getFullRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.getFullRootName: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.MapperConfigBase: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.findRootName: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java: com.fasterxml.jackson.databind.cfg.MapperConfigBase.withRootName: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: com.fasterxml.jackson.databind.cfg.PackageVersion.version: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: com.fasterxml.jackson.databind.cfg.PackageVersion.version: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java: com.fasterxml.jackson.databind.cfg.PackageVersion.version: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalKeyDeserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalKeyDeserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalKeyDeserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.keyDeserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.keyDeserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.keyDeserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasValueInstantiators: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasValueInstantiators: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasValueInstantiators: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAbstractTypeResolver: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAbstractTypeResolver: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAbstractTypeResolver: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.valueInstantiators: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.valueInstantiators: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.valueInstantiators: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializerModifiers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializerModifiers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializerModifiers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withValueInstantiators: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withValueInstantiators: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withValueInstantiators: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withDeserializerModifier: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withDeserializerModifier: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withDeserializerModifier: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalDeserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalDeserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.withAdditionalDeserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializerModifiers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializerModifiers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.deserializerModifiers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.DeserializerFactoryConfig: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasDeserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasKeyDeserializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasKeyDeserializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasKeyDeserializers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasAbstractTypeResolvers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasAbstractTypeResolvers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.hasAbstractTypeResolvers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.abstractTypeResolvers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.abstractTypeResolvers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.DeserializerFactoryConfig.abstractTypeResolvers: unknown type kind
+	data: unsupported(Deserializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withHandlerInstantiator: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withHandlerInstantiator: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withHandlerInstantiator: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withTypeFactory: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withTypeFactory: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withTypeFactory: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getHandlerInstantiator: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getHandlerInstantiator: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getHandlerInstantiator: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withVisibility: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withVisibility: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withVisibility: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withPropertyNamingStrategy: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withPropertyNamingStrategy: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withPropertyNamingStrategy: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getBase64Variant: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getBase64Variant: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getBase64Variant: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getPropertyNamingStrategy: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getPropertyNamingStrategy: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getPropertyNamingStrategy: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withTypeResolverBuilder: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withTypeResolverBuilder: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getDateFormat: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getDateFormat: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getDateFormat: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.with: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withAnnotationIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withAnnotationIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getAnnotationIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getAnnotationIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getVisibilityChecker: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getVisibilityChecker: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getVisibilityChecker: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeFactory: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeFactory: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeFactory: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTimeZone: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTimeZone: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getTimeZone: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withDateFormat: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withDateFormat: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withDateFormat: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.with: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.with: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withInsertedAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withInsertedAnnotationIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withInsertedAnnotationIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withAppendedAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withAppendedAnnotationIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withAppendedAnnotationIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getClassIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getClassIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getClassIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withClassIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withClassIntrospector: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.withClassIntrospector: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeResolverBuilder: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeResolverBuilder: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getTypeResolverBuilder: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getLocale: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.getLocale: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.getLocale: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.BaseSettings: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.BaseSettings: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: internal error: com.fasterxml.jackson.databind.cfg.BaseSettings.BaseSettings: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/introspect/ClassIntrospector)
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withVisibilityChecker: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java: com.fasterxml.jackson.databind.cfg.BaseSettings.withVisibilityChecker: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.enabledIn: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.enabledIn: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.enabledByDefault: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.enabledByDefault: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.getMask: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java: com.fasterxml.jackson.databind.cfg.ConfigFeature.getMask: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.deserializerInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.deserializerInstance: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.namingStrategyInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.namingStrategyInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.objectIdGeneratorInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.objectIdGeneratorInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.keyDeserializerInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.keyDeserializerInstance: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.typeResolverBuilderInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.typeResolverBuilderInstance: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.virtualPropertyWriterInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.virtualPropertyWriterInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.converterInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.converterInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.valueInstantiatorInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.valueInstantiatorInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.resolverIdGeneratorInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.resolverIdGeneratorInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.typeIdResolverInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.typeIdResolverInstance: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.serializerInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java: com.fasterxml.jackson.databind.cfg.HandlerInstantiator.serializerInstance: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.without: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.without: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultVisibilityChecker: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultVisibilityChecker: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getBase64Variant: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getBase64Variant: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getClassIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getClassIntrospector: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectDirectClassAnnotations: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectDirectClassAnnotations: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.isEnabled: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.isEnabled: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.hasMapperFeatures: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.hasMapperFeatures: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getAnnotationIntrospector: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getAnnotationIntrospector: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getPropertyNamingStrategy: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getPropertyNamingStrategy: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDateFormat: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDateFormat: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructSpecializedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructSpecializedType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.canOverrideAccessModifiers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.canOverrideAccessModifiers: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectDirectClassAnnotations: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectDirectClassAnnotations: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.typeIdResolverInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.typeIdResolverInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.compileString: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.compileString: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getTypeFactory: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getTypeFactory: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.isAnnotationProcessingEnabled: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.isAnnotationProcessingEnabled: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getTimeZone: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getTimeZone: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.with: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.with: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getHandlerInstantiator: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getHandlerInstantiator: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultTyper: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultTyper: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.MapperConfig: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.useRootWrapping: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.useRootWrapping: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.constructType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.shouldSortPropertiesAlphabetically: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.shouldSortPropertiesAlphabetically: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getSubtypeResolver: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getSubtypeResolver: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getLocale: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getLocale: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.typeResolverBuilderInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.typeResolverBuilderInstance: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getActiveView: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getActiveView: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getAttributes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.getAttributes: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java: com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations: function is abstract and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializerModifiers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializerModifiers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializerModifiers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.serializers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasKeySerializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasKeySerializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasKeySerializers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializerModifiers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializerModifiers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializerModifiers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withSerializerModifier: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withSerializerModifier: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withSerializerModifier: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.keySerializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.keySerializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.keySerializers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.SerializerFactoryConfig: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalKeySerializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalKeySerializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalKeySerializers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.hasSerializers: unknown type kind
+	data: unsupported(Serializers)
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalSerializers: computing test cases
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalSerializers: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java: internal error: com.fasterxml.jackson.databind.cfg.SerializerFactoryConfig.withAdditionalSerializers: unknown type kind
+	data: unsupported(Serializers)
+Analyzed 10 out of 10 source files
+Had 5 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 74 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 67 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 10 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 8 cases of "other issues"
+	Description: Uncategorized problems.
+

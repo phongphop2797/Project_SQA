@@ -1,0 +1,259 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_44b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/EventHandler
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/EventState
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/util/Precision
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(expandableODE), getPrimaryState!d41d8cd98f00b204e9800998ecf8427e), []) 0 y 0 len(ensure_not_nil(y))]]
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/SortedSet), [unsupported(org/apache/commons/math/ode/events/EventState)])
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [eventY 0 y 0 len(ensure_not_nil(y))]]
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: java/util/TreeSet
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/UnivariateRealSolver
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/util/Incrementor
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [eventY 0 y 0 len(ensure_not_nil(y))]]
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/ode/AbstractParameterizable.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/AbstractParameterizable.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/AbstractParameterizable.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [pointer(reference(java/lang/String))]) java/util/Collection<java/lang/String>//addAll [] [names]]
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/ode/ContinuousOutputModel.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/EquationsMapper.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/ode/EquationsMapper.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [complete select(this, firstIndex) equationData 0 select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/EquationsMapper.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [equationData 0 complete select(this, firstIndex) select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [secondaryState 0 localArray 0 len(ensure_not_nil(secondaryState))]]
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [primaryState 0 select(this, primaryState) 0 len(ensure_not_nil(primaryState))]]
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/ExpandableStatefulODE.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/FirstOrderConverter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 0 select(this, z) 0 select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/FirstOrderConverter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y select(this, dimension) select(this, zDot) 0 select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/FirstOrderConverter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, zDot) 0 yDot 0 select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/FirstOrderConverter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, zDDot) 0 yDot select(this, dimension) select(this, dimension)]]
+src/main/java/org/apache/commons/math/ode/FirstOrderIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/FirstOrderIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown identifier
+	data: ode
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [<nil> checkDimension [] [select(this, stateDim) dYdP]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown identifier
+	data: arrayDimension
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: internal error: not all elements have the same type
+	data: conditional(instanceOf(select(this, jode), pointer(reference(org/apache/commons/math/ode/JacobianMatrices//MainStateJacobianWrapper))), [select(cast(select(this, jode), pointer(reference(org/apache/commons/math/ode/JacobianMatrices//MainStateJacobianWrapper))), ode), select(this, jode)])
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [<nil> checkDimension [] [select(this, stateDim) dYdY0]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [dYdP 0 select(this, matricesData) i select(this, stateDim)]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [row 0 select(this, matricesData) i select(this, stateDim)]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [p i dYdP 0 select(this, stateDim)]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [<nil> checkDimension [] [select(this, stateDim) index(dYdY0, 0)]]
+src/main/java/org/apache/commons/math/ode/JacobianMatrices.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [p j index(dYdY0, i) 0 select(this, stateDim)]]
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/FirstOrderIntegrator, [], [reference(org/apache/commons/math/ode/ODEIntegrator)], []) org/apache/commons/math/ode/FirstOrderIntegrator//addStepHandler [] [call(org/apache/commons/math/ode/MultistepIntegrator//NordsieckInitializer//NordsieckInitializer!f184df601e564589a0dab8a692b01311, [this, select(this, nSteps), len(ensure_not_nil(y0))])]]
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/MultistepIntegrator, [], [unsupported(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator)], []) org/apache/commons/math/ode/MultistepIntegrator//computeDerivatives [] [t y dot]]
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/MultistepIntegrator, [], [unsupported(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator)], []) stepStart]
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/MultistepIntegrator, [], [unsupported(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator)], []) stepSize]
+src/main/java/org/apache/commons/math/ode/MultistepIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/ODEIntegrator.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/UnivariateRealSolver
+src/main/java/org/apache/commons/math/ode/ODEIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/EventHandler
+src/main/java/org/apache/commons/math/ode/ODEIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/ParameterJacobianProvider.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/ParameterJacobianWrapper.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/math/ode/ParameterizedWrapper.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/ode/ParameterizedWrapper.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/ode/ParameterizedWrapper.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/SecondOrderIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/ode/SecondOrderIntegrator.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+Found 1 Java files
+Found 93 problems in Java files
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: found 23 symbols
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getEventHandlers: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getEventHandlers: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.clearEventHandlers: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.clearEventHandlers: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.integrate: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.integrate: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getStepHandlers: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getStepHandlers: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.integrate: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.integrate: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.sanityChecks: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.sanityChecks: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getCurrentStepStart: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getCurrentStepStart: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.computeDerivatives: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.acceptStep: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.acceptStep: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.AbstractIntegrator: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.AbstractIntegrator: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.clearStepHandlers: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.clearStepHandlers: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.resetEvaluations: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.resetEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addEventHandler: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addEventHandler: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setEquations: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setEquations: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.AbstractIntegrator: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.AbstractIntegrator: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getCurrentSignedStepsize: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getCurrentSignedStepsize: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getName: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.getName: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addEventHandler: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addEventHandler: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setStateInitialized: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.setStateInitialized: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addStepHandler: computing test cases
+src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java: org.apache.commons.math.ode.AbstractIntegrator.addStepHandler: computed 0 unit tests
+Analyzed 1 out of 14 source files
+Had 18 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 52 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 21 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

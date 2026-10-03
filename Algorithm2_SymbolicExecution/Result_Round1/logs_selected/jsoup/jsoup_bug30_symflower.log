@@ -1,0 +1,196 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_30b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.copySafeNodes: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.createSafeElement: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.ElementMeta.ElementMeta: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.testValidProtocol: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown type
+	data: Attributes
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/safety/Cleaner.java: error: an unsupported collection type has been used for this operation
+	data: genericInstance(unsupported(List), [unsupported(Node)])
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/safety/Cleaner.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//TagName))])
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(org/jsoup/safety/Whitelist//AttributeKey)), pointer(reference(org/jsoup/safety/Whitelist//AttributeValue))])) java/util/Map<org/jsoup/safety/Whitelist//AttributeKey,org/jsoup/safety/Whitelist//AttributeValue>//entrySet [] []]
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//AttributeKey))])
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//Protocol))])
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//AttributeKey))])
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown identifier
+	data: attributeSet
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//AttributeKey))])
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/safety/Whitelist.java: error: an unsupported collection type has been used for this operation
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(org/jsoup/safety/Whitelist//Protocol))])
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/safety/Whitelist.java: error: unknown import
+	data: org/jsoup/nodes/Element
+Found 3 Java files
+Found 25 problems in Java files
+src/main/java/org/jsoup/safety/Cleaner.java: found 3 symbols
+src/main/java/org/jsoup/safety/Whitelist.java: found 26 symbols
+src/main/java/org/jsoup/safety/package-info.java: found 0 symbols
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basic: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basic: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basic: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.basic: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.preserveRelativeLinks: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.preserveRelativeLinks: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.preserveRelativeLinks: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.preserveRelativeLinks: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.hashCode: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.none: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.none: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.none: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.none: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basicWithImages: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basicWithImages: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.basicWithImages: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.basicWithImages: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.relaxed: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.relaxed: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.relaxed: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.relaxed: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.AttributeValue: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.AttributeValue: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.AttributeValue: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.Protocol: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.Protocol: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.Protocol: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.simpleText: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.simpleText: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.simpleText: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.simpleText: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.equals: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.equals: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addAttributes: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addAttributes: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addEnforcedAttribute: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addEnforcedAttribute: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addEnforcedAttribute: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.addEnforcedAttribute: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeAttribute: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeAttribute: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeAttribute: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: unsupported: org.jsoup.safety.Whitelist.isSafeAttribute: encountered an unsupported type
+	data: unsupported(org/jsoup/nodes/Element)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.valueOf: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.valueOf: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.valueOf: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeValue.valueOf: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.TypedValue: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.TypedValue: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.toString: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TypedValue.toString: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addTags: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addTags: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addTags: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.addTags: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.AttributeKey: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.AttributeKey: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.AttributeKey.AttributeKey: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.TagName: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.TagName: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.TagName: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.valueOf: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.TagName.valueOf: found 0 problems
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Whitelist: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Whitelist: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Whitelist: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.Whitelist: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addProtocols: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addProtocols: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.addProtocols: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.addProtocols: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeTag: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeTag: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.isSafeTag: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.isSafeTag: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.getEnforcedAttributes: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.getEnforcedAttributes: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.getEnforcedAttributes: found 1 problems
+src/main/java/org/jsoup/safety/Whitelist.java: internal error: org.jsoup.safety.Whitelist.getEnforcedAttributes: not a struct type
+	data: unsupported(java/util/Set)
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.valueOf: computing test cases
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/safety/Whitelist.java: org.jsoup.safety.Whitelist.Protocol.valueOf: found 0 problems
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.Cleaner: computing test cases
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.Cleaner: computed 0 unit tests
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.Cleaner: found 0 problems
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.isValid: computing test cases
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.isValid: computed 0 unit tests
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.isValid: found 1 problems
+src/main/java/org/jsoup/safety/Cleaner.java: unsupported: org.jsoup.safety.Cleaner.isValid: encountered an unsupported type
+	data: unsupported(Document)
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.clean: computing test cases
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.clean: computed 0 unit tests
+src/main/java/org/jsoup/safety/Cleaner.java: org.jsoup.safety.Cleaner.clean: found 1 problems
+src/main/java/org/jsoup/safety/Cleaner.java: unsupported: org.jsoup.safety.Cleaner.clean: encountered an unsupported type
+	data: unsupported(Document)
+Analyzed 3 out of 3 source files
+Had 3 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 10 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 10 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 14 cases of "other issues"
+	Description: Uncategorized problems.
+

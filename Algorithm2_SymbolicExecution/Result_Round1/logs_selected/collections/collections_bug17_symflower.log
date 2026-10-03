@@ -1,0 +1,402 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_17b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections/functors/AllPredicate.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/functors/AllPredicate//AllPredicate [reference(T)] [preds]]
+src/main/java/org/apache/commons/collections/functors/AllPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/AllPredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/AllPredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/AllPredicate.java: error: unknown function
+	data: [<nil> validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/AndPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/AndPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/AnyPredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/AnyPredicate.java: internal error: not all elements have the same type
+	data: declaration([preds], [array(genericInstance(unsupported(org/apache/commons/collections/Predicate), [wildcard(reference(T), pointer(reference(java/lang/Object)))]), primitive(int, 32, false), 0)], [call(org/apache/commons/collections/functors/FunctorUtils//validate!2ff46a653aa0c23e30072468ec9c83d9, [cast(predicates, pointer(genericInstance(reference(java/util/Collection), [wildcard(, genericInstance(unsupported(org/apache/commons/collections/Predicate), [reference(T)]))])))])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/functors/AnyPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/AnyPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/AnyPredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/CatchAndRethrowClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/CatchAndRethrowClosure.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/ChainedClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [closures]]
+src/main/java/org/apache/commons/collections/functors/ChainedClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [closures]]
+src/main/java/org/apache/commons/collections/functors/ChainedClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [cmds]]
+src/main/java/org/apache/commons/collections/functors/ChainedClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/ChainedClosure.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [transformers]]
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [wildcard(, genericInstance(unsupported(org/apache/commons/collections/Transformer), [reference(T), reference(T)]))])) java/util/Collection<descendant of org/apache/commons/collections/Transformer<T,T>>//toArray [] [make(array(unsupported(org/apache/commons/collections/Transformer), primitive(int, 32, false), 0), call(select(ensure_not_nil(transformers), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [cmds]]
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/functors/ChainedTransformer//ChainedTransformer [reference(T)] [cmds]]
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ChainedTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [transformers]]
+src/main/java/org/apache/commons/collections/functors/CloneTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/CloneTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ClosureTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/ClosureTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/ComparatorPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/ComparatorPredicate.java: error: unknown function
+	data: [<nil> comparatorPredicate [] [object comparator &(composite(reference(org/apache/commons/collections/functors/ComparatorPredicate//Criterion), ["EQUAL"]))]]
+src/main/java/org/apache/commons/collections/functors/ConstantFactory.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/functors/ConstantFactory.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ConstantTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/ConstantTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ConstantTransformer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//equals [] [call(select(this, getConstant!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections/functors/DefaultEquator.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: unsupported: unsupported node
+	data: [==(object, nil) genericParameter(T, [pointer(reference(java/lang/Object))])]
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: unsupported: unsupported node
+	data: [==(object, nil) genericParameter(T, [pointer(reference(java/lang/Object))])]
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Object)) vs genericParameter(T, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections/functors/ExceptionClosure.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/ExceptionClosure.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ExceptionClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/ExceptionFactory.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ExceptionFactory.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/functors/ExceptionFactory.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/ExceptionPredicate.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/ExceptionPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/ExceptionPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ExceptionTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/ExceptionTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/ExceptionTransformer.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/FactoryTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/functors/FactoryTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/FalsePredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/FalsePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/ForClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/ForClosure.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: not a named type
+	data: array(genericInstance(unsupported(org/apache/commons/collections/Predicate), [wildcard(reference(T), pointer(reference(java/lang/Object)))]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: not a named type
+	data: array(genericInstance(unsupported(org/apache/commons/collections/Transformer), [wildcard(reference(I), pointer(reference(java/lang/Object))), wildcard(, reference(O))]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/FunctorUtils.java: error: not a named type
+	data: array(genericInstance(unsupported(org/apache/commons/collections/Closure), [wildcard(reference(E), pointer(reference(java/lang/Object)))]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/IdentityPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/IfClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/IfClosure.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/InstanceofPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/InstanceofPredicate.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//isInstance [] [object]]
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: unknown import
+	data: java/lang/reflect/Constructor
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: not a named type
+	data: array(pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: not a named type
+	data: array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [reference(T)]) java/lang/Class<T>//getConstructor [] [select(this, iParamTypes)]]
+src/main/java/org/apache/commons/collections/functors/InstantiateFactory.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: not a named type
+	data: array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, reference(T))])) java/lang/Class<descendant of T>//getConstructor [] [select(this, iParamTypes)]]
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: unknown import
+	data: java/lang/reflect/Constructor
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/InstantiateTransformer.java: error: not a named type
+	data: array(pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown import
+	data: java/lang/reflect/Method
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: not a named type
+	data: array(pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: not a named type
+	data: array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/collections/functors/InvokerTransformer.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/collections/functors/MapTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/MapTransformer.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [wildcard(reference(I), pointer(reference(java/lang/Object))), wildcard(, reference(O))]) java/util/Map<ancestor of I descendant of java/lang/Object,descendant of O>//get [] [input]]
+src/main/java/org/apache/commons/collections/functors/NOPClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/NOPClosure.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NOPTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/NOPTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NonePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NonePredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/NonePredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/NonePredicate.java: internal error: not all elements have the same type
+	data: declaration([preds], [array(genericInstance(unsupported(org/apache/commons/collections/Predicate), [wildcard(reference(T), pointer(reference(java/lang/Object)))]), primitive(int, 32, false), 0)], [call(org/apache/commons/collections/functors/FunctorUtils//validate!2ff46a653aa0c23e30072468ec9c83d9, [cast(predicates, pointer(genericInstance(reference(java/util/Collection), [wildcard(, genericInstance(unsupported(org/apache/commons/collections/Predicate), [reference(T)]))])))])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/functors/NotNullPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NotNullPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NotPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NotPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NullIsExceptionPredicate.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/NullIsExceptionPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NullIsExceptionPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NullIsFalsePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NullIsFalsePredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NullIsTruePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NullIsTruePredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/NullPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/NullPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/OnePredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/OnePredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/OnePredicate.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/OnePredicate.java: internal error: not all elements have the same type
+	data: declaration([preds], [array(genericInstance(unsupported(org/apache/commons/collections/Predicate), [wildcard(reference(T), pointer(reference(java/lang/Object)))]), primitive(int, 32, false), 0)], [call(org/apache/commons/collections/functors/FunctorUtils//validate!2ff46a653aa0c23e30072468ec9c83d9, [cast(predicates, pointer(genericInstance(reference(java/util/Collection), [wildcard(, genericInstance(unsupported(org/apache/commons/collections/Predicate), [reference(T)]))])))])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/functors/OnePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/OrPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/OrPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/PredicateDecorator.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/PredicateTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/PredicateTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeObject [] [select(this, iPrototype)]]
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: java/io/ByteArrayInputStream
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: org/apache/commons/collections/Factory
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readObject [] []]
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown function
+	data: [<nil> java/io/ObjectInputStream//ObjectInputStream [] [bais]]
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: internal error: missing return statement
+	data: function(variable(this, pointer(genericInstance(reference(org/apache/commons/collections/functors/PrototypeFactory//PrototypeSerializationFactory), [reference(T)]))), org/apache/commons/collections/functors/PrototypeFactory//PrototypeSerializationFactory//create!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, reference(T))], block([unsupported]))
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown import
+	data: java/lang/reflect/Method
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/PrototypeFactory.java: error: unknown function
+	data: [<nil> java/io/ObjectOutputStream//ObjectOutputStream [] [baos]]
+src/main/java/org/apache/commons/collections/functors/StringValueTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/StringValueTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [closures]]
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [<nil> org/apache/commons/collections/functors/SwitchClosure//SwitchClosure [reference(E)] [preds closures defaultClosure]]
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [genericInstance(unsupported(org/apache/commons/collections/Predicate), [reference(E)]), genericInstance(unsupported(org/apache/commons/collections/Closure), [reference(E)])])) java/util/Map<org/apache/commons/collections/Predicate<E>,org/apache/commons/collections/Closure<E>>//entrySet [] []]
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/SwitchClosure.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [closures]]
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//copy [] [transformers]]
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [wildcard(, genericInstance(unsupported(org/apache/commons/collections/Predicate), [wildcard(reference(I), pointer(reference(java/lang/Object)))])), wildcard(, genericInstance(unsupported(org/apache/commons/collections/Transformer), [wildcard(reference(I), pointer(reference(java/lang/Object))), wildcard(, reference(O))]))])) java/util/Map<descendant of org/apache/commons/collections/Predicate<ancestor of I descendant of java/lang/Object>,descendant of org/apache/commons/collections/Transformer<ancestor of I descendant of java/lang/Object,descendant of O>>//entrySet [] []]
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [predicates]]
+src/main/java/org/apache/commons/collections/functors/SwitchTransformer.java: error: unknown function
+	data: [struct(org/apache/commons/collections/functors/FunctorUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/collections/functors/FunctorUtils//validate [] [transformers]]
+src/main/java/org/apache/commons/collections/functors/TransformedPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/TransformedPredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/TransformedPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/TransformerClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/TransformerClosure.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/TransformerPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/TransformerPredicate.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/functors/TransformerPredicate.java: error: unknown import
+	data: org/apache/commons/collections/FunctorException
+src/main/java/org/apache/commons/collections/functors/TruePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/TruePredicate.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/functors/UniquePredicate.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/collections/functors/UniquePredicate.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/functors/UniquePredicate.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/functors/WhileClosure.java: error: unknown import
+	data: org/apache/commons/collections/Closure
+src/main/java/org/apache/commons/collections/functors/WhileClosure.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/functors/PrototypeFactory, [], [pointer(reference(java/lang/Object))], []) scopeLevelAtEntry:43 scopeLevelAtExit:45]
+Found 1 Java files
+Found 174 problems in Java files
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: found 6 symbols
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.evaluate: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.evaluate: computed 0 unit tests
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.evaluate: found 1 problems
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: unsupported: org.apache.commons.collections.functors.EqualPredicate.evaluate: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(org/apache/commons/collections/functors/Equator), [reference(T)]))), org/apache/commons/collections/functors/Equator//equate!8c7bb65b3144e32e6758c2eb9096f867, [variable(o1, reference(T)), variable(o2, reference(T))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.equalPredicate: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.equalPredicate: computed 0 unit tests
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: computed 1 unit tests
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: found 0 problems
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: computed 0 unit tests
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.EqualPredicate: found 0 problems
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.getValue: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.getValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.equalPredicate: computing test cases
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: org.apache.commons.collections.functors.EqualPredicate.equalPredicate: computed 0 unit tests
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections/functors/EqualPredicate.java: generated unit test file src/main/java/org/apache/commons/collections/functors/EqualPredicateSymflowerTest.java
+Analyzed 1 out of 51 source files
+Had 9 errors that block a full analysis
+Generated 1 test
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 85 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 40 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 32 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 5 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,274 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_2b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.Parser: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseComment: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseXmlDecl: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseEndTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseStartTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseAttribute: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseTextNode: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseCdata: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.addChildToParent: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.stackHasValidParent: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.popStackToSuitableContainer: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.popStackToClose: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.last: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.Tag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.createBlock: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.createInline: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.register: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setContainInlineOnly: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setContainDataOnly: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setOptionalClosing: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setPreserveWhitespace: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setAncestor: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) Document]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: XmlDeclaration
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Attributes
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(ensure_not_nil(select(this, tq)), consume!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Attribute
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) TextNode]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: LinkedList
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) Attribute]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/Parser.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(LinkedList), [unsupported(Element)])
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc000584340 <nil> [] 0xc0004f5100 0xc000624cf0 {None [] [] None}}
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc0000332a0 <nil> [] 0xc00012d700 0xc0001d4240 {None [] [] None}}
+src/main/java/org/jsoup/parser/Tag.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tag, [], [pointer(reference(java/lang/Object))], []) Collections]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/jsoup/parser/Tag))] [len(ensure_not_nil(tagNames))]]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/parser/Tag.java: error: unknown type
+	data: HashMap
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) java/lang/Character//toLowerCase [] [call(select(ensure_not_nil(chars), get!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(this, consume!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) java/lang/Character//isLetterOrDigit [] [c]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(this, consume!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/TokenQueue.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/LinkedList), [pointer(reference(java/lang/Character))])
+Found 4 Java files
+Found 32 problems in Java files
+src/main/java/org/jsoup/parser/Parser.java: found 2 symbols
+src/main/java/org/jsoup/parser/Tag.java: found 14 symbols
+src/main/java/org/jsoup/parser/TokenQueue.java: found 21 symbols
+src/main/java/org/jsoup/parser/package-info.java: found 0 symbols
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragment: computing test cases
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragment: found 1 problems
+src/main/java/org/jsoup/parser/Parser.java: internal error: org.jsoup.parser.Parser.parseBodyFragment: unknown type kind
+	data: unsupported(Document)
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: computing test cases
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: found 1 problems
+src/main/java/org/jsoup/parser/Parser.java: internal error: org.jsoup.parser.Parser.parse: unknown type kind
+	data: unsupported(Document)
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: found 0 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.toString: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesWhitespace: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeTo: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeToAny: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchChomp: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.remainder: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.addFirst: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeAttributeKey: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.TokenQueue: unknown type kind
+	data: unsupported
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.addFirst: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matches: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesWord: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.isEmpty: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.peek: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesAny: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consume: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consume: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.chompTo: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeCssIdentifier: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeWhitespace: not a struct type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeWord: not a struct type
+	data: unsupported(java/util/LinkedList)
+Analyzed 4 out of 4 source files
+Had 4 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 14 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 8 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 5 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 24 cases of "other issues"
+	Description: Uncategorized problems.
+

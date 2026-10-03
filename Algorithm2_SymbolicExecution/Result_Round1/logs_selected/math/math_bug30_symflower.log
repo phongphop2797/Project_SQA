@@ -1,0 +1,498 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_30b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.checkArray: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.checkRectangular: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.checkPositive: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.checkNonNegative: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.checkNonNegative: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.ensureDataConformance: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.concatenateSamples: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.calculateAsymptoticPValue: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaStats: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.AnovaStats.AnovaStats: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.checkSignificanceLevel: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.checkSampleData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.checkSampleData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.TestUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.ensureDataConformance: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.calculateDifferences: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.calculateAbsoluteDifferences: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.calculateExactPValue: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.calculateAsymptoticPValue: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/distribution/ChiSquaredDistribution
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 0 z len(ensure_not_nil(x)) len(ensure_not_nil(y))]]
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/NaNStrategy
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/distribution/NormalDistribution
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/NaturalRanking
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/TiesStrategy
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x 0 z 0 len(ensure_not_nil(x))]]
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/summary/Sum
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/summary/SumOfSquares
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/distribution/FDistribution
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/StatUtils
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/StatisticalSummary
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/distribution/TDistribution
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: error: unknown import
+	data: org/apache/commons/math3/stat/descriptive/StatisticalSummary
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/distribution/NormalDistribution
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/NaNStrategy
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/NaturalRanking
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/stat/ranking/TiesStrategy
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+Found 7 Java files
+Found 64 problems in Java files
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: found 4 symbols
+src/main/java/org/apache/commons/math3/stat/inference/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: found 10 symbols
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: found 4 symbols
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: found 4 symbols
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: found 27 symbols
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: found 32 symbols
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computed 2 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:593:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: computed 2 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:593:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computed 2 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:593:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.ChiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.ChiSquareTest: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.ChiSquareTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: computed 2 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: found 3 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: info: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: test generation timed out
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:83:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:86:32: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: computed 4 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: found 3 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: info: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: test generation timed out
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:415:13: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:418:33: critical: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareDataSetsComparison: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTestDataSetsComparison: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: org.apache.commons.math3.stat.inference.ChiSquareTest.chiSquareTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: internal error: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyUTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyUTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: internal error: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyUTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: internal error: org.apache.commons.math3.stat.inference.MannWhitneyUTest.MannWhitneyUTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyU: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyU: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java: internal error: org.apache.commons.math3.stat.inference.MannWhitneyUTest.mannWhitneyU: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: unsupported: org.apache.commons.math3.stat.inference.OneWayAnova.anovaTest: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaPValue: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaPValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaPValue: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: unsupported: org.apache.commons.math3.stat.inference.OneWayAnova.anovaPValue: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaFValue: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaFValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.anovaFValue: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: unsupported: org.apache.commons.math3.stat.inference.OneWayAnova.anovaFValue: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.OneWayAnova: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.OneWayAnova: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: org.apache.commons.math3.stat.inference.OneWayAnova.OneWayAnova: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.t: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.df: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.df: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.df: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.t: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.tTest: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.pairedT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.tTest: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.tTest: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: org.apache.commons.math3.stat.inference.TTest.tTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: unsupported: org.apache.commons.math3.stat.inference.TTest.tTest: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/stat/descriptive/StatisticalSummary)
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: info: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.025371953s, CPUTimeUser:9.646848s, CPUTimeSystem:343.389ms, MemoryUsage:745944}}
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: computed 2 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: found 3 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: info: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: test generation timed out
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:83:13: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:86:32: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquare: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: info: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.079582375s, CPUTimeUser:8.822251s, CPUTimeSystem:1.251184s, MemoryUsage:2517076}}
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTestDataSetsComparison: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.homoscedasticTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaPValue: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaPValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaPValue: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: unsupported: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaPValue: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: unsupported: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaTest: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedTTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaFValue: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaFValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaFValue: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: unsupported: org.apache.commons.math3.stat.inference.TestUtils.oneWayAnovaFValue: unsupported type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareDataSetsComparison: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareDataSetsComparison: computed 3 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareDataSetsComparison: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:415:13: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquareDataSetsComparison: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:418:33: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquareDataSetsComparison: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.t: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: computed 1 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: found 2 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: info: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.025331947s, CPUTimeUser:9.55057s, CPUTimeSystem:327.128ms, MemoryUsage:743072}}
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java:589:13: critical: org.apache.commons.math3.stat.inference.TestUtils.chiSquareTest: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedT: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedT: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.pairedT: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: computed 0 unit tests
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: org.apache.commons.math3.stat.inference.TestUtils.tTest: found 0 problems
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: internal error: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: internal error: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.WilcoxonSignedRankTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRankTest: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRankTest: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: internal error: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRankTest: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRank: computing test cases
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRank: found 1 problems
+src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java: internal error: org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest.wilcoxonSignedRank: unknown type kind
+	data: unsupported(org/apache/commons/math3/stat/ranking/NaturalRanking)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTest.java: generated unit test file src/main/java/org/apache/commons/math3/stat/inference/ChiSquareTestSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/stat/inference/OneWayAnova.java: generated unit test file src/main/java/org/apache/commons/math3/stat/inference/OneWayAnovaSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/stat/inference/TTest.java: generated unit test file src/main/java/org/apache/commons/math3/stat/inference/TTestSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java: generated unit test file src/main/java/org/apache/commons/math3/stat/inference/TestUtilsSymflowerTest.java
+Analyzed 7 out of 7 source files
+Had 0 errors that block a full analysis
+Generated 23 tests
+Found 17 potential problems
+The following issues prevent a full analysis:
+
+* 62 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 8 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 6 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 2 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 14 cases of "other issues"
+	Description: Uncategorized problems.
+

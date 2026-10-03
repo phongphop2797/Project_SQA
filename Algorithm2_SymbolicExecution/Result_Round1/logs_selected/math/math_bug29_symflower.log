@@ -1,0 +1,1019 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_29b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getEntries: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getLInfDistance: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["{"]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [shortClassName]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(genericInstance(reference(org/apache/commons/math3/linear/FieldMatrix), [reference(T)]))] [len(ensure_not_nil(binaryRepresentation))]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/ArrayList), [pointer(genericInstance(reference(org/apache/commons/math3/linear/FieldMatrix), [reference(T)]))])) java/util/ArrayList<org/apache/commons/math3/linear/FieldMatrix<T>>//get [] [i]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [genericInstance(reference(org/apache/commons/math3/linear/AbstractFieldMatrix//@@localDefaultFieldMatrixChangingVisitor0), [genericParameter(T, [pointer(reference(java/lang/Object))])]) getEntry!2ac0ebcb23011db97774191b8c6fdbe3]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/ArrayList), [pointer(genericInstance(reference(org/apache/commons/math3/linear/FieldMatrix), [reference(T)]))])) java/util/ArrayList<org/apache/commons/math3/linear/FieldMatrix<T>>//add [] [0 call(select(this, copy!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: internal error: name is already defined
+	data: variable(startRow, primitive(int, 32, false))
+src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: internal error: name is already defined
+	data: variable(startRow, primitive(int, 32, false))
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [shortClassName]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["{"]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!af10116c872d95e5ac0015bc09316193, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), rowCount, columnCount])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!af10116c872d95e5ac0015bc09316193, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows, nCols])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [d]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [d]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [v]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(i, row)) column nCols]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nCols])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!af10116c872d95e5ac0015bc09316193, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), rowCount, columnCount])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!af10116c872d95e5ac0015bc09316193, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows, call(select(this, getColumnDimension!d41d8cd98f00b204e9800998ecf8427e), [])])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(i, row)) column nCols]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) index select(out, data) 0 n]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [d pos select(this, data) 0 size]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) 0 out 0 len(ensure_not_nil(select(this, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v, data) 0 select(this, data) index len(ensure_not_nil(select(v, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [d pos select(this, data) 0 size]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 l1]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) l1 l2]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) index select(out, data) 0 n]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v 0 select(this, data) index len(ensure_not_nil(v))]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [d pos select(this, data) 0 size]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 l1]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) l1 l2]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 l1]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) l1 l2]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 l1]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) l1 l2]]
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) 0 out 0 len(ensure_not_nil(select(this, data)))]]
+src/main/java/org/apache/commons/math3/linear/BiDiagonalTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/BiDiagonalTransformer.java: error: unknown identifier
+	data: a
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock 0 -(jWidth, available)]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outData outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) available]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> toBlocksLayout [] [rawData]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(rawData, p) qStart block index jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), i) 0 index(select(copied, blocks), i) 0 len(ensure_not_nil(index(select(this, blocks), i)))]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), x++(blockIndex)) regularPos dataP dataPos org/apache/commons/math3/linear/BlockFieldMatrix//BLOCK_SIZE]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex available]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) out outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([data], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!af10116c872d95e5ac0015bc09316193, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), call(select(this, getRowDimension!d41d8cd98f00b204e9800998ecf8427e), []), call(select(this, getColumnDimension!d41d8cd98f00b204e9800998ecf8427e), [])])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, -(i, row)) -(jStart, column) block +(*(-(i, firstRow), jWidth), -(jStart, firstColumn)) jLength]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock 0 block *(iRow, jWidth) -(jWidth, available)]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [array outIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [blockData]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [rawData]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), blockIndex) lastPos dataP dataPos lastColumns]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [srcBlock srcPos dstBlock dstPos length]]
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math3/linear/AbstractFieldMatrix//buildArray!8435133ab8b2d5eca4dc9b5b23f6e731, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java: error: not a named type
+	data: array(genericParameter(T, [genericInstance(unsupported(org/apache/commons/math3/FieldElement), [reference(T)])]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), x++(blockIndex)) regularPos dataP dataPos org/apache/commons/math3/linear/BlockRealMatrix//BLOCK_SIZE]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [srcBlock srcPos dstBlock dstPos length]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), i) 0 index(select(copied, blocks), i) 0 len(ensure_not_nil(index(select(this, blocks), i)))]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outData outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), blockIndex) lastPos dataP dataPos lastColumns]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex available]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock 0 -(jWidth, available)]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock 0 block *(iRow, jWidth) -(jWidth, available)]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(rawData, p) qStart block index jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, -(i, row)) -(jStart, column) block +(*(-(i, firstRow), jWidth), -(jStart, firstColumn)) jLength]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) available]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) out outIndex jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [array outIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/CholeskyDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/CholeskyDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/ExceptionContext
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: error: unknown import
+	data: org/apache/commons/math3/util/IterationManager
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver, [], [pointer(reference(org/apache/commons/math3/linear/IterativeLinearSolver))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/linear/ConjugateGradient))), org/apache/commons/math3/linear/ConjugateGradient//solveInPlace!13669863c9e271f68201a5abcee1b29d, [variable(a, pointer(reference(org/apache/commons/math3/linear/RealLinearOperator))), variable(m, pointer(reference(org/apache/commons/math3/linear/RealLinearOperator))), variable(b, pointer(reference(org/apache/commons/math3/linear/RealVector))), variable(x0, pointer(reference(org/apache/commons/math3/linear/RealVector)))], [variable(, pointer(reference(org/apache/commons/math3/linear/RealVector)))], block([unsupported]))
+src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/DefaultIterativeLinearSolverEvent.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathUnsupportedOperationException
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/complex/Complex
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java: error: not a named type
+	data: array(array(primitive(float, 64, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/FieldDecompositionSolver.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: not a named type
+	data: array(primitive(int, 32, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: unknown identifier
+	data: determinant
+src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/FieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/FieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/FieldMatrixChangingVisitor.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/FieldMatrixPreservingVisitor.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/FieldVector.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/FieldVector.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/HessenbergTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/HessenbergTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/linear/HessenbergTransformer.java: error: unknown identifier
+	data: g
+src/main/java/org/apache/commons/math3/linear/IllConditionedOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/IllConditionedOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/util/IterationManager
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolverEvent.java: error: unknown import
+	data: org/apache/commons/math3/util/IterationEvent
+src/main/java/org/apache/commons/math3/linear/IterativeLinearSolverEvent.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathUnsupportedOperationException
+src/main/java/org/apache/commons/math3/linear/JacobiPreconditioner.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Sqrt
+src/main/java/org/apache/commons/math3/linear/LUDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/LUDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/LUDecomposition.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/linear/LUDecomposition.java: error: not a named type
+	data: array(primitive(int, 32, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown function
+	data: [<nil> getWrongDimension [] [0]]
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown function
+	data: [<nil> getExpectedDimension [] [0]]
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown function
+	data: [<nil> getWrongDimension [] [1]]
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown function
+	data: [<nil> getExpectedDimension [] [1]]
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MultiDimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: internal error: not all elements have the same type
+	data: conditional(<=(*(len(ensure_not_nil(data)), len(ensure_not_nil(index(data, 0)))), 4096), [call(org/apache/commons/math3/linear/Array2DRowRealMatrix//Array2DRowRealMatrix!d7ce9c946f791399aee2c7e4e7f51049, [data]), call(org/apache/commons/math3/linear/BlockRealMatrix//BlockRealMatrix!d7ce9c946f791399aee2c7e4e7f51049, [data])])
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readInt [] []]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [m]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [nsfe]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/fraction/Fraction
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [iae]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readDouble [] []]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(org/apache/commons/math3/linear/FieldMatrixPreservingVisitor), [reference(T)]))]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown type
+	data: java/lang/reflect/Field
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [nsfe]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [n]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/fraction/BigFraction
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: internal error: not all elements have the same type
+	data: conditional(<=(*(rows, columns), 4096), [call(org/apache/commons/math3/linear/Array2DRowRealMatrix//Array2DRowRealMatrix!2ac0ebcb23011db97774191b8c6fdbe3, [rows, columns]), call(org/apache/commons/math3/linear/BlockRealMatrix//BlockRealMatrix!2ac0ebcb23011db97774191b8c6fdbe3, [rows, columns])])
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeDouble [] [call(select(ensure_not_nil(matrix), getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [n]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeDouble [] [call(select(ensure_not_nil(vector), getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [iae]]
+src/main/java/org/apache/commons/math3/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/ExceptionContext
+src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/NonSelfAdjointOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/NonSelfAdjointOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/NonSquareMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/NonSquareMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/NonSquareOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/NonSquareOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/NonSymmetricMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/NonSymmetricMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/OpenMapRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/linear/OpenMapRealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/OpenIntToDoubleHashMap
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math3/linear/OpenMapRealVector, [], [pointer(reference(org/apache/commons/math3/linear/SparseRealVector))], [reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math3/linear/OpenMapRealVector, [], [pointer(reference(org/apache/commons/math3/linear/SparseRealVector))], [reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/OpenIntToDoubleHashMap
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math3/linear/OpenMapRealVector, [], [pointer(reference(org/apache/commons/math3/linear/SparseRealVector))], [reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: error: unknown function
+	data: [<nil> org/apache/commons/math3/linear/OpenMapRealVector//OpenMapEntry//OpenMapEntry [] [this select(this, iter)]]
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/util/IterationManager
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/linear/IterativeLinearSolver, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/QRDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/QRDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/QRDecomposition.java: error: unknown identifier
+	data: a
+src/main/java/org/apache/commons/math3/linear/QRDecomposition.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/RealLinearOperator.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/RealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/RealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/RealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/RealMatrix.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Multiply
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Divide
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/FunctionUtils
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathUnsupportedOperationException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/function/Add
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/linear/RealVector.java: error: unknown function
+	data: [<nil> org/apache/commons/math3/linear/RealVector//Entry//Entry [] [this]]
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: org/apache/commons/math3/util/CompositeFormat
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, prefix)]]
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, suffix)]]
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, separator)]]
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/SchurTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/SchurTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/SchurTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/SchurTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/linear/SingularMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/SingularMatrixException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/SingularOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/linear/SingularOperatorException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math3/util/OpenIntToFieldHashMap
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/util/OpenIntToFieldHashMap
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/ExceptionContext
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/util/IterationManager
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math3/linear/PreconditionedIterativeLinearSolver, [], [pointer(reference(org/apache/commons/math3/linear/IterativeLinearSolver))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/linear/SymmLQ.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/linear/TriDiagonalTransformer.java: error: unknown identifier
+	data: a
+internal error: scope leak
+	data: map[handledNode:function(<nil>, org/apache/commons/math3/linear/RealVector//unmodifiableRealVector!0c5628f3387e9eaedc2057b1e08221af, [variable(v, pointer(reference(org/apache/commons/math3/linear/RealVector)))], [variable(, pointer(reference(org/apache/commons/math3/linear/RealVector)))], block([return([unsupported])])) scopeLevelAtEntry:7 scopeLevelAtExit:8]
+Found 1 Java files
+Found 381 problems in Java files
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: found 56 symbols
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getEntry: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getEntry: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getEntry: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.hasNext: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.hasNext: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.hasNext: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.equals: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.equals: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.equals: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.subtract: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.subtract: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isNaN: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isNaN: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.isNaN: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.setEntry: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.setEntry: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.setEntry: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.set: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.set: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.set: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.unitVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.unitVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.unitVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.add: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.add: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.add: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.toArray: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.toArray: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.toArray: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.sparseIterator: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.sparseIterator: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.sparseIterator: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.add: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.add: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.add: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.append: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.append: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.append: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.append: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getSubVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getSubVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getSubVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.setValue: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.setValue: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.setValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getDistance: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.hashCode: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.ebeDivide: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.ebeDivide: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.ebeDivide: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.OpenMapEntry: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.OpenMapEntry: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.OpenMapEntry: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.mapAddToSelf: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.mapAddToSelf: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.mapAddToSelf: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.next: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.next: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.next: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.remove: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.remove: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.remove: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.dotProduct: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.OpenMapSparseIterator: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.OpenMapSparseIterator: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapSparseIterator.OpenMapSparseIterator: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getIndex: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getIndex: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getIndex: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isDefaultValue: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isDefaultValue: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.isDefaultValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.ebeMultiply: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.ebeMultiply: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.ebeMultiply: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.mapAdd: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.mapAdd: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.mapAdd: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.projection: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.projection: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.projection: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getValue: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getValue: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapEntry.getValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap/Iterator)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getSparsity: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getSparsity: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getSparsity: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getLInfDistance: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getLInfDistance: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getLInfDistance: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.copy: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.copy: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.copy: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDimension: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getDimension: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getDimension: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.subtract: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.subtract: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.unitize: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.unitize: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.unitize: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isInfinite: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.isInfinite: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.isInfinite: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.setSubVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.setSubVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.setSubVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.OpenMapRealVector: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: computing test cases
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: found 1 problems
+src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java: internal error: org.apache.commons.math3.linear.OpenMapRealVector.getL1Distance: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/OpenIntToDoubleHashMap)
+Analyzed 1 out of 52 source files
+Had 29 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 212 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 110 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 60 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 15 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 11 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,362 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_53b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.ComplexField: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.readResolve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: org.apache.commons.math.complex.ComplexUtils.ComplexUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//internalConcat [] [select(this, real)]]
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/complex/Complex.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/complex/ComplexField.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" - "]]
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" + "]]
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/util/CompositeFormat
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getImaginaryCharacter!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/MathParseException
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/NoDataException
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getImaginaryCharacter!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/Number)) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+Found 4 Java files
+Found 28 problems in Java files
+src/main/java/org/apache/commons/math/complex/Complex.java: found 35 symbols
+src/main/java/org/apache/commons/math/complex/ComplexField.java: found 3 symbols
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: found 19 symbols
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: found 1 symbols
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getInstance: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getInstance: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexField.java: internal error: org.apache.commons.math.complex.ComplexField.getInstance: not a struct type
+	data: unsupported(org/apache/commons/math/Field)
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getOne: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getOne: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getOne: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexField.java: internal error: org.apache.commons.math.complex.ComplexField.getOne: not a struct type
+	data: unsupported(org/apache/commons/math/Field)
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getZero: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getZero: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexField.java: org.apache.commons.math.complex.ComplexField.getZero: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexField.java: internal error: org.apache.commons.math.complex.ComplexField.getZero: not a struct type
+	data: unsupported(org/apache/commons/math/Field)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.parse: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.parse: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.format: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.parse: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.parse: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.parse: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getInstance: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.format: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getInstance: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getImaginaryCharacter: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getImaginaryCharacter: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getImaginaryCharacter: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getRealFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getRealFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getRealFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getImaginaryFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getImaginaryFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getImaginaryFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getAvailableLocales: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getAvailableLocales: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getAvailableLocales: found 0 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.format: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.ComplexFormat: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.format: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.format: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: org.apache.commons.math.complex.ComplexFormat.getInstance: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexFormat.java: internal error: org.apache.commons.math.complex.ComplexFormat.getInstance: unknown type kind
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: org.apache.commons.math.complex.ComplexUtils.polar2Complex: computing test cases
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: org.apache.commons.math.complex.ComplexUtils.polar2Complex: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: org.apache.commons.math.complex.ComplexUtils.polar2Complex: found 1 problems
+src/main/java/org/apache/commons/math/complex/ComplexUtils.java: internal error: org.apache.commons.math.complex.ComplexUtils.polar2Complex: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.conjugate: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.conjugate: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.conjugate: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.conjugate: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.sqrt: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.Complex: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.Complex: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.Complex: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.Complex: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.negate: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.negate: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.negate: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.negate: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tan: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tan: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tan: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.tan: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.add: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.add: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.add: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.add: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.multiply: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cosh: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cosh: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cosh: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.cosh: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.atan: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.atan: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.atan: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.atan: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.toString: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.toString: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.toString: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.log: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.log: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.log: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.log: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sin: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sin: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sin: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.sin: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.equals: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.equals: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.equals: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.hashCode: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.hashCode: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.hashCode: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isInfinite: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isInfinite: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isInfinite: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.isInfinite: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.asin: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.asin: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.asin: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.asin: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getImaginary: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getImaginary: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getImaginary: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.getImaginary: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.multiply: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.multiply: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.pow: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.pow: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.pow: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tanh: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tanh: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.tanh: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.tanh: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.readResolve: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.readResolve: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.readResolve: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.readResolve: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.divide: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.divide: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.divide: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.createComplex: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.createComplex: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.createComplex: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.createComplex: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt1z: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt1z: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sqrt1z: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.sqrt1z: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.abs: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.abs: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.abs: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.abs: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.subtract: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.subtract: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.subtract: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isNaN: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isNaN: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.isNaN: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.isNaN: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.acos: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.acos: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.acos: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.acos: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.exp: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.exp: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.exp: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.exp: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.nthRoot: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.nthRoot: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: unsupported: org.apache.commons.math.complex.Complex.nthRoot: unsupported AST node
+	data: /(*(2, unsupported), n)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getField: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getField: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getField: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.getField: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cos: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cos: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.cos: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.cos: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sinh: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sinh: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.sinh: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.sinh: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getReal: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getReal: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getReal: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.getReal: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getArgument: computing test cases
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getArgument: computed 0 unit tests
+src/main/java/org/apache/commons/math/complex/Complex.java: org.apache.commons.math.complex.Complex.getArgument: found 1 problems
+src/main/java/org/apache/commons/math/complex/Complex.java: internal error: org.apache.commons.math.complex.Complex.getArgument: not a struct type
+	data: unsupported(org/apache/commons/math/FieldElement)
+Analyzed 4 out of 4 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 20 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 17 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 7 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 39 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,374 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_33b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.writeObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.readObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.writeObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.readObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@Relationship: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.getPivotColumn: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.getPivotRow: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.normalize: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getConstraintTypeCounts: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.copyArray: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.writeObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.readObject: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: error: unknown import
+	data: org/apache/commons/math3/linear/MatrixUtils
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealVector
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: error: unknown import
+	data: org/apache/commons/math3/linear/ArrayRealVector
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: error: unknown import
+	data: org/apache/commons/math3/linear/MatrixUtils
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealVector
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: error: unknown import
+	data: org/apache/commons/math3/linear/ArrayRealVector
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: unsupported: unsupported type
+	data: pointer(reference(org/apache/commons/math3/optimization/linear/@@Relationship)) vs pointer(reference(org/apache/commons/math3/optimization/linear/Relationship))
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/optimization/PointValuePair
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(java/lang/Integer))])
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/linear/MatrixUtils
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealMatrix
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: unsupported: unsupported type cast
+	data: cast(call(select(ensure_not_nil(columnsToDrop), get!82a13d2b9378b45b5451d30242dc1218), [i]), primitive(int, 32, false))
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [src 0 dest call(select(this, getNumObjectiveFunctions!d41d8cd98f00b204e9800998ecf8427e), []) len(ensure_not_nil(src))]]
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: error: unknown import
+	data: org/apache/commons/math3/linear/RealVector
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+Found 10 Java files
+Found 41 problems in Java files
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: found 4 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: found 2 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: found 27 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: found 11 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: found 9 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: found 1 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: found 5 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: found 1 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: found 8 symbols
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.hashCode: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.equals: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.equals: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.equals: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getCoefficients: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getCoefficients: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getCoefficients: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getConstantTerm: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getConstantTerm: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getConstantTerm: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.getValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java: internal error: org.apache.commons.math3.optimization.linear.LinearObjectiveFunction.LinearObjectiveFunction: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.restrictToNonNegative: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.restrictToNonNegative: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getFunction: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getFunction: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.incrementIterationsCounter: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.incrementIterationsCounter: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.AbstractLinearOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.AbstractLinearOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getGoalType: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getGoalType: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.doOptimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.setMaxIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.setMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getConstraints: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java: org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.getConstraints: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.equals: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.equals: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.equals: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getRelationship: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getRelationship: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.getRelationship: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.hashCode: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.LinearConstraint: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getValue: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.getValue: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getCoefficients: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: org.apache.commons.math3.optimization.linear.LinearConstraint.getCoefficients: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java: internal error: org.apache.commons.math3.optimization.linear.LinearConstraint.getCoefficients: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException.NoFeasibleSolutionException: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException.NoFeasibleSolutionException: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java: org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException.NoFeasibleSolutionException: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.optimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.getIterations: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.setMaxIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.setMaxIterations: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/LinearOptimizer.java: org.apache.commons.math3.optimization.linear.LinearOptimizer.getMaxIterations: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@oppositeRelationship: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@oppositeRelationship: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@oppositeRelationship: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@toString: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@toString: computed 1 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: org.apache.commons.math3.optimization.linear.@@Relationship.@@toString: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumObjectiveFunctions: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumObjectiveFunctions: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumObjectiveFunctions: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getRhsOffset: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getRhsOffset: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getRhsOffset: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getData: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getData: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getData: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getSlackVariableOffset: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getSlackVariableOffset: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getSlackVariableOffset: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.dropPhase1Objective: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.dropPhase1Objective: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getSolution: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getSolution: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getSolution: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumDecisionVariables: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumDecisionVariables: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumDecisionVariables: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumArtificialVariables: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumArtificialVariables: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumArtificialVariables: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumSlackVariables: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumSlackVariables: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getNumSlackVariables: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getWidth: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getWidth: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getWidth: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.equals: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.equals: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.equals: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.isOptimal: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.isOptimal: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.isOptimal: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.subtractRow: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.subtractRow: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.subtractRow: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getHeight: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getHeight: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getHeight: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.SimplexTableau: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.setEntry: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.setEntry: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.setEntry: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getArtificialVariableOffset: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getArtificialVariableOffset: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getArtificialVariableOffset: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.initializeColumnLabels: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.initializeColumnLabels: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.initializeColumnLabels: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.normalizeConstraints: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.normalizeConstraints: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.normalizeConstraints: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.divideRow: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.divideRow: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.divideRow: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.hashCode: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getInvertedCoefficientSum: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getInvertedCoefficientSum: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getInvertedCoefficientSum: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: unsupported: org.apache.commons.math3.optimization.linear.SimplexTableau.getInvertedCoefficientSum: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/linear/RealVector)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.createTableau: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.createTableau: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.createTableau: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getEntry: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getEntry: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getEntry: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getBasicRow: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getBasicRow: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getBasicRow: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getOriginalNumDecisionVariables: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: org.apache.commons.math3.optimization.linear.SimplexTableau.getOriginalNumDecisionVariables: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java: internal error: org.apache.commons.math3.optimization.linear.SimplexTableau.getOriginalNumDecisionVariables: unknown type kind
+	data: unsupported(org/apache/commons/math3/linear/RealMatrix)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.solvePhase1: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.solvePhase1: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: internal error: org.apache.commons.math3.optimization.linear.SimplexSolver.solvePhase1: unknown type kind
+	data: unsupported(org/apache/commons/math3/optimization/GoalType)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: internal error: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: unknown type kind
+	data: unsupported(org/apache/commons/math3/optimization/GoalType)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: internal error: org.apache.commons.math3.optimization.linear.SimplexSolver.SimplexSolver: unknown type kind
+	data: unsupported(org/apache/commons/math3/optimization/GoalType)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.doIteration: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.doIteration: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: internal error: org.apache.commons.math3.optimization.linear.SimplexSolver.doIteration: unknown type kind
+	data: unsupported(org/apache/commons/math3/optimization/GoalType)
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: org.apache.commons.math3.optimization.linear.SimplexSolver.doOptimize: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java: internal error: org.apache.commons.math3.optimization.linear.SimplexSolver.doOptimize: unknown type kind
+	data: unsupported(org/apache/commons/math3/optimization/GoalType)
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: org.apache.commons.math3.optimization.linear.UnboundedSolutionException.UnboundedSolutionException: computing test cases
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: org.apache.commons.math3.optimization.linear.UnboundedSolutionException.UnboundedSolutionException: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java: org.apache.commons.math3.optimization.linear.UnboundedSolutionException.UnboundedSolutionException: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java: generated unit test file src/main/java/org/apache/commons/math3/optimization/linear/RelationshipSymflowerTest.java
+Analyzed 10 out of 10 source files
+Had 1 error that blocks a full analysis
+Generated 1 test
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 47 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 30 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 7 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 2 cases of "other issues"
+	Description: Uncategorized problems.
+

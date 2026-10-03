@@ -1,0 +1,719 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_71b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scaled]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> computeStepGrowShrinkFactor [] [error]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scalRelativeTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepHandlers]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown identifier
+	data: tol
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> sanityChecks [] [equations t0 y0 t y]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> start [] [t0 y t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, cast(len(ensure_not_nil(y0)), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> start [] [unsupported y t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/NordsieckStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) nordsieck]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/CombinedEventsManager
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) vecRelativeTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 0 yTmp 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [unsupported forward true]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> resetEvaluations [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) vecAbsoluteTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> setEquations [] [equations]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scalAbsoluteTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [stepEnd yTmp yDot]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> computeStepGrowShrinkFactor [] [error]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [*(unsupported, factor) forward false]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yTmp 0 y 0 n]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [scaledH forward nextIsLast]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y0 0 y 0 n]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/MultistepIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrixPreservingVisitor
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> setEquations [] [equations]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [unsupported forward true]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) vecAbsoluteTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown identifier
+	data: tol
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/NordsieckStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> start [] [unsupported y t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) nordsieck]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> computeStepGrowShrinkFactor [] [error]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scalRelativeTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) vecRelativeTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, cast(len(ensure_not_nil(select(this, after))), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> start [] [t0 y t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [stepEnd yTmp yDot]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [scaledH forward nextIsLast]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> computeStepGrowShrinkFactor [] [error]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [select(this, @@outer) struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scalAbsoluteTolerance]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> sanityChecks [] [equations t0 y0 t y]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) stepHandlers]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdamsIntegrator))], []) scaled]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> resetEvaluations [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y0 0 y 0 n]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/linear/MatrixVisitorException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/CombinedEventsManager
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [stepEnd yTmp yDot]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [<nil> filterStep [] [*(unsupported, factor) forward false]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 0 yTmp 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yTmp 0 y 0 n]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/FieldDecompositionSolver
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/FieldMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/MatrixUtils
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/fraction/BigFraction
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowFieldMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/Array2DRowRealMatrix
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/DefaultFieldMatrixChangingVisitor
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: org/apache/commons/math/linear/FieldLUDecompositionImpl
+src/main/java/org/apache/commons/math/ode/nonstiff/AdamsNordsieckTransformer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown identifier
+	data: h
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [yDotOnScale2]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(select(this, minStep), select(this, maxStep))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/AbstractIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [yDDotOnScale]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(yOnScale2, yDotOnScale2)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [+(t0, h) y1 yDot1]]
+src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator//ClassicalRungeKuttaStepInterpolator!c1c75b75ac2a73568a74cd926022c6a9, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!c1c75b75ac2a73568a74cd926022c6a9), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator//ClassicalRungeKuttaStepInterpolator!c1c75b75ac2a73568a74cd926022c6a9, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, cast(len(ensure_not_nil(y0)), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/AbstractIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator//DormandPrince54StepInterpolator!9e1aae108e989ddbd64cc3a00ab920a8, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!9e1aae108e989ddbd64cc3a00ab920a8), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator//DormandPrince54StepInterpolator!9e1aae108e989ddbd64cc3a00ab920a8, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince54StepInterpolator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//storeTime [] [t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(cast(len(ensure_not_nil(y0)), primitive(float, 64, false)), den)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [6.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: java/io/ObjectInput
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) h]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) previousTime]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [interpolator struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//storeTime [] [t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(interpolator, yDotKLast), k) 0 index(select(this, yDotKLast), k) 0 dimension]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: java/io/ObjectOutput
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown function
+	data: [<nil> finalizeStep [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(interpolator, v), k) 0 index(select(this, v), k) 0 dimension]]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown identifier
+	data: dimension
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/AbstractIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [interpolator struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator//DormandPrince853StepInterpolator!e413c4a27525f08861983b1d4fd71bf2, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!e413c4a27525f08861983b1d4fd71bf2), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/DormandPrince853StepInterpolator//DormandPrince853StepInterpolator!e413c4a27525f08861983b1d4fd71bf2, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> setEquations [] [equations]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> resetEvaluations [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> requiresDenseOutput [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//copy [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: unsupported: unsupported type
+	data: !=(y, y0)
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y0 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator)) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//reinitialize [] [this yTmp yDotK forward]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [unsupported y index(yDotK, 0)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepHandlers]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(yDotK, -(stages, 1)) 0 index(yDotK, 0) 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [+(unsupported, *(index(select(this, c), -(k, 1)), unsupported)) yTmp index(yDotK, k)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yTmp 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [unsupported y index(yDotK, 0)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/CombinedEventsManager
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/DummyStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(select(this, @org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator), yDotK), 0) 0 unsupported 0 unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/EulerStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/EulerStepInterpolator//EulerStepInterpolator!ecb7a92cc89d96df988f77a8901dfb0e, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!ecb7a92cc89d96df988f77a8901dfb0e), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/EulerStepInterpolator//EulerStepInterpolator!ecb7a92cc89d96df988f77a8901dfb0e, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/GillStepInterpolator//GillStepInterpolator!636bffc29ce28e45a0ddaf49448c585f, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/GillStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/GillStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/GillStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/GillStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!636bffc29ce28e45a0ddaf49448c585f), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/GillStepInterpolator//GillStepInterpolator!636bffc29ce28e45a0ddaf49448c585f, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [2.0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GillStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GillStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/GillStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yEnd 0 yMiddle 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y0 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [+(unsupported, unsupported) y1 yDot1]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/DummyStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> requiresDenseOutput [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yDot1 0 yDot0 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator//addEventHandler [] [function maxCheckInterval convergence maxIterationCount]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [t yEnd index(f, +(j, 1))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepHandlers]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> setEquations [] [equations]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [-(0.5, *(0.6, log10R))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [unsupported y yDot0]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/EventHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [t yEnd index(f, 1)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [<nil> resetEvaluations [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, cast(len(ensure_not_nil(y0)), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y1 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator))], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator//addStepHandler [] [handler]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, unsupported)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(cast(+(i, 1), primitive(float, 64, false)), cast(ip5, primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [<nil> readBaseExternal [] [in]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(float, 64, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown identifier
+	data: dimension
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [<nil> setInterpolatedTime [] [t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, polynoms) 0 newPols 0 len(ensure_not_nil(select(this, polynoms)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator//GraggBulirschStoerStepInterpolator!d23ae0b5c318c11bcdb578fcbd0ac52b, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!d23ae0b5c318c11bcdb578fcbd0ac52b), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator//GraggBulirschStoerStepInterpolator!d23ae0b5c318c11bcdb578fcbd0ac52b, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown import
+	data: java/io/ObjectOutput
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(interpolator, polynoms), i) 0 index(select(this, polynoms), i) 0 dimension]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [<nil> writeBaseExternal [] [out]]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown import
+	data: java/io/ObjectInput
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) h]
+src/main/java/org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, yMidDots), 1) 0 unsupported 0 dimension]]
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54Integrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(error, cast(len(ensure_not_nil(y0)), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator//HighamHall54StepInterpolator!a4dd5d295100d36ecffd667d3d881dde, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!a4dd5d295100d36ecffd667d3d881dde), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator//HighamHall54StepInterpolator!a4dd5d295100d36ecffd667d3d881dde, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) h]
+src/main/java/org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator//MidpointStepInterpolator!f35514bb4d6507bf15b2855ae8e97f18, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!f35514bb4d6507bf15b2855ae8e97f18), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator//MidpointStepInterpolator!f35514bb4d6507bf15b2855ae8e97f18, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/MidpointStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/FirstOrderDifferentialEquations
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> sanityChecks [] [equations t0 y0 t y]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> setEquations [] [equations]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//copy [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepStart]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepHandlers]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [yTmp 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepHandler
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> resetEvaluations [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [unsupported y index(yDotK, 0)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/IntegratorException
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/DummyStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator)) org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator//reinitialize [] [this yTmp yDotK forward]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [unsupported y index(yDotK, 0)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> computeDerivatives [] [+(unsupported, *(index(select(this, c), -(k, 1)), unsupported)) yTmp index(yDotK, k)]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/AbstractIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/events/CombinedEventsManager
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y0 0 y 0 len(ensure_not_nil(y0))]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [<nil> requiresDenseOutput [] []]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) eventsHandlersManager]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator, [], [unsupported(org/apache/commons/math/ode/AbstractIntegrator)], []) stepSize]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown field
+	data: [interpolator struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(interpolator, yDotK), k) 0 index(select(this, yDotK), k) 0 dimension]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown function
+	data: [<nil> writeBaseExternal [] [out]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) interpolatedTime]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown function
+	data: [<nil> reinitialize [] [y forward]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown function
+	data: [<nil> readBaseExternal [] [in]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown import
+	data: java/io/ObjectInput
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown import
+	data: java/io/ObjectOutput
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/AbstractStepInterpolator
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator, [], [unsupported(org/apache/commons/math/ode/sampling/AbstractStepInterpolator)], []) currentState]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown identifier
+	data: n
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown function
+	data: [<nil> setInterpolatedTime [] [t]]
+src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/AbstractIntegrator
+src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator//ThreeEighthesStepInterpolator!979d36c5868bd1becbacad6f815e271d, [variable(interpolator, pointer(reference(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator)))], [variable(, pointer(reference(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator)))], block([declaration([this], [pointer(reference(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator))], [new(pointer(reference(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator)))], ModifierNone), =(this, call(select(this, @@constructor!979d36c5868bd1becbacad6f815e271d), [interpolator])), return([this])])) return([call(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator//ThreeEighthesStepInterpolator!979d36c5868bd1becbacad6f815e271d, [this])])]
+src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedState]
+src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator.java: error: unknown field
+	data: [this struct(org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator, [], [pointer(reference(org/apache/commons/math/ode/nonstiff/RungeKuttaStepInterpolator))], []) interpolatedDerivatives]
+src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/DerivativeException
+src/main/java/org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolator.java: error: unknown import
+	data: org/apache/commons/math/ode/sampling/StepInterpolator
+Found 1 Java files
+Found 333 problems in Java files
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: found 11 symbols
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getOrder: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getOrder: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getMinReduction: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getMinReduction: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getSafety: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getSafety: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setSafety: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setSafety: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getMaxGrowth: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.getMaxGrowth: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.estimateError: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.estimateError: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setMinReduction: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setMinReduction: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.EmbeddedRungeKuttaIntegrator: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setMaxGrowth: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.setMaxGrowth: computed 0 unit tests
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate: computing test cases
+src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java: org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator.integrate: computed 0 unit tests
+Analyzed 1 out of 22 source files
+Had 97 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 134 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 88 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 9 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

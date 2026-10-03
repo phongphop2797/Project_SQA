@@ -1,0 +1,222 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_51b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/analysis/solvers/AbstractDifferentiableUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/AbstractDifferentiableUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/AbstractDifferentiableUnivariateRealSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/AbstractPolynomialSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/polynomials/PolynomialFunction
+src/main/java/org/apache/commons/math/analysis/solvers/AbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/util/Incrementor
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils//isBracketing [] [select(this, function) lower upper]]
+src/main/java/org/apache/commons/math/analysis/solvers/BaseAbstractUnivariateRealSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils//verifyBracketing [] [select(this, function) lower upper]]
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/MathInternalError
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/BaseSecantSolver))), org/apache/commons/math/analysis/solvers/BaseSecantSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/BaseUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/BisectionSolver))), org/apache/commons/math/analysis/solvers/BisectionSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/BracketedUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x start x 0 nbPoints]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x 1 x 0 nbPoints]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x signChangeIndex x +(signChangeIndex, 1) -(nbPoints, signChangeIndex)]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/MathInternalError
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x start tmpX start -(end, start)]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y start y 0 nbPoints]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 1 y 0 nbPoints]]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver))), org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y signChangeIndex y +(signChangeIndex, 1) -(nbPoints, signChangeIndex)]]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/BrentSolver))), org/apache/commons/math/analysis/solvers/BrentSolver//brent!cbe10efd8c318477df2ce93221ba5ee1, [variable(lo, primitive(float, 64, false)), variable(hi, primitive(float, 64, false)), variable(fLo, primitive(float, 64, false)), variable(fHi, primitive(float, 64, false))], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/DifferentiableUnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/complex/Complex
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [c 0 subarray 0 len(ensure_not_nil(subarray))]]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/LaguerreSolver//ComplexSolver))), org/apache/commons/math/analysis/solvers/LaguerreSolver//ComplexSolver//solve!3008b0d337339335cb17b787b24a6468, [variable(coefficients, array(unsupported(org/apache/commons/math/complex/Complex), primitive(int, 32, false), 0)), variable(initial, unsupported(org/apache/commons/math/complex/Complex))], [variable(, unsupported(org/apache/commons/math/complex/Complex))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/exception/NoDataException
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/MullerSolver))), org/apache/commons/math/analysis/solvers/MullerSolver//solve!cbe10efd8c318477df2ce93221ba5ee1, [variable(min, primitive(float, 64, false)), variable(max, primitive(float, 64, false)), variable(fMin, primitive(float, 64, false)), variable(fMax, primitive(float, 64, false))], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver2.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/MullerSolver2))), org/apache/commons/math/analysis/solvers/MullerSolver2//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/NewtonSolver))), org/apache/commons/math/analysis/solvers/NewtonSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/PolynomialSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/polynomials/PolynomialFunction
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/RiddersSolver))), org/apache/commons/math/analysis/solvers/RiddersSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown type
+	data: FUNC
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/analysis/solvers/SecantSolver))), org/apache/commons/math/analysis/solvers/SecantSolver//doSolve!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(float, 64, false))], block([unsupported]))
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NoBracketingException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+Found 1 Java files
+Found 91 problems in Java files
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: found 7 symbols
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.doSolve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.doSolve: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.BaseSecantSolver: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java: org.apache.commons.math.analysis.solvers.BaseSecantSolver.solve: computed 0 unit tests
+Analyzed 1 out of 20 source files
+Had 10 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 50 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 11 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 10 cases of "other issues"
+	Description: Uncategorized problems.
+

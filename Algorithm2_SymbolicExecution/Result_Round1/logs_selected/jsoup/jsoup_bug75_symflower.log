@@ -1,0 +1,681 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_75b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.checkCapacity: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.copyOf: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.indexOfKeyIgnoreCase: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.add: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.remove: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.Dataset: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.entrySet: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.put: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.EntrySet.iterator: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.EntrySet.size: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.DatasetIterator.hasNext: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.DatasetIterator.next: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.Dataset.DatasetIterator.remove: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.dataKey: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown function
+	data: [<nil> html [] [accum call(select(call(org/jsoup/nodes/Document//Document!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [""])]), outputSettings!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown import
+	data: org/jsoup/SerializationException
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: org/jsoup/SerializationException
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: java/util/AbstractMap
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: java/util/AbstractSet
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/jsoup/nodes/Attributes.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown identifier
+	data: attr
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: org/jsoup/internal/Normalizer/lowerCase
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, keys) +(index, 1) select(this, keys) index shifted]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Attributes//@@localIterator0, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(org/jsoup/nodes/Attribute))]))]) keys]
+src/main/java/org/jsoup/nodes/Attributes.java: internal error: not an enclosing type
+	data: struct(org/jsoup/nodes/Attributes, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(org/jsoup/nodes/Attribute))])), reference(java/lang/Cloneable)])
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown type
+	data: Entry
+src/main/java/org/jsoup/nodes/Attributes.java: internal error: not an enclosing type
+	data: struct(org/jsoup/nodes/Attributes, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(org/jsoup/nodes/Attribute))])), reference(java/lang/Cloneable)])
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [select(this, size)]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [<nil> lowerCase [] [index(select(this, keys), i)]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [orig 0 copy 0 call(java/lang/Math//min!2ac0ebcb23011db97774191b8c6fdbe3, [len(ensure_not_nil(orig)), size])]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, vals) +(index, 1) select(this, vals) index shifted]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Attributes//@@localIterator0, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(org/jsoup/nodes/Attribute))]))]) size]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Attributes//@@localIterator0, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/util/Iterator), [pointer(reference(org/jsoup/nodes/Attribute))]))]) vals]
+src/main/java/org/jsoup/nodes/Attributes.java: internal error: not all elements have the same type
+	data: conditional(==(index(select(this, vals), i), nil), [call(org/jsoup/nodes/BooleanAttribute//BooleanAttribute!efbb7192f0412fb225b1065a0117385c, [index(select(this, keys), i)]), call(org/jsoup/nodes/Attribute//Attribute!83e4489bacef382ded4c885ee851334d, [index(select(this, keys), i), index(select(this, vals), i), this])])
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [<nil> html [] [accum call(select(call(org/jsoup/nodes/Document//Document!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [""])]), outputSettings!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/jsoup/nodes/CDataNode.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/CDataNode.java: error: unknown import
+	data: org/jsoup/UncheckedIOException
+src/main/java/org/jsoup/nodes/Comment.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/DataNode.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/parser/ParseSettings
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: java/nio/charset/CharsetEncoder
+src/main/java/org/jsoup/nodes/Document.java: internal error: no supported constructor available
+	data: [struct(org/jsoup/nodes/Element, [], [pointer(reference(org/jsoup/nodes/Node))], []) function(variable(this, pointer(reference(org/jsoup/nodes/Node))), org/jsoup/nodes/Node//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/jsoup/nodes/Node)))], block([=(select(this, @java/lang/Object), call(select(&(composite(reference(java/lang/Object), [])), @@constructor!d41d8cd98f00b204e9800998ecf8427e), [])), return([this])]))]
+src/main/java/org/jsoup/nodes/Document.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Node))])) java/util/List<org/jsoup/nodes/Node>//addAll [] [call(select(ensure_not_nil(dupe), ensureChildNodes!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/nodes/Document.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/jsoup/nodes/Document.java: error: unknown type
+	data: ThreadLocal
+src/main/java/org/jsoup/nodes/DocumentType.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/DocumentType.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/DocumentType.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/lang/ref/WeakReference
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [<nil> addChildren [] [0 call(select(ensure_not_nil(nodes), toArray!4ca58e31cd2242105fd0ef5028975b56), [cast(make(array(pointer(reference(org/jsoup/nodes/Node)), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), [])), array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0))])]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [<nil> normalize [] [tagName]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown identifier
+	data: classNames
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([nodeArray], [array(pointer(reference(org/jsoup/nodes/Node)), primitive(int, 32, false), 0)], [call(select(ensure_not_nil(nodes), toArray!4ca58e31cd2242105fd0ef5028975b56), [cast(make(array(pointer(reference(org/jsoup/nodes/Node)), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), [])), array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0))])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [<nil> addChildren [] [call(select(ensure_not_nil(nodes), toArray!4ca58e31cd2242105fd0ef5028975b56), [cast(make(array(pointer(reference(org/jsoup/nodes/Node)), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), [])), array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0))])]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//insert [] [0 " > "]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [size]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [children]]
+src/main/java/org/jsoup/nodes/Element.java: error: error: unresolved type
+	data: reference(E)
+	child error: (error) Internal error: unknown type:
+		"E"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000e00600})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc00107c0a8?, {0x2221be8, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00019dbc0, {0x2205848?, 0xc0008f4ca0}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0001360c0, 0xc00019dbc0, {0x2205728?, 0xc0011f05a0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc00040a140, 0xc000865900, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc0006f0430?}, {0xc00125de80, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc00040a140, {0xc000782520, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc00125de80, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc00040a140, {0x0, 0x0}, {0xc0006f0430, 0xb}, {0x0, 0x0, 0x0}, {0xc00125de80, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc00040a140, {0xc0006f0430, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc00107c948?, 0xe3d0b8?}, {0xc00125de80, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc00040a140, 0xc00084ecc0, 0xc000022300)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc00040a140, 0xc00084ecc0, {0x21f7d38, 0xc000022300})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc00040a140, 0xc00084ecc0, 0xc0000223c0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc00040a140?, 0xc00084ecc0?, {0x21f8100?, 0xc0000223c0?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc00040a140, 0xc00084ecc0, {0x21f7238, 0xc000020a80})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc00040a140, 0xc00084ecc0, {0xc0007f2320, 0x5, 0xc000100008?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107cd50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc00040a140, 0xc00084ecc0, 0xc000176870)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107d160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00040a140, 0xc00084ecc0, {0x2208170, 0xc0007d3500}, 0xc000865500, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00084ecc0, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00040a140, 0xc00084ecc0, 0xc00107d760, 0xc0008105a0, 0xc00083f980, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0, 0xc00083f980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00040a140)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000182738, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000182738, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0000beb70, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0000beb70, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc000452d60?}, {0x30?, 0x6?, 0x1c?, 0x0?}, 0x2a?, {0xc0000be330, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000e43d8, {0xc0000e4008?, 0x7b5a66eb13f8?, 0xc0000e43d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0000e4008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0000e4008?}, {0xc00019e000?, 0xc00007e000?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [pointer(reference(org/jsoup/nodes/Node)) org/jsoup/nodes/Node//outerHtml [] [appendable]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Node))]) java/util/List<org/jsoup/nodes/Node>//addAll [] [select(this, childNodes)]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/NodeTraversor
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/regex/Pattern
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/regex/PatternSyntaxException
+src/main/java/org/jsoup/nodes/Element.java: error: unknown function
+	data: [pointer(reference(org/jsoup/nodes/Node)) org/jsoup/nodes/Node//outerHtml [] [accum]]
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/helper/ChangeNotifyingArrayList
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/parser/ParseSettings
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Collector
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Evaluator
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Selector
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: java/util/LinkedHashSet
+src/main/java/org/jsoup/nodes/Element.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/internal/Normalizer/normalize
+src/main/java/org/jsoup/nodes/Element.java: error: error: unresolved type
+	data: reference(E)
+	child error: (error) Internal error: unknown type:
+		"E"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc00131a390})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc00107c210?, {0x2221be8, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00019dbc0, {0x2205848?, 0xc0008f4ca0}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0001360c0, 0xc00019dbc0, {0x2205728?, 0xc0005bc9e0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc00040a140, 0xc000865900, {0x0?, 0x0?}, {0x0?, 0x0?, 0xc0006f0910?}, {0xc000b0bb80, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc00040a140, {0xc000782520, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000b0bb80, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc00040a140, {0x0, 0x0}, {0xc0006f0910, 0xb}, {0x0, 0x0, 0x0}, {0xc000b0bb80, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc00040a140, {0xc0006f0910, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc00107c948?, 0x43fe05?}, {0xc000b0bb80, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc00040a140, 0xc00084ecc0, 0xc000022c00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc00040a140, 0xc00084ecc0, {0x21f7d38, 0xc000022c00})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementReturn(0xc00040a140, 0xc00084ecc0, 0xc000026300)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4352 +0x7c
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc00040a140, 0xc00084ecc0, {0x21f74a0, 0xc000026300})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4423 +0x745
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc00040a140, 0xc00084ecc0, {0xc0007e88e0, 0x2, 0xc000100008?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107cd50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc00040a140, 0xc00084ecc0, 0xc000176990)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107d160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00040a140, 0xc00084ecc0, {0x2208170, 0xc0007d3500}, 0xc000865700, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00084ecc0, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00040a140, 0xc00084ecc0, 0xc00107d760, 0xc0008105a0, 0xc00083f980, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0, 0xc00083f980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00040a140)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000182738, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000182738, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0000beb70, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0000beb70, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc000452d60?}, {0x30?, 0x6?, 0x1c?, 0x0?}, 0x2a?, {0xc0000be330, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000e43d8, {0xc0000e4008?, 0x7b5a66eb13f8?, 0xc0000e43d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0000e4008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0000e4008?}, {0xc00019e000?, 0xc00007e000?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/NodeVisitor
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/QueryParser
+src/main/java/org/jsoup/nodes/Element.java: error: error: unresolved type
+	data: reference(E)
+	child error: (error) Internal error: unknown type:
+		"E"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc0008545e0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc00107c0a8?, {0x2221be8, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00019dbc0, {0x2205848?, 0xc0008f4ca0}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0001360c0, 0xc00019dbc0, {0x2205728?, 0xc001435b60?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc00040a140, 0xc000865900, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc0006f0060?}, {0xc001435900, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc00040a140, {0xc000782520, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc001435900, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc00040a140, {0x0, 0x0}, {0xc0006f0060, 0xb}, {0x0, 0x0, 0x0}, {0xc001435900, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc00040a140, {0xc0006f0060, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc00107c948?, 0xe3d0b8?}, {0xc001435900, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc00040a140, 0xc00084ecc0, 0xc00017bc80)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc00040a140, 0xc00084ecc0, {0x21f7d38, 0xc00017bc80})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc00040a140, 0xc00084ecc0, 0xc00017bd40)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc00040a140?, 0xc00084ecc0?, {0x21f8100?, 0xc00017bd40?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc00040a140, 0xc00084ecc0, {0x21f7238, 0xc000001580})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc00040a140, 0xc00084ecc0, {0xc0007f22d0, 0x5, 0xc000100008?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107cd50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc00040a140, 0xc00084ecc0, 0xc0001767e0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00019dbc0, 0xc00107d160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc00040a140, 0xc00084ecc0, {0x2208170, 0xc0007d3500}, 0xc000865400, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc00040a140, 0xc00084ecc0, 0xc0007d3500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00084ecc0, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc00040a140, 0xc00084ecc0, 0xc00107d760, 0xc0008105a0, 0xc00083f980, {0x2207578, 0xc0007d3500})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0, 0xc00083f980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760, 0xc0008105a0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc00040a140, 0x1, 0x2088c58, 0xc00107d760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc00040a140)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc000182738, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc000182738, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0000beb70, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0000beb70, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc000452d60?}, {0x30?, 0x6?, 0x1c?, 0x0?}, 0x2a?, {0xc0000be330, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000e43d8, {0xc0000e4008?, 0x7b5a66eb13f8?, 0xc0000e43d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0000e4008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0000e4008?}, {0xc00019e000?, 0xc00007e000?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: org/jsoup/parser/CharacterReader
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: java/nio/charset/CharsetEncoder
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown function
+	data: [<nil> escape [] [accum string out false false false]]
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown function
+	data: [<nil> load [] [this file size]]
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown field
+	data: [Character struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) MIN_SUPPLEMENTARY_CODE_POINT]
+src/main/java/org/jsoup/nodes/Entities.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/nodes/Entities.java: error: unknown import
+	data: org/jsoup/SerializationException
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/Jsoup
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/helper/HttpConnection
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/nodes/FormElement.java: internal error: no supported constructor available
+	data: [struct(org/jsoup/nodes/Element, [], [pointer(reference(org/jsoup/nodes/Node))], []) function(variable(this, pointer(reference(org/jsoup/nodes/Node))), org/jsoup/nodes/Node//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/jsoup/nodes/Node)))], block([=(select(this, @java/lang/Object), call(select(&(composite(reference(java/lang/Object), [])), @@constructor!d41d8cd98f00b204e9800998ecf8427e), [])), return([this])]))]
+src/main/java/org/jsoup/nodes/FormElement.java: error: unknown import
+	data: org/jsoup/Connection
+src/main/java/org/jsoup/nodes/LeafNode.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown type
+	data: LinkedList
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/Node.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Node, [], [pointer(reference(java/lang/Object))], [reference(java/lang/Cloneable)]) Arrays]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Node, [], [pointer(reference(java/lang/Object))], [reference(java/lang/Cloneable)]) Collections]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/Node.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Node, [], [pointer(reference(java/lang/Object))], [reference(java/lang/Cloneable)]) Collections]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [<nil> outerHtml [] [accum]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [<nil> outerHtml [] [appendable]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/SerializationException
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/select/NodeFilter
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/select/NodeTraversor
+src/main/java/org/jsoup/nodes/Node.java: internal error: not all elements have the same type
+	data: declaration([children], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(el), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/jsoup/select/NodeVisitor
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [struct(org/jsoup/nodes/Node, [], [pointer(reference(java/lang/Object))], [reference(java/lang/Cloneable)]) org/jsoup/nodes/Node//addChildren [] [index call(select(ensure_not_nil(nodes), toArray!4ca58e31cd2242105fd0ef5028975b56), [cast(make(array(pointer(reference(org/jsoup/nodes/Node)), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), [])), array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0))])]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Node))])) java/util/List<org/jsoup/nodes/Node>//addAll [] [index unsupported]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [-(call(select(ensure_not_nil(nodes), size!d41d8cd98f00b204e9800998ecf8427e), []), 1)]]
+src/main/java/org/jsoup/nodes/PseudoTextElement.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/PseudoTextElement.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/PseudoTextElement.java: internal error: no supported constructor available
+	data: [struct(org/jsoup/nodes/Element, [], [pointer(reference(org/jsoup/nodes/Node))], []) function(variable(this, pointer(reference(org/jsoup/nodes/Node))), org/jsoup/nodes/Node//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/jsoup/nodes/Node)))], block([=(select(this, @java/lang/Object), call(select(&(composite(reference(java/lang/Object), [])), @@constructor!d41d8cd98f00b204e9800998ecf8427e), [])), return([this])]))]
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/XmlDeclaration.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/nodes/XmlDeclaration.java: error: unknown type
+	data: Appendable
+src/main/java/org/jsoup/nodes/XmlDeclaration.java: error: unknown function
+	data: [<nil> getWholeDeclaration [] [sb call(org/jsoup/nodes/Document//OutputSettings//OutputSettings!d41d8cd98f00b204e9800998ecf8427e, [])]]
+src/main/java/org/jsoup/nodes/XmlDeclaration.java: error: unknown import
+	data: org/jsoup/SerializationException
+internal error: scope leak
+	data: map[handledNode:struct(org/jsoup/nodes/Attributes//Dataset, [], [genericInstance(unsupported(java/util/AbstractMap), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])], []) scopeLevelAtEntry:7 scopeLevelAtExit:8]
+internal error: scope leak
+	data: map[handledNode:struct(org/jsoup/nodes/Attributes, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(org/jsoup/nodes/Attribute))])), reference(java/lang/Cloneable)]) scopeLevelAtEntry:6 scopeLevelAtExit:7]
+internal error: scope leak
+	data: map[handledNode:struct(org/jsoup/nodes/Element, [], [pointer(reference(org/jsoup/nodes/Node))], []) scopeLevelAtEntry:6 scopeLevelAtExit:7]
+Found 1 Java files
+Found 145 problems in Java files
+src/main/java/org/jsoup/nodes/Attributes.java: found 24 symbols
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.clone: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.clone: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.clone: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.html: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.html: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.html: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.dataset: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.dataset: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.dataset: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKeyIgnoreCase: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKeyIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKeyIgnoreCase: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.indexOfKey: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.indexOfKey: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.indexOfKey: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.html: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.html: found 1 problems
+src/main/java/org/jsoup/nodes/Attributes.java: internal error: org.jsoup.nodes.Attributes.html: unknown type kind
+	data: unsupported(java/nio/charset/Charset)
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.get: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.get: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.get: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.checkNotNull: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.checkNotNull: computed 2 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.checkNotNull: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.remove: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.remove: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.remove: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hashCode: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hashCode: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.equals: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.equals: computed 2 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.equals: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.asList: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.asList: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.iterator: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.iterator: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.iterator: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.putIgnoreCase: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.putIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.putIgnoreCase: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.toString: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.toString: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.toString: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.normalize: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.normalize: computed 1 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.normalize: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.getIgnoreCase: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.getIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.getIgnoreCase: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.addAll: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.addAll: computed 2 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.addAll: found 1 problems
+src/main/java/org/jsoup/nodes/Attributes.java:237:13: critical: org.jsoup.nodes.Attributes.addAll: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.size: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.size: computed 1 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.size: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.removeIgnoreCase: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.removeIgnoreCase: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.removeIgnoreCase: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.put: found 0 problems
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKey: computing test cases
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKey: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Attributes.java: org.jsoup.nodes.Attributes.hasKey: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/nodes/Attributes.java: generated unit test file src/main/java/org/jsoup/nodes/AttributesSymflowerTest.java
+Analyzed 1 out of 15 source files
+Had 9 errors that block a full analysis
+Generated 8 tests
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 69 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 36 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 19 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 4 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 9 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,464 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_59b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Token: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.ensureAttributeValue: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown field
+	data: [this struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown field
+	data: [this struct(org/jsoup/parser/CharacterReader, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toLowerCase [] [unsupported]]
+src/main/java/org/jsoup/parser/CharacterReader.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: FormElement
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: internal error: missing type
+	data: %!v(PANIC=String method: Internal error: type not defined:
+		&modelast.LiteralComposite{
+		    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 435, 44), End:location.NewCompactFileLocationRaw(2, 435, 49)},
+		    Values:           []modelast.Expression{
+		        &modelast.Nil{
+		            CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(2, 435, 45), End:location.NewCompactFileLocationRaw(2, 435, 48)},
+		        },
+		    },
+		}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d258a0}, {0x13dc6c0, 0xc000e24300})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*LiteralComposite).String(0x2d28ad0?)
+			gitlab.nethead.at/symflower/symflower/model/ast/literal.go:444 +0x1cc
+		fmt.(*pp).handleMethods(0xc00197eb60, 0xb8800a?)
+			fmt/print.go:673 +0x31f
+		fmt.(*pp).printArg(0xc00197eb60, {0x13dc6c0, 0xc000e24300}, 0x76)
+			fmt/print.go:756 +0x438
+		fmt.(*pp).doPrint(0xc00197eb60, {0xc0011b9570?, 0x1, 0x41b525?})
+			fmt/print.go:1208 +0x45
+		fmt.Sprint({0xc0011b9570, 0x1, 0x1})
+			fmt/print.go:279 +0x3e
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de380, 0xc0010fe210}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:91 +0x145
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de540, 0xc00160e000}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:102 +0x637
+		gitlab.nethead.at/symflower/symflower/language.formatErrorRecursive({0x220c620, 0x2e6b360}, {0x21de520, 0xc00160e000}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/format.go:62 +0x257
+		gitlab.nethead.at/symflower/symflower/language.FormatError({0x220c620, 0x2e6b360}, {0x21de520?, 0xc00160e000?}, 0x1?)
+			gitlab.nethead.at/symflower/symflower/language/format.go:37 +0x2a
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.addProblemToResults({0x40?, 0xe4?, 0xe6?, 0x2?}, {0x220c620?, 0x2e6b360?}, 0x474719?, {0x21de520?, 0xc00160e000?}, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:207 +0x85
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0003cf620, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:139 +0x5c5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0003cf620, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc000027a50?}, {0x60?, 0x86?, 0x15?, 0x0?}, 0x2a?, {0xc0003cede0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000283d8, {0xc000028008?, 0x74c8657c01f8?, 0xc0000283d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000028008}, {0xc000138000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000028008?}, {0xc000138000?, 0xc000022000?, 0xc000051f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+		)
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) TokeniserState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: internal error: type does not support nil values
+	data: unsupported(Element)
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: HtmlTreeBuilderState
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/HtmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/HtmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) HtmlTreeBuilderState]
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown function
+	data: [genericInstance(reference(java/util/ArrayList), [pointer(reference(org/jsoup/parser/ParseError))]) java/util/ArrayList//@@constructor [] [initialCapacity]]
+src/main/java/org/jsoup/parser/ParseErrorList.java: error: unknown type
+	data: E
+src/main/java/org/jsoup/parser/ParseSettings.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/ParseSettings.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/parser/Parser.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/jsoup/parser/XmlTreeBuilder))), org/jsoup/parser/XmlTreeBuilder//parseFragment!ed003beda58de0303ca37063b4ba605e, [variable(inputFragment, pointer(reference(java/lang/String))), variable(baseUri, pointer(reference(java/lang/String))), variable(errors, pointer(reference(org/jsoup/parser/ParseErrorList))), variable(settings, pointer(reference(org/jsoup/parser/ParseSettings)))], [variable(, genericInstance(unsupported(List), [unsupported(Node)]))], block([never_nil(this), call(select(this, initialiseParse!ed003beda58de0303ca37063b4ba605e), [inputFragment, baseUri, errors, settings]), call(select(this, runParser!d41d8cd98f00b204e9800998ecf8427e), []), unsupported])) return([call(select(ensure_not_nil(treeBuilder), parseFragment!ed003beda58de0303ca37063b4ba605e), [fragmentXml, baseUri, call(org/jsoup/parser/ParseErrorList//noTracking!d41d8cd98f00b204e9800998ecf8427e, []), call(select(ensure_not_nil(treeBuilder), defaultSettings!d41d8cd98f00b204e9800998ecf8427e), [])])])]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Node)])) java/util/List<org/jsoup/nodes/Node>//toArray [] [make(array(unsupported(org/jsoup/nodes/Node), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodeList), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/BooleanAttribute
+src/main/java/org/jsoup/parser/Token.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(org/jsoup/parser/Token)) org/jsoup/parser/Token//getClass [] []]
+src/main/java/org/jsoup/parser/Token.java: internal error: recovered panic
+	data: runtime error: invalid memory address or nil pointer dereference
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(sb), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [append]]
+src/main/java/org/jsoup/parser/Token.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//appendCodePoint [] [codepoint]]
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//appendCodePoint [] [index(c, 0)]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//appendCodePoint [] [index(c, 1)]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/nodes/Entities
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tokeniser, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, charsBuilder)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TokeniserState.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/TokeniserState.java: error: unknown import
+	data: org/jsoup/nodes/DocumentType
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(org/jsoup/nodes/Element)] [32]]
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/XmlTreeBuilder, [], [pointer(reference(org/jsoup/parser/TreeBuilder))], []) Document]
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: XmlDeclaration
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: DocumentType
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/Jsoup
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/XmlTreeBuilder.java: error: unknown type
+	data: Element
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+Found 1 Java files
+Found 83 problems in Java files
+src/main/java/org/jsoup/parser/Token.java: found 55 symbols
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendTagName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendTagName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.reset: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.reset: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.reset: function is abstract and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.getData: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.getData: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.getData: found 1 problems
+src/main/java/org/jsoup/parser/Token.java:273:20: critical: org.jsoup.parser.Token.Comment.getData: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asEndTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asEndTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.data: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.data: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.data: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asCharacter: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asCharacter: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getName: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getName: found 1 problems
+src/main/java/org/jsoup/parser/Token.java:55:20: critical: org.jsoup.parser.Token.Doctype.getName: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPubSysKey: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPubSysKey: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPubSysKey: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.newAttribute: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.newAttribute: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.name: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.name: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.toString: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.toString: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.StartTag.toString: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asDoctype: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asDoctype: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.Doctype: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.Doctype: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.Doctype: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.isForceQuirks: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.isForceQuirks: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.isForceQuirks: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.getData: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.getData: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.getData: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.reset: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.Comment: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.Comment: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.Comment: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.nameAttr: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.nameAttr: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.StartTag.nameAttr: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.reset: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.reset: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.name: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.name: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.reset: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.StartTag.reset: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.Character: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.Character: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.Character: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.reset: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.reset: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EndTag.EndTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EndTag.EndTag: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.EndTag.EndTag: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isStartTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isStartTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.getAttributes: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.getAttributes: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.reset: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.reset: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendTagName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendTagName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getSystemIdentifier: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getSystemIdentifier: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getSystemIdentifier: found 1 problems
+src/main/java/org/jsoup/parser/Token.java:67:20: critical: org.jsoup.parser.Token.Doctype.getSystemIdentifier: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.normalName: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.normalName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isEOF: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isEOF: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.EOF: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.EOF: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EOF.EOF: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isDoctype: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isDoctype: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asStartTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asStartTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.toString: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.toString: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Character.toString: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isComment: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isComment: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.finaliseTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.finaliseTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.isSelfClosing: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.isSelfClosing: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.setEmptyAttributeValue: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.setEmptyAttributeValue: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.toString: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.toString: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Comment.toString: found 1 problems
+src/main/java/org/jsoup/parser/Token.java:273:20: critical: org.jsoup.parser.Token.Comment.toString: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.reset: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.reset: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.reset: found 0 problems
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.tokenType: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.tokenType: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.StartTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.StartTag.StartTag: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.StartTag.StartTag: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isEndTag: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isEndTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asComment: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.asComment: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isCharacter: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.isCharacter: computed 0 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EndTag.toString: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.EndTag.toString: found 1 problems
+src/main/java/org/jsoup/parser/Token.java: internal error: org.jsoup.parser.Token.EndTag.toString: unknown type kind
+	data: unsupported(org/jsoup/nodes/Attributes)
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPublicIdentifier: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPublicIdentifier: computed 1 unit tests
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Doctype.getPublicIdentifier: found 1 problems
+src/main/java/org/jsoup/parser/Token.java:63:20: critical: org.jsoup.parser.Token.Doctype.getPublicIdentifier: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computing test cases
+src/main/java/org/jsoup/parser/Token.java: org.jsoup.parser.Token.Tag.appendAttributeValue: computed 0 unit tests
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/parser/Token.java: could not generate unit test file for "src/main/java/org/jsoup/parser/Token.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(9, 258, 29), End:location.NewCompactFileLocationRaw(9, 258, 54)},
+	    Name:             "data",
+	    Type:             &modelast.TypePointer{
+	        Type: &modelast.TypeReference{
+	            Name: "java/lang/StringBuilder",
+	        },
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPackagePrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc0007d32c0})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0004b9570, {0x2205848?, 0xc001474be0?}, {0x21f7de8, 0xc0003ccd00}, {0x2208850, 0xc000f3d3c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0004b9570, {0x21f7de8, 0xc0003ccd00}, {0x2205848?, 0xc001474ba0?}, {0x2208850, 0xc000f3d3c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004b9570, {0x21f7de8, 0xc0003ccd00}, {0x2205848?, 0xc001474b60?}, {0x2208850, 0xc000f3d3c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004b9570, {0x21f7de8, 0xc0003ccd00}, {0x2205728?, 0xc000b4ad80?}, {0x22089b0, 0xc0014429c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0004b9570, {0x2205728, 0xc000b4ad80}, {0x14113cd, 0x8}, {0x22089b0, 0xc0014429c0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).expressionExpected(0xc000687140, 0xc000b96000?, {0x22089b0, 0xc0014429c0}, {0x2205728, 0xc000b4ad80}, {0x14113cd, 0x8}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:177 +0x27a
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).returnArgumentInitialization(0xc000687140, 0xc000b96000, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0x21f7e40, 0xc001c224e0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:229 +0x429
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc000687140, 0xc000b94880, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:387 +0x1365
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc000687140, 0xc001e81c20?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc000b1a750, 0xc000b94880)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc00103ec00?, 0xc000b9c580?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc000a68f80, {0xc000778400, 0x13, 0x12?}, {0xc000ac74e8?, 0xc0015a2a80?}, 0xc0007782e0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc000a68f80, {0xc000cf5100, 0x13, 0x20})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc0003321ab, 0x29})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc0001586f0, 0x2b}, 0xc00103eb70, {0xc001863a50?, 0x1?, 0xc000739a00?}, 0x1, 0xc000739b08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc0003cf620, 0xc001292840, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc0003cf620?, 0xc0003cf650?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2a?, 0x124bba0?, {0x21eb890?, 0xc000027a50?}, {0x60?, 0x86?, 0x15?, 0x0?}, 0x2a?, {0xc0003cede0, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000283d8, {0xc000028008?, 0x74c8657c01f8?, 0xc0000283d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000028008}, {0xc000138000?, 0x44?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000028008?}, {0xc000138000?, 0xc000022000?, 0xc000051f10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Analyzed 1 out of 13 source files
+Had 10 errors that block a full analysis
+Generated 19 tests
+Found 5 potential problems
+The following issues prevent a full analysis:
+
+* 34 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 23 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 12 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 8 cases of "other issues"
+	Description: Uncategorized problems.
+

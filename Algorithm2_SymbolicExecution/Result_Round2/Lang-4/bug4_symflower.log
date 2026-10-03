@@ -1,0 +1,135 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/lang_4b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java: error: unknown import
+	data: org/apache/commons/lang3/ArrayUtils
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown import
+	data: java/io/StringWriter
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown function
+	data: [struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) java/lang/Character//codePointAt [] [input pos]]
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown function
+	data: [struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) java/lang/Character//codePointAt [] [input pt]]
+src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [translators 0 newArray 1 len(ensure_not_nil(translators))]]
+src/main/java/org/apache/commons/lang3/text/translate/CodePointTranslator.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/CodePointTranslator.java: error: unknown function
+	data: [struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) java/lang/Character//codePointAt [] [input index]]
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java: error: not a named type
+	data: array(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/HashMap), [reference(java/lang/CharSequence), reference(java/lang/CharSequence)])
+src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java: error: unknown import
+	data: java/util/EnumSet
+src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java: error: unknown import
+	data: java/io/Writer
+src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java: error: unknown import
+	data: java/io/Writer
+Found 1 Java files
+Found 31 problems in Java files
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: found 2 symbols
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: org.apache.commons.lang3.text.translate.LookupTranslator.translate: computing test cases
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: org.apache.commons.lang3.text.translate.LookupTranslator.translate: found 1 problems
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: internal error: org.apache.commons.lang3.text.translate.LookupTranslator.translate: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc000a8c050})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc0013801e0, {0x2205608, 0xc000b361c0}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0xc000952840?, {0x2205608?, 0xc000b361c0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc001680680, 0xc0003de400, {0x2209770, 0xc0005e8140})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc001680680, 0xc0003de400, {0x140aaeb, 0x4}, {0x2205728?, 0xc000c2db40?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc001680680, 0xc0013801e0, 0xc0000e1500)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc000bec120, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc000522f00, {0x21e8348, 0xc0006ccf00}, 0xc00096d590)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc000522f00, 0xc000522f30, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x28?, 0x124bba0?, {0x21eb890?, 0xc000518230?}, {0x0?, 0x49?, 0x4?, 0x0?}, 0x28?, {0xc000522480, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0001563d8, {0xc000156008?, 0x7c59812561d8?, 0xc0001563d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000156008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000156008?}, {0xc00019e000?, 0xc00008c000?, 0xc000129f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000c2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: org.apache.commons.lang3.text.translate.LookupTranslator.LookupTranslator: computing test cases
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: org.apache.commons.lang3.text.translate.LookupTranslator.LookupTranslator: computed 0 unit tests
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: org.apache.commons.lang3.text.translate.LookupTranslator.LookupTranslator: found 1 problems
+src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java: internal error: org.apache.commons.lang3.text.translate.LookupTranslator.LookupTranslator: unknown type kind
+	data: unsupported
+Analyzed 1 out of 10 source files
+Had 10 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 15 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 5 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 2 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,408 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_36b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readHeaders: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readStartHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readArchiveProperties: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readEncodedHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readStreamsInfo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readPackInfo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readUnpackInfo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readSubStreamsInfo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readFolder: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readAllOrBits: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readBits: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readFilesInfo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.calculateStreamMap: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.buildDecodingStream: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.buildDecoderStack: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.getCurrentStream: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.readUint64: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.skipBytesFully: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: java/security/GeneralSecurityException
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: javax/crypto/SecretKey
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: javax/crypto/spec/IvParameterSpec
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: javax/crypto/spec/SecretKeySpec
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: org/apache/commons/compress/PasswordRequiredException
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: java/security/NoSuchAlgorithmException
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(coder, properties) 2 salt 0 saltSize]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [salt 0 aesKeyBytes 0 saltSize]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: internal error: not all elements have the same type
+	data: primitive(int, 64, false) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: java/security/MessageDigest
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: javax/crypto/Cipher
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown import
+	data: javax/crypto/CipherInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(coder, properties) +(2, saltSize) iv 0 ivSize]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [passwordBytes 0 aesKeyBytes saltSize call(java/lang/Math//min!2ac0ebcb23011db97774191b8c6fdbe3, [len(ensure_not_nil(passwordBytes)), -(len(ensure_not_nil(aesKeyBytes)), saltSize)])]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/sevenz/CoderBase, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/sevenz/Archive.java: error: unknown import
+	data: java/util/BitSet
+src/main/java/org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java: error: unknown import
+	data: java/io/RandomAccessFile
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: error: unknown import
+	data: java/io/FileOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/sevenz/CLI//@@Mode)) org/apache/commons/compress/archivers/sevenz/CLI//@@Mode//getMessage [] []]
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: error: unknown function
+	data: [struct(java/lang/Enum, [], [pointer(reference(java/lang/Object))], []) java/lang/Enum//valueOf [] [unsupported call(select(ensure_not_nil(index(args, 1)), toUpperCase!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/sevenz/CLI//@@Mode)) org/apache/commons/compress/archivers/sevenz/CLI//@@Mode//takeAction [] [archive ae]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java: internal error: unknown enumerator
+	data: composite(reference(org/apache/commons/compress/archivers/sevenz/CLI//Mode), ["LIST"])
+src/main/java/org/apache/commons/compress/archivers/sevenz/CoderBase.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInstance [] [opts]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/ARMOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/ARMThumbOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/IA64Options
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/PowerPCOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/io/FilterOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/zip/Deflater
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/zip/Inflater
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/FilterOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/LZMAInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/zip/DeflaterOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/util/zip/InflaterInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/FinishableWrapperOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/SPARCOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/X86Options
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/tukaani/xz/FinishableOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: java/io/FilterInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: error: unknown import
+	data: org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/sevenz/CoderBase, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoder.java: error: unknown import
+	data: org/tukaani/xz/DeltaOptions
+src/main/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoder.java: error: unknown import
+	data: org/tukaani/xz/FinishableWrapperOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoder.java: error: unknown import
+	data: org/tukaani/xz/UnsupportedOptionsException
+src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java: error: unknown identifier
+	data: l
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/sevenz/CoderBase, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: internal error: type does not support nil values
+	data: unsupported(org/tukaani/xz/LZMA2Options)
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: internal error: type does not support nil values
+	data: unsupported(org/tukaani/xz/LZMA2Options)
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: error: unknown import
+	data: org/tukaani/xz/FinishableWrapperOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: error: unknown import
+	data: org/tukaani/xz/FinishableOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: error: unknown import
+	data: org/tukaani/xz/LZMA2InputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java: error: unknown import
+	data: org/tukaani/xz/LZMA2Options
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [wildcard(, pointer(reference(org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration)))]))
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: java/util/Calendar
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java: error: unknown import
+	data: java/util/TimeZone
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/CRC32VerifyingInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/CharsetNames
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/ByteArrayInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/DataInput
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/BoundedInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(org/apache/commons/compress/archivers/sevenz/Coder))]))
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/BufferedInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: unsupported: unsupported node
+	data: cast('7', primitive(int, 8, false))
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/IOUtils
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/DataInputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/util/BitSet
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry)) org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry//setContentMethods [] [methods]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/io/RandomAccessFile
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [password 0 select(this, password) 0 len(ensure_not_nil(password))]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 1, 3])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 4, 1])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 5, 1])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 7, 1])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 8, 5])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3, 3, 2, 5])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: internal error: not all elements have the same type
+	data: composite(array(primitive(int, 8, false), primitive(int, 32, false), 0), [3])
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, id) 0 copy 0 len(ensure_not_nil(select(this, id)))]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/BitSet
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//getBytes [] ["UTF-16LE"]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown identifier
+	data: l
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/io/DataOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/CountingOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [wildcard(, pointer(reference(org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration)))]))
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/ArrayList), [unsupported(org/apache/commons/compress/utils/CountingOutputStream)])) java/util/ArrayList<org/apache/commons/compress/utils/CountingOutputStream>//toArray [] [make(array(unsupported(org/apache/commons/compress/utils/CountingOutputStream), primitive(int, 32, false), 0), call(select(ensure_not_nil(moreStreams), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/io/DataOutput
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/io/RandomAccessFile
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: an unsupported collection type has been used for this operation
+	data: pointer(genericInstance(reference(java/lang/Iterable), [genericParameter(T, [pointer(reference(java/lang/Object))])]))
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: error: unresolved type
+	data: reference(T)
+	child error: (error) Internal error: unknown type:
+		"T"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc001040d30})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000050150?, {0x2221c60, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc0000a87e0, {0x2205848?, 0xc0008c5a20}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0005f2e40, 0xc0000a87e0, {0x2205728?, 0xc000e7c1e0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc0000d0280, 0xc000e96500, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc0004d4cc0?}, {0xc001040c30, 0x1, 0x1})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc0000d0280, {0xc0007e4710, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc001040c30, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc0000d0280, {0x0, 0x0}, {0xc0004d4cc0, 0x7}, {0x0, 0x0, 0x0}, {0xc001040c30, 0x1, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc0000d0280, {0xc0004d4cc0, 0x7}, {0x0?, 0x0?}, {0x0?, 0x3d?, 0x0?}, {0xc001040c30, 0x1, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc0000d0280, 0xc000dae150, 0xc0005d9e00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc0000d0280, 0xc000dae150, {0x21f7d38, 0xc0005d9e00})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpressionAssign(0xc0000d0280, 0xc000dae150, 0xc0008d1220)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3771 +0xe5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000050b78?, 0x41aa94?, {0x21f79c8?, 0xc0008d1220?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3932 +0x53
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc0000d0280, 0xc000dae150, {0x21f7238, 0xc0008de980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc0000d0280, 0xc000dae150, {0xc0008c0e80, 0x1, 0xc0000a87e0?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a87e0, 0xc000050d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc0000d0280, 0xc000dae150, 0xc0008d9b00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc0000a87e0, 0xc000051160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc0000d0280, 0xc000dae150, {0x2208170, 0xc000c4d2c0}, 0xc000e8a500, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc0000d0280, 0xc000dae150, 0xc000c4d2c0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc0000d0280, 0xc000dae150, 0xc000c4d2c0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc000dae150, {0x2207578, 0xc000c4d2c0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc0000d0280, 0xc000dae150, 0xc000051760, 0xc0008a45a0, 0xc00051b800, {0x2207578, 0xc000c4d2c0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc0000d0280, 0x1, 0x2088c58, 0xc000051760, 0xc0008a45a0, 0xc00051b800)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc0000d0280, 0x1, 0x2088c58, 0xc000051760, 0xc0008a45a0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc0000d0280, 0x1, 0x2088c58, 0xc000051760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc0000d0280)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc00012a780, {0x0?, 0x41aa94?, 0x7531389e4a78?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc00012a780, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0003facc0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0003facc0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc0003e26e0?}, {0xf0?, 0x86?, 0x15?, 0x0?}, 0x2d?, {0xc0001773e0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00032e3d8, {0xc00032e008?, 0x7530f06ef158?, 0xc00032e3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00032e008}, {0xc000138000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00032e008?}, {0xc000138000?, 0xc00050e0a0?, 0xc000427f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/sevenz/SubStreamsInfo.java: error: unknown import
+	data: java/util/BitSet
+Found 1 Java files
+Found 114 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: found 10 symbols
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.getNextEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.getNextEntry: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.toString: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.toString: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.toString: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.matches: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.matches: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.getEntries: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.getEntries: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.getEntries: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.SevenZFile: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.read: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: org.apache.commons.compress.archivers.sevenz.SevenZFile.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java: internal error: org.apache.commons.compress.archivers.sevenz.SevenZFile.close: unknown type kind
+	data: unsupported(java/io/RandomAccessFile)
+Analyzed 1 out of 15 source files
+Had 7 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 76 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 14 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 11 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 8 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 7 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,549 @@
+{
+  "method": "org.apache.commons.lang3.math.NumberUtils.createNumber(String)",
+  "source_sha256": "14ebbdea51d9028d433e3605258f12ca2a2b658c0c3316017bc3031e4ac490d2",
+  "source_path": "/root/sqa-workspaces/Lang-1b-symflower/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+  "scope": "Hexadecimal dispatch only; bounded integer interval symbolic model",
+  "source_digit_guards": [
+    ">16",
+    ">8",
+    "<=8"
+  ],
+  "cases": [
+    {
+      "input": "0x0",
+      "expected": 0,
+      "hex_digits": 1,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        0,
+        15
+      ]
+    },
+    {
+      "input": "0xF",
+      "expected": 15,
+      "hex_digits": 1,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        0,
+        15
+      ]
+    },
+    {
+      "input": "-0x0",
+      "expected": 0,
+      "hex_digits": 1,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        0,
+        15
+      ]
+    },
+    {
+      "input": "-0xF",
+      "expected": -15,
+      "hex_digits": 1,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        0,
+        15
+      ]
+    },
+    {
+      "input": "0x10000000",
+      "expected": 268435456,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        268435456,
+        2147483647
+      ]
+    },
+    {
+      "input": "0x7FFFFFFF",
+      "expected": 2147483647,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        268435456,
+        2147483647
+      ]
+    },
+    {
+      "input": "0x80000000",
+      "expected": 2147483648,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        2147483648,
+        4294967295
+      ]
+    },
+    {
+      "input": "0xFFFFFFFF",
+      "expected": 4294967295,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        2147483648,
+        4294967295
+      ]
+    },
+    {
+      "input": "-0x10000000",
+      "expected": -268435456,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        268435456,
+        2147483648
+      ]
+    },
+    {
+      "input": "-0x80000000",
+      "expected": -2147483648,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        "<=",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        268435456,
+        2147483648
+      ]
+    },
+    {
+      "input": "-0x80000001",
+      "expected": -2147483649,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        2147483649,
+        4294967295
+      ]
+    },
+    {
+      "input": "-0xFFFFFFFF",
+      "expected": -4294967295,
+      "hex_digits": 8,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          "<=",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        2147483649,
+        4294967295
+      ]
+    },
+    {
+      "input": "0x100000000",
+      "expected": 4294967296,
+      "hex_digits": 9,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        4294967296,
+        68719476735
+      ]
+    },
+    {
+      "input": "0xFFFFFFFFF",
+      "expected": 68719476735,
+      "hex_digits": 9,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        4294967296,
+        68719476735
+      ]
+    },
+    {
+      "input": "-0x100000000",
+      "expected": -4294967296,
+      "hex_digits": 9,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        4294967296,
+        68719476735
+      ]
+    },
+    {
+      "input": "-0xFFFFFFFFF",
+      "expected": -68719476735,
+      "hex_digits": 9,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        4294967296,
+        68719476735
+      ]
+    },
+    {
+      "input": "0x1000000000000000",
+      "expected": 1152921504606846976,
+      "hex_digits": 16,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        1152921504606846976,
+        18446744073709551615
+      ]
+    },
+    {
+      "input": "0xFFFFFFFFFFFFFFFF",
+      "expected": 18446744073709551615,
+      "hex_digits": 16,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        1152921504606846976,
+        18446744073709551615
+      ]
+    },
+    {
+      "input": "-0x1000000000000000",
+      "expected": -1152921504606846976,
+      "hex_digits": 16,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        1152921504606846976,
+        18446744073709551615
+      ]
+    },
+    {
+      "input": "-0xFFFFFFFFFFFFFFFF",
+      "expected": -18446744073709551615,
+      "hex_digits": 16,
+      "source_dispatch": [
+        [
+          "<=",
+          16
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        1152921504606846976,
+        18446744073709551615
+      ]
+    },
+    {
+      "input": "0x10000000000000000",
+      "expected": 18446744073709551616,
+      "hex_digits": 17,
+      "source_dispatch": [
+        [
+          ">",
+          16
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        18446744073709551616,
+        295147905179352825855
+      ]
+    },
+    {
+      "input": "0xFFFFFFFFFFFFFFFFF",
+      "expected": 295147905179352825855,
+      "hex_digits": 17,
+      "source_dispatch": [
+        [
+          ">",
+          16
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483647
+      ],
+      "solved_magnitude_interval": [
+        18446744073709551616,
+        295147905179352825855
+      ]
+    },
+    {
+      "input": "-0x10000000000000000",
+      "expected": -18446744073709551616,
+      "hex_digits": 17,
+      "source_dispatch": [
+        [
+          ">",
+          16
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        18446744073709551616,
+        295147905179352825855
+      ]
+    },
+    {
+      "input": "-0xFFFFFFFFFFFFFFFFF",
+      "expected": -295147905179352825855,
+      "hex_digits": 17,
+      "source_dispatch": [
+        [
+          ">",
+          16
+        ]
+      ],
+      "signed_integer_constraint": [
+        ">",
+        2147483648
+      ],
+      "solved_magnitude_interval": [
+        18446744073709551616,
+        295147905179352825855
+      ]
+    }
+  ]
+}

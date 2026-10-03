@@ -1,0 +1,539 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_36b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.DataUtil: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendingIterator.DescendingIterator: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendingIterator.hasNext: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendingIterator.next: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendingIterator.remove: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.encodeUrl: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.HttpConnection: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.Base: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.url: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.url: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.method: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.method: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.header: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.header: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.hasHeader: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.removeHeader: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.headers: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.getHeaderCaseInsensitive: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.scanHeaders: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.cookie: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.cookie: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.hasCookie: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.removeCookie: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Base.cookies: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.Request: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.Response: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.createConnection: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.setupFromConnection: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.writePost: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.getRequestCookieString: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.KeyVal: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.Validate: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown type
+	data: File
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [in]]
+src/main/java/org/jsoup/helper/DataUtil.java: internal error: missing return statement
+	data: function(<nil>, org/jsoup/helper/DataUtil//load!05e0f873f3be6079de04d38ecf2f0264, [variable(in, unsupported(File)), variable(charsetName, pointer(reference(java/lang/String))), variable(baseUri, pointer(reference(java/lang/String)))], [variable(, unsupported(org/jsoup/nodes/Document))], block([unsupported]))
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: java/util/regex/Matcher
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: java/util/regex/Pattern
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown type
+	data: ByteArrayOutputStream
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//toUpperCase [] [unsupported]]
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/helper/DataUtil.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> size [] []]
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> getLast [] []]
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> removeLast [] []]
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> org/jsoup/helper/DescendableLinkedList//DescendingIterator//DescendingIterator [reference(E) reference(E)] [unsupported]]
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/ListIterator), [reference(E)])
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> addFirst [] [e]]
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: error: unknown function
+	data: [<nil> listIterator [] [index]]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))]) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown type
+	data: BufferedInputStream
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/util/zip/GZIPInputStream
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/Connection
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/UnsupportedMimeTypeException
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/parser/TokenQueue
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown field
+	data: [this struct(org/jsoup/helper/HttpConnection, [], [pointer(reference(java/lang/Object))], [unsupported(org/jsoup/Connection)]) Method]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(genericInstance(reference(java/util/List), [pointer(reference(java/lang/String))]))])) java/util/Map<java/lang/String,java/util/List<java/lang/String>>//entrySet [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))]) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/net/HttpURLConnection
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/net/URLEncoder
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [struct(org/jsoup/helper/Validate, [], [pointer(reference(java/lang/Object))], []) org/jsoup/helper/Validate//notNull [] [keyvals "Data key value pairs must not be null"]]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown field
+	data: [this struct(org/jsoup/helper/HttpConnection, [], [pointer(reference(java/lang/Object))], [unsupported(org/jsoup/Connection)]) Method]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown type
+	data: OutputStreamWriter
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: org/jsoup/HttpStatusException
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/net/MalformedURLException
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown type
+	data: Method
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown identifier
+	data: Method
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown type
+	data: LinkedHashMap
+src/main/java/org/jsoup/helper/HttpConnection.java: unsupported: unsupported type
+	data: genericParameter(T, [unsupported(org/jsoup/Connection//Base)])
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map//Entry<java/lang/String,java/lang/String>//getKey [] []]
+src/main/java/org/jsoup/helper/HttpConnection.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map//Entry<java/lang/String,java/lang/String>//getValue [] []]
+src/main/java/org/jsoup/helper/StringUtil.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(ensure_not_nil(strings), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/helper/StringUtil.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//appendCodePoint [] [c]]
+Found 5 Java files
+Found 55 problems in Java files
+src/main/java/org/jsoup/helper/HttpConnection.java: found 58 symbols
+src/main/java/org/jsoup/helper/StringUtil.java: found 8 symbols
+src/main/java/org/jsoup/helper/Validate.java: found 11 symbols
+src/main/java/org/jsoup/helper/DataUtil.java: found 7 symbols
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: found 5 symbols
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.fail: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.fail: computed 1 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.fail: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:110:9: critical: org.jsoup.helper.Validate.fail: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:81:27: critical: org.jsoup.helper.Validate.noNullElements: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:26:13: critical: org.jsoup.helper.Validate.notNull: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: computed 3 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: found 2 problems
+src/main/java/org/jsoup/helper/Validate.java:92:13: critical: org.jsoup.helper.Validate.notEmpty: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java:92:13: critical: org.jsoup.helper.Validate.notEmpty: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notNull: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:16:13: critical: org.jsoup.helper.Validate.notNull: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: computed 4 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.noNullElements: found 2 problems
+src/main/java/org/jsoup/helper/Validate.java:81:27: critical: org.jsoup.helper.Validate.noNullElements: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/helper/Validate.java:83:17: critical: org.jsoup.helper.Validate.noNullElements: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: computed 3 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.notEmpty: found 2 problems
+src/main/java/org/jsoup/helper/Validate.java:102:13: critical: org.jsoup.helper.Validate.notEmpty: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java:102:13: critical: org.jsoup.helper.Validate.notEmpty: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:54:13: critical: org.jsoup.helper.Validate.isFalse: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isFalse: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:64:13: critical: org.jsoup.helper.Validate.isFalse: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:35:13: critical: org.jsoup.helper.Validate.isTrue: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: computing test cases
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: computed 2 unit tests
+src/main/java/org/jsoup/helper/Validate.java: org.jsoup.helper.Validate.isTrue: found 1 problems
+src/main/java/org/jsoup/helper/Validate.java:45:13: critical: org.jsoup.helper.Validate.isTrue: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: found 0 problems
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.getCharsetFromContentType: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.getCharsetFromContentType: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.getCharsetFromContentType: found 0 problems
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: found 0 problems
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.load: found 0 problems
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.parseByteData: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.parseByteData: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.parseByteData: found 0 problems
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: computing test cases
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: computed 0 unit tests
+src/main/java/org/jsoup/helper/DataUtil.java: org.jsoup.helper.DataUtil.readToByteBuffer: found 0 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.pollLast: computing test cases
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.pollLast: computed 0 unit tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.pollLast: found 1 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: org.jsoup.helper.DescendableLinkedList.pollLast: encountered an unsupported type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.descendingIterator: computing test cases
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.descendingIterator: computed 0 unit tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.descendingIterator: found 1 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: org.jsoup.helper.DescendableLinkedList.descendingIterator: encountered an unsupported type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.peekLast: computing test cases
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.peekLast: computed 0 unit tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.peekLast: found 1 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: org.jsoup.helper.DescendableLinkedList.peekLast: encountered an unsupported type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.push: computing test cases
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.push: computed 0 unit tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.push: found 1 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: org.jsoup.helper.DescendableLinkedList.push: encountered an unsupported type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendableLinkedList: computing test cases
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendableLinkedList: computed 0 unit tests
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: org.jsoup.helper.DescendableLinkedList.DescendableLinkedList: found 1 problems
+src/main/java/org/jsoup/helper/DescendableLinkedList.java: unsupported: org.jsoup.helper.DescendableLinkedList.DescendableLinkedList: encountered an unsupported type
+	data: unsupported(java/util/LinkedList)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: computed 0 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.url: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.url: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.url: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.followRedirects: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.followRedirects: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.followRedirects: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.data: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.cookie: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.cookie: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.cookie: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.data: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.body: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.body: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.body: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.response: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.response: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.response: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.response: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.response: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.response: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.execute: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.execute: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.execute: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.bodyAsBytes: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.bodyAsBytes: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.bodyAsBytes: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.processResponseHeaders: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.processResponseHeaders: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.processResponseHeaders: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: computed 1 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.method: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.method: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.method: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.data: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.maxBodySize: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.maxBodySize: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.maxBodySize: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.referrer: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.referrer: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.referrer: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.header: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.header: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.header: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.request: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.request: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.request: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.ignoreHttpErrors: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.ignoreHttpErrors: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.ignoreHttpErrors: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.timeout: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.timeout: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.timeout: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.timeout: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.timeout: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.timeout: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.maxBodySize: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.maxBodySize: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.maxBodySize: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreContentType: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreContentType: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.ignoreContentType: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.statusMessage: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.statusMessage: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.statusMessage: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: computed 1 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.parse: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.parse: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.parse: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.post: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.post: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.post: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.request: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.request: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.request: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.timeout: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.timeout: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.timeout: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.cookies: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.cookies: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.cookies: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.execute: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.execute: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.execute: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.data: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.data: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.execute: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.execute: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.execute: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: computed 1 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.key: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.ignoreHttpErrors: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: computed 0 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.connect: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.url: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.url: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.url: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreContentType: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.ignoreContentType: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.ignoreContentType: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.statusCode: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.statusCode: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.statusCode: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.create: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.create: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.KeyVal.create: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.maxBodySize: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.maxBodySize: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.maxBodySize: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.userAgent: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.userAgent: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.userAgent: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.parser: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.parser: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.parser: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.get: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.get: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.get: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.charset: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.charset: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.charset: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.followRedirects: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.followRedirects: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.followRedirects: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.followRedirects: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.followRedirects: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.followRedirects: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.parser: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.parser: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.parser: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.contentType: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.contentType: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.contentType: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.data: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.data: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.parser: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Request.parser: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Request.parser: unknown type kind
+	data: unsupported(org/jsoup/parser/Parser)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.Response: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.Response.Response: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.Response.Response: unknown type kind
+	data: unsupported(java/nio/ByteBuffer)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.toString: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.toString: computed 1 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.toString: found 0 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.ignoreContentType: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.ignoreContentType: found 1 problems
+src/main/java/org/jsoup/helper/HttpConnection.java: internal error: org.jsoup.helper.HttpConnection.ignoreContentType: unknown type kind
+	data: unsupported(org/jsoup/Connection//Request)
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: computing test cases
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: computed 1 unit tests
+src/main/java/org/jsoup/helper/HttpConnection.java: org.jsoup.helper.HttpConnection.KeyVal.value: found 0 problems
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: computed 0 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: found 1 problems
+src/main/java/org/jsoup/helper/StringUtil.java: unsupported: org.jsoup.helper.StringUtil.join: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/lang/Iterable), [reference(T)]))), java/lang/Iterable//iterator!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(genericInstance(reference(java/util/Iterator), [reference(T)])))], <nil>)
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.in: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.in: computed 6 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.in: found 2 problems
+src/main/java/org/jsoup/helper/StringUtil.java:135:27: critical: org.jsoup.helper.StringUtil.in: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/helper/StringUtil.java:136:17: critical: org.jsoup.helper.StringUtil.in: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isBlank: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isBlank: computed 2 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isBlank: found 1 problems
+src/main/java/org/jsoup/helper/StringUtil.java: info: org.jsoup.helper.StringUtil.isBlank: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.006117665s, CPUTimeUser:9.95049s, CPUTimeSystem:51.992ms, MemoryUsage:182320}}
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.padding: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.padding: computed 2 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.padding: found 2 problems
+src/main/java/org/jsoup/helper/StringUtil.java: info: org.jsoup.helper.StringUtil.padding: test generation timed out
+src/main/java/org/jsoup/helper/StringUtil.java:52:13: critical: org.jsoup.helper.StringUtil.padding: uncaught java.lang.IllegalArgumentException
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isWhitespace: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isWhitespace: computed 6 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isWhitespace: found 0 problems
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.normaliseWhitespace: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.normaliseWhitespace: computed 2 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.normaliseWhitespace: found 1 problems
+src/main/java/org/jsoup/helper/StringUtil.java:107:46: critical: org.jsoup.helper.StringUtil.normaliseWhitespace: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: computed 0 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.join: found 1 problems
+src/main/java/org/jsoup/helper/StringUtil.java: unsupported: org.jsoup.helper.StringUtil.join: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/Iterator), [reference(E)]))), java/util/Iterator//hasNext!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isNumeric: computing test cases
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isNumeric: computed 2 unit tests
+src/main/java/org/jsoup/helper/StringUtil.java: org.jsoup.helper.StringUtil.isNumeric: found 1 problems
+src/main/java/org/jsoup/helper/StringUtil.java: info: org.jsoup.helper.StringUtil.isNumeric: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.012726139s, CPUTimeUser:9.926435s, CPUTimeSystem:83.986ms, MemoryUsage:181508}}
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/helper/HttpConnection.java: generated unit test file src/main/java/org/jsoup/helper/HttpConnectionSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/helper/StringUtil.java: generated unit test file src/main/java/org/jsoup/helper/StringUtilSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/helper/Validate.java: generated unit test file src/main/java/org/jsoup/helper/ValidateSymflowerTest.java
+Analyzed 5 out of 5 source files
+Had 3 errors that block a full analysis
+Generated 50 tests
+Found 18 potential problems
+The following issues prevent a full analysis:
+
+* 59 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 23 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 18 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 12 cases of "other issues"
+	Description: Uncategorized problems.
+

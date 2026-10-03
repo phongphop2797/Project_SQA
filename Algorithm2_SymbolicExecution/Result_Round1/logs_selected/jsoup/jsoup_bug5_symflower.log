@@ -1,0 +1,398 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_5b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.Parser: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseComment: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseXmlDecl: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseEndTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseStartTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseAttribute: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseTextNode: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseCdata: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.addChildToParent: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.stackHasValidParent: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.popStackToSuitableContainer: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.popStackToClose: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.last: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.Tag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.createBlock: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.createInline: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.register: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setContainInlineOnly: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setContainDataOnly: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setOptionalClosing: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setPreserveWhitespace: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setAncestor: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setExcludes: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setParent: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setLimitChildren: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setKnownTag: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainingLength: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(ensure_not_nil(select(this, tq)), consume!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) Attribute]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: XmlDeclaration
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Attribute
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) TextNode]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) TextNode]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/Parser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Parser, [], [pointer(reference(java/lang/Object))], []) Document]
+src/main/java/org/jsoup/parser/Parser.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/LinkedList), [unsupported(Element)])
+src/main/java/org/jsoup/parser/Parser.java: error: unknown type
+	data: Attributes
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc0004296c0 <nil> [] 0xc00045cb80 0xc000180fc0 {None [] [] None}}
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/jsoup/parser/Tag))] [len(ensure_not_nil(tagNames))]]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tag, [], [pointer(reference(java/lang/Object))], []) Collections]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tag, [], [pointer(reference(java/lang/Object))], []) Collections]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/jsoup/parser/Tag))] [len(ensure_not_nil(tagNames))]]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tag, [], [pointer(reference(java/lang/Object))], []) Collections]
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tag.java: error: unknown type
+	data: HashMap
+src/main/java/org/jsoup/parser/Tag.java: unsupported: unsupported AST node
+	data: &{0xc000504060 <nil> [] 0xc0001f0e00 0xc00058b050 {None [] [] None}}
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/TokenQueue.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Character)) vs primitive(char, 16, true)
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [call(select(this, consume!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+Found 4 Java files
+Found 35 problems in Java files
+src/main/java/org/jsoup/parser/Parser.java: found 3 symbols
+src/main/java/org/jsoup/parser/Tag.java: found 19 symbols
+src/main/java/org/jsoup/parser/TokenQueue.java: found 31 symbols
+src/main/java/org/jsoup/parser/package-info.java: found 0 symbols
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragmentRelaxed: computing test cases
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragmentRelaxed: found 1 problems
+src/main/java/org/jsoup/parser/Parser.java: internal error: org.jsoup.parser.Parser.parseBodyFragmentRelaxed: unknown type kind
+	data: unsupported(Document)
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragment: computing test cases
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parseBodyFragment: found 1 problems
+src/main/java/org/jsoup/parser/Parser.java: internal error: org.jsoup.parser.Parser.parseBodyFragment: unknown type kind
+	data: unsupported(Document)
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: computing test cases
+src/main/java/org/jsoup/parser/Parser.java: org.jsoup.parser.Parser.parse: found 1 problems
+src/main/java/org/jsoup/parser/Parser.java: internal error: org.jsoup.parser.Parser.parse: unknown type kind
+	data: unsupported(Document)
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isEmpty: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isKnownTag: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isData: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getImplicitParent: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.requiresSpecificParent: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.requiresSpecificParent: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.requiresSpecificParent: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContainBlock: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isInline: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.canContain: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.hashCode: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.getName: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidParent: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidAncestor: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidAncestor: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isValidAncestor: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.equals: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.setSelfClosing: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isSelfClosing: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.preserveWhitespace: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.valueOf: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.toString: found 0 problems
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computing test cases
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: computed 0 unit tests
+src/main/java/org/jsoup/parser/Tag.java: org.jsoup.parser.Tag.isBlock: found 0 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.TokenQueue: found 0 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: computed 3 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.peek: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.peek: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.peek: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computed 5 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: found 5 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:69:21: critical: org.jsoup.parser.TokenQueue.consume: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consume: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:176:13: critical: org.jsoup.parser.TokenQueue.consume: uncaught java.lang.IllegalStateException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consume: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:176:13: critical: org.jsoup.parser.TokenQueue.consume: uncaught java.lang.IllegalStateException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToIgnoreCase: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToIgnoreCase: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToIgnoreCase: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:202:24: critical: org.jsoup.parser.TokenQueue.consumeToIgnoreCase: uncaught java.lang.NullPointerException
+src/java/lang/String.java:281:13: critical: org.jsoup.parser.TokenQueue.consumeToIgnoreCase: uncaught java.lang.StringIndexOutOfBoundsException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: computed 5 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeToAny: found 5 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeToAny: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeToAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:96:25: critical: org.jsoup.parser.TokenQueue.consumeToAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeToAny: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:96:25: critical: org.jsoup.parser.TokenQueue.consumeToAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computed 7 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: found 4 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:96:25: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:69:21: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.advance: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.advance: computed 5 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.advance: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.advance: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:154:25: critical: org.jsoup.parser.TokenQueue.advance: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.advance: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWhitespace: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeWhitespace: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeWhitespace: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTagName: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTagName: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTagName: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeTagName: type cannot be determined
+	data: VariableReference(@m_0, pointer(struct(org/jsoup/parser/TokenQueue, [], [pointer(reference(java/lang/Object))], [])), @m_0_0)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeTagName: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeAttributeKey: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeAttributeKey: type cannot be determined
+	data: VariableReference(@m_0, pointer(struct(org/jsoup/parser/TokenQueue, [], [pointer(reference(java/lang/Object))], [])), @m_0_0)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeAttributeKey: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.toString: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:397:16: critical: org.jsoup.parser.TokenQueue.toString: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: computed 4 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.isEmpty: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.isEmpty: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.isEmpty: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompToIgnoreCase: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompToIgnoreCase: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompToIgnoreCase: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:202:24: critical: org.jsoup.parser.TokenQueue.chompToIgnoreCase: uncaught java.lang.NullPointerException
+src/java/lang/String.java:281:13: critical: org.jsoup.parser.TokenQueue.chompToIgnoreCase: uncaught java.lang.StringIndexOutOfBoundsException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: computed 5 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchChomp: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchChomp: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:69:21: critical: org.jsoup.parser.TokenQueue.matchChomp: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchChomp: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consume: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:162:23: critical: org.jsoup.parser.TokenQueue.consume: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompBalanced: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompBalanced: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompBalanced: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.chompBalanced: type cannot be determined
+	data: variable(last_0, pointer(struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], [])))
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.chompBalanced: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.unescape: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.unescape: computed 0 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeWord: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeWord: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeWord: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: computed 8 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesAny: found 5 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:107:22: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:107:22: critical: org.jsoup.parser.TokenQueue.matchesAny: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesStartTag: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesStartTag: computed 4 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesStartTag: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesStartTag: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesStartTag: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesStartTag: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWord: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesWord: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesWord: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeCssIdentifier: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeCssIdentifier: type cannot be determined
+	data: VariableReference(@m_0, pointer(struct(org/jsoup/parser/TokenQueue, [], [pointer(reference(java/lang/Object))], [])), @m_0_0)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeCssIdentifier: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.addFirst: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:59:23: critical: org.jsoup.parser.TokenQueue.addFirst: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesCS: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesCS: computed 3 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesCS: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesCS: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:86:16: critical: org.jsoup.parser.TokenQueue.matchesCS: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matchesWhitespace: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.matchesWhitespace: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matchesWhitespace: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeTo: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: info: org.jsoup.parser.TokenQueue.consumeTo: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.010008406s, CPUTimeUser:9.746121s, CPUTimeSystem:87.766ms, MemoryUsage:196800}}
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeTo: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:190:22: critical: org.jsoup.parser.TokenQueue.consumeTo: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.chompTo: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: info: org.jsoup.parser.TokenQueue.chompTo: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.007801927s, CPUTimeUser:9.945517s, CPUTimeSystem:40.022ms, MemoryUsage:196512}}
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.chompTo: unknown selector
+	data: select(this, queue)
+src/main/java/org/jsoup/parser/TokenQueue.java:190:22: critical: org.jsoup.parser.TokenQueue.chompTo: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.remainder: found 1 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.remainder: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: computed 2 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.addFirst: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:50:18: critical: org.jsoup.parser.TokenQueue.addFirst: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:59:23: critical: org.jsoup.parser.TokenQueue.addFirst: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: computed 5 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.matches: found 3 problems
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matches: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.subtractExact
+src/main/java/org/jsoup/parser/TokenQueue.java:69:21: critical: org.jsoup.parser.TokenQueue.matches: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.matches: uncaught java.lang.NullPointerException
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeElementSelector: computing test cases
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeElementSelector: computed 1 unit tests
+src/main/java/org/jsoup/parser/TokenQueue.java: org.jsoup.parser.TokenQueue.consumeElementSelector: found 2 problems
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: org.jsoup.parser.TokenQueue.consumeElementSelector: type cannot be determined
+	data: VariableReference(@m_0, pointer(struct(org/jsoup/parser/TokenQueue, [], [pointer(reference(java/lang/Object))], [])), @m_0_0)
+src/main/java/org/jsoup/parser/TokenQueue.java:34:16: critical: org.jsoup.parser.TokenQueue.consumeElementSelector: uncaught java.lang.NullPointerException
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/jsoup/parser/TokenQueue.java: generated unit test file src/main/java/org/jsoup/parser/TokenQueueSymflowerTest.java
+Analyzed 4 out of 4 source files
+Had 7 errors that block a full analysis
+Generated 83 tests
+Found 54 potential problems
+The following issues prevent a full analysis:
+
+* 13 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 9 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 5 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 21 cases of "other issues"
+	Description: Uncategorized problems.
+

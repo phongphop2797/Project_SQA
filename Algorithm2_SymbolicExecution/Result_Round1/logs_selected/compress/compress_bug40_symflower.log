@@ -1,0 +1,312 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_40b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.ArchiveUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.IOUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//getBytes [] [org/apache/commons/compress/utils/CharsetNames//US_ASCII]]
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown function
+	data: [<nil> java/lang/String//String [] [inputBytes org/apache/commons/compress/utils/CharsetNames//US_ASCII]]
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: unsupported: encountered an unsupported type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown import
+	data: java/io/UnsupportedEncodingException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown function
+	data: [<nil> java/lang/String//String [] [inputBytes offset length org/apache/commons/compress/utils/CharsetNames//US_ASCII]]
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//getBytes [] [org/apache/commons/compress/utils/CharsetNames//US_ASCII]]
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: error: unknown import
+	data: java/nio/ByteOrder
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/utils/ChecksumVerifyingInputStream, [], [pointer(reference(java/io/InputStream))], []) function(variable(this, pointer(reference(java/io/InputStream))), java/io/InputStream//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/io/InputStream)))], block([=(select(this, @java/lang/Object), call(select(&(composite(reference(java/lang/Object), [])), @@constructor!d41d8cd98f00b204e9800998ecf8427e), [])), return([this])]))]
+src/main/java/org/apache/commons/compress/utils/Charsets.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: error: unknown import
+	data: java/util/zip/Checksum
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: error: unknown import
+	data: java/io/FilterInputStream
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/utils/CountingInputStream, [], [unsupported(java/io/FilterInputStream)], []) in]
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/utils/CountingInputStream, [], [unsupported(java/io/FilterInputStream)], []) in]
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: error: unknown import
+	data: java/io/FilterOutputStream
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/utils/CountingOutputStream, [], [unsupported(java/io/FilterOutputStream)], []) out]
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/utils/CountingOutputStream, [], [unsupported(java/io/FilterOutputStream)], []) out]
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+Found 10 Java files
+Found 21 problems in Java files
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: found 7 symbols
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: found 13 symbols
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: found 4 symbols
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: found 4 symbols
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: found 2 symbols
+src/main/java/org/apache/commons/compress/utils/CharsetNames.java: found 0 symbols
+src/main/java/org/apache/commons/compress/utils/Charsets.java: found 2 symbols
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: found 6 symbols
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: found 6 symbols
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: found 6 symbols
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: internal error: org.apache.commons.compress.utils.BitInputStream.close: unknown type kind
+	data: unsupported(java/nio/ByteOrder)
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.BitInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.BitInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: internal error: org.apache.commons.compress.utils.BitInputStream.BitInputStream: unknown type kind
+	data: unsupported(java/nio/ByteOrder)
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.clearBitCache: computing test cases
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.clearBitCache: found 1 problems
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: internal error: org.apache.commons.compress.utils.BitInputStream.clearBitCache: unknown type kind
+	data: unsupported(java/nio/ByteOrder)
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.readBits: computing test cases
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: org.apache.commons.compress.utils.BitInputStream.readBits: found 1 problems
+src/main/java/org/apache/commons/compress/utils/BitInputStream.java: internal error: org.apache.commons.compress.utils.BitInputStream.readBits: unknown type kind
+	data: unsupported(java/nio/ByteOrder)
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.close: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.close: found 0 problems
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.BoundedInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.BoundedInputStream: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.BoundedInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: unsupported: org.apache.commons.compress.utils.BoundedInputStream.read: unsupported access
+	data: function(variable(this, pointer(reference(java/io/InputStream))), java/io/InputStream//read!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, primitive(int, 32, false))], <nil>)
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: computed 2 unit tests
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: org.apache.commons.compress.utils.BoundedInputStream.read: found 2 problems
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: internal error: org.apache.commons.compress.utils.BoundedInputStream.read: unknown selector
+	data: select(this, in)
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java:61:31: critical: org.apache.commons.compress.utils.BoundedInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: org.apache.commons.compress.utils.CRC32VerifyingInputStream.CRC32VerifyingInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: org.apache.commons.compress.utils.CRC32VerifyingInputStream.CRC32VerifyingInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: org.apache.commons.compress.utils.CRC32VerifyingInputStream.CRC32VerifyingInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: org.apache.commons.compress.utils.CRC32VerifyingInputStream.CRC32VerifyingInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java: internal error: org.apache.commons.compress.utils.CRC32VerifyingInputStream.CRC32VerifyingInputStream: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.closeQuietly: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.closeQuietly: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.closeQuietly: found 0 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: found 0 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: found 1 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: internal error: org.apache.commons.compress.utils.IOUtils.copy: type cannot be determined
+	data: VariableReference(@m_0, pointer(struct(java/io/InputStream, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)])), @m_0_0)
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.readFully: found 0 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.skip: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.skip: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.skip: found 0 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.copy: found 1 problems
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: internal error: org.apache.commons.compress.utils.IOUtils.copy: type cannot be determined
+	data: VariableReference(input_0, pointer(struct(java/io/InputStream, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)])), @m_0_0)
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.toByteArray: computing test cases
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.toByteArray: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/IOUtils.java: org.apache.commons.compress.utils.IOUtils.toByteArray: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:91:54: critical: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.sanitize: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.sanitize: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computed 3 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: found 2 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:208:36: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:208:64: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isArrayZero: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isArrayZero: computed 5 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isArrayZero: found 2 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:251:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isArrayZero: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:251:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isArrayZero: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiBytes: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiBytes: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toString: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toString: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toString: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computed 21 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: found 16 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.toAsciiString: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computed 9 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: found 4 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.matchAsciiBuffer: found 0 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: computed 3 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqual: found 2 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:220:36: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:220:64: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqual: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: computing test cases
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: computed 19 unit tests
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: found 16 problems
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:17: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:157:39: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:167:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:33: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java:173:25: critical: org.apache.commons.compress.utils.ArchiveUtils.isEqualWithNull: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/Charsets.java: org.apache.commons.compress.utils.Charsets.toCharset: computing test cases
+src/main/java/org/apache/commons/compress/utils/Charsets.java: org.apache.commons.compress.utils.Charsets.toCharset: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/Charsets.java: org.apache.commons.compress.utils.Charsets.toCharset: computing test cases
+src/main/java/org/apache/commons/compress/utils/Charsets.java: org.apache.commons.compress.utils.Charsets.toCharset: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.skip: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.skip: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.skip: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.ChecksumVerifyingInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.ChecksumVerifyingInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.ChecksumVerifyingInputStream: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.close: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java: internal error: org.apache.commons.compress.utils.ChecksumVerifyingInputStream.read: unknown type kind
+	data: unsupported(java/util/zip/Checksum)
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.count: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.count: computed 3 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.count: found 1 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java:65:13: critical: org.apache.commons.compress.utils.CountingInputStream.count: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.getBytesRead: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.getBytesRead: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.getBytesRead: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.CountingInputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.CountingInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.CountingInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: org.apache.commons.compress.utils.CountingInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java:47:27: critical: org.apache.commons.compress.utils.CountingInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.CountingOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.CountingOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.CountingOutputStream: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computed 0 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java:44:21: critical: org.apache.commons.compress.utils.CountingOutputStream.write: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.getBytesWritten: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.getBytesWritten: computed 1 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.getBytesWritten: found 0 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.count: computing test cases
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.count: computed 3 unit tests
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: org.apache.commons.compress.utils.CountingOutputStream.count: found 1 problems
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java:60:13: critical: org.apache.commons.compress.utils.CountingOutputStream.count: uncaught ArithmeticException: integer overflow
+		at java.lang.Math.addExact
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java: generated unit test file src/main/java/org/apache/commons/compress/utils/ArchiveUtilsSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/utils/BoundedInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/utils/CountingInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/utils/CountingInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java: generated unit test file src/main/java/org/apache/commons/compress/utils/CountingOutputStreamSymflowerTest.java
+Analyzed 10 out of 10 source files
+Had 5 errors that block a full analysis
+Generated 76 tests
+Found 48 potential problems
+The following issues prevent a full analysis:
+
+* 11 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 4 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 6 cases of "other issues"
+	Description: Uncategorized problems.
+

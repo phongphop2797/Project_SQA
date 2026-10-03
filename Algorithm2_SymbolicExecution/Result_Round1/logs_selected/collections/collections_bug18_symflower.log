@@ -1,0 +1,288 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_18b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.OrderedSetIterator: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeObject [] [unsupported]]
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readObject [] []]
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/collections/set/AbstractSetDecorator.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/AbstractSetDecorator.java: error: unknown import
+	data: org/apache/commons/collections/collection/AbstractCollectionDecorator
+src/main/java/org/apache/commons/collections/set/AbstractSortedSetDecorator.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/AbstractSortedSetDecorator.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: error: unknown import
+	data: org/apache/commons/collections/CollectionUtils
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: error: unknown import
+	data: org/apache/commons/collections/collection/CompositeCollection
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: internal error: type does not support nil values
+	data: unsupported(java/util/Set)
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: internal error: type does not support nil values
+	data: unsupported(java/util/Set)
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: error: unknown type
+	data: CollectionMutator
+src/main/java/org/apache/commons/collections/set/CompositeSet.java: internal error: type does not support nil values
+	data: unsupported(java/util/Set)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: org/apache/commons/collections/iterators/AbstractIteratorDecorator
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: org/apache/commons/collections/list/UnmodifiableList
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: internal error: not all elements have the same type
+	data: declaration([obj], [pointer(reference(java/lang/Object))], [call(select(ensure_not_nil(select(this, setOrder)), remove!82a13d2b9378b45b5451d30242dc1218), [index])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(E)]) java/util/Collection<E>//remove [] [select(this, last)]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/ListIterator), [reference(E)])
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(E)] [set]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//listIterator [] []]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: internal error: not all elements have the same type
+	data: declaration([e], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [<nil> contains [] [e]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: internal error: not all elements have the same type
+	data: declaration([e], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported implements type
+	data: struct(org/apache/commons/collections/set/ListOrderedSet//OrderedSetIterator, [], [genericInstance(unsupported(org/apache/commons/collections/iterators/AbstractIteratorDecorator), [reference(E)])], [genericInstance(unsupported(org/apache/commons/collections/OrderedIterator), [reference(E)])])
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: org/apache/commons/collections/OrderedIterator
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [reference(E)])
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported node
+	data: [==(set, nil) genericInstance(unsupported(java/util/Set), [genericParameter(E, [pointer(reference(java/lang/Object))])])]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [reference(E)])) java/util/List<E>//retainAll [] [set]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//toArray [] [a]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [reference(E)]) java/util/List<E>//addAll [] [index toAdd]]
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/ListIterator), [reference(E)])
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: unsupported type cast
+	data: cast(|(result, call(select(this, remove!4fb2deccef7826b7659de223ac40b91d), [cast(call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), []), pointer(reference(java/lang/Object)))])), primitive(bool, 0, false))
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: error: unknown function
+	data: [<nil> contains [] [object]]
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [reference(E), wildcard(reference(V), pointer(reference(java/lang/Object)))]) java/util/Map<E,ancestor of V descendant of java/lang/Object>//keySet [] []]
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [reference(E), wildcard(reference(V), pointer(reference(java/lang/Object)))]) java/util/Map<E,ancestor of V descendant of java/lang/Object>//put [] [obj select(this, dummyValue)]]
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [reference(E), wildcard(reference(V), pointer(reference(java/lang/Object)))]) java/util/Map<E,ancestor of V descendant of java/lang/Object>//put [] [e select(this, dummyValue)]]
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: internal error: not all elements have the same type
+	data: declaration([e], [reference(E)], [call(select(ensure_not_nil(@@sfl_iterator), next!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/MapBackedSet.java: error: unknown function
+	data: [<nil> mapBackedSet [] [map nil]]
+src/main/java/org/apache/commons/collections/set/PredicatedSet.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/set/PredicatedSet.java: error: unknown import
+	data: org/apache/commons/collections/collection/PredicatedCollection
+src/main/java/org/apache/commons/collections/set/PredicatedSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/PredicatedSortedSet.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/collections/set/PredicatedSortedSet.java: error: unknown import
+	data: org/apache/commons/collections/Predicate
+src/main/java/org/apache/commons/collections/set/SynchronizedSet.java: error: unknown import
+	data: org/apache/commons/collections/collection/SynchronizedCollection
+src/main/java/org/apache/commons/collections/set/SynchronizedSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/SynchronizedSortedSet.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/collections/set/SynchronizedSortedSet.java: error: unknown import
+	data: org/apache/commons/collections/collection/SynchronizedCollection
+src/main/java/org/apache/commons/collections/set/TransformedSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/TransformedSet.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/set/TransformedSet.java: error: unknown import
+	data: org/apache/commons/collections/collection/TransformedCollection
+src/main/java/org/apache/commons/collections/set/TransformedSortedSet.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/collections/set/TransformedSortedSet.java: error: unknown import
+	data: org/apache/commons/collections/Transformer
+src/main/java/org/apache/commons/collections/set/UnmodifiableSet.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/collections/set/UnmodifiableSet.java: error: unknown import
+	data: org/apache/commons/collections/Unmodifiable
+src/main/java/org/apache/commons/collections/set/UnmodifiableSet.java: error: unknown import
+	data: org/apache/commons/collections/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections/set/UnmodifiableSet.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/collections/Unmodifiable)
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown import
+	data: java/util/SortedSet
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown import
+	data: org/apache/commons/collections/Unmodifiable
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/collections/Unmodifiable)
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readObject [] []]
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown import
+	data: org/apache/commons/collections/iterators/UnmodifiableIterator
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//defaultWriteObject [] []]
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeObject [] [unsupported]]
+src/main/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/collections/set/ListOrderedSet, [], [pointer(genericInstance(reference(org/apache/commons/collections/set/AbstractSerializableSetDecorator), [reference(E)]))], [genericInstance(unsupported(java/util/Set), [reference(E)])]) scopeLevelAtEntry:7 scopeLevelAtExit:8]
+Found 1 Java files
+Found 75 problems in Java files
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: found 26 symbols
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.iterator: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.iterator: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.iterator: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.iterator: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toString: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toString: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.toString: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.remove: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.remove: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.remove: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.removeAll: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.removeAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.indexOf: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.indexOf: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.indexOf: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.indexOf: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.hasPrevious: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.hasPrevious: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.previous: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.previous: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.retainAll: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.retainAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.retainAll: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.retainAll: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.toArray: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.toArray: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.toArray: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: found 0 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.next: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.next: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computed 1 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java:120:13: critical: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.get: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.get: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.get: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.get: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.remove: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.remove: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator.remove: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.clear: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.clear: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.clear: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.clear: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.addAll: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.addAll: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.addAll: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.add: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.listOrderedSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.asList: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.asList: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.asList: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.asList: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computing test cases
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: computed 0 unit tests
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: found 1 problems
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: unsupported: org.apache.commons.collections.set.ListOrderedSet.ListOrderedSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/collections/collection/AbstractCollectionDecorator)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections/set/ListOrderedSet.java: generated unit test file src/main/java/org/apache/commons/collections/set/ListOrderedSetSymflowerTest.java
+Analyzed 1 out of 14 source files
+Had 0 errors that block a full analysis
+Generated 1 test
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 35 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 20 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 26 cases of "other issues"
+	Description: Uncategorized problems.
+

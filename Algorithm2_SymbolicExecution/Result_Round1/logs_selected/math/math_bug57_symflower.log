@@ -1,0 +1,532 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_57b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.assignPointsToClusters: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.chooseInitialCenters: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.getPointFromLargestVarianceCluster: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.getPointFromLargestNumberCluster: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.getFarthestPoint: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.getNearestCluster: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Integer)) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Variance
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> assignPointsToClusters [] [clusters points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> assignPointsToClusters [] [newClusters points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> getNearestCluster [] [clusters p]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [reference(T)] [points]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [struct(java/util/Random, [], [pointer(reference(java/lang/Object))], []) java/util/Random//nextInt [] [call(select(ensure_not_nil(selectedPoints), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [pointer(reference(java/util/Random)) java/util/Random//nextInt [] [call(select(ensure_not_nil(pointSet), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [struct(java/util/Random, [], [pointer(reference(java/lang/Object))], []) java/util/Random//nextInt [] [call(select(ensure_not_nil(selectedPoints), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> chooseInitialCenters [] [points k select(this, random)]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: unsupported: unsupported AST node
+	data: reference(T)
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown import
+	data: org/apache/commons/math/exception/ConvergenceException
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: unsupported: unsupported AST node
+	data: genericParameter(T, [pointer(genericInstance(reference(org/apache/commons/math/stat/clustering/Clusterable), [reference(T)]))])
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown function
+	data: [<nil> getNearestCluster [] [resultSet p]]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+Found 4 Java files
+Found 19 problems in Java files
+src/main/java/org/apache/commons/math/stat/clustering/Cluster.java: found 4 symbols
+src/main/java/org/apache/commons/math/stat/clustering/Clusterable.java: found 2 symbols
+src/main/java/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java: found 7 symbols
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: found 3 symbols
+src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java: org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.KMeansPlusPlusClusterer: computing test cases
+runtime: goroutine stack exceeds 1000000000-byte limit
+runtime: sp=0xc035aea360 stack=[0xc035aea000, 0xc055aea000]
+fatal error: stack overflow
+
+runtime stack:
+runtime.throw({0x14188fb?, 0x431d7c?})
+	runtime/panic.go:1101 +0x48 fp=0x7888e9ffb088 sp=0x7888e9ffb058 pc=0x476ac8
+runtime.newstack()
+	runtime/stack.go:1107 +0x5bb fp=0x7888e9ffb1c0 sp=0x7888e9ffb088 pc=0x45c73b
+runtime.morestack()
+	runtime/asm_amd64.s:621 +0x7a fp=0x7888e9ffb1c8 sp=0x7888e9ffb1c0 pc=0x47c97a
+
+goroutine 46 gp=0xc000398380 m=10 mp=0xc0003a5808 [running]:
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205848?, 0xc003afee60}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:65 +0x1535 fp=0xc035aea370 sp=0xc035aea368 pc=0xab8135
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048680}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:185 +0x526 fp=0xc035aea528 sp=0xc035aea370 pc=0xab7126
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046b40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aea6e0 sp=0xc035aea528 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc0040486c0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aea898 sp=0xc035aea6e0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046b60}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeaa50 sp=0xc035aea898 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048700}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeac08 sp=0xc035aeaa50 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046b80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeadc0 sp=0xc035aeac08 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048740}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeaf78 sp=0xc035aeadc0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046ba0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeb130 sp=0xc035aeaf78 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048780}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeb2e8 sp=0xc035aeb130 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046bc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeb4a0 sp=0xc035aeb2e8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc0040487c0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeb658 sp=0xc035aeb4a0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046be0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeb810 sp=0xc035aeb658 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048800}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeb9c8 sp=0xc035aeb810 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046c00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aebb80 sp=0xc035aeb9c8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048840}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aebd38 sp=0xc035aebb80 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046c20}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aebef0 sp=0xc035aebd38 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048880}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aec0a8 sp=0xc035aebef0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046c40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aec260 sp=0xc035aec0a8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc0040488c0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aec418 sp=0xc035aec260 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046c60}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aec5d0 sp=0xc035aec418 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048900}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aec788 sp=0xc035aec5d0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046c80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aec940 sp=0xc035aec788 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048940}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aecaf8 sp=0xc035aec940 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046ca0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeccb0 sp=0xc035aecaf8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048980}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aece68 sp=0xc035aeccb0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046cc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aed020 sp=0xc035aece68 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc0040489c0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aed1d8 sp=0xc035aed020 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046ce0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aed390 sp=0xc035aed1d8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048a00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aed548 sp=0xc035aed390 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046d00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aed700 sp=0xc035aed548 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048a40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aed8b8 sp=0xc035aed700 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046d20}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeda70 sp=0xc035aed8b8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048a80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aedc28 sp=0xc035aeda70 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046d40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aedde0 sp=0xc035aedc28 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048ac0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aedf98 sp=0xc035aedde0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046d60}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aee150 sp=0xc035aedf98 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048b00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aee308 sp=0xc035aee150 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046d80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aee4c0 sp=0xc035aee308 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048b40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aee678 sp=0xc035aee4c0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046da0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aee830 sp=0xc035aee678 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048b80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aee9e8 sp=0xc035aee830 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046dc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeeba0 sp=0xc035aee9e8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048bc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aeed58 sp=0xc035aeeba0 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046de0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aeef10 sp=0xc035aeed58 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048c00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aef0c8 sp=0xc035aeef10 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046e00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aef280 sp=0xc035aef0c8 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048c40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aef438 sp=0xc035aef280 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc004046e20}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc035aef5f0 sp=0xc035aef438 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc004048c80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc035aef7a8 sp=0xc035aef5f0 pc=0xab77bd
+...1220075 frames elided...
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afec80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae6548 sp=0xc055ae6390 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b009c0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae6700 sp=0xc055ae6548 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afeca0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae68b8 sp=0xc055ae6700 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00a00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae6a70 sp=0xc055ae68b8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afecc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae6c28 sp=0xc055ae6a70 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00a40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae6de0 sp=0xc055ae6c28 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afece0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae6f98 sp=0xc055ae6de0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00a80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae7150 sp=0xc055ae6f98 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afed00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae7308 sp=0xc055ae7150 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00ac0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae74c0 sp=0xc055ae7308 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afed20}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae7678 sp=0xc055ae74c0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00b00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae7830 sp=0xc055ae7678 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afed40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae79e8 sp=0xc055ae7830 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00b40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae7ba0 sp=0xc055ae79e8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afed60}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae7d58 sp=0xc055ae7ba0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00b80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae7f10 sp=0xc055ae7d58 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afed80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae80c8 sp=0xc055ae7f10 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00bc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae8280 sp=0xc055ae80c8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afeda0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae8438 sp=0xc055ae8280 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00c00}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae85f0 sp=0xc055ae8438 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afedc0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae87a8 sp=0xc055ae85f0 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00c40}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae8960 sp=0xc055ae87a8 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205728?, 0xc003afede0}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:220 +0x5b6 fp=0xc055ae8b18 sp=0xc055ae8960 pc=0xab71b6
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNestedRecursive(0xc000930120, {0x2205608?, 0xc003b00c80}, 0x9c, 0xc055ae8e00)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:192 +0xbbd fp=0xc055ae8cd0 sp=0xc055ae8b18 pc=0xab77bd
+gitlab.nethead.at/symflower/symflower/model/ast.resolveNested(0xc000930120, {0x2205608, 0xc003b00c80}, 0x9c)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:59 +0x18b fp=0xc055ae8e40 sp=0xc055ae8cd0 pc=0xab6bab
+gitlab.nethead.at/symflower/symflower/model/ast.Resolve(...)
+	gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:8
+gitlab.nethead.at/symflower/symflower/model.typeDependenciesFilterBase(0x1?, {0x2205608?, 0xc003b00c80?})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:367 +0x24a fp=0xc055ae8e70 sp=0xc055ae8e40 pc=0xb21d0a
+gitlab.nethead.at/symflower/symflower/model.typeDependenciesFilterBase(0x2221c60?, {0x2205728?, 0xc003afee00?})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:384 +0xc9 fp=0xc055ae8ea0 sp=0xc055ae8e70 pc=0xb21b89
+gitlab.nethead.at/symflower/symflower/model.typeDependenciesAddDependencyOnType(0xc000930120?, 0xc00091f530, 0xc0016df4e0?, 0xc055ae9038, {0x2205608, 0xc003b00cc0}, {0x2205728?, 0xc003afee00?})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:489 +0x4a fp=0xc055ae8f10 sp=0xc055ae8ea0 pc=0xb2262a
+gitlab.nethead.at/symflower/symflower/model.typeDependenciesAddDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, 0xc055ae9038, {0x0?, 0x0?}, {0x2205608, 0xc003b00cc0})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:457 +0x356 fp=0xc055ae8fb0 sp=0xc055ae8f10 pc=0xb22176
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc003b00cc0})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:337 +0x21f fp=0xc055ae9090 sp=0xc055ae8fb0 pc=0xb2183f
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc000f54000})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc055ae9170 sp=0xc055ae9090 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc00060de40})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc055ae9250 sp=0xc055ae9170 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc000001e00})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc055ae9330 sp=0xc055ae9250 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc000ad1680})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc055ae9410 sp=0xc055ae9330 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.typeDependencies(0xc000930120, 0xc00091f530, 0xc055ae95e0, {0x2205608, 0xc0009d5940})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:347 +0x358 fp=0xc055ae94f0 sp=0xc055ae9410 pc=0xb21978
+gitlab.nethead.at/symflower/symflower/model.TypeDependencies(0xc000930120, {0x2205728, 0xc000b677c0})
+	gitlab.nethead.at/symflower/symflower/model/symbol.go:306 +0xd1 fp=0xc055ae9628 sp=0xc055ae94f0 pc=0xb215b1
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).AddType(0xc0008b5400, {0x2205728, 0xc000b677c0})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/path.go:556 +0x6d fp=0xc055ae9668 sp=0xc055ae9628 pc=0xf521ed
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).smtLibv2Constraint(0xc0008b5400, {0x2204248?, 0xc0004da990})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:1539 +0xc6 fp=0xc055ae97e8 sp=0xc055ae9668 pc=0xf691c6
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).smtLibv2Constraints(0xc0008b5400, 0xc055ae98d8)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:946 +0x2f8 fp=0xc055ae98b0 sp=0xc055ae97e8 pc=0xf61398
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*Path).SATSMTLibv2(0xc0008b5400)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/smtlib.go:1064 +0x2d fp=0xc055ae9908 sp=0xc055ae98b0 pc=0xf62bed
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).isPathSAT(0xc0004c6d00, 0xc0008b5400)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/execution.go:314 +0x6f fp=0xc055ae9968 sp=0xc055ae9908 pc=0xf270af
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).checkExpressionForNilDereferenceProblem.func1(0xc0008b5400)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1845 +0x1ea fp=0xc055ae9a08 sp=0xc055ae9968 pc=0xf386ea
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).withNewErrorPath(0xc0004c6d00, 0xc0008b5000, {0x2203478, 0xc0007a8f90}, 0x40, 0xc00079fa90)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1801 +0xc2 fp=0xc055ae9a48 sp=0xc055ae9a08 pc=0xf38202
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).checkExpressionForNilDereferenceProblem(0xc0004c6d00, 0xc0008b5000, 0xc0009d4dc0, {0x2208dd0, 0xc0007a8f90}, {0x2209770?, 0xc000da6b90?})
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:1817 +0x14a fp=0xc055ae9ae8 sp=0xc055ae9a48 pc=0xf383ca
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleExpressionSelect(0xc0004c6d00, 0xc0008b5000, 0xc0009d4dc0, 0xc0007a8f90)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:2609 +0x1b0 fp=0xc055ae9b90 sp=0xc055ae9ae8 pc=0xf3d510
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePathFlowNext(0xc0004c6d00, 0xc0008b5000, 0xc0009cf800)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:543 +0x25d fp=0xc055ae9c28 sp=0xc055ae9b90 pc=0xf2ec1d
+gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handlePath(0xc0004c6d00, 0xc0008b5000)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:292 +0x135 fp=0xc055ae9ca8 sp=0xc055ae9c28 pc=0xf2dad5
+gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal.func2()
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:249 +0x185 fp=0xc055ae9fe0 sp=0xc055ae9ca8 pc=0xf20685
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc055ae9fe8 sp=0xc055ae9fe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal in goroutine 1
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:215 +0xf96
+
+goroutine 1 gp=0xc000002380 m=nil [select, 15 minutes]:
+runtime.gopark(0xc000c73758?, 0x4?, 0x0?, 0x0?, 0xc000c73718?)
+	runtime/proc.go:435 +0xce fp=0xc00001b598 sp=0xc00001b578 pc=0x476bee
+runtime.selectgo(0xc00001b758, 0xc000c73710, 0x5?, 0x0, 0x0?, 0x1)
+	runtime/select.go:351 +0x837 fp=0xc00001b6d0 sp=0xc00001b598 pc=0x455ed7
+gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+	gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:62 +0x185 fp=0xc00001b840 sp=0xc00001b6d0 pc=0xf1ede5
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc000469a10, {0x21e8348, 0xc000838000}, 0xc0008ad020)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5 fp=0xc00001ba50 sp=0xc00001b840 pc=0xf94ba5
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc000469a10, 0xc000469a40, 0x0?)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3 fp=0xc00001bbd8 sp=0xc00001ba50 pc=0xf94253
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0004526d0?}, {0xf0?, 0x6?, 0x1c?, 0x0?}, 0x29?, {0xc000455620, ...})
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98 fp=0xc00001bc48 sp=0xc00001bbd8 pc=0xf926b8
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0003968d8, {0xc000396508?, 0x7888f84009d8?, 0xc0003968d8?})
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6 fp=0xc00001bd90 sp=0xc00001bc48 pc=0x1053c66
+gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000396508}, {0xc00019e000?, 0x0?, 0x0?})
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad fp=0xc00001be60 sp=0xc00001bd90 pc=0xb2c56d
+gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000396508?}, {0xc00019e000?, 0xc0001802e0?, 0xc0000bdf10?})
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26 fp=0xc00001bec8 sp=0xc00001be60 pc=0xb2c1e6
+gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+	gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+main.main.func1()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34 fp=0xc00001bf00 sp=0xc00001bec8 pc=0x1056414
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33 fp=0xc00001bf20 sp=0xc00001bf00 pc=0x1045df3
+main.main()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f fp=0xc00001bf50 sp=0xc00001bf20 pc=0x10563bf
+runtime.main()
+	runtime/proc.go:283 +0x28b fp=0xc00001bfe0 sp=0xc00001bf50 pc=0x443a6b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00001bfe8 sp=0xc00001bfe0 pc=0x47e821
+
+goroutine 2 gp=0xc000002e00 m=nil [force gc (idle), 15 minutes]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007afa8 sp=0xc00007af88 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.forcegchelper()
+	runtime/proc.go:348 +0xb3 fp=0xc00007afe0 sp=0xc00007afa8 pc=0x443db3
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007afe8 sp=0xc00007afe0 pc=0x47e821
+created by runtime.init.7 in goroutine 1
+	runtime/proc.go:336 +0x1a
+
+goroutine 3 gp=0xc000003340 m=nil [GC sweep wait]:
+runtime.gopark(0x2e6aa01?, 0x2e6aa20?, 0xc?, 0x9?, 0x1?)
+	runtime/proc.go:435 +0xce fp=0xc00007b780 sp=0xc00007b760 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.bgsweep(0xc0000a6000)
+	runtime/mgcsweep.go:316 +0xdf fp=0xc00007b7c8 sp=0xc00007b780 pc=0x42db3f
+runtime.gcenable.gowrap1()
+	runtime/mgc.go:204 +0x25 fp=0xc00007b7e0 sp=0xc00007b7c8 pc=0x421fc5
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007b7e8 sp=0xc00007b7e0 pc=0x47e821
+created by runtime.gcenable in goroutine 1
+	runtime/mgc.go:204 +0x66
+
+goroutine 4 gp=0xc000003500 m=nil [GC scavenge wait]:
+runtime.gopark(0xefc3de?, 0xdd1fcd?, 0x0?, 0x0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007bf78 sp=0xc00007bf58 pc=0x476bee
+runtime.goparkunlock(...)
+	runtime/proc.go:441
+runtime.(*scavengerState).park(0x2e6bf60)
+	runtime/mgcscavenge.go:425 +0x49 fp=0xc00007bfa8 sp=0xc00007bf78 pc=0x42b5a9
+runtime.bgscavenge(0xc0000a6000)
+	runtime/mgcscavenge.go:658 +0x59 fp=0xc00007bfc8 sp=0xc00007bfa8 pc=0x42bb39
+runtime.gcenable.gowrap2()
+	runtime/mgc.go:205 +0x25 fp=0xc00007bfe0 sp=0xc00007bfc8 pc=0x421f65
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007bfe8 sp=0xc00007bfe0 pc=0x47e821
+created by runtime.gcenable in goroutine 1
+	runtime/mgc.go:205 +0xa5
+
+goroutine 34 gp=0xc000102700 m=nil [finalizer wait, 15 minutes]:
+runtime.gopark(0x0?, 0x20875c8?, 0xe0?, 0x21?, 0x2000000020?)
+	runtime/proc.go:435 +0xce fp=0xc00007a630 sp=0xc00007a610 pc=0x476bee
+runtime.runfinq()
+	runtime/mfinal.go:196 +0x107 fp=0xc00007a7e0 sp=0xc00007a630 pc=0x420f87
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007a7e8 sp=0xc00007a7e0 pc=0x47e821
+created by runtime.createfing in goroutine 1
+	runtime/mfinal.go:166 +0x3d
+
+goroutine 35 gp=0xc000398540 m=nil [chan receive]:
+runtime.gopark(0xc0003f6dc0?, 0xc0005f0018?, 0x60?, 0x5f?, 0x613368?)
+	runtime/proc.go:435 +0xce fp=0xc000135f18 sp=0xc000135ef8 pc=0x476bee
+runtime.chanrecv(0xc000198690, 0x0, 0x1)
+	runtime/chan.go:664 +0x445 fp=0xc000135f90 sp=0xc000135f18 pc=0x4134e5
+runtime.chanrecv1(0x0?, 0x0?)
+	runtime/chan.go:506 +0x12 fp=0xc000135fb8 sp=0xc000135f90 pc=0x413072
+runtime.unique_runtime_registerUniqueMapCleanup.func2(...)
+	runtime/mgc.go:1796
+runtime.unique_runtime_registerUniqueMapCleanup.gowrap1()
+	runtime/mgc.go:1799 +0x2f fp=0xc000135fe0 sp=0xc000135fb8 pc=0x42510f
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000135fe8 sp=0xc000135fe0 pc=0x47e821
+created by unique.runtime_registerUniqueMapCleanup in goroutine 1
+	runtime/mgc.go:1794 +0x79
+
+goroutine 37 gp=0xc000398700 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e855c83726?, 0x1?, 0xb9?, 0x86?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000076f38 sp=0xc000076f18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc000076fc8 sp=0xc000076f38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc000076fe0 sp=0xc000076fc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000076fe8 sp=0xc000076fe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 5 gp=0xc000003a40 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e856af4efd?, 0x1?, 0x81?, 0xb8?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007c738 sp=0xc00007c718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc00007c7c8 sp=0xc00007c738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc00007c7e0 sp=0xc00007c7c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007c7e8 sp=0xc00007c7e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 19 gp=0xc0001028c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e7715b03d0?, 0x1?, 0xde?, 0x1b?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000134738 sp=0xc000134718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0001347c8 sp=0xc000134738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0001347e0 sp=0xc0001347c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001347e8 sp=0xc0001347e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 20 gp=0xc000102a80 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e855a72c0e?, 0x3?, 0xa1?, 0x17?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000134f38 sp=0xc000134f18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc000134fc8 sp=0xc000134f38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc000134fe0 sp=0xc000134fc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000134fe8 sp=0xc000134fe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 38 gp=0xc000398c40 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e852deec6f?, 0x3?, 0xc4?, 0x17?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000077738 sp=0xc000077718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0000777c8 sp=0xc000077738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0000777e0 sp=0xc0000777c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0000777e8 sp=0xc0000777e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 6 gp=0xc000003c00 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e855b0855a?, 0xc00012e040?, 0x1b?, 0xa?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007cf38 sp=0xc00007cf18 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc00007cfc8 sp=0xc00007cf38 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc00007cfe0 sp=0xc00007cfc8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007cfe8 sp=0xc00007cfe0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 21 gp=0xc000102c40 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e4fe187fb1?, 0x1?, 0x5a?, 0xa3?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc000135738 sp=0xc000135718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc0001357c8 sp=0xc000135738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc0001357e0 sp=0xc0001357c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001357e8 sp=0xc0001357e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 7 gp=0xc000003dc0 m=nil [GC worker (idle)]:
+runtime.gopark(0x33e8561e3c39?, 0x3?, 0xd?, 0x6?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc00007d738 sp=0xc00007d718 pc=0x476bee
+runtime.gcBgMarkWorker(0xc000198fc0)
+	runtime/mgc.go:1423 +0xe9 fp=0xc00007d7c8 sp=0xc00007d738 pc=0x424429
+runtime.gcBgMarkStartWorkers.gowrap1()
+	runtime/mgc.go:1339 +0x25 fp=0xc00007d7e0 sp=0xc00007d7c8 pc=0x424305
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00007d7e8 sp=0xc00007d7e0 pc=0x47e821
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	runtime/mgc.go:1339 +0x105
+
+goroutine 9 gp=0xc000502380 m=nil [sleep]:
+runtime.gopark(0x33e871bd4dcf?, 0x33d333ed12d2?, 0xb6?, 0x6e?, 0x70000c000ad1680?)
+	runtime/proc.go:435 +0xce fp=0xc00001c8c0 sp=0xc00001c8a0 pc=0x476bee
+time.Sleep(0x1dcd6500)
+	runtime/time.go:338 +0x165 fp=0xc00001c918 sp=0xc00001c8c0 pc=0x47ab45
+gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.enforceMemoryLimit.func1()
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:297 +0x4c fp=0xc00001dfe0 sp=0xc00001c918 pc=0x104674c
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc00001dfe8 sp=0xc00001dfe0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.enforceMemoryLimit in goroutine 1
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:292 +0xde
+
+goroutine 24 gp=0xc000002000 m=9 mp=0xc000101808 [syscall, 15 minutes]:
+runtime.notetsleepg(0x2e949e0, 0xffffffffffffffff)
+	runtime/lock_futex.go:123 +0x29 fp=0xc000130fa0 sp=0xc000130f78 pc=0x418aa9
+os/signal.signal_recv()
+	runtime/sigqueue.go:152 +0x29 fp=0xc000130fc0 sp=0xc000130fa0 pc=0x478dc9
+os/signal.loop()
+	os/signal/signal_unix.go:23 +0x13 fp=0xc000130fe0 sp=0xc000130fc0 pc=0x7f6a93
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000130fe8 sp=0xc000130fe0 pc=0x47e821
+created by os/signal.Notify.func1.1 in goroutine 1
+	os/signal/signal.go:152 +0x1f
+
+goroutine 14 gp=0xc000103180 m=nil [select, 15 minutes, locked to thread]:
+runtime.gopark(0xc000136fa8?, 0x2?, 0x58?, 0x6e?, 0xc000136f94?)
+	runtime/proc.go:435 +0xce fp=0xc000136e20 sp=0xc000136e00 pc=0x476bee
+runtime.selectgo(0xc000136fa8, 0xc000136f90, 0x0?, 0x0, 0x0?, 0x1)
+	runtime/select.go:351 +0x837 fp=0xc000136f58 sp=0xc000136e20 pc=0x455ed7
+runtime.ensureSigM.func1()
+	runtime/signal_unix.go:1085 +0x192 fp=0xc000136fe0 sp=0xc000136f58 pc=0x471572
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc000136fe8 sp=0xc000136fe0 pc=0x47e821
+created by runtime.ensureSigM in goroutine 1
+	runtime/signal_unix.go:1068 +0xc8
+
+goroutine 44 gp=0xc000103500 m=nil [chan send, 15 minutes]:
+runtime.gopark(0xc0000a8000?, 0x50100000127dfa0?, 0xe8?, 0xdf?, 0x7889410085c0?)
+	runtime/proc.go:435 +0xce fp=0xc0001326c0 sp=0xc0001326a0 pc=0x476bee
+runtime.chansend(0xc000110150, 0xc0001327c0, 0x1, 0xc000132701?)
+	runtime/chan.go:283 +0x3a5 fp=0xc000132730 sp=0xc0001326c0 pc=0x4125a5
+runtime.chansend1(0xc0003e6230?, 0x0?)
+	runtime/chan.go:161 +0x17 fp=0xc000132760 sp=0xc000132730 pc=0x4121f7
+gitlab.nethead.at/symflower/symflower/executil.Run.func1()
+	gitlab.nethead.at/symflower/symflower/executil/command.go:226 +0x1bb fp=0xc0001327e0 sp=0xc000132760 pc=0xcc8e7b
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001327e8 sp=0xc0001327e0 pc=0x47e821
+created by gitlab.nethead.at/symflower/symflower/executil.Run in goroutine 1
+	gitlab.nethead.at/symflower/symflower/executil/command.go:217 +0xc2f
+
+goroutine 45 gp=0xc000103dc0 m=nil [chan receive, 15 minutes]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	runtime/proc.go:435 +0xce fp=0xc0001366c8 sp=0xc0001366a8 pc=0x476bee
+runtime.chanrecv(0xc0001f4460, 0xc0001367b8, 0x1)
+	runtime/chan.go:664 +0x445 fp=0xc000136740 sp=0xc0001366c8 pc=0x4134e5
+runtime.chanrecv1(0x0?, 0x0?)
+	runtime/chan.go:506 +0x12 fp=0xc000136768 sp=0xc000136740 pc=0x413072
+github.com/zimmski/osutil.ContextWithInterrupt.func1()
+	github.com/zimmski/osutil/context.go:21 +0x54 fp=0xc0001367e0 sp=0xc000136768 pc=0x8123d4
+runtime.goexit({})
+	runtime/asm_amd64.s:1700 +0x1 fp=0xc0001367e8 sp=0xc0001367e0 pc=0x47e821
+created by github.com/zimmski/osutil.ContextWithInterrupt in goroutine 1
+	github.com/zimmski/osutil/context.go:18 +0x177

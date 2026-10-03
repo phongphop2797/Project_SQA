@@ -1,0 +1,377 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_43b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.checkEmpty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/util/Precision
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/NotPositiveException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown import
+	data: org/apache/commons/math/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [values begin select(this, storedData) 0 length]]
+src/main/java/org/apache/commons/math/stat/descriptive/AggregateSummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Percentile
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Kurtosis
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/math/stat/descriptive/rank/Percentile)
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Mean
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Variance
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/Sum
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/SumOfSquares
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [reference(org/apache/commons/math/stat/descriptive/UnivariateStatistic) org/apache/commons/math/stat/descriptive/UnivariateStatistic//getClass [] []]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Min
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/ResizableDoubleArray
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown function
+	data: [struct(org/apache/commons/math/stat/descriptive/UnivariateStatistic, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math/stat/descriptive/UnivariateStatistic//getClass [] []]
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/GeometricMean
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Skewness
+src/main/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Max
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/VectorialCovariance
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/SumOfLogs
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [newImpl 0 oldImpl 0 len(ensure_not_nil(newImpl))]]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Mean
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/SumOfSquares
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathArrays
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Max
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/GeometricMean
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/Sum
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/Precision
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: not a named type
+	data: array(reference(org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Min
+src/main/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalMultivariateSummary.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["mean: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["std dev: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["sum: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown import
+	data: org/apache/commons/math/util/Precision
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["n: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["min: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["variance: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["StatisticalSummaryValues:"]]
+src/main/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["max: "]]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Variance
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Max
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/SumOfSquares
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/Mean)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/GeometricMean
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/SumOfLogs
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/Variance)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/Mean
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/moment/SecondMoment
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/rank/Min
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/stat/descriptive/summary/Sum
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/Precision
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatistics.java: error: unknown import
+	data: org/apache/commons/math/exception/NullArgumentException
+Found 1 Java files
+Found 101 problems in Java files
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: found 38 symbols
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMaxImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMaxImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMaxImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsqImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsqImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsqImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.addValue: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.addValue: computed 0 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVarianceImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVarianceImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVarianceImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getN: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getN: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getN: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeometricMean: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeometricMean: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeometricMean: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.toString: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.toString: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.toString: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMinImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMinImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMinImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMinImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMinImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMinImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.copy: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.copy: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.copy: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMean: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMean: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMean: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.SummaryStatistics: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumLogImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumLogImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumLogImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMeanImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMeanImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMeanImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSummary: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSummary: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSummary: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setVarianceImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setVarianceImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setVarianceImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.copy: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.copy: computed 0 unit tests
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVariance: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getVariance: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsq: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsq: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumsq: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumLogImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumLogImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumLogImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumsqImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumsqImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumsqImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumOfLogs: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumOfLogs: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSumOfLogs: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeoMeanImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeoMeanImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getGeoMeanImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setGeoMeanImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setGeoMeanImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setGeoMeanImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMin: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMin: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMin: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getPopulationVariance: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getPopulationVariance: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getPopulationVariance: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMeanImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMeanImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMeanImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSecondMoment: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSecondMoment: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSecondMoment: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMax: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMax: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getMax: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getStandardDeviation: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getStandardDeviation: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getStandardDeviation: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMaxImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMaxImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setMaxImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumImpl: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumImpl: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.setSumImpl: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.clear: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.clear: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.clear: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.equals: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.equals: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.equals: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.hashCode: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.hashCode: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.hashCode: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSum: computing test cases
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSum: found 1 problems
+src/main/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java: internal error: org.apache.commons.math.stat.descriptive.SummaryStatistics.getSum: unknown type kind
+	data: unsupported(org/apache/commons/math/stat/descriptive/moment/SecondMoment)
+Analyzed 1 out of 11 source files
+Had 15 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 70 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 36 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 13 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 3 cases of "other issues"
+	Description: Uncategorized problems.
+

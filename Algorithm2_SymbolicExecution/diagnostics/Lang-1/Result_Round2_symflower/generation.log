@@ -1,0 +1,75 @@
+Analyzing workspace /root/sqa-workspaces/Lang-1f-numberutils-isolated/
+Search for Java files
+Load dependency stdlib:@dev
+Download Maven source dependencies for /root/sqa-workspaces/Lang-1f-numberutils-isolated/pom.xml
+Extract dependency org/apache/commons/lang1f-classes:local
+Skipping missing source JAR maven/org/apache/commons/lang1f-classes/local/lang1f-classes-local-sources.jar because /root/.config/symflower/install/build/cache/maven/org/apache/commons/lang1f-classes/local/lang1f-classes-local-sources.jar.lastUpdated exists
+error: no such file or directory
+	data: maven/org/apache/commons/lang1f-classes/local/lang1f-classes-local-sources.jar
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Number)) vs pointer(reference(java/lang/Float))
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown import
+	data: org/apache/commons/lang3/StringUtils
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: error: unknown function
+	data: [<nil> validateArray [] [array]]
+Found 1 Java files
+Found 22 problems in Java files
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: found 1 symbols
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: org.apache.commons.lang3.math.NumberUtils.createNumber: computing test cases
+src/main/java/org/apache/commons/lang3/math/NumberUtils.java: org.apache.commons.lang3.math.NumberUtils.createNumber: computed 0 unit tests
+Analyzed 1 out of 1 source files
+Had 4 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 12 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

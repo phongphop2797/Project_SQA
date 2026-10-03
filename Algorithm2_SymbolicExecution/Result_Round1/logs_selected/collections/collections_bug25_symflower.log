@@ -1,0 +1,17 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_25b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections4/IteratorUtils.java: org.apache.commons.collections4.IteratorUtils.IteratorUtils: function is private and therefore inaccessible for tests
+error: unknown type
+	data: E
+Analyzed 0 out of 0 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 1 case of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+

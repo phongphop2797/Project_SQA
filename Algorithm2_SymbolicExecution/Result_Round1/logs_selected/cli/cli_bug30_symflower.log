@@ -1,0 +1,294 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/cli_30b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleProperties: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.checkRequiredOptions: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.checkRequiredArgs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleToken: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isArgument: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isNegativeNumber: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isShortOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isLongOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleUnknownToken: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleLongOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleLongOptionWithoutEqual: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleLongOptionWithEqual: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleShortAndLongOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.getLongPrefix: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.isJavaProperty: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleOption: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.updateRequiredOptions: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [option]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'  (could be: "]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["'"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [")"]]
+src/main/java/org/apache/commons/cli/AmbiguousOptionException.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["Ambiguous option: '"]]
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/CommandLine.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [])) java/util/List<java/lang/Object>//addAll [] [call(select(ensure_not_nil(option), getValuesList!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown import
+	data: java/util/Enumeration
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil stopAtNonOption]]
+src/main/java/org/apache/commons/cli/DefaultParser.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getRequiredOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(==(call(select(ensure_not_nil(option), getOpt!d41d8cd98f00b204e9800998ecf8427e), []), nil), [select(this, longOptSeparator), call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [" "])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [',']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(call(select(ensure_not_nil(prefixList), get!82a13d2b9378b45b5451d30242dc1218), [x++(x)])), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [unsupported]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, defaultNewLine)]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/cli/HelpFormatter))), org/apache/commons/cli/HelpFormatter//renderWrappedText!1bf3ef4cb43cd205e8622a1defc45fc3, [variable(sb, pointer(reference(java/lang/StringBuffer))), variable(width, primitive(int, 32, false)), variable(nextLineTabStop, primitive(int, 32, false)), variable(text, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/StringBuffer)))], block([unsupported]))
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [len]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(call(select(ensure_not_nil(option), hasLongOpt!d41d8cd98f00b204e9800998ecf8427e), []), [select(this, longOptSeparator), call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [" "])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [select(this, defaultSyntaxPrefix)]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["<"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] [call(select(ensure_not_nil(text), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(group), getOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [text])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [text]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, rtrim!efbb7192f0412fb225b1065a0117385c), [call(select(ensure_not_nil(text), substring!2ac0ebcb23011db97774191b8c6fdbe3), [0, pos])])]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" | "]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [lpad]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["<"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown import
+	data: java/io/PrintWriter
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [dpad]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["line.separator"]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/HelpFormatter.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//length [] []]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [<nil> java/lang/StringBuffer//StringBuffer [] ["Missing required option"]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [conditional(==(call(select(ensure_not_nil(missingOptions), size!d41d8cd98f00b204e9800998ecf8427e), []), 1), ["", "s"])]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [": "]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(it), next!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/MissingOptionException.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ARG...]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [struct(java/lang/StringBuffer, [], [pointer(reference(java/lang/Object))], []) java/lang/StringBuffer//append [] ["[ option: "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, opt)]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" [ARG]"]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" :: "]]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/cli/Option.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [select(this, values)]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), []) java/util/Map<java/lang/Object,java/lang/Object>//keySet [] []]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["["]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["-"]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["--"]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getLongOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" "]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getDescription!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(option), getOpt!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [", "]]
+src/main/java/org/apache/commons/cli/OptionGroup.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["]"]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ] [ long "]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), []) java/util/Map<java/lang/Object,java/lang/Object>//keySet [] []]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, longOpts)]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" ]"]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/cli/Options.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(select(this, shortOpts)), values!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["[ Options: [ short "]]
+src/main/java/org/apache/commons/cli/Options.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(ensure_not_nil(select(this, shortOpts)), toString!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil stopAtNonOption]]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Enumeration
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/ListIterator
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown import
+	data: java/util/Properties
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(java/lang/Object))] [call(select(ensure_not_nil(options), getRequiredOptions!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/cli/Parser.java: error: unknown function
+	data: [<nil> parse [] [options arguments nil false]]
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/cli/PatternOptionBuilder.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/cli/PosixParser.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/MalformedURLException
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [classname]]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [])) java/lang/Class<java/lang/Object>//newInstance [] []]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [pointer(reference(java/lang/Exception)) java/lang/Exception//getClass [] []]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown function
+	data: [struct(java/lang/Class, [], [pointer(reference(java/lang/Object))], []) java/lang/Class//forName [] [classname]]
+src/main/java/org/apache/commons/cli/TypeHandler.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [variable(str, pointer(reference(java/lang/String)))], [variable(, unsupported(java/util/Date))], block([throw(call(java/lang/UnsupportedOperationException//UnsupportedOperationException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Not yet implemented"])]))])) return([call(org/apache/commons/cli/TypeHandler//createDate!efbb7192f0412fb225b1065a0117385c, [str])])]
+src/main/java/org/apache/commons/cli/TypeHandler.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [variable(s, pointer(reference(java/lang/String)))], [variable(, pointer(reference(java/lang/Double)))], block([call(java/lang/Symflower//evaluatePartialPath!d41d8cd98f00b204e9800998ecf8427e, []), return([nil])])) return([call(java/lang/Double//valueOf!efbb7192f0412fb225b1065a0117385c, [str])])]
+Found 1 Java files
+Found 112 problems in Java files
+src/main/java/org/apache/commons/cli/DefaultParser.java: found 5 symbols
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: computing test cases
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: computed 3 unit tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: found 3 problems
+src/main/java/org/apache/commons/cli/DefaultParser.java: unsupported: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: unsupported access
+	data: function(variable(this, pointer(genericInstance(reference(java/util/Map), [reference(K), reference(V)]))), java/util/Map//containsKey!4fb2deccef7826b7659de223ac40b91d, [variable(key, pointer(reference(java/lang/Object)))], [variable(, primitive(bool, 0, false))], <nil>)
+src/main/java/org/apache/commons/cli/DefaultParser.java:661:29: critical: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/cli/DefaultParser.java:665:17: critical: org.apache.commons.cli.DefaultParser.handleConcatenatedOptions: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computing test cases
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computed 0 unit tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: found 0 problems
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computing test cases
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computed 0 unit tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: found 1 problems
+src/main/java/org/apache/commons/cli/DefaultParser.java: unsupported: org.apache.commons.cli.DefaultParser.parse: encountered an unsupported type
+	data: unsupported(java/util/Properties)
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computing test cases
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computed 0 unit tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: found 0 problems
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computing test cases
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: computed 0 unit tests
+src/main/java/org/apache/commons/cli/DefaultParser.java: org.apache.commons.cli.DefaultParser.parse: found 1 problems
+src/main/java/org/apache/commons/cli/DefaultParser.java: unsupported: org.apache.commons.cli.DefaultParser.parse: encountered an unsupported type
+	data: unsupported(java/util/Properties)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/cli/DefaultParser.java: generated unit test file src/main/java/org/apache/commons/cli/DefaultParserSymflowerTest.java
+Analyzed 1 out of 12 source files
+Had 0 errors that block a full analysis
+Generated 3 tests
+Found 2 potential problems
+The following issues prevent a full analysis:
+
+* 87 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 22 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

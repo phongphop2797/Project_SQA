@@ -1,0 +1,219 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_14b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.characterReferenceError: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.error: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/parser/ParseError.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/ParseError.java: error: unknown type
+	data: TreeBuilderState
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Node
+src/main/java/org/jsoup/parser/Parser.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(org/jsoup/nodes/Node)])) java/util/List<org/jsoup/nodes/Node>//toArray [] [make(array(unsupported(org/jsoup/nodes/Node), primitive(int, 32, false), 0), call(select(ensure_not_nil(nodeList), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Document
+src/main/java/org/jsoup/parser/Parser.java: error: unknown import
+	data: org/jsoup/nodes/Element
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tag.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attributes
+src/main/java/org/jsoup/parser/Token.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/jsoup/parser/Token.java: internal error: recovered panic
+	data: runtime error: invalid memory address or nil pointer dereference
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Token.java: error: unknown import
+	data: org/jsoup/nodes/Attribute
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TokenQueue.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/jsoup/parser/TokenQueue.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//append [] [c]]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown field
+	data: [this struct(org/jsoup/parser/Tokeniser, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//delete [] [0 call(select(ensure_not_nil(select(this, charBuffer)), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: not all elements have the same type
+	data: conditional(start, [call(org/jsoup/parser/Token//StartTag//StartTag!d41d8cd98f00b204e9800998ecf8427e, []), call(org/jsoup/parser/Token//EndTag//EndTag!d41d8cd98f00b204e9800998ecf8427e, [])])
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown import
+	data: org/jsoup/nodes/Entities
+src/main/java/org/jsoup/parser/Tokeniser.java: error: unknown type
+	data: TokeniserState
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/TreeBuilder, [], [pointer(reference(java/lang/Object))], []) TokeniserState]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: DataNode
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: Comment
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/TreeBuilder, [], [pointer(reference(java/lang/Object))], []) TreeBuilderState]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: Document
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: TreeBuilderState
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/Validate
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: Element
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: Node
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown type
+	data: TextNode
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown field
+	data: [this struct(org/jsoup/parser/TreeBuilder, [], [pointer(reference(java/lang/Object))], []) TreeBuilderState]
+src/main/java/org/jsoup/parser/TreeBuilder.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TreeBuilderState.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/jsoup/parser/TreeBuilderState.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/jsoup/parser/TreeBuilderState.java: error: unknown import
+	data: org/jsoup/nodes
+src/main/java/org/jsoup/parser/TreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/StringUtil
+src/main/java/org/jsoup/parser/TreeBuilderState.java: error: unknown import
+	data: org/jsoup/helper/Validate
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+internal error: scope leak
+	data: map[handledNode:block([unsupported]) scopeLevelAtEntry:9 scopeLevelAtExit:10]
+Found 1 Java files
+Found 47 problems in Java files
+src/main/java/org/jsoup/parser/Tokeniser.java: found 23 symbols
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createDoctypePending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createDoctypePending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.createDoctypePending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.error: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.error: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.error: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emit: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.read: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.read: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.read: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitDoctypePending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitDoctypePending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emitDoctypePending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.isAppropriateEndTagToken: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.isAppropriateEndTagToken: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.isAppropriateEndTagToken: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.Tokeniser: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.Tokeniser: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.Tokeniser: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.consumeCharacterReference: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.consumeCharacterReference: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.consumeCharacterReference: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.acknowledgeSelfClosingFlag: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.acknowledgeSelfClosingFlag: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.acknowledgeSelfClosingFlag: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createCommentPending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createCommentPending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.createCommentPending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.currentNodeInHtmlNS: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.currentNodeInHtmlNS: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.currentNodeInHtmlNS: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emit: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.getState: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.getState: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.getState: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.transition: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.transition: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.transition: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createTagPending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createTagPending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.createTagPending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.advanceTransition: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.advanceTransition: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.advanceTransition: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.isTrackErrors: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.isTrackErrors: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.isTrackErrors: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.setTrackErrors: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.setTrackErrors: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.setTrackErrors: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitTagPending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitTagPending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emitTagPending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emit: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emit: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.eofError: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.eofError: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.eofError: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitCommentPending: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.emitCommentPending: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.emitCommentPending: unknown type kind
+	data: unsupported(TokeniserState)
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createTempBuffer: computing test cases
+src/main/java/org/jsoup/parser/Tokeniser.java: org.jsoup.parser.Tokeniser.createTempBuffer: found 1 problems
+src/main/java/org/jsoup/parser/Tokeniser.java: internal error: org.jsoup.parser.Tokeniser.createTempBuffer: unknown type kind
+	data: unsupported(TokeniserState)
+Analyzed 1 out of 8 source files
+Had 5 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 34 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 20 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 3 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 6 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,855 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_80b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.isSymmetric: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.decompose: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.Solver: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.solve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.solve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.solve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.isNonSingular: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.Solver.getInverse: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.transformToTridiagonal: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.computeGershgorinCircles: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.findEigenvalues: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.computeSplits: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.process1RowBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.process2RowsBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.process3RowsBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.processGeneralBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.initialSplits: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.goodStep: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.flipIfWarranted: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.eigenvaluesRange: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.countEigenValues: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.ldlTDecomposition: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.dqds: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.dqd: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.computeShiftIncrement: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.updateSigma: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.findEigenVectors: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.findEigenvector: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.stationaryQuotientDifferenceWithShift: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.progressiveQuotientDifferenceWithShift: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["{"]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [genericInstance(reference(org/apache/commons/math/linear/AbstractFieldMatrix//@@localDefaultFieldMatrixChangingVisitor0), [genericParameter(T, [pointer(reference(java/lang/Object))])]) getEntry!2ac0ebcb23011db97774191b8c6fdbe3]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: internal error: name is already defined
+	data: variable(startRow, primitive(int, 32, false))
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [shortClassName]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math/linear/AbstractFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["{"]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: internal error: name is already defined
+	data: variable(startRow, primitive(int, 32, false))
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [shortClassName]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [call(select(this, getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math/linear/AbstractRealMatrix.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [select(this, sum)]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!01b08ec4fdfcf6d2999498ebf7fe2dd1, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows, call(select(this, getColumnDimension!d41d8cd98f00b204e9800998ecf8427e), [])])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [v]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!01b08ec4fdfcf6d2999498ebf7fe2dd1, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows, nCols])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [d]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [d]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!01b08ec4fdfcf6d2999498ebf7fe2dd1, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), rowCount, columnCount])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(i, row)) column nCols]]
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nRows])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!01b08ec4fdfcf6d2999498ebf7fe2dd1, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), rowCount, columnCount])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), nCols])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(i, row)) column nCols]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [d pos select(this, data) 0 size]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) 0 out 0 len(ensure_not_nil(select(this, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) index select(out, data) 0 n]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v 0 select(this, data) index len(ensure_not_nil(v))]]
+src/main/java/org/apache/commons/math/linear/ArrayFieldVector.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tan [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//atan [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) index select(out, data) 0 n]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//acos [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [sum]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/math/linear/RealVectorFormat)) org/apache/commons/math/linear/RealVectorFormat//format [] [this]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log1p [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tanh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//acos [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cbrt [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [sum]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tanh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//asin [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//rint [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) 0 out 0 len(ensure_not_nil(select(this, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [d pos select(this, data) 0 size]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sinh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/RealVector, [], [pointer(reference(java/lang/Object))], [])
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v2, data) 0 select(this, data) len(ensure_not_nil(v1)) len(ensure_not_nil(select(v2, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log10 [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sinh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//signum [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [sum]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log10 [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log1p [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v2 0 select(this, data) len(ensure_not_nil(select(v1, data))) len(ensure_not_nil(v2))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cosh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//asin [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//rint [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//expm1 [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cosh [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tan [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cbrt [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//atan [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(v1, data) 0 select(this, data) 0 len(ensure_not_nil(select(v1, data)))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v1 0 select(this, data) 0 len(ensure_not_nil(v1))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [v 0 select(this, data) index len(ensure_not_nil(v))]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//expm1 [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//signum [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/ArrayRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [index(select(this, data), i)]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown identifier
+	data: a
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BiDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/BigMatrix.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/BigMatrix.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(row, i)) column nCols]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), row) 0 out 0 ncols]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [subMatrix 0 select(this, data) 0 len(ensure_not_nil(subMatrix))]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), row) 0 index(out, 0) 0 ncols]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["{"]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [index(index(select(this, data), i), j)]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["BigMatrixImpl{"]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [","]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ["}"]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) startColumn index(subMatrixData, -(i, startRow)) 0 +(-(endColumn, startColumn), 1)]]
+src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, permutation) 0 out 0 len(ensure_not_nil(select(this, permutation)))]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [blockData]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: not a named type
+	data: array(genericParameter(T, [genericInstance(unsupported(org/apache/commons/math/FieldElement), [reference(T)])]), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outData outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> extractField [] [rawData]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(rawData, p) qStart block index jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), i) 0 index(select(copied, blocks), i) 0 len(ensure_not_nil(index(select(this, blocks), i)))]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, -(i, row)) -(jStart, column) block +(*(-(i, firstRow), jWidth), -(jStart, firstColumn)) jLength]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([data], [array(array(reference(T), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!01b08ec4fdfcf6d2999498ebf7fe2dd1, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), call(select(this, getRowDimension!d41d8cd98f00b204e9800998ecf8427e), []), call(select(this, getColumnDimension!d41d8cd98f00b204e9800998ecf8427e), [])])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex available]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) available]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock 0 block *(iRow, jWidth) -(jWidth, available)]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock 0 -(jWidth, available)]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [array outIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [srcBlock srcPos dstBlock dstPos length]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([outData], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, columns)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: internal error: not all elements have the same type
+	data: declaration([out], [array(reference(T), primitive(int, 32, false), 0)], [call(org/apache/commons/math/linear/AbstractFieldMatrix//buildArray!14e97698991e3b11ced3c77f1687b48b, [call(select(this, getField!d41d8cd98f00b204e9800998ecf8427e), []), select(this, rows)])], Modifier(1048584))
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [<nil> toBlocksLayout [] [rawData]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), x++(blockIndex)) regularPos dataP dataPos org/apache/commons/math/linear/BlockFieldMatrix//BLOCK_SIZE]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), blockIndex) lastPos dataP dataPos lastColumns]]
+src/main/java/org/apache/commons/math/linear/BlockFieldMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) out outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(rawData, p) qStart block index jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [sum2]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) out outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), i) 0 index(select(copied, blocks), i) 0 len(ensure_not_nil(index(select(this, blocks), i)))]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), x++(blockIndex)) regularPos dataP dataPos org/apache/commons/math/linear/BlockRealMatrix//BLOCK_SIZE]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [srcBlock srcPos dstBlock dstPos length]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outData outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, blocks), blockIndex) lastPos dataP dataPos lastColumns]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex available]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock 0 -(jWidth, available)]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock 0 block *(iRow, jWidth) -(jWidth, available)]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, -(i, row)) -(jStart, column) block +(*(-(i, firstRow), jWidth), -(jStart, firstColumn)) jLength]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [block *(iRow, jWidth) outBlock outIndex jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [mBlock mIndex block *(iRow, jWidth) available]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [array outIndex block *(iRow, jWidth) jWidth]]
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/BlockRealMatrix.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(ltI, i)]]
+src/main/java/org/apache/commons/math/linear/DefaultFieldMatrixChangingVisitor.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/DefaultFieldMatrixPreservingVisitor.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(cast(1, primitive(float, 64, false)), /(s, t))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [-(q)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(cnst3, b2)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 7))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [/(theta, cast(3, primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [/(+(theta, *(2, unsupported)), 3)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [/(+(theta, *(4, unsupported)), 3)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 9))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(t, +(t, s))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 11))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [a2]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [a2]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(cnst3, b2)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 3))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(absDPrevious, absDCurrent)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//acos [] [/(r, *(-(q), sqrtMq))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Math struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) PI]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(diagMin, offDiagMax)]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 5))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown field
+	data: [Math struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) PI]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, work), -(nn, 9))]]
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [n2]]
+src/main/java/org/apache/commons/math/linear/FieldDecompositionSolver.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldLUDecomposition.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: not a named type
+	data: array(primitive(int, 32, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown identifier
+	data: determinant
+src/main/java/org/apache/commons/math/linear/FieldLUDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/FieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldMatrixChangingVisitor.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldMatrixPreservingVisitor.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldVector.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/FieldVector.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/InvalidMatrixException.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/LUDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/LUDecompositionImpl.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/linear/LUDecompositionImpl.java: error: not a named type
+	data: array(primitive(int, 32, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/MatrixIndexException.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown type
+	data: java/lang/reflect/Field
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [nsfe]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: internal error: not all elements have the same type
+	data: conditional(<=(*(len(ensure_not_nil(data)), len(ensure_not_nil(index(data, 0)))), 4096), [call(org/apache/commons/math/linear/Array2DRowRealMatrix//Array2DRowRealMatrix!d7ce9c946f791399aee2c7e4e7f51049, [data]), call(org/apache/commons/math/linear/BlockRealMatrix//BlockRealMatrix!d7ce9c946f791399aee2c7e4e7f51049, [data])])
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [n]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readDouble [] []]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [nsfe]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [iae]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/IOException)) java/io/IOException//initCause [] [iae]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/math/linear/DefaultFieldMatrixPreservingVisitor, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(org/apache/commons/math/linear/FieldMatrixPreservingVisitor), [reference(T)]))]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math/fraction/Fraction
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: internal error: not all elements have the same type
+	data: conditional(<=(*(rows, columns), 4096), [call(org/apache/commons/math/linear/Array2DRowRealMatrix//Array2DRowRealMatrix!2ac0ebcb23011db97774191b8c6fdbe3, [rows, columns]), call(org/apache/commons/math/linear/BlockRealMatrix//BlockRealMatrix!2ac0ebcb23011db97774191b8c6fdbe3, [rows, columns])])
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [n]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeDouble [] [call(select(ensure_not_nil(matrix), getEntry!2ac0ebcb23011db97774191b8c6fdbe3), [i, j])]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [rowData 0 index(data, 0) 0 nCols]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown import
+	data: org/apache/commons/math/fraction/BigFraction
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeDouble [] [call(select(ensure_not_nil(vector), getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectOutputStream)) java/io/ObjectOutputStream//writeInt [] [m]]
+src/main/java/org/apache/commons/math/linear/MatrixUtils.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//readInt [] []]
+src/main/java/org/apache/commons/math/linear/MatrixVisitorException.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/NonSquareMatrixException.java: internal error: call has incorrect amount of parameters
+	data: call(select(&(composite(reference(org/apache/commons/math/linear/InvalidMatrixException), [])), @@constructor!3f414bfdd79b38fbf3b346875bb6568a), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["a {0}x{1} matrix was provided instead of a square matrix"]), cast(call(java/lang/Integer//Integer!82a13d2b9378b45b5451d30242dc1218, [rows]), pointer(reference(java/lang/Object))), cast(call(java/lang/Integer//Integer!82a13d2b9378b45b5451d30242dc1218, [columns]), pointer(reference(java/lang/Object)))])
+src/main/java/org/apache/commons/math/linear/NotPositiveDefiniteMatrixException.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/linear/NotSymmetricMatrixException.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java: error: unknown import
+	data: org/apache/commons/math/util/OpenIntToDoubleHashMap
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//acos [] [call(select(this, getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//expm1 [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sinh [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ceil [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tanh [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math/util/OpenIntToDoubleHashMap/Iterator
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [res]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cbrt [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//rint [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//signum [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//tan [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math/util/OpenIntToDoubleHashMap
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cos [] [call(select(this, getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//atan [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//asin [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//cosh [] [call(select(this, getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log10 [] [call(select(this, getEntry!82a13d2b9378b45b5451d30242dc1218), [i])]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: internal error: not an array type
+	data: struct(org/apache/commons/math/linear/OpenMapRealVector, [], [pointer(reference(java/lang/Object))], [reference(org/apache/commons/math/linear/SparseRealVector), reference(java/io/Serializable)])
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [res]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [res]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//log1p [] [unsupported]]
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: unknown identifier
+	data: a
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/QRDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/RealMatrix.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(this, data), i) 0 index(out, i) 0 len(ensure_not_nil(index(select(this, data), i)))]]
+src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(subMatrix, i) 0 index(select(this, data), +(i, row)) column nCols]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> getDefaultNumberFormat [] []]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> getDefaultNumberFormat [] [locale]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, separator)]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> formatDouble [] [call(select(ensure_not_nil(vector), getEntry!82a13d2b9378b45b5451d30242dc1218), [i]) select(this, format) toAppendTo pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [struct(org/apache/commons/math/linear/RealVectorFormat, [], [unsupported(org/apache/commons/math/util/CompositeFormat)], []) org/apache/commons/math/linear/RealVectorFormat//format [] [v]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseAndIgnoreWhitespace [] [source pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseFixedstring [] [source select(this, trimmedSeparator) pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseNumber [] [source select(this, format) pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, suffix)]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseFixedstring [] [source select(this, trimmedPrefix) pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseAndIgnoreWhitespace [] [source pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseFixedstring [] [source select(this, trimmedSuffix) pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/ParseException
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [select(this, prefix)]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseAndIgnoreWhitespace [] [source pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown function
+	data: [<nil> parseAndIgnoreWhitespace [] [source pos]]
+src/main/java/org/apache/commons/math/linear/RealVectorFormat.java: error: unknown import
+	data: org/apache/commons/math/util/CompositeFormat
+src/main/java/org/apache/commons/math/linear/SingularMatrixException.java: internal error: call has incorrect amount of parameters
+	data: call(select(&(composite(reference(org/apache/commons/math/linear/InvalidMatrixException), [])), @@constructor!3f414bfdd79b38fbf3b346875bb6568a), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["matrix is singular"])])
+src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, singularValues), i)]]
+src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//ulp [] [index(select(this, singularValues), 0)]]
+src/main/java/org/apache/commons/math/linear/SingularValueDecompositionImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java: error: unknown import
+	data: org/apache/commons/math/util/OpenIntToFieldHashMap
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math/Field
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math/util/OpenIntToFieldHashMap
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math/FieldElement
+src/main/java/org/apache/commons/math/linear/SparseFieldVector.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/linear/TriDiagonalTransformer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/linear/TriDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/TriDiagonalTransformer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNormSqr]]
+src/main/java/org/apache/commons/math/linear/TriDiagonalTransformer.java: error: unknown identifier
+	data: a
+Found 1 Java files
+Found 379 problems in Java files
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: found 12 symbols
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalues: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalues: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalues: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getV: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getV: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getV: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getSolver: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getSolver: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getSolver: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.EigenDecompositionImpl: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getD: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getD: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getD: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalues: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalues: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalues: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getVT: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getVT: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getVT: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalue: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalue: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getRealEigenvalue: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getEigenvector: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getEigenvector: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getEigenvector: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalue: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalue: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getImagEigenvalue: found 0 problems
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getDeterminant: computing test cases
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getDeterminant: computed 0 unit tests
+src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java: org.apache.commons.math.linear.EigenDecompositionImpl.getDeterminant: found 0 problems
+Analyzed 1 out of 41 source files
+Had 29 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 226 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 85 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 15 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 12 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 12 cases of "other issues"
+	Description: Uncategorized problems.
+

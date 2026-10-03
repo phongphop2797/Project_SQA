@@ -1,0 +1,656 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_97b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ArrayNode, [], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/node/ContainerNode), [pointer(reference(com/fasterxml/jackson/databind/node/ArrayNode))]))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [<nil> _insert [] [index n]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown type
+	data: JsonPointer
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(com/fasterxml/jackson/databind/JsonNode)] [capacity]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(com/fasterxml/jackson/databind/JsonNode)]) java/util/List<com/fasterxml/jackson/databind/JsonNode>//addAll [] [nodes]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [<nil> _add [] [n]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [<nil> _add [] [n]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/WritableTypeId
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown type
+	data: T
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [unsupported(com/fasterxml/jackson/databind/JsonNode)]) java/util/List<com/fasterxml/jackson/databind/JsonNode>//addAll [] [select(other, _children)]]
+src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java: error: unknown function
+	data: [<nil> _insert [] [index n]]
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: ObjectCodec
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/node/TreeTraversingParser//TreeTraversingParser [] [this]]
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/node/TreeTraversingParser//TreeTraversingParser [] [this codec]]
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializable
+src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BigIntegerNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BigIntegerNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BinaryNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BinaryNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) Base64Variants]
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BinaryNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) Base64Variants]
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset select(this, _data) 0 length]]
+src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/BooleanNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/DecimalNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/DecimalNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: abstract method is not implemented
+	data: [com/fasterxml/jackson/databind/node/DecimalNode serialize!fef8b81c99e7d8c242b723cb9aedae6a]
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/DoubleNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/DoubleNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Double//valueOf!5bf0b9c067f960fc8e4f1dbf7e8b205e, [variable(d, primitive(float, 64, false))], [variable(, pointer(reference(java/lang/Double)))], block([return([call(java/lang/Double//Double!5bf0b9c067f960fc8e4f1dbf7e8b205e, [d])])])) return([call(java/lang/Double//valueOf!5bf0b9c067f960fc8e4f1dbf7e8b205e, [select(this, _value)])])]
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberOutput
+src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/FloatNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/FloatNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Float//valueOf!0a37bd2ce4b9f5cb8abc17a360491bc5, [variable(f, primitive(float, 32, false))], [variable(, pointer(reference(java/lang/Float)))], block([return([call(java/lang/Float//Float!0a37bd2ce4b9f5cb8abc17a360491bc5, [f])])])) return([call(java/lang/Float//valueOf!0a37bd2ce4b9f5cb8abc17a360491bc5, [select(this, _value)])])]
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberOutput
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Integer//valueOf!82a13d2b9378b45b5451d30242dc1218, [variable(i, primitive(int, 32, false))], [variable(, pointer(reference(java/lang/Integer)))], block([return([call(java/lang/Integer//Integer!82a13d2b9378b45b5451d30242dc1218, [i])])])) return([call(java/lang/Integer//valueOf!82a13d2b9378b45b5451d30242dc1218, [select(this, _value)])])]
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberOutput
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/IntNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/IntNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/IntNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeCreator.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeCreator.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeCreator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: internal error: not all elements have the same type
+	data: conditional(==(value, nil), [call(select(this, nullNode!d41d8cd98f00b204e9800998ecf8427e), []), call(com/fasterxml/jackson/databind/node/IntNode//valueOf!82a13d2b9378b45b5451d30242dc1218, [call(select(ensure_not_nil(value), intValue!d41d8cd98f00b204e9800998ecf8427e), [])])])
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: internal error: not all elements have the same type
+	data: conditional(==(value, nil), [call(select(this, nullNode!d41d8cd98f00b204e9800998ecf8427e), []), call(com/fasterxml/jackson/databind/node/ShortNode//valueOf!4c49ab3c93071e06930d6f753fd6205d, [select(value, value)])])
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: internal error: not all elements have the same type
+	data: conditional(==(value, nil), [call(select(this, nullNode!d41d8cd98f00b204e9800998ecf8427e), []), call(com/fasterxml/jackson/databind/node/IntNode//valueOf!82a13d2b9378b45b5451d30242dc1218, [call(select(ensure_not_nil(value), intValue!d41d8cd98f00b204e9800998ecf8427e), [])])])
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: internal error: not all elements have the same type
+	data: conditional(==(value, nil), [call(select(this, nullNode!d41d8cd98f00b204e9800998ecf8427e), []), call(com/fasterxml/jackson/databind/node/FloatNode//valueOf!0a37bd2ce4b9f5cb8abc17a360491bc5, [call(select(ensure_not_nil(value), floatValue!d41d8cd98f00b204e9800998ecf8427e), [])])])
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: internal error: not all elements have the same type
+	data: conditional(==(value, nil), [call(select(this, nullNode!d41d8cd98f00b204e9800998ecf8427e), []), call(com/fasterxml/jackson/databind/node/DoubleNode//valueOf!5bf0b9c067f960fc8e4f1dbf7e8b205e, [call(select(ensure_not_nil(value), doubleValue!d41d8cd98f00b204e9800998ecf8427e), [])])])
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [variable(l, primitive(int, 64, false))], [variable(, pointer(reference(java/lang/Long)))], block([return([call(java/lang/Long//Long!feb606741437b3116f99f2412027bc86, [l])])])) return([call(java/lang/Long//valueOf!feb606741437b3116f99f2412027bc86, [select(this, _value)])])]
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/LongNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/LongNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: internal error: not all elements have the same type
+	data: primitive(float, 32, false) vs primitive(int, 64, false)
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberOutput
+src/main/java/com/fasterxml/jackson/databind/node/LongNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/MissingNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//RootCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonStreamContext]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/node/NodeCursor, [], [unsupported(JsonStreamContext)], []) com/fasterxml/jackson/databind/node/NodeCursor//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ObjectCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), unsupported(com/fasterxml/jackson/databind/JsonNode)]) java/util/Map//Entry<java/lang/String,com/fasterxml/jackson/databind/JsonNode>//getValue [] []]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown type
+	data: JsonStreamContext
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor, [], [unsupported(JsonStreamContext)], []) _index]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ArrayCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonStreamContext]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ArrayCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/node/NodeCursor, [], [unsupported(JsonStreamContext)], []) com/fasterxml/jackson/databind/node/NodeCursor//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ObjectCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor, [], [unsupported(JsonStreamContext)], []) _type]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ObjectCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/node/NodeCursor, [], [unsupported(JsonStreamContext)], []) com/fasterxml/jackson/databind/node/NodeCursor//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NodeCursor//ObjectCursor, [], [pointer(reference(com/fasterxml/jackson/databind/node/NodeCursor))], []) JsonStreamContext]
+src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map//Entry), [pointer(reference(java/lang/String)), unsupported(com/fasterxml/jackson/databind/JsonNode)]) java/util/Map//Entry<java/lang/String,com/fasterxml/jackson/databind/JsonNode>//getKey [] []]
+src/main/java/com/fasterxml/jackson/databind/node/NullNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/NullNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/NullNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/NullNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/NullNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/NullNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/NumericNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/NumericNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/NumericNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown function
+	data: [<nil> _put [] [fieldName n]]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: abstract method is not implemented
+	data: [com/fasterxml/jackson/databind/node/ObjectNode serialize!fef8b81c99e7d8c242b723cb9aedae6a]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: LinkedHashMap
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ObjectNode, [], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/node/ContainerNode), [pointer(reference(com/fasterxml/jackson/databind/node/ObjectNode))]))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: JsonPointer
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), wildcard(, unsupported(JsonNode))])) java/util/Map<java/lang/String,descendant of JsonNode>//entrySet [] []]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown function
+	data: [<nil> _put [] [fieldName n]]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: T
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ObjectNode, [], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/node/ContainerNode), [pointer(reference(com/fasterxml/jackson/databind/node/ObjectNode))]))], []) SerializationFeature]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ObjectNode, [], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/node/ContainerNode), [pointer(reference(com/fasterxml/jackson/databind/node/ObjectNode))]))], []) SerializationFeature]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ObjectNode, [], [pointer(genericInstance(reference(com/fasterxml/jackson/databind/node/ContainerNode), [pointer(reference(com/fasterxml/jackson/databind/node/ObjectNode))]))], []) Arrays]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/WritableTypeId
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializable
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/RawValue
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Object)) vs pointer(reference(com/fasterxml/jackson/databind/node/POJONode))
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//valueOf [] [select(this, _value)]]
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: unsupported type cast
+	data: [cast(select(this, _value), array(primitive(int, 8, false), primitive(int, 32, false), 0)) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: unsupported type
+	data: &{0xc00082ca60 <nil> [] 0xc000810be0 type [] {None [] [] None}}
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: unsupported type cast
+	data: [cast(select(this, _value), array(primitive(int, 8, false), primitive(int, 32, false), 0)) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: internal error: type does not support nil values
+	data: unsupported(com/fasterxml/jackson/databind/JsonSerializable)
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: unsupported type
+	data: &{0xc000842fe0 <nil> [] 0xc000844aa0 type [] {None [] [] None}}
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/node/ValueNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/BaseJsonNode))], []) com/fasterxml/jackson/databind/node/ValueNode//binaryValue [] []]
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/POJONode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, java/lang/Short//valueOf!4c49ab3c93071e06930d6f753fd6205d, [variable(s, primitive(int, 16, false))], [variable(, pointer(reference(java/lang/Short)))], block([call(java/lang/Symflower//evaluatePartialPath!d41d8cd98f00b204e9800998ecf8427e, []), return([nil])])) return([call(java/lang/Short//valueOf!4c49ab3c93071e06930d6f753fd6205d, [select(this, _value)])])]
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown type
+	data: JsonParser/NumberType
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ShortNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/ShortNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/NumericNode))], []) JsonParser]
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberOutput
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TextNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) Base64Variants]
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/NumberInput
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/exc/InvalidFormatException
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TextNode, [], [pointer(reference(com/fasterxml/jackson/databind/node/ValueNode))], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/io/CharTypes
+src/main/java/com/fasterxml/jackson/databind/node/TextNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/util/ByteArrayBuilder
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: ObjectCodec
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) JsonLocation]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) FIELD_NAME]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) VALUE_NUMBER_INT]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown function
+	data: [<nil> _throwInternal [] []]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: Base64Variant
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) _currToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown import
+	data: com/fasterxml/jackson/core/base/ParserMinimalBase
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) _currToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) _currToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: NumberType
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: [com/fasterxml/jackson/databind cfg]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) _currToken]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) VALUE_STRING]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: JsonLocation
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) JsonLocation]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) VALUE_EMBEDDED_OBJECT]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: Version
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: JsonParseException
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(com/fasterxml/jackson/databind/node/BinaryNode))), com/fasterxml/jackson/databind/node/BinaryNode//binaryValue!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, array(primitive(int, 8, false), primitive(int, 32, false), 0))], block([never_nil(this), return([select(this, _data)])])) return([call(select(ensure_not_nil(cast(n, pointer(reference(com/fasterxml/jackson/databind/node/BinaryNode)))), binaryValue!d41d8cd98f00b204e9800998ecf8427e), [])])]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown type
+	data: JsonStreamContext
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/node/TreeTraversingParser, [], [unsupported(com/fasterxml/jackson/core/base/ParserMinimalBase)], []) VALUE_NUMBER_FLOAT]
+src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java: error: unknown function
+	data: [<nil> _constructError [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonNode
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown type
+	data: JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown function
+	data: [<nil> asText [] []]
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/WritableTypeId
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown type
+	data: JsonPointer
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(com/fasterxml/jackson/databind/node/MissingNode)))], block([return([com/fasterxml/jackson/databind/node/MissingNode//instance])])) return([call(com/fasterxml/jackson/databind/node/MissingNode//getInstance!d41d8cd98f00b204e9800998ecf8427e, [])])]
+Found 1 Java files
+Found 282 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: found 16 symbols
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: computed 1 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.toString: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.toString: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: computed 1 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asText: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asInt: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asInt: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asInt: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: com.fasterxml.jackson.databind.node.POJONode.asInt: unsupported type
+	data: pointer(reference(java/lang/Object))
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asToken: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asToken: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asToken: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getNodeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getNodeType: computed 1 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getNodeType: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asBoolean: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asBoolean: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asBoolean: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: com.fasterxml.jackson.databind.node.POJONode.asBoolean: unsupported type
+	data: pointer(reference(java/lang/Object))
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getPojo: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getPojo: computed 1 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.getPojo: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode._pojoEquals: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode._pojoEquals: computed 6 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode._pojoEquals: found 2 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java:152:20: critical: com.fasterxml.jackson.databind.node.POJONode._pojoEquals: uncaught java.lang.NullPointerException
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java:154:30: critical: com.fasterxml.jackson.databind.node.POJONode._pojoEquals: uncaught java.lang.NullPointerException
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.equals: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.equals: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.hashCode: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.hashCode: computed 2 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.hashCode: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java:158:36: critical: com.fasterxml.jackson.databind.node.POJONode.hashCode: uncaught java.lang.NullPointerException
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.POJONode: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.POJONode: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.POJONode: found 0 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.serialize: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.serialize: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.binaryValue: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.binaryValue: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asLong: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asLong: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asLong: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: com.fasterxml.jackson.databind.node.POJONode.asLong: unsupported type
+	data: pointer(reference(java/lang/Object))
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asDouble: computing test cases
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asDouble: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: com.fasterxml.jackson.databind.node.POJONode.asDouble: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: unsupported: com.fasterxml.jackson.databind.node.POJONode.asDouble: unsupported type
+	data: pointer(reference(java/lang/Object))
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/com/fasterxml/jackson/databind/node/POJONode.java: generated unit test file src/main/java/com/fasterxml/jackson/databind/node/POJONodeSymflowerTest.java
+Analyzed 1 out of 23 source files
+Had 53 errors that block a full analysis
+Generated 12 tests
+Found 3 potential problems
+The following issues prevent a full analysis:
+
+* 98 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 81 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 24 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 20 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 9 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

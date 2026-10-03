@@ -1,0 +1,354 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/collections_26b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.calculateHashCode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.readResolve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [call(select(this, getKey!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getKey [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: unsupported: unsupported AST node
+	data: genericParameter(K, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: unsupported: unsupported AST node
+	data: genericParameter(V, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map//Entry), [reference(K), reference(V)]) java/util/Map//Entry<K,V>//setValue [] [object]]
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map//Entry), [reference(K), reference(V)]) java/util/Map//Entry<K,V>//getKey [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map//Entry), [reference(K), reference(V)]) java/util/Map//Entry<K,V>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/KeyValue), [wildcard(, reference(K)), wildcard(, reference(V))])
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: unsupported: unsupported type
+	data: genericParameter(K, [pointer(reference(java/lang/Object))]) vs pointer(genericInstance(reference(org/apache/commons/collections4/keyvalue/DefaultKeyValue), [genericParameter(K, [pointer(reference(java/lang/Object))]), genericParameter(V, [pointer(reference(java/lang/Object))])]))
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getKey [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: unsupported: unsupported type
+	data: genericParameter(V, [pointer(reference(java/lang/Object))]) vs pointer(genericInstance(reference(org/apache/commons/collections4/keyvalue/DefaultKeyValue), [genericParameter(K, [pointer(reference(java/lang/Object))]), genericParameter(V, [pointer(reference(java/lang/Object))])]))
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: unsupported: unsupported AST node
+	data: genericParameter(K, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: unsupported: unsupported AST node
+	data: genericParameter(V, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/KeyValue), [wildcard(, reference(K)), wildcard(, reference(V))])
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/collections4/keyvalue/AbstractMapEntry, [], [pointer(genericInstance(reference(org/apache/commons/collections4/keyvalue/AbstractKeyValue), [reference(K), reference(V)]))], [pointer(genericInstance(reference(java/util/Map//Entry), [reference(K), reference(V)]))]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getKey [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/Object)) vs genericParameter(K, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: not a named type
+	data: array(reference(K), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: unknown function
+	data: [<nil> calculateHashCode [] [keys]]
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: not a named type
+	data: array(reference(K), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: error: unknown function
+	data: [<nil> calculateHashCode [] [select(this, keys)]]
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [reference(K), reference(V)]) java/util/Map<K,V>//get [] [select(this, key)]]
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: unsupported: unsupported AST node
+	data: genericParameter(K, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: internal error: not all elements have the same type
+	data: declaration([value], [pointer(reference(java/lang/Object))], [call(select(this, getValue!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: unsupported: unsupported type
+	data: genericParameter(K, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: unsupported: unsupported type
+	data: pointer(reference(java/lang/String)) vs genericParameter(V, [pointer(reference(java/lang/Object))])
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: unsupported: unsupported type
+	data: genericParameter(V, [pointer(reference(java/lang/Object))]) vs pointer(genericInstance(reference(org/apache/commons/collections4/keyvalue/TiedMapEntry), [genericParameter(K, [pointer(reference(java/lang/Object))]), genericParameter(V, [pointer(reference(java/lang/Object))])]))
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, pointer(reference(java/lang/Object))), wildcard(, pointer(reference(java/lang/Object)))])) java/util/Map//Entry<descendant of java/lang/Object,descendant of java/lang/Object>//getKey [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: internal error: not all elements have the same type
+	data: declaration([value], [pointer(reference(java/lang/Object))], [call(select(this, getValue!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584))
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getValue [] []]
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: error: unknown import
+	data: org/apache/commons/collections4/KeyValue
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: error: unknown import
+	data: org/apache/commons/collections4/Unmodifiable
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/collections4/KeyValue), [wildcard(, reference(K)), wildcard(, reference(V))])
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/collections4/keyvalue/AbstractMapEntry, [], [pointer(genericInstance(reference(org/apache/commons/collections4/keyvalue/AbstractKeyValue), [reference(K), reference(V)]))], [pointer(genericInstance(reference(java/util/Map//Entry), [reference(K), reference(V)]))]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map//Entry), [wildcard(, reference(K)), wildcard(, reference(V))])) java/util/Map//Entry<descendant of K,descendant of V>//getKey [] []]
+Found 9 Java files
+Found 46 problems in Java files
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: found 7 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: found 6 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: found 4 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: found 9 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: found 12 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: found 4 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: found 8 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: found 3 symbols
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.equals: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.equals: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.AbstractMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.AbstractMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntry.java: org.apache.commons.collections4.keyvalue.AbstractMapEntry.setValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.setValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.setKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.setKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.equals: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.equals: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.equals: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.hashCode: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.toMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.toMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.toMapEntry: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: org.apache.commons.collections4.keyvalue.DefaultKeyValue.DefaultKeyValue: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKeys: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKeys: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKeys: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.toString: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.toString: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 1 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java:160:13: critical: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.equals: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.equals: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.equals: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: found 1 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java:160:13: critical: org.apache.commons.collections4.keyvalue.MultiKey.MultiKey: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKey: computed 3 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.getKey: found 2 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java:196:16: critical: org.apache.commons.collections4.keyvalue.MultiKey.getKey: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java:196:16: critical: org.apache.commons.collections4.keyvalue.MultiKey.getKey: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.size: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.size: computed 2 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.size: found 1 problems
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java:206:16: critical: org.apache.commons.collections4.keyvalue.MultiKey.size: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.hashCode: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: org.apache.commons.collections4.keyvalue.MultiKey.hashCode: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.setValue: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.setValue: found 1 problems
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java:72:9: critical: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.setValue: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry.UnmodifiableMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.TiedMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.TiedMapEntry: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.TiedMapEntry: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getKey: computed 1 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getKey: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.getValue: found 0 problems
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.setValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.toString: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.equals: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: org.apache.commons.collections4.keyvalue.TiedMapEntry.equals: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.AbstractKeyValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.AbstractKeyValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.getValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.getValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.toString: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.setKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.setKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.setValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.getKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractKeyValue.java: org.apache.commons.collections4.keyvalue.AbstractKeyValue.getKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.toString: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.toString: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.hashCode: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.setValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.setValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.AbstractMapEntryDecorator: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.AbstractMapEntryDecorator: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getKey: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getKey: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getValue: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.getValue: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.equals: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/AbstractMapEntryDecorator.java: org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator.equals: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computing test cases
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: computed 0 unit tests
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultMapEntry.java: org.apache.commons.collections4.keyvalue.DefaultMapEntry.DefaultMapEntry: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValue.java: generated unit test file src/main/java/org/apache/commons/collections4/keyvalue/DefaultKeyValueSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java: could not generate unit test file for "src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(6, 52, 23), End:location.NewCompactFileLocationRaw(6, 52, 26)},
+	    Name:             "keys",
+	    Type:             &modelast.TypeArray{
+	        CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(6, 52, 19), End:location.NewCompactFileLocationRaw(6, 52, 21)},
+	        Type:             &modelast.TypeReference{
+	            Name: "K",
+	        },
+	        IndexType: &modelast.TypePrimitive{
+	            Kind: "int",
+	            Size: 0x20,
+	        },
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc00090c420})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc000718d20, {0x2205608?, 0xc0006f39c0?}, {0x21f7de8, 0xc00071ab80}, {0x2208850, 0xc0004199c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc000718d20, {0x21f7de8, 0xc00071ab80}, {0x2205608?, 0xc0006f39c0?}, {0x2208850, 0xc0004199c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc000718d20, {0x21f7de8, 0xc00071ab80}, {0x2205608?, 0xc0006f3980?}, {0x2208850, 0xc0004199c0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc000718d20, {0x21f7de8, 0xc00071ab80}, {0x2205728?, 0xc0007d7820?}, {0x22089b0, 0xc00099a1e0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc000718d20, {0x2205728, 0xc0007d7820}, {0xc000a49de0, 0x1}, {0x22089b0, 0xc00099a1e0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc000718d20, {0x2205728, 0xc0007d7820}, {0x22089b0, 0xc00099a1e0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc0006f3000, 0xc0004a2e60, 0xc0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc0006f3000, 0xc000575ec0, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc0006f3000, 0xc00090f100?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc000542f30, 0xc000575ec0)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc000b81470?, 0xc0000debb0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc000fe1b20, {0xc0003d5000, 0x9, 0x15?}, {0xc000f32228?, 0x2208900?}, 0xc000c6a2a0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc000fe1b20, {0xc00071a480, 0x9, 0x10})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc00013aeb1, 0x44})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc000434780, 0x31}, 0xc000f198f0, {0xc000736f40?, 0x1?, 0xc000f0fa00?}, 0x1, 0xc00064bb08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc00042d3e0, 0xc00056ae40, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc00042d3e0?, 0xc00042d410?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x30?, 0x124bba0?, {0x21eb890?, 0xc00040e920?}, {0xd0?, 0xe5?, 0x41?, 0x0?}, 0x30?, {0xc0000ff1d0, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0001bc8d8, {0xc0001bc508?, 0x72a1c84f6098?, 0xc0001bc8d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0001bc508}, {0xc00003e050?, 0x0?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0001bc508?}, {0xc00003e050?, 0xc000138118?, 0xc000051f10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntry.java: generated unit test file src/main/java/org/apache/commons/collections4/keyvalue/TiedMapEntrySymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntry.java: generated unit test file src/main/java/org/apache/commons/collections4/keyvalue/UnmodifiableMapEntrySymflowerTest.java
+Analyzed 9 out of 9 source files
+Had 2 errors that block a full analysis
+Generated 13 tests
+Found 6 potential problems
+The following issues prevent a full analysis:
+
+* 17 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 8 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 6 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,862 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_38b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeaderField: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.normalizeFileName: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.evaluateType: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.skipRecordPadding: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.readGlobalPaxHeaders: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.paxHeaders: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.applyPaxHeadersToCurrentEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.readOldGNUSparse: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isDirectory: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.tryToConsumeSecondEOFRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.consumeRemainderOfLastBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.stripTo7Bits: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.shouldBeReplaced: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writeEOFRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writeRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writeRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.padAsNeeded: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.addPaxHeadersForBigNumbers: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.addPaxHeaderForBigNumber: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.failForBigNumbers: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.failForBigNumber: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.failForBigNumberWithPosixMessage: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.failForBigNumber: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.handleLongName: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.transferModTime: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.TarUtils: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseBinaryLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseBinaryBigInteger: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.exceptionMessage: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongBinary: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatBigIntegerBinary: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["os.name"]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//getProperty [] ["user.name" ""]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown identifier
+	data: list
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//contains [] ["netware"]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/utils/ArchiveUtils
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: Internal error: unknown identifier:
+		"xstarPrefix"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25970}, {0x12473e0, 0xc000e648f0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Identifier).ExpressionType(0xc000ccd1e0, 0xc0000a8f00)
+			gitlab.nethead.at/symflower/symflower/model/ast/parameters.go:70 +0x186
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionUnary).ExpressionType(0xc000c7b350, 0xc0000a8f00)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:1258 +0x2a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunctionWithEffectiveReceiver(0xc0000a8f00, {0x2208dd0?, 0xc000c7b380})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:677 +0x182
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunction(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:662
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).InferType(0xc000cfe690, 0xc0000a8f00, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/function.go:800 +0xa6
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes.func2(0xc0000a8f00, {0x2203be8, 0xc000cfe690})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:23 +0x7c
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).Walk(0xc000cfe690, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:153 +0x459
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Walk(0xc0004de680, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:281 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc0004dec40, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1482 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc000c7b710, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc000c7ae40, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ClauseCase).Walk(0xc000c7ae10, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:247 +0x1f6
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementSwitch).Walk(0xc0004dfa00, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1627 +0x1f4
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc000dfc570, 0xc0000a8f00, 0x1, 0xc0005009c0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkInferTypes(0xc0000a8f00, {0x2203830, 0xc000dfc570}, 0x2088c68)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:17 +0xd9
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).inferBodyTypes(0xc0001b4500, {0x2203830, 0xc000dfc570})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2850 +0x31
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).completeFunctionAndVerify(0xc0001b4500, 0xc000889410, 0xc0008a1100)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2777 +0x107
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc0001b4500, 0xc000889410, {0x2208170, 0xc00075f200}, 0xc0008a1100, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2540 +0x7b5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc0001b4500, 0xc000889410, 0xc00075f200)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc0001b4500, 0xc000889410, 0xc00075f200)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc000889410, {0x2207578, 0xc00075f200})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc0001b4500, 0xc000889410, 0xc000dfb760, 0xc00086fd40, 0xc000890040, {0x2207578, 0xc00075f200})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc0001b4500, 0x1, 0x2088c58, 0xc000dfb760, 0xc00086fd40, 0xc000890040)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc0001b4500, 0x1, 0x2088c58, 0xc000dfb760, 0xc00086fd40)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc0001b4500, 0x1, 0x2088c58, 0xc000dfb760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc0001b4500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0000108b8, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0000108b8, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0004b13e0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0004b13e0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc00050bc60?}, {0x80?, 0x47?, 0x4?, 0x0?}, 0x2d?, {0xc0004b0960, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00001a3d8, {0xc00001a008?, 0x7567a01861b8?, 0xc00001a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00001a008}, {0xc00003e050?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00001a008?}, {0xc00003e050?, 0xc000508058?, 0xc0004dff10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: call(select(ensure_not_nil(xstarPrefix), length!d41d8cd98f00b204e9800998ecf8427e), [])
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncoding
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> parsePaxHeaders [] [this]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [totalRead]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> getBytesRead [] []]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [skipped]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/IOUtils
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [skipped]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [skipped]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> read [] [select(this, SMALL_BUF)]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> pushedBackBytes [] [select(this, recordSize)]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncoding
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/CharsetNames
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [longNameData 0 l 0 length]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> parsePaxHeaders [] [this]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/apache/commons/compress/archivers/tar/TarArchiveInputStream))), org/apache/commons/compress/archivers/tar/TarArchiveInputStream//getNextTarEntry!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/compress/archivers/tar/TarArchiveEntry)))], block([never_nil(this), if(select(this, hasHitEOF), block([return([nil])]), %!s(<nil>)), if(!=(select(this, currEntry), nil), block([unsupported, call(select(this, skipRecordPadding!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), declaration([headerBuf], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [call(select(this, getRecord!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(headerBuf, nil), block([=(select(this, currEntry), nil), return([nil])]), %!s(<nil>)), try(block([unsupported]), [catch([pointer(reference(java/lang/IllegalArgumentException))], e , block([throw(call(java/io/IOException//IOException!83a4699b3d8bf83591b30f278ae7a210, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["Error detected parsing the header"]), cast(e, pointer(reference(java/lang/Throwable)))]))]))], %!s(<nil>)), =(select(this, entryOffset), 0), =(select(this, entrySize), call(select(ensure_not_nil(select(this, currEntry)), getSize!d41d8cd98f00b204e9800998ecf8427e), [])), if(call(select(ensure_not_nil(select(this, currEntry)), isGNULongLinkEntry!d41d8cd98f00b204e9800998ecf8427e), []), block([declaration([longLinkData], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [call(select(this, getLongNameData!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(longLinkData, nil), block([return([nil])]), %!s(<nil>)), unsupported]), %!s(<nil>)), if(call(select(ensure_not_nil(select(this, currEntry)), isGNULongNameEntry!d41d8cd98f00b204e9800998ecf8427e), []), block([declaration([longNameData], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [call(select(this, getLongNameData!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), if(==(longNameData, nil), block([return([nil])]), %!s(<nil>)), unsupported]), %!s(<nil>)), if(call(select(ensure_not_nil(select(this, currEntry)), isGlobalPaxHeader!d41d8cd98f00b204e9800998ecf8427e), []), block([call(select(this, readGlobalPaxHeaders!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), if(call(select(ensure_not_nil(select(this, currEntry)), isPaxHeader!d41d8cd98f00b204e9800998ecf8427e), []), block([call(select(this, paxHeaders!d41d8cd98f00b204e9800998ecf8427e), [])]), if(!(call(select(ensure_not_nil(select(this, globalPaxHeaders)), isEmpty!d41d8cd98f00b204e9800998ecf8427e), [])), block([call(select(this, applyPaxHeadersToCurrentEntry!c8fd3c056d392e492c6c52cf42c77b3d), [select(this, globalPaxHeaders)])]), %!s(<nil>))), if(call(select(ensure_not_nil(select(this, currEntry)), isOldGNUSparse!d41d8cd98f00b204e9800998ecf8427e), []), block([call(select(this, readOldGNUSparse!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), =(select(this, entrySize), call(select(ensure_not_nil(select(this, currEntry)), getSize!d41d8cd98f00b204e9800998ecf8427e), [])), return([select(this, currEntry)])])) return([call(select(this, getNextTarEntry!d41d8cd98f00b204e9800998ecf8427e), [])])]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [readNow]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveInputStream
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/ArchiveUtils
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [<nil> write [] [0]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/io/StringWriter
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncoding
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/CharsetNames
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [wBuf wOffset select(this, recordBuf) select(this, assemLen) aLen]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [<nil> putArchiveEntry [] [longLinkEntry]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveOutputStream
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [wBuf wOffset select(this, assemBuf) select(this, assemLen) numToWrite]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [<nil> putArchiveEntry [] [pex]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/CountingOutputStream
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [wBuf wOffset select(this, assemBuf) select(this, assemLen) numToWrite]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [<nil> write [] [data]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, assemBuf) 0 select(this, recordBuf) 0 select(this, assemLen)]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/String))])) java/util/Map<java/lang/String,java/lang/String>//entrySet [] []]
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncoding
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown import
+	data: org/apache/commons/compress/archivers/zip/ZipEncodingHelper
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer +(offset, 1) remainder 0 -(length, 1)]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer offset b 0 len]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [b 0 buf off len]]
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: warning: overflow of cast
+Found 6 Java files
+Found 67 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: found 20 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: found 2 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarConstants.java: found 0 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: found 14 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: found 70 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: found 26 symbols
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMinor: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMinor: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMinor: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSymbolicLink: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSymbolicLink: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSymbolicLink: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.hashCode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.hashCode: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.hashCode: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMajor: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMajor: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMajor: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongLinkEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongLinkEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongLinkEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getMode: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getMode: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isStarSparse: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isStarSparse: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isStarSparse: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongNameEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongNameEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNULongNameEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFIFO: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFIFO: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFIFO: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getFile: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getFile: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillStarSparseData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillStarSparseData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillStarSparseData: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getRealSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getRealSize: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getRealSize: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNUSparse: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNUSparse: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGNUSparse: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongGroupId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongGroupId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongGroupId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setLinkName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setLinkName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setLinkName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse1xData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse1xData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse1xData: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDescendent: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDescendent: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDescendent: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCheckSumOK: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCheckSumOK: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCheckSumOK: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isBlockDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isBlockDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isBlockDevice: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setNames: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setNames: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setNames: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isExtended: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isExtended: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isExtended: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxGNUSparse: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxGNUSparse: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxGNUSparse: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSparse: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSparse: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isSparse: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDirectory: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDirectory: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isDirectory: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setGroupId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setIds: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setIds: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setIds: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFile: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isFile: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLinkName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLinkName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLinkName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getModTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getModTime: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getModTime: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getSize: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getSize: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMinor: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMinor: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDevMinor: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.parseTarHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setMode: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setMode: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMajor: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMajor: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setDevMajor: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getUserId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setModTime: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setSize: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setSize: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getGroupId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGlobalPaxHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGlobalPaxHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isGlobalPaxHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.writeEntryHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setUserName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse0xData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse0xData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.fillGNUSparse0xData: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setName: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.setName: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isOldGNUSparse: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isOldGNUSparse: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isOldGNUSparse: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDirectoryEntries: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getDirectoryEntries: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.equals: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxHeader: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxHeader: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isPaxHeader: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isLink: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isLink: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isLink: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCharacterDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCharacterDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.isCharacterDevice: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.TarArchiveEntry: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongUserId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongUserId: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLongUserId: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLastModifiedDate: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLastModifiedDate: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveEntry.getLastModifiedDate: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setCurrentEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setCurrentEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setCurrentEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextTarEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextTarEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextTarEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getCurrentEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getCurrentEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getCurrentEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getRecordSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getRecordSize: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getRecordSize: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isEOFRecord: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isEOFRecord: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isEOFRecord: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.skip: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.skip: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.skip: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.readRecord: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.readRecord: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.readRecord: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isAtEOF: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isAtEOF: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.isAtEOF: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getLongNameData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getLongNameData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getLongNameData: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.matches: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.matches: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.reset: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.reset: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.reset: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.parsePaxHeaders: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.parsePaxHeaders: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.parsePaxHeaders: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.read: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.close: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.canReadEntryData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.canReadEntryData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.canReadEntryData: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setAtEOF: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setAtEOF: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.setAtEOF: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.TarArchiveInputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.available: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.available: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.available: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.markSupported: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.markSupported: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.markSupported: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.mark: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.mark: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.mark: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getBytesWritten: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getBytesWritten: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getBytesWritten: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setLongFileMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setLongFileMode: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setLongFileMode: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getRecordSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getRecordSize: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getRecordSize: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.flush: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.flush: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.flush: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writePaxHeaders: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writePaxHeaders: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.writePaxHeaders: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.closeArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.closeArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.closeArchiveEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.close: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setAddPaxHeadersForNonAsciiNames: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setAddPaxHeadersForNonAsciiNames: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setAddPaxHeadersForNonAsciiNames: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.putArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.putArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.putArchiveEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.finish: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.finish: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.finish: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.write: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.TarArchiveOutputStream: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getCount: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getCount: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.getCount: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setBigNumberMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setBigNumberMode: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.setBigNumberMode: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.createArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.createArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.createArchiveEntry: unknown type kind
+	data: unsupported(org/apache/commons/compress/archivers/zip/ZipEncoding)
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.TarArchiveSparseEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.TarArchiveSparseEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.TarArchiveSparseEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.isExtended: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.isExtended: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: org.apache.commons.compress.archivers.tar.TarArchiveSparseEntry.isExtended: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.computeCheckSum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.computeCheckSum: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.computeCheckSum: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatNameBytes: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseBoolean: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseBoolean: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseBoolean: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctal: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctal: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctal: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctalOrBinary: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctalOrBinary: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseOctalOrBinary: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.verifyCheckSum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.verifyCheckSum: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.verifyCheckSum: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatUnsignedOctalString: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatUnsignedOctalString: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatUnsignedOctalString: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatOctalBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatOctalBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatOctalBytes: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalOrBinaryBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalOrBinaryBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalOrBinaryBytes: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.parseName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatLongOctalBytes: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatCheckSumOctalBytes: computing test cases
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatCheckSumOctalBytes: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java: org.apache.commons.compress.archivers.tar.TarUtils.formatCheckSumOctalBytes: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java: could not generate unit test file for "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(4, 45, 27), End:location.NewCompactFileLocationRaw(4, 45, 36)},
+	    Name:             "isExtended",
+	    Type:             &modelast.TypePrimitive{
+	        Kind: "bool",
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc0008ba540})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0007d8f50, {0x2205848?, 0xc000ef1b60?}, {0x21f7de8, 0xc000881300}, {0x2208850, 0xc000848500})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0007d8f50, {0x21f7de8, 0xc000881300}, {0x2205848?, 0xc000ef1b40?}, {0x2208850, 0xc000848500})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0007d8f50, {0x21f7de8, 0xc000881300}, {0x2205848?, 0xc000ef18c0?}, {0x2208850, 0xc000848500})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0007d8f50, {0x21f7de8, 0xc000881300}, {0x2205728?, 0xc000ef1840?}, {0x22089b0, 0xc000cd17d0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0007d8f50, {0x2205728, 0xc000ef1840}, {0xc0005f2530, 0x1}, {0x22089b0, 0xc000cd17d0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc0007d8f50, {0x2205728, 0xc000ef1840}, {0x22089b0, 0xc000cd17d0}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc000799b00, 0xc0001f60a0, 0x10?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc000799b00, 0xc000849400, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc000799b00, 0xc0008bbf20?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc000581440, 0xc000849400)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc00110b920?, 0xc00088c4d0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc000ef1240, {0xc00007ef10, 0x1, 0x22?}, {0xc00013cb10?, 0xc000708660?}, 0xc000671160?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc000ef1240, {0xc00007e488, 0x1, 0x1})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc0001526ae, 0x52})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc000044810, 0x2e}, 0xc00110b230, {0xc000de1cc0?, 0x1?, 0xc000051a00?}, 0x1, 0xc000957b08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc0004b13e0, 0xc000e5e7b0, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc0004b13e0?, 0xc0004b1410?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc00050bc60?}, {0x80?, 0x47?, 0x4?, 0x0?}, 0x2d?, {0xc0004b0960, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00001a3d8, {0xc00001a008?, 0x7567a01861b8?, 0xc00001a3d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00001a008}, {0xc00003e050?, 0x44?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00001a008?}, {0xc00003e050?, 0xc000508058?, 0xc0004dff10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Analyzed 6 out of 6 source files
+Had 2 errors that block a full analysis
+Generated 2 tests
+Found 1 potential problem
+The following issues prevent a full analysis:
+
+* 115 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 31 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 29 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

@@ -1,0 +1,954 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_41b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFirstLocalFileHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.processZip64Extra: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readStored: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFromInflater: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.checksig: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.closeEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.currentEntryHasOutstandingBytes: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.drainCurrentEntryData: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getBytesInflated: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.fill: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFully: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDataDescriptor: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.supportsDataDescriptorFor: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readStoredEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.bufferContainsSignature: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.cacheBytesRead: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.pushback: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.skipRemainderOfArchive: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.findEocdRecord: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.realSkip: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readOneByte: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.isFirstByteOfEocdSig: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.BoundedInputStream: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.read: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.read: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.read: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.skip: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.BoundedInputStream.available: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown import
+	data: org/apache/commons/compress/utils/CharsetNames
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, unicodeName) 0 select(this, data) 5 len(ensure_not_nil(select(this, unicodeName)))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, unicodeName) 0 b 0 len(ensure_not_nil(b))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, data) 0 b 0 len(ensure_not_nil(b))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown import
+	data: java/io/UnsupportedEncodingException
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//getBytes [] [unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getBytes!feb606741437b3116f99f2412027bc86, [select(this, nameCRC32)]) 0 select(this, data) 1 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [unicodeName 0 select(this, unicodeName) 0 len(ensure_not_nil(unicodeName))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer +(offset, 5) select(this, unicodeName) 0 -(length, 5)]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipShort//getBytes!82a13d2b9378b45b5451d30242dc1218, [call(select(this, getMode!d41d8cd98f00b204e9800998ecf8427e), [])]) 0 data 0 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getBytes!feb606741437b3116f99f2412027bc86, [cast(len(ensure_not_nil(linkArray)), primitive(int, 64, false))]) 0 data 2 org/apache/commons/compress/archivers/zip/AsiExtraField//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipShort//getBytes!82a13d2b9378b45b5451d30242dc1218, [call(select(this, getUserId!d41d8cd98f00b204e9800998ecf8427e), [])]) 0 data 6 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipShort//getBytes!82a13d2b9378b45b5451d30242dc1218, [call(select(this, getGroupId!d41d8cd98f00b204e9800998ecf8427e), [])]) 0 data 8 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getBytes!feb606741437b3116f99f2412027bc86, [checksum]) 0 result 0 org/apache/commons/compress/archivers/zip/AsiExtraField//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data 0 result org/apache/commons/compress/archivers/zip/AsiExtraField//WORD len(ensure_not_nil(data))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(offset, org/apache/commons/compress/archivers/zip/AsiExtraField//WORD) tmp 0 -(length, org/apache/commons/compress/archivers/zip/AsiExtraField//WORD)]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [linkArray 0 data 10 len(ensure_not_nil(linkArray))]]
+src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [tmp 10 linkArray 0 len(ensure_not_nil(linkArray))]]
+src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java: error: unknown import
+	data: java/io/DataInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/compress/archivers/zip/BinaryTree))), org/apache/commons/compress/archivers/zip/BinaryTree//read!0ecaef954ddc747b04e9ed2abf5995d0, [variable(stream, pointer(reference(org/apache/commons/compress/archivers/zip/BitStream)))], [variable(, primitive(int, 32, false))], block([unsupported]))
+src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java: error: unknown function
+	data: [<nil> readBits [] [1]]
+src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java: error: unknown function
+	data: [<nil> readBits [] [n]]
+src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java: error: unknown function
+	data: [<nil> readBits [] [8]]
+src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/BitInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java: error: unknown import
+	data: java/nio/ByteOrder
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//newInstance [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(call(select(ensure_not_nil(index(data, i)), getHeaderId!d41d8cd98f00b204e9800998ecf8427e), [])), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 result start 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown import
+	data: java/util/concurrent/ConcurrentHashMap
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(call(select(ensure_not_nil(index(data, i)), getHeaderId!d41d8cd98f00b204e9800998ecf8427e), [])), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 result start 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [local 0 result start len(ensure_not_nil(local))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [local 0 result start len(ensure_not_nil(local))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(call(select(ensure_not_nil(index(data, i)), getCentralDirectoryLength!d41d8cd98f00b204e9800998ecf8427e), [])), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 result +(start, 2) 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [local 0 result start len(ensure_not_nil(local))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [local 0 result start len(ensure_not_nil(local))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//newInstance [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(call(select(ensure_not_nil(index(data, i)), getLocalFileDataLength!d41d8cd98f00b204e9800998ecf8427e), [])), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 result +(start, 2) 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//getBytes [] [select(this, charsetName)]]
+src/main/java/org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java: error: unknown function
+	data: [<nil> java/lang/String//String [] [data select(this, charsetName)]]
+src/main/java/org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/JarMarker.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown function
+	data: [pointer(reference(java/nio/CharBuffer)) java/nio/CharBuffer//get [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown import
+	data: java/nio/charset/CharsetEncoder
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown import
+	data: java/nio/charset/CoderResult
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown import
+	data: java/nio/charset/CodingErrorAction
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown function
+	data: [struct(java/nio/CharBuffer, [], [pointer(reference(java/lang/Object))], []) java/nio/CharBuffer//wrap [] [name]]
+src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java: error: unknown function
+	data: [pointer(reference(java/nio/CharBuffer)) java/nio/CharBuffer//remaining [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/PKWareExtraHeader.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/zip/PKWareExtraHeader.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/zip/PKWareExtraHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset tmp 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/PKWareExtraHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset tmp 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: org/apache/commons/compress/parallel/ScatterGatherBackingStore
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/ExecutionException
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/ExecutorService
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/Executors
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicInteger
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator, [], [pointer(reference(java/lang/Object))], []) Runtime]
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: org/apache/commons/compress/parallel/InputStreamSupplier
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/Future
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/TimeUnit
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown type
+	data: ThreadLocal
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/Collections/synchronizedList
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown function
+	data: [<nil> java/lang/String//internalToString [] [zipArchiveEntry]]
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/concurrent/Callable
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: org/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown import
+	data: java/util/zip/Deflater
+src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java: error: unknown function
+	data: [<nil> synchronizedList [] [call(java/util/ArrayList//ArrayList!d41d8cd98f00b204e9800998ecf8427e, [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: java/util/Queue
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: java/util/concurrent/ConcurrentLinkedQueue
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: java/util/zip/Deflater
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: internal error: either catch or finally must be defined
+	data: try(block([unsupported]), [], %!s(<nil>))
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: internal error: either catch or finally must be defined
+	data: try(block([unsupported]), [], %!s(<nil>))
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ScatterZipOutputStream, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) payloadStream]
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: an unsupported collection type has been used for this operation
+	data: genericInstance(unsupported(java/util/Queue), [pointer(reference(org/apache/commons/compress/archivers/zip/ScatterZipOutputStream//CompressedEntry))])
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [select(this, compressedSize)]]
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCrc [] [select(this, crc)]]
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/parallel/ScatterGatherBackingStore
+src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/BoundedInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java: error: not a named type
+	data: array(primitive(char, 16, true), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [] [len(ensure_not_nil(select(this, highChars)))]]
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/zip/StreamCompressor, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: org/apache/commons/compress/parallel/ScatterGatherBackingStore
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/io/DataOutput
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/nio/channels/SeekableByteChannel
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/util/zip/Deflater
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/zip/StreamCompressor, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: error: unknown import
+	data: java/util/zip/ZipEntry
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/zip/StreamCompressor, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java: internal error: no supported constructor available
+	data: [struct(org/apache/commons/compress/archivers/zip/StreamCompressor, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer offset select(this, centralDirectoryData) 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer offset select(this, localFileData) 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset tmp 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset tmp 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> setPrefix [] [i unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getTableSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> setTableSize [] [tableSize]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream, [], [unsupported(org/apache/commons/compress/compressors/lzw/LZWInputStream)], []) UNUSED_PREFIX]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getPrefix [] [i]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> readNextCode [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> incrementCodeSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown import
+	data: org/apache/commons/compress/compressors/lzw/LZWInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream, [], [unsupported(org/apache/commons/compress/compressors/lzw/LZWInputStream)], []) DEFAULT_CODE_SIZE]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> setClearCode [] [unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> initializeTables [] [org/apache/commons/compress/archivers/zip/UnshrinkingInputStream//MAX_CODE_SIZE]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getClearCode [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> setTableSize [] [+(unsupported, 1)]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> setTableSize [] [+(unsupported, 1)]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(bool, 0, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getCodeSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> addRepeatOfPreviousCode [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> expandCodeToOutputStack [] [effectiveCode addedUnfinishedEntry]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> addEntry [] [previousCode character org/apache/commons/compress/archivers/zip/UnshrinkingInputStream//MAX_TABLE_SIZE]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getPrefix [] [i]]
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown import
+	data: java/nio/ByteOrder
+src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java: error: unknown function
+	data: [<nil> getPrefixesLength [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(org/apache/commons/compress/archivers/zip/X000A_NTFS//TIME_ATTR_TAG), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(org/apache/commons/compress/archivers/zip/X000A_NTFS//TIME_ATTR_SIZE), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 2]]
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, modifyTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 8]]
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, accessTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 8]]
+src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, createTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 8]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(+(+(+(offset, ivSize), 22), erdSize), resize) select(this, vData) 0 -(vSize, 4)]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data -(+(+(+(+(+(offset, ivSize), 22), erdSize), resize), vSize), 4) select(this, vCRC32) 0 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(offset, 4) select(this, ivData) 0 ivSize]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(+(offset, ivSize), 16) select(this, erdData) 0 erdSize]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(+(+(offset, ivSize), 22), erdSize) select(this, vData) 0 -(vSize, 4)]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data -(+(+(+(+(offset, ivSize), 22), erdSize), vSize), 4) select(this, vCRC32) 0 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(+(+(offset, ivSize), 24), erdSize) select(this, recipientKeyHash) 0 select(this, hashSize)]]
+src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data +(+(+(+(offset, ivSize), 24), erdSize), select(this, hashSize)) select(this, keyBlob) 0 -(resize, select(this, hashSize))]]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, modifyTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, accessTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, createTime)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data pos 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [localData 0 centralData 0 len(ensure_not_nil(centralData))]]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset gidBytes 0 gidSize]]
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [array pos trimmedArray startPos -(len(ensure_not_nil(trimmedArray)), startPos)]]
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [uidBytes 0 data pos len(ensure_not_nil(uidBytes))]]
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [gidBytes 0 data pos len(ensure_not_nil(gidBytes))]]
+src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [data offset uidBytes 0 uidSize]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, relativeHeaderOffset)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data off org/apache/commons/compress/archivers/zip/ZipConstants//DWORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, diskStart)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data off org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [buffer offset select(this, rawCentralDirectoryData) 0 length]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, size)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data 0 org/apache/commons/compress/archivers/zip/ZipConstants//DWORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [call(select(ensure_not_nil(select(this, compressedSize)), getBytes!d41d8cd98f00b204e9800998ecf8427e), []) 0 data off org/apache/commons/compress/archivers/zip/ZipConstants//DWORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/Zip64RequiredException.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getComment [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getTime [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getCrc [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) SIZE_UNKNOWN]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown type
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getExtra [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//contains [] ["/"]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown type
+	data: java/util/zip/ZipEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> setTime [] [unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getComment [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCrc [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [copy 0 select(this, extraFields) 1 -(len(ensure_not_nil(select(this, extraFields))), 1)]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, rawName) 0 b 0 len(ensure_not_nil(select(this, rawName)))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [<nil> getTime [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [src 0 cpy 0 call(java/lang/Math//min!2ac0ebcb23011db97774191b8c6fdbe3, [len(ensure_not_nil(src)), length])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest.java: error: unknown import
+	data: org/apache/commons/compress/parallel/InputStreamSupplier
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/util/zip/DataFormatException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [1]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setTime [] [time]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCrc [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getValue!2dcfcbf77da22bb3290a2dcf338b4c85, [select(this, TWO_DWORD_BUF)])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [1]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/IOUtils
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/io/EOFException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/util/zip/Inflater
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/io/ByteArrayInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/util/zip/ZipEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [missedLfhBytes 0 lfh -(org/apache/commons/compress/archivers/zip/ZipArchiveInputStream//LFH_LEN, 4) 4]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveInputStream))), org/apache/commons/compress/archivers/zip/ZipArchiveInputStream//getNextZipEntry!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)))], block([never_nil(this), declaration([firstEntry], [primitive(bool, 0, false)], [true], ModifierVisibilityPublic), if(||(select(this, closed), select(this, hitCentralDirectory)), block([return([nil])]), %!s(<nil>)), if(!=(select(this, current), nil), block([call(select(this, closeEntry!d41d8cd98f00b204e9800998ecf8427e), []), =(firstEntry, false)]), %!s(<nil>)), try(block([if(firstEntry, block([call(select(this, readFirstLocalFileHeader!2dcfcbf77da22bb3290a2dcf338b4c85), [select(this, LFH_BUF)])]), block([call(select(this, readFully!2dcfcbf77da22bb3290a2dcf338b4c85), [select(this, LFH_BUF)])]))]), [catch([unsupported(java/io/EOFException)], e , block([return([nil])]))], %!s(<nil>)), declaration([sig], [pointer(reference(org/apache/commons/compress/archivers/zip/ZipLong))], [call(org/apache/commons/compress/archivers/zip/ZipLong//ZipLong!2dcfcbf77da22bb3290a2dcf338b4c85, [select(this, LFH_BUF)])], Modifier(1048584)), if(||(call(select(ensure_not_nil(sig), equals!4fb2deccef7826b7659de223ac40b91d), [cast(org/apache/commons/compress/archivers/zip/ZipLong//CFH_SIG, pointer(reference(java/lang/Object)))]), call(select(ensure_not_nil(sig), equals!4fb2deccef7826b7659de223ac40b91d), [cast(org/apache/commons/compress/archivers/zip/ZipLong//AED_SIG, pointer(reference(java/lang/Object)))])), block([=(select(this, hitCentralDirectory), true), call(select(this, skipRemainderOfArchive!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), if(!(call(select(ensure_not_nil(sig), equals!4fb2deccef7826b7659de223ac40b91d), [cast(org/apache/commons/compress/archivers/zip/ZipLong//LFH_SIG, pointer(reference(java/lang/Object)))])), block([return([nil])]), %!s(<nil>)), declaration([off], [primitive(int, 32, false)], [org/apache/commons/compress/archivers/zip/ZipConstants//WORD], ModifierVisibilityPublic), =(select(this, current), call(org/apache/commons/compress/archivers/zip/ZipArchiveInputStream//CurrentEntry//CurrentEntry!d41d8cd98f00b204e9800998ecf8427e, [])), declaration([versionMadeBy], [primitive(int, 32, false)], [call(org/apache/commons/compress/archivers/zip/ZipShort//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])], Modifier(1048584)), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//SHORT), primitive(int, 32, false))), call(select(ensure_not_nil(select(select(this, current), entry)), setPlatform!82a13d2b9378b45b5451d30242dc1218), [&(>>(versionMadeBy, &(org/apache/commons/compress/archivers/zip/ZipFile//BYTE_SHIFT, 31)), org/apache/commons/compress/archivers/zip/ZipFile//NIBLET_MASK)]), declaration([gpFlag], [pointer(reference(org/apache/commons/compress/archivers/zip/GeneralPurposeBit))], [call(org/apache/commons/compress/archivers/zip/GeneralPurposeBit//parse!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])], Modifier(1048584)), declaration([hasUTF8Flag], [primitive(bool, 0, false)], [call(select(ensure_not_nil(gpFlag), usesUTF8ForNames!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), declaration([entryEncoding], [reference(org/apache/commons/compress/archivers/zip/ZipEncoding)], [conditional(hasUTF8Flag, [org/apache/commons/compress/archivers/zip/ZipEncodingHelper//UTF8_ZIP_ENCODING, select(this, zipEncoding)])], Modifier(1048584)), =(select(select(this, current), hasDataDescriptor), call(select(ensure_not_nil(gpFlag), usesDataDescriptor!d41d8cd98f00b204e9800998ecf8427e), [])), call(select(ensure_not_nil(select(select(this, current), entry)), setGeneralPurposeBit!ff4b2f42f05cb9168cc7dc81bebbcda4), [gpFlag]), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//SHORT), primitive(int, 32, false))), call(select(ensure_not_nil(select(select(this, current), entry)), setMethod!82a13d2b9378b45b5451d30242dc1218), [call(org/apache/commons/compress/archivers/zip/ZipShort//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])]), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//SHORT), primitive(int, 32, false))), declaration([time], [primitive(int, 64, false)], [call(org/apache/commons/compress/archivers/zip/ZipUtil//dosToJavaTime!feb606741437b3116f99f2412027bc86, [call(org/apache/commons/compress/archivers/zip/ZipLong//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])])], Modifier(1048584)), unsupported, =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//WORD), primitive(int, 32, false))), declaration([size, cSize], [pointer(reference(org/apache/commons/compress/archivers/zip/ZipLong)), pointer(reference(org/apache/commons/compress/archivers/zip/ZipLong))], [nil, nil], ModifierVisibilityPublic), if(!(select(select(this, current), hasDataDescriptor)), block([unsupported, =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//WORD), primitive(int, 32, false))), =(cSize, call(org/apache/commons/compress/archivers/zip/ZipLong//ZipLong!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//WORD), primitive(int, 32, false))), =(size, call(org/apache/commons/compress/archivers/zip/ZipLong//ZipLong!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//WORD), primitive(int, 32, false)))]), block([=(off, cast(+(off, *(3, org/apache/commons/compress/archivers/zip/ZipConstants//WORD)), primitive(int, 32, false)))])), declaration([fileNameLen], [primitive(int, 32, false)], [call(org/apache/commons/compress/archivers/zip/ZipShort//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])], Modifier(1048584)), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//SHORT), primitive(int, 32, false))), declaration([extraLen], [primitive(int, 32, false)], [call(org/apache/commons/compress/archivers/zip/ZipShort//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, LFH_BUF), off])], Modifier(1048584)), =(off, cast(+(off, org/apache/commons/compress/archivers/zip/ZipConstants//SHORT), primitive(int, 32, false))), declaration([fileName], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), fileNameLen)], Modifier(1048584)), call(select(this, readFully!2dcfcbf77da22bb3290a2dcf338b4c85), [fileName]), call(select(ensure_not_nil(select(select(this, current), entry)), setName!8f2f13f100e0a1e9c951cc81155845b2), [call(select(ensure_not_nil(entryEncoding), decode!2dcfcbf77da22bb3290a2dcf338b4c85), [fileName]), fileName]), declaration([extraData], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), extraLen)], Modifier(1048584)), call(select(this, readFully!2dcfcbf77da22bb3290a2dcf338b4c85), [extraData]), call(select(ensure_not_nil(select(select(this, current), entry)), setExtra!2dcfcbf77da22bb3290a2dcf338b4c85), [extraData]), if(&&(!(hasUTF8Flag), select(this, useUnicodeExtraFields)), block([call(org/apache/commons/compress/archivers/zip/ZipUtil//setNameAndCommentFromExtraFields!40fcd8887e86a6eba8ca78aa5fa6b268, [select(select(this, current), entry), fileName, nil])]), %!s(<nil>)), call(select(this, processZip64Extra!fa4083cf276c813f9dd1c84c2d31a712), [size, cSize]), if(!=(unsupported, unsupported), block([if(==(call(select(ensure_not_nil(select(select(this, current), entry)), getMethod!d41d8cd98f00b204e9800998ecf8427e), []), call(select(ensure_not_nil(call(org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0, [&(composite(reference(org/apache/commons/compress/archivers/zip/ZipMethod), ["UNSHRINKING"]))])), getCode!d41d8cd98f00b204e9800998ecf8427e), [])), block([unsupported]), if(==(call(select(ensure_not_nil(select(select(this, current), entry)), getMethod!d41d8cd98f00b204e9800998ecf8427e), []), call(select(ensure_not_nil(call(org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0, [&(composite(reference(org/apache/commons/compress/archivers/zip/ZipMethod), ["IMPLODING"]))])), getCode!d41d8cd98f00b204e9800998ecf8427e), [])), block([unsupported]), if(==(call(select(ensure_not_nil(select(select(this, current), entry)), getMethod!d41d8cd98f00b204e9800998ecf8427e), []), call(select(ensure_not_nil(call(org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0, [&(composite(reference(org/apache/commons/compress/archivers/zip/ZipMethod), ["BZIP2"]))])), getCode!d41d8cd98f00b204e9800998ecf8427e), [])), block([unsupported]), %!s(<nil>))))]), %!s(<nil>)), x++(select(this, entriesRead)), return([select(select(this, current), entry)])])) return([call(select(this, getNextZipEntry!d41d8cd98f00b204e9800998ecf8427e), [])])]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [l]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [count]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(org/apache/commons/compress/archivers/zip/ZipEightByteInteger//getLongValue!2dcfcbf77da22bb3290a2dcf338b4c85, [select(this, TWO_DWORD_BUF)])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/ArchiveUtils
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [x]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [lfh 4 lfh 0 -(org/apache/commons/compress/archivers/zip/ZipArchiveInputStream//LFH_LEN, 4)]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(select(ensure_not_nil(cSize), getValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCrc [] [call(select(ensure_not_nil(val), getValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [bytesRead]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/io/PushbackInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(select(ensure_not_nil(call(select(ensure_not_nil(z64), getCompressedSize!d41d8cd98f00b204e9800998ecf8427e), [])), getLongValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [n]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: error: unknown function
+	data: [<nil> pushedBackBytes [] [length]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//ZERO 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//CFH_DISK_NUMBER_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//SHORT]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/io/FileOutputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/zip/Deflater
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getTime [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/io/ByteArrayOutputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [bytesWritten]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LZERO 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_CRC_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [bytesWritten]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveOutputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(select(ensure_not_nil(select(select(this, entry), entry)), getSize!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_SIG 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_SIG_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [extra 0 buf +(org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_FILENAME_OFFSET, nameLen) len(ensure_not_nil(extra))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/nio/file/Files
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/Calendar
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/IOUtils
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveOutputStream)], []) java]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getComment [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCrc [] [crc]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LZERO 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_ORIGINAL_SIZE_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [extra 0 buf extraStart len(ensure_not_nil(extra))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/nio/channels/SeekableByteChannel
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [writtenThisTime]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [length]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCrc [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/ZipArchiveEntry, [], [unsupported(java/util/zip/ZipEntry)], [unsupported(org/apache/commons/compress/archivers/ArchiveEntry)]) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCrc [] [crc]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/EnumSet
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveOutputStream)], []) java]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveOutputStream)], []) java]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [<nil> putArchiveEntry [] [ae is2PhaseSource]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LZERO 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//LFH_COMPRESSED_SIZE_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown import
+	data: java/nio/file/StandardOpenOption
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCrc [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setTime [] [unsupported]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)), pointer(reference(java/lang/Long))]) java/util/Map<org/apache/commons/compress/archivers/zip/ZipArchiveEntry,java/lang/Long>//get [] [ze]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//CFH_SIG 0 buf org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream//CFH_SIG_OFFSET org/apache/commons/compress/archivers/zip/ZipConstants//WORD]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEightByteInteger.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncoding.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: org/apache/commons/compress/utils/Charsets
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: java/nio/charset/Charset
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: java/nio/charset/UnsupportedCharsetException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/zip/ZipExtraField.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/zip/InflaterInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: internal error: either catch or finally must be defined
+	data: try(block([return([unsupported])]), [], %!s(<nil>))
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//finalize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry))]) java/util/List<org/apache/commons/compress/archivers/zip/ZipArchiveEntry>//toArray [] [make(array(pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)), primitive(int, 32, false), 0), call(select(ensure_not_nil(select(this, entries)), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: internal error: not all elements have the same type
+	data: declaration([entriesOfThatName], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry))]))], [call(select(ensure_not_nil(select(this, nameMap)), get!4fb2deccef7826b7659de223ac40b91d), [cast(name, pointer(reference(java/lang/Object)))])], Modifier(1048584))
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/io/EOFException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown field
+	data: [this struct(org/apache/commons/compress/archivers/zip/ZipFile, [], [pointer(reference(java/lang/Object))], [reference(java/io/Closeable)]) in]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [<nil> readCentralDirectoryEntry [] [noUTF8Flag]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)), pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//NameAndComment))])) java/util/Map<org/apache/commons/compress/archivers/zip/ZipArchiveEntry,org/apache/commons/compress/archivers/zip/ZipFile//NameAndComment>//containsKey [] [ze]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/nio/file/StandardOpenOption
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/Enumeration
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/zip/Inflater
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//Entry)) org/apache/commons/compress/archivers/zip/ZipFile//Entry//setCrc [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, CFH_BUF), off])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: org/apache/commons/compress/utils/IOUtils
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/apache/commons/compress/archivers/zip/UnshrinkingInputStream//UnshrinkingInputStream!56db1467142e508511a168a2d9f1bdde, [variable(inputStream, pointer(reference(java/io/InputStream)))], [variable(, pointer(reference(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream)))], block([declaration([this], [pointer(reference(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream))], [new(pointer(reference(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream)))], ModifierNone), =(this, call(select(this, @@constructor!56db1467142e508511a168a2d9f1bdde), [inputStream])), return([this])])) return([call(org/apache/commons/compress/archivers/zip/UnshrinkingInputStream//UnshrinkingInputStream!56db1467142e508511a168a2d9f1bdde, [cast(bis, pointer(reference(java/io/InputStream)))])])]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown identifier
+	data: noUTF8Flag
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)), pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//NameAndComment))])) java/util/Map<org/apache/commons/compress/archivers/zip/ZipArchiveEntry,org/apache/commons/compress/archivers/zip/ZipFile//NameAndComment>//get [] [ze]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/io/BufferedInputStream
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/nio/file/Files
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/nio/ByteBuffer
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//getCompressedSize [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//Entry)) org/apache/commons/compress/archivers/zip/ZipFile//Entry//setTime [] [time]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//Entry)) org/apache/commons/compress/archivers/zip/ZipFile//Entry//setComment [] [call(select(ensure_not_nil(entryEncoding), decode!2dcfcbf77da22bb3290a2dcf338b4c85), [comment])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setCompressedSize [] [call(select(ensure_not_nil(call(select(ensure_not_nil(z64), getCompressedSize!d41d8cd98f00b204e9800998ecf8427e), [])), getLongValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/EnumSet
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/util/zip/ZipException
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipFile//Entry)) org/apache/commons/compress/archivers/zip/ZipFile//Entry//setCompressedSize [] [call(org/apache/commons/compress/archivers/zip/ZipLong//getValue!b88fafa2b0b36aed4d82151230ff9ae6, [select(this, CFH_BUF), off])]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java: error: unknown import
+	data: java/nio/channels/SeekableByteChannel
+src/main/java/org/apache/commons/compress/archivers/zip/ZipLong.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipMethod.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/zip/ZipMethod.java: error: unknown import
+	data: java/util/zip/ZipEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipMethod.java: error: unknown function
+	data: [struct(org/apache/commons/compress/archivers/zip/@@ZipMethod, [], [pointer(genericInstance(reference(java/lang/Enum), [pointer(reference(org/apache/commons/compress/archivers/zip/@@ZipMethod))]))], []) org/apache/commons/compress/archivers/zip/@@ZipMethod//@@constructor [] [org/apache/commons/compress/archivers/zip/@@ZipMethod//UNKNOWN_CODE]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipMethod.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/compress/archivers/zip/ZipShort.java: error: unknown function
+	data: [struct(java/lang/Object, [], [], []) java/lang/Object//clone [] []]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [from 0 to 0 len(ensure_not_nil(to))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [from 0 to offset len(ensure_not_nil(from))]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown import
+	data: java/util/Calendar
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown import
+	data: java/util/zip/CRC32
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown import
+	data: java/util/zip/ZipEntry
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown function
+	data: [pointer(reference(org/apache/commons/compress/archivers/zip/ZipArchiveEntry)) org/apache/commons/compress/archivers/zip/ZipArchiveEntry//setComment [] [newComment]]
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [org/apache/commons/compress/archivers/zip/ZipUtil//DOS_TIME_MIN 0 buf offset len(ensure_not_nil(org/apache/commons/compress/archivers/zip/ZipUtil//DOS_TIME_MIN))]]
+Found 1 Java files
+Found 341 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: found 11 symbols
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.matches: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.matches: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read: Internal error: unknown function:
+		&modelast.Call{
+		    Function: &modelast.Identifier{
+		        Name: "org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0",
+		    },
+		    Arguments: []modelast.Expression{
+		        &modelast.ExpressionUnary{
+		            CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(40, 419, 49), End:location.NewCompactFileLocationRaw(40, 419, 69)},
+		            Operator:         "&",
+		            X:                &modelast.LiteralComposite{
+		                Type: &modelast.TypeReference{
+		                    Name: "org/apache/commons/compress/archivers/zip/ZipMethod",
+		                },
+		                Values: []modelast.Expression{
+		                    &modelast.Literal{
+		                        Type: &modelast.TypePrimitive{
+		                            Kind: "string",
+		                            Size: 0x25,
+		                        },
+		                        Value: "UNSHRINKING",
+		                    },
+		                },
+		            },
+		        },
+		    },
+		}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25950}, {0x13dc340, 0xc000f8a280})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).ExpressionType(0xc000f8a280, 0xc002500a80)
+			gitlab.nethead.at/symflower/symflower/model/ast/function.go:1002 +0x297
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionUnary).ExpressionType(0xc001997680, 0xc002500a80)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:1258 +0x2a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunctionWithEffectiveReceiver(0xc002500a80, {0x2208dd0?, 0xc0019976b0})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:677 +0x182
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunction(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:662
+		gitlab.nethead.at/symflower/symflower/model/ast.VerifyCallForExpression(0x2208b10?, {0x2208590, 0xc000f8a230?})
+			gitlab.nethead.at/symflower/symflower/model/ast/verify.go:41 +0x53
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Verify(0xc001c4d580, 0xc002500a80)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:439 +0x8c
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkVerify.func2(0xc002500a80, {0x2203ad8, 0xc001c4d580})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:52 +0x6d
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Walk(0xc001c4d580, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:273 +0xa2
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Walk(0xc001c4d6c0, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:281 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Walk(0xc001c4d780, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:281 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc001c4d800, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1482 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc001c4d500, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1492 +0x20a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc001c4d400, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1492 +0x20a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc0000ff440, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Function).Walk(0xc000f6ea00, 0xc002500a80, 0x0, 0xc0010e6d30)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:900 +0x5df
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkVerify(0xc002500a80, {0x2203368, 0xc000f6ea00})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:46 +0x127
+		gitlab.nethead.at/symflower/symflower/model.(*Symbol).Verify(0xc000f6ea00, 0x2205728?)
+			gitlab.nethead.at/symflower/symflower/model/symbol.go:161 +0xf1
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc000f7e680, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:162 +0x668
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc000498c90, {0x21e8348, 0xc0001ea0a0}, 0xc000f60390)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc000498c90, 0xc000498cc0, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc00004c840?}, {0xf0?, 0x43?, 0x4?, 0x0?}, 0x2d?, {0xc000498210, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0001bdcd8, {0xc0001bd908?, 0x79cf7026c138?, 0xc0001bdcd8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0001bd908}, {0xc00003e050?, 0x0?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0001bd908?}, {0xc00003e050?, 0xc00007e988?, 0xc0004bbf10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: ==(call(select(ensure_not_nil(select(select(this, current), entry)), getMethod!d41d8cd98f00b204e9800998ecf8427e), []), call(select(ensure_not_nil(call(org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0, [&(composite(reference(org/apache/commons/compress/archivers/zip/ZipMethod), ["UNSHRINKING"]))])), getCode!d41d8cd98f00b204e9800998ecf8427e), []))
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.canReadEntryData: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.canReadEntryData: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.canReadEntryData: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.close: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.ZipArchiveInputStream: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry: Internal error: unknown function:
+		&modelast.Call{
+		    Function: &modelast.Identifier{
+		        Name: "org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0",
+		    },
+		    Arguments: []modelast.Expression{
+		        &modelast.ExpressionUnary{
+		            CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(40, 310, 46), End:location.NewCompactFileLocationRaw(40, 310, 66)},
+		            Operator:         "&",
+		            X:                &modelast.LiteralComposite{
+		                Type: &modelast.TypeReference{
+		                    Name: "org/apache/commons/compress/archivers/zip/ZipMethod",
+		                },
+		                Values: []modelast.Expression{
+		                    &modelast.Literal{
+		                        Type: &modelast.TypePrimitive{
+		                            Kind: "string",
+		                            Size: 0x25,
+		                        },
+		                        Value: "UNSHRINKING",
+		                    },
+		                },
+		            },
+		        },
+		    },
+		}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25950}, {0x13dc340, 0xc0004628c0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Call).ExpressionType(0xc0004628c0, 0xc00106d260)
+			gitlab.nethead.at/symflower/symflower/model/ast/function.go:1002 +0x297
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionUnary).ExpressionType(0xc00220a210, 0xc00106d260)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:1258 +0x2a
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunctionWithEffectiveReceiver(0xc00106d260, {0x2208dd0?, 0xc00220a240})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:677 +0x182
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetFunction(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:662
+		gitlab.nethead.at/symflower/symflower/model/ast.VerifyCallForExpression(0x2208b10?, {0x2208590, 0xc000462820?})
+			gitlab.nethead.at/symflower/symflower/model/ast/verify.go:41 +0x53
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Verify(0xc0026b12c0, 0xc00106d260)
+			gitlab.nethead.at/symflower/symflower/model/ast/expression.go:439 +0x8c
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkVerify.func2(0xc00106d260, {0x2203ad8, 0xc0026b12c0})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:52 +0x6d
+		gitlab.nethead.at/symflower/symflower/model/ast.(*ExpressionBinary).Walk(0xc0026b12c0, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:273 +0xa2
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc002d98600, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1482 +0x122
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc001c202d0, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementIf).Walk(0xc000b1dd80, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1487 +0x194
+		gitlab.nethead.at/symflower/symflower/model/ast.(*StatementBlock).Walk(0xc001c203f0, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:1379 +0x36b
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Function).Walk(0xc000f6e500, 0xc00106d260, 0x0, 0xc0009caba0)
+			gitlab.nethead.at/symflower/symflower/model/ast/walk_gen.go:900 +0x5df
+		gitlab.nethead.at/symflower/symflower/model/ast.WalkVerify(0xc00106d260, {0x2203368, 0xc000f6e500})
+			gitlab.nethead.at/symflower/symflower/model/ast/walk.go:46 +0x127
+		gitlab.nethead.at/symflower/symflower/model.(*Symbol).Verify(0xc000f6e500, 0x2205728?)
+			gitlab.nethead.at/symflower/symflower/model/symbol.go:161 +0xf1
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc0022aaee0, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:162 +0x668
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc000498c90, {0x21e8348, 0xc0001ea0a0}, 0xc000f60240)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc000498c90, 0xc000498cc0, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc00004c840?}, {0xf0?, 0x43?, 0x4?, 0x0?}, 0x2d?, {0xc000498210, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0001bdcd8, {0xc0001bd908?, 0x79cf7026c138?, 0xc0001bdcd8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0001bd908}, {0xc00003e050?, 0x0?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0001bd908?}, {0xc00003e050?, 0xc00007e988?, 0xc0004bbf10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+	
+	data: ==(call(select(ensure_not_nil(select(select(this, current), entry)), getMethod!d41d8cd98f00b204e9800998ecf8427e), []), call(select(ensure_not_nil(call(org/apache/commons/compress/archivers/zip/@@ZipMethod//@@box!cfc7bf444a25aa0d25fb13b1e7550ad0, [&(composite(reference(org/apache/commons/compress/archivers/zip/ZipMethod), ["UNSHRINKING"]))])), getCode!d41d8cd98f00b204e9800998ecf8427e), []))
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.skip: computing test cases
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.skip: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.skip: unknown type kind
+	data: unsupported(java/util/zip/Inflater)
+Analyzed 1 out of 37 source files
+Had 12 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 174 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 134 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 11 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 3 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 17 cases of "other issues"
+	Description: Uncategorized problems.
+

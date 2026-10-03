@@ -1,0 +1,896 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_17b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.guessX: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.compare: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiplyFast: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.DfpField: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.split: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeStringConstants: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computePi: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.DfpMath: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP, [], [pointer(reference(java/lang/Object))], []) LEFT_SIDE]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP, [], [pointer(reference(java/lang/Object))], []) BELOW_SIDE]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x start tmpX start -(end, start)]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y start y 0 nbPoints]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x signChangeIndex x +(signChangeIndex, 1) -(nbPoints, signChangeIndex)]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y signChangeIndex y +(signChangeIndex, 1) -(nbPoints, signChangeIndex)]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/analysis/solvers/AllowedSolution
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoBracketingException
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP, [], [pointer(reference(java/lang/Object))], []) ANY_SIDE]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x 1 x 0 nbPoints]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP, [], [pointer(reference(java/lang/Object))], []) RIGHT_SIDE]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP, [], [pointer(reference(java/lang/Object))], []) ABOVE_SIDE]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [y 1 y 0 nbPoints]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [x start x 0 nbPoints]]
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP))), org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP//solve!54b827fd98ee595455dad1fefe7c029d, [variable(maxEval, primitive(int, 32, false)), variable(f, reference(org/apache/commons/math3/dfp/UnivariateDfpFunction)), variable(min, pointer(reference(org/apache/commons/math3/dfp/Dfp))), variable(max, pointer(reference(org/apache/commons/math3/dfp/Dfp))), variable(startValue, pointer(reference(org/apache/commons/math3/dfp/Dfp))), variable(allowedSolution, unsupported(org/apache/commons/math3/analysis/solvers/AllowedSolution))], [variable(, pointer(reference(org/apache/commons/math3/dfp/Dfp)))], block([unsupported]))
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(int, 32, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(int, 32, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: error: not a named type
+	data: array(primitive(int, 32, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(int, 32, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: unsupported: unsupported type cast
+	data: cast(|(changed, !=(index(select(result, mant), i), 0)), primitive(bool, 0, false))
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(int, 32, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: expression does not have the same type as the targeted index type
+	data: make(array(primitive(int, 32, false), primitive(int, 32, false), 0), unsupported)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: unsupported AST node
+	data: &{0xc0009b6120 <nil> [] 0xc0009ba900 0xc0009a2480 {None [] [] None}}
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: error: unknown identifier
+	data: sqr2Split
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+Found 7 Java files
+Found 54 problems in Java files
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: found 19 symbols
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: found 36 symbols
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: found 20 symbols
+src/main/java/org/apache/commons/math3/dfp/UnivariateDfpFunction.java: found 1 symbols
+src/main/java/org/apache/commons/math3/dfp/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: found 9 symbols
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: found 68 symbols
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.getDecimalDigits: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.getDecimalDigits: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.getDecimalDigits: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.getDecimalDigits: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.nextAfter: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.nextAfter: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.nextAfter: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.nextAfter: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.round: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.round: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.round: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.round: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.DfpDec: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.DfpDec: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: org.apache.commons.math3.dfp.DfpDec.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpDec.java: internal error: org.apache.commons.math3.dfp.DfpDec.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.DfpField: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.DfpField: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.DfpField: found 0 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Reciprocal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Reciprocal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Reciprocal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getSqr2Reciprocal: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRuntimeClass: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRuntimeClass: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRuntimeClass: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getRuntimeClass: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setRoundingMode: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setRoundingMode: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setRoundingMode: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.setRoundingMode: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getZero: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getZero: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getZero: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getZero: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRoundingMode: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRoundingMode: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRoundingMode: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getRoundingMode: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getIEEEFlags: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getIEEEFlags: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getIEEEFlags: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getIEEEFlags: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getSqr2: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRadixDigits: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRadixDigits: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getRadixDigits: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getRadixDigits: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getSqr3: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.clearIEEEFlags: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.clearIEEEFlags: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.clearIEEEFlags: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.clearIEEEFlags: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getOne: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getOne: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getOne: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getOne: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2Split: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2Split: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2Split: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getLn2Split: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn10: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn10: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn10: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getLn10: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn2: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getLn2: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getESplit: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getESplit: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getESplit: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getESplit: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeExp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeExp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeExp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.computeExp: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPi: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPi: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPi: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getPi: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getE: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getE: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getE: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getE: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getTwo: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getTwo: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getTwo: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getTwo: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPiSplit: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPiSplit: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getPiSplit: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getPiSplit: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5Split: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5Split: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5Split: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getLn5Split: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlags: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlags: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlags: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.setIEEEFlags: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlagsBits: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlagsBits: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.setIEEEFlagsBits: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.setIEEEFlagsBits: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getLn5: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getLn5: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Split: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Split: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr2Split: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getSqr2Split: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.newDfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.newDfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3Reciprocal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3Reciprocal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.getSqr3Reciprocal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.getSqr3Reciprocal: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeLn: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeLn: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: org.apache.commons.math3.dfp.DfpField.computeLn: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpField.java: internal error: org.apache.commons.math3.dfp.DfpField.computeLn: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.atan: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.atan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.split: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.split: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.split: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.split: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.logInternal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.logInternal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.logInternal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.logInternal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitMult: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitMult: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitMult: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.splitMult: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sin: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sin: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sin: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.sin: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cos: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cos: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cos: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.cos: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.split: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.split: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: unsupported: org.apache.commons.math3.dfp.DfpMath.split: unsupported AST node
+	data: /(unsupported, 2)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitPow: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitPow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitPow: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.splitPow: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.atanInternal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.atanInternal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.atanInternal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.atanInternal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.asin: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.asin: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.asin: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.asin: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.log: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.log: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.log: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.log: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.tan: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.tan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.tan: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.tan: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cosInternal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cosInternal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.cosInternal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.cosInternal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitDiv: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitDiv: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.splitDiv: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.splitDiv: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.exp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.exp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.exp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.exp: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sinInternal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sinInternal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.sinInternal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.sinInternal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.pow: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.pow: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.pow: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.expInternal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.expInternal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.expInternal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.expInternal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.acos: computing test cases
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.acos: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: org.apache.commons.math3.dfp.DfpMath.acos: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/DfpMath.java: internal error: org.apache.commons.math3.dfp.DfpMath.acos: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/UnivariateDfpFunction.java: org.apache.commons.math3.dfp.UnivariateDfpFunction.value: computing test cases
+src/main/java/org/apache/commons/math3/dfp/UnivariateDfpFunction.java: org.apache.commons.math3.dfp.UnivariateDfpFunction.value: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getFunctionValueAccuracy: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getFunctionValueAccuracy: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getFunctionValueAccuracy: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.solve: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.solve: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getRelativeAccuracy: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getRelativeAccuracy: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getRelativeAccuracy: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaxEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaxEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaximalOrder: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaximalOrder: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getMaximalOrder: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getAbsoluteAccuracy: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getAbsoluteAccuracy: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getAbsoluteAccuracy: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.getEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.solve: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.solve: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.solve: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.BracketingNthOrderBrentSolverDFP: computing test cases
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.BracketingNthOrderBrentSolverDFP: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFP.java: internal error: org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFP.BracketingNthOrderBrentSolverDFP: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isInfinite: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isInfinite: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isInfinite: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.isInfinite: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.copysign: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.copysign: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.copysign: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.copysign: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.hashCode: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10K: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10K: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10K: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.log10K: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getTwo: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getTwo: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getTwo: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.getTwo: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.positiveOrNull: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.positiveOrNull: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.positiveOrNull: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.positiveOrNull: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.classify: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.classify: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.classify: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.classify: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.align: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.align: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.align: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.align: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.subtract: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.subtract: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2string: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2string: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2string: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.dfp2string: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negativeOrNull: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negativeOrNull: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negativeOrNull: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.negativeOrNull: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.rint: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.rint: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.rint: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.rint: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toSplitDouble: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toSplitDouble: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toSplitDouble: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.toSplitDouble: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getZero: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getZero: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getZero: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.getZero: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2sci: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2sci: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dfp2sci: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.dfp2sci: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.round: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.round: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.round: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.round: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.trap: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.trap: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.trap: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.trap: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isZero: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isZero: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isZero: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.isZero: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.divide: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.nextAfter: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.nextAfter: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.nextAfter: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.nextAfter: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toDouble: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toDouble: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toDouble: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.toDouble: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.ceil: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.ceil: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.ceil: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.ceil: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.add: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.add: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.add: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getField: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getField: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getField: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.getField: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.abs: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.abs: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.abs: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.abs: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toString: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.toString: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.toString: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10K: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10K: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10K: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.power10K: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.log10: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.log10: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftLeft: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftLeft: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftLeft: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.shiftLeft: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.equals: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.equals: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.equals: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.multiply: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.complement: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.complement: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.complement: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.complement: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.power10: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.power10: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyNegative: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyNegative: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyNegative: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.strictlyNegative: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.intValue: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.intValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.intValue: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.intValue: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getRadixDigits: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getRadixDigits: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getRadixDigits: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.getRadixDigits: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getOne: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getOne: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.getOne: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.getOne: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.unequal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.unequal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.unequal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.unequal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.sqrt: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.sqrt: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.sqrt: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.sqrt: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyPositive: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyPositive: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.strictlyPositive: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.strictlyPositive: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.trunc: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.trunc: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negate: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negate: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.negate: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.negate: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.greaterThan: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.greaterThan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.greaterThan: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.greaterThan: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftRight: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftRight: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.shiftRight: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.shiftRight: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.reciprocal: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.reciprocal: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.reciprocal: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.reciprocal: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.remainder: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.remainder: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.remainder: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.remainder: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.Dfp: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.Dfp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/dfp/DfpField, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/Field), [pointer(reference(org/apache/commons/math3/dfp/Dfp))])])), @m_0_0), sqr2Split), nil) array(pointer(reference(org/apache/commons/math3/dfp/Dfp)), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isNaN: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isNaN: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.isNaN: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.isNaN: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.floor: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.floor: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.floor: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.floor: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.lessThan: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.lessThan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.lessThan: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.lessThan: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.multiply: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.newInstance: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.newInstance: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.divide: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.divide: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dotrap: computing test cases
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dotrap: computed 0 unit tests
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: org.apache.commons.math3.dfp.Dfp.dotrap: found 1 problems
+src/main/java/org/apache/commons/math3/dfp/Dfp.java: internal error: org.apache.commons.math3.dfp.Dfp.dotrap: not a struct type
+	data: unsupported(org/apache/commons/math3/FieldElement)
+Analyzed 7 out of 7 source files
+Had 17 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 55 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 11 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 7 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 111 cases of "other issues"
+	Description: Uncategorized problems.
+

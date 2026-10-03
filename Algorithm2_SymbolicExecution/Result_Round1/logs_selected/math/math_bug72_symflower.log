@@ -1,0 +1,259 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_72b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/BisectionSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/BisectionSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/BrentSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/BrentSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/BrentSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/polynomials/PolynomialFunction
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/complex/Complex
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) iterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) iterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/LaguerreSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: internal error: type does not support nil values
+	data: unsupported(org/apache/commons/math/analysis/polynomials/PolynomialFunction)
+src/main/java/org/apache/commons/math/analysis/solvers/LaguerreSolver.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [c 0 subarray 0 len(ensure_not_nil(subarray))]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [-(*(b, b), delta)]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//random [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/MullerSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/analysis/solvers/MullerSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/NewtonSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/NewtonSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/NewtonSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [delta]]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/RiddersSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/RiddersSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/RiddersSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/RiddersSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/SecantSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) maximalIterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/SecantSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) absoluteAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown function
+	data: [struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl//@@constructor [] []]
+src/main/java/org/apache/commons/math/analysis/solvers/SecantSolver.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/SecantSolver, [], [pointer(reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl))], []) relativeAccuracy]
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java: error: unknown import
+	data: org/apache/commons/math/ConvergingAlgorithm
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown field
+	data: [this struct(org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl, [], [unsupported(org/apache/commons/math/ConvergingAlgorithmImpl)], [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)]) iterationCount]
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown import
+	data: org/apache/commons/math/ConvergingAlgorithmImpl
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java: error: unknown function
+	data: [reference(org/apache/commons/math/analysis/solvers/UnivariateRealSolver) org/apache/commons/math/analysis/solvers/UnivariateRealSolver//setAbsoluteAccuracy [] [absoluteAccuracy]]
+Found 1 Java files
+Found 105 problems in Java files
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: found 6 symbols
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: found 1 problems
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: org.apache.commons.math.analysis.solvers.BrentSolver.solve: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/UnivariateRealFunction)
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver: found 1 problems
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/UnivariateRealFunction)
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: found 1 problems
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: org.apache.commons.math.analysis.solvers.BrentSolver.solve: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/UnivariateRealFunction)
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.BrentSolver: computed 0 unit tests
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: found 1 problems
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: org.apache.commons.math.analysis.solvers.BrentSolver.solve: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/UnivariateRealFunction)
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: computing test cases
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: org.apache.commons.math.analysis.solvers.BrentSolver.solve: found 1 problems
+src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java: internal error: org.apache.commons.math.analysis.solvers.BrentSolver.solve: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/UnivariateRealFunction)
+Analyzed 1 out of 10 source files
+Had 33 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 46 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 16 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 14 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

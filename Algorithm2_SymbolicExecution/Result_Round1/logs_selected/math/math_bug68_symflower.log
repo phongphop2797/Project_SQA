@@ -1,0 +1,321 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_68b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.determineLMParameter: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.determineLMDirection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.qrDecomposition: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.qTy: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.findUpperBound: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.IdentityPreconditioner.precondition: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.LineSearchFunction.LineSearchFunction: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.LineSearchFunction.value: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxEvaluationsExceededException
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/InvalidMatrixException
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/MatrixUtils
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/VectorialConvergenceChecker
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/VectorialPointValuePair
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [select(this, cost)]]
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(call(select(this, getChiSquare!d41d8cd98f00b204e9800998ecf8427e), []), cast(-(select(this, rows), select(this, cols)), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/LUDecompositionImpl
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/SimpleVectorialValueChecker
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [/(criterion, cast(select(this, rows), primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableMultivariateVectorialFunction
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/MultivariateMatrixFunction
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateVectorialOptimizer
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(select(this, residualsWeights), i)]]
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [index(index(covar, i), i)]]
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/MultivariateVectorialFunction
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealPointValuePair
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxEvaluationsExceededException
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/DifferentiableMultivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/GoalType
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealConvergenceChecker
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateRealOptimizer
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/SimpleScalarValueChecker
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/BlockRealMatrix
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/DecompositionSolver
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/LUDecompositionImpl
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/RealMatrix
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/VectorialPointValuePair
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/InvalidMatrixException
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: error: unknown import
+	data: org/apache/commons/math/linear/QRDecompositionImpl
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [lmNorm]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: not all elements have the same type
+	data: primitive(float, 64, false) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [dxNorm]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [dxNorm]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(1.0, *(cotan, cotan))]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(1.0, *(tan, tan))]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [ak2]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [select(this, lmPar)]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [norm2]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [sum2]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [ak2]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown identifier
+	data: alpha
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/VectorialPointValuePair
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNorm]]
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [xNorm]]
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/GoalType
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/DifferentiableMultivariateRealOptimizer
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealPointValuePair
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer))), org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer//doOptimize!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, unsupported(org/apache/commons/math/optimization/RealPointValuePair))], block([unsupported]))
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/BrentSolver
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/ConvergenceException
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/UnivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/solvers/UnivariateRealSolver
+src/main/java/org/apache/commons/math/optimization/general/Preconditioner.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+Found 7 Java files
+Found 78 problems in Java files
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: found 19 symbols
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: found 15 symbols
+src/main/java/org/apache/commons/math/optimization/general/ConjugateGradientFormula.java: found 0 symbols
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: found 2 symbols
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: found 6 symbols
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: found 5 symbols
+src/main/java/org/apache/commons/math/optimization/general/Preconditioner.java: found 1 symbols
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setLineSearchSolver: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setLineSearchSolver: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: internal error: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setLineSearchSolver: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setInitialStep: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setInitialStep: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: internal error: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setInitialStep: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: internal error: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.NonLinearConjugateGradientOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setPreconditioner: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setPreconditioner: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: internal error: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.setPreconditioner: unknown type kind
+	data: unsupported(org/apache/commons/math/analysis/solvers/UnivariateRealSolver)
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/NonLinearConjugateGradientOptimizer.java: org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizer.doOptimize: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/Preconditioner.java: org.apache.commons.math.optimization.general.Preconditioner.precondition: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/Preconditioner.java: org.apache.commons.math.optimization.general.Preconditioner.precondition: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getCovariances: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getCovariances: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.guessParametersErrors: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.guessParametersErrors: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.AbstractLeastSquaresOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.AbstractLeastSquaresOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getJacobianEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getJacobianEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.updateResidualsAndCost: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.updateResidualsAndCost: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.incrementIterationsCounter: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.incrementIterationsCounter: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getChiSquare: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getChiSquare: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.updateJacobian: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.updateJacobian: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.doOptimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.setConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getRMS: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.getRMS: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.doOptimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.computeObjectiveGradient: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.computeObjectiveGradient: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.setMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.computeObjectiveValue: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.computeObjectiveValue: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getGradientEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getGradientEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.AbstractScalarDifferentiableOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.AbstractScalarDifferentiableOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.incrementIterationsCounter: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.incrementIterationsCounter: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/AbstractScalarDifferentiableOptimizer.java: org.apache.commons.math.optimization.general.AbstractScalarDifferentiableOptimizer.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.doOptimize: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: internal error: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.doOptimize: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.GaussNewtonOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.GaussNewtonOptimizer: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java: internal error: org.apache.commons.math.optimization.general.GaussNewtonOptimizer.GaussNewtonOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setOrthoTolerance: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setOrthoTolerance: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setOrthoTolerance: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setParRelativeTolerance: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setParRelativeTolerance: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setParRelativeTolerance: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setCostRelativeTolerance: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setCostRelativeTolerance: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setCostRelativeTolerance: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setInitialStepBoundFactor: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setInitialStepBoundFactor: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.setInitialStepBoundFactor: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer: found 1 problems
+src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java: internal error: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.LevenbergMarquardtOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/VectorialConvergenceChecker)
+Analyzed 7 out of 7 source files
+Had 11 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 48 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 17 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 11 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

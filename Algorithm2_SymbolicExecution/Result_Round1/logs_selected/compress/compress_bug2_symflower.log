@@ -1,0 +1,154 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_2b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.writeArchiveHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.fill: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.writeEntryHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveInputStream
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: internal error: not all elements have the same type
+	data: [function(variable(this, pointer(reference(org/apache/commons/compress/archivers/ar/ArArchiveInputStream))), org/apache/commons/compress/archivers/ar/ArArchiveInputStream//getNextArEntry!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/compress/archivers/ar/ArArchiveEntry)))], block([never_nil(this), if(==(select(this, offset), 0), block([declaration([expected], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [call(select(ensure_not_nil(org/apache/commons/compress/archivers/ar/ArArchiveEntry//HEADER), getBytes!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), declaration([realized], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), len(ensure_not_nil(expected)))], Modifier(1048584)), declaration([read], [primitive(int, 32, false)], [call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [realized])], Modifier(1048584)), if(!=(read, len(ensure_not_nil(expected))), block([throw(call(java/io/IOException//IOException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["failed to read header"])]))]), %!s(<nil>)), block([declaration([i], [primitive(int, 32, false)], [0], ModifierVisibilityPublic), loop(<(i, len(ensure_not_nil(expected))), block([if(!=(index(expected, i), index(realized, i)), block([throw(call(java/io/IOException//IOException!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["invalid header "]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!2dcfcbf77da22bb3290a2dcf338b4c85, [realized])])]))]), %!s(<nil>))]), block([x++(i)]), %!s(<nil>))])]), %!s(<nil>)), if(==(call(select(ensure_not_nil(select(this, input)), available!d41d8cd98f00b204e9800998ecf8427e), []), 0), block([return([nil])]), %!s(<nil>)), if(!=(rem(select(this, offset), 2), 0), block([call(select(this, read!d41d8cd98f00b204e9800998ecf8427e), [])]), %!s(<nil>)), declaration([name], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 16)], Modifier(1048584)), declaration([lastmodified], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 12)], Modifier(1048584)), declaration([userid], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 6)], Modifier(1048584)), declaration([groupid], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 6)], Modifier(1048584)), declaration([filemode], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 8)], Modifier(1048584)), declaration([length], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), 10)], Modifier(1048584)), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [name]), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [lastmodified]), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [userid]), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [groupid]), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [filemode]), call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [length]), block([declaration([expected], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [call(select(ensure_not_nil(org/apache/commons/compress/archivers/ar/ArArchiveEntry//TRAILER), getBytes!d41d8cd98f00b204e9800998ecf8427e), [])], Modifier(1048584)), declaration([realized], [array(primitive(int, 8, false), primitive(int, 32, false), 0)], [make(array(primitive(int, 8, false), primitive(int, 32, false), 0), len(ensure_not_nil(expected)))], Modifier(1048584)), declaration([read], [primitive(int, 32, false)], [call(select(this, read!2dcfcbf77da22bb3290a2dcf338b4c85), [realized])], Modifier(1048584)), if(!=(read, len(ensure_not_nil(expected))), block([throw(call(java/io/IOException//IOException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["failed to read entry header"])]))]), %!s(<nil>)), block([declaration([i], [primitive(int, 32, false)], [0], ModifierVisibilityPublic), loop(<(i, len(ensure_not_nil(expected))), block([if(!=(index(expected, i), index(realized, i)), block([throw(call(java/io/IOException//IOException!efbb7192f0412fb225b1065a0117385c, [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["invalid entry header. not read the content?"])]))]), %!s(<nil>))]), block([x++(i)]), %!s(<nil>))])]), return([call(org/apache/commons/compress/archivers/ar/ArArchiveEntry//ArArchiveEntry!e0388fa74027475205d416633dda13ef, [call(select(call(java/lang/String//String!2dcfcbf77da22bb3290a2dcf338b4c85, [name]), trim!d41d8cd98f00b204e9800998ecf8427e), []), call(java/lang/Long//parseLong!efbb7192f0412fb225b1065a0117385c, [call(select(call(java/lang/String//String!2dcfcbf77da22bb3290a2dcf338b4c85, [length]), trim!d41d8cd98f00b204e9800998ecf8427e), [])])])])])) return([call(select(this, getNextArEntry!d41d8cd98f00b204e9800998ecf8427e), [])])]
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//getBytes [] ["ascii"]]
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveOutputStream
+Found 3 Java files
+Found 8 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: found 10 symbols
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: found 8 symbols
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: found 7 symbols
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getName: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getGroupId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getGroupId: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getGroupId: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLastModified: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLastModified: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLastModified: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLength: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLength: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getLength: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.isDirectory: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.isDirectory: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.isDirectory: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getSize: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getUserId: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getUserId: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getUserId: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getMode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.getMode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: org.apache.commons.compress.archivers.ar.ArArchiveEntry.ArArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: found 2 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:138:27: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:143:25: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:143:25: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.close: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:127:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.close: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:79:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: computed 19 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: found 9 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:154:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:157:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:160:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:163:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:154:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:166:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:169:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:172:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:175:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.ArArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.ArArchiveInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.ArArchiveInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java:132:25: critical: org.apache.commons.compress.archivers.ar.ArArchiveInputStream.read: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:149:9: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:154:9: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.close: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.close: found 2 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:165:9: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.close: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:52:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.close: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.ArArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.ArArchiveOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.ArArchiveOutputStream: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.closeArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.closeArchiveEntry: computed 4 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.closeArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:52:13: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.closeArchiveEntry: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java:159:9: critical: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.write: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.putArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.putArchiveEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.putArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: unsupported: org.apache.commons.compress.archivers.ar.ArArchiveOutputStream.putArchiveEntry: encountered an unsupported type
+	data: unsupported(org/apache/commons/compress/archivers/ArchiveEntry)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntrySymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStreamSymflowerTest.java
+Analyzed 3 out of 3 source files
+Had 0 errors that block a full analysis
+Generated 44 tests
+Found 21 potential problems
+The following issues prevent a full analysis:
+
+* 5 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 2 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

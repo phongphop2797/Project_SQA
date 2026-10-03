@@ -1,0 +1,697 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/compress_20b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.checkNewFormat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.checkOldFormat: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.closeEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.ensureOpen: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readFully: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readBinaryLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readAsciiLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readNewEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readOldAsciiEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readOldBinaryEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.readCString: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skipRemainderOfLastBlock: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.ensureOpen: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeHeader: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeNewEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeOldAsciiEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeOldBinaryEntry: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.pad: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeBinaryLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeAsciiLong: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.writeCString: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown import
+	data: java/util/Date
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown function
+	data: [<nil> getBytesRead [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown function
+	data: [<nil> count [] [count]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: java/io/EOFException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveInputStream
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/ArchiveUtils
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, TWO_BYTES_BUF) 0 select(this, SIX_BYTES_BUF) 0 len(ensure_not_nil(select(this, TWO_BYTES_BUF)))]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//insert [] [0 "0"]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//substring [] [-(call(select(ensure_not_nil(tmp), length!d41d8cd98f00b204e9800998ecf8427e), []), length)]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [6]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [6]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [len(ensure_not_nil(tmp))]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [len(ensure_not_nil(b))]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveEntry
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/archivers/ArchiveOutputStream
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//currentTimeMillis [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [6]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [+(len(ensure_not_nil(b)), 1)]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: java/io/File
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown import
+	data: org/apache/commons/compress/utils/ArchiveUtils
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/HashMap), [pointer(reference(java/lang/String)), pointer(reference(org/apache/commons/compress/archivers/cpio/CpioArchiveEntry))])
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [len]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> getBytesWritten [] []]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: error: unknown function
+	data: [<nil> count [] [count]]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [number 0 tmp_number 0 len(ensure_not_nil(number))]]
+Found 5 Java files
+Found 32 problems in Java files
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: found 53 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: found 9 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: found 9 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioConstants.java: found 0 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: found 3 symbols
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDataPadCount: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDataPadCount: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDataPadCount: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getInode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:365:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDevice: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setNumberOfLinks: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:365:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDevice: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMaj: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: found 2 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: info: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.007485334s, CPUTimeUser:9.973798s, CPUTimeSystem:27.993ms, MemoryUsage:54968}}
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:721:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setSize: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMaj: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getUID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:365:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDevice: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setDeviceMin: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setTime: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 5 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:223:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: uncaught java.lang.IllegalArgumentException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getTime: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSocket: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: computed 8 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setMode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getGID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:365:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDevice: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getChksum: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isRegularFile: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getLastModifiedDate: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getLastModifiedDate: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getLastModifiedDate: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setInode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMin: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setUID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.hashCode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.hashCode: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.hashCode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getRemoteDeviceMin: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isNetwork: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getSize: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: computed 3 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getNumberOfLinks: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isCharacterDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isSymbolicLink: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setChksum: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMin: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderSize: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isBlockDevice: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isPipe: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getDeviceMaj: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getAlignmentBoundary: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getAlignmentBoundary: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getAlignmentBoundary: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java:356:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setRemoteDeviceMaj: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.equals: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.equals: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.equals: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.isDirectory: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setGID: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.setName: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: unsupported: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: encountered an unsupported type
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: unsupported: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.CpioArchiveEntry: encountered an unsupported type
+	data: unsupported(java/io/File)
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getFormat: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderPadCount: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderPadCount: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getHeaderPadCount: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: computed 3 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: org.apache.commons.compress.archivers.cpio.CpioArchiveEntry.getMode: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.available: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.CpioArchiveInputStream: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextCPIOEntry: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.getNextEntry: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.read: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.close: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.skip: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream, [], [unsupported(org/apache/commons/compress/archivers/ArchiveInputStream)], [reference(org/apache/commons/compress/archivers/cpio/CpioConstants)])), @m_0_0), tmpbuf), nil) array(primitive(int, 8, false), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: computed 22 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: found 8 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:488:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:488:38: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:491:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:488:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:503:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:506:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:509:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java:513:13: critical: org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream.matches: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.close: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc000869c70})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc0013b4300, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc000852b60, 0xc000ccb400, {0x2209770, 0xc000bd99a0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc000852b60, 0xc000ccb400, {0x140aaeb, 0x4}, {0x2205728?, 0xc000bf7660?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc000852b60, 0xc0013b4300, 0xc0009e4100)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc0008a5760, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d27e0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.putArchiveEntry: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc0008009a0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc000e20f00, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc000ceaf70, 0xc0009e5800, {0x2209770, 0xc000bd8b40})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc000ceaf70, 0xc0009e5800, {0x140aaeb, 0x4}, {0x2205728?, 0xc000bf6b20?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc000ceaf70, 0xc000e20f00, 0xc0009dd800)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc000d85e80, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d2660)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.finish: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc000a7d830})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc000e215c0, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc0004c65b0, 0xc0009e5d00, {0x2209770, 0xc000bd8f50})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc0004c65b0, 0xc0009e5d00, {0x140aaeb, 0x4}, {0x2205728?, 0xc000bf7540?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc0004c65b0, 0xc000e215c0, 0xc0009e4000)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc000760520, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d27b0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.closeArchiveEntry: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc000af2790})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc000e21bc0, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc0004c7860, 0xc0003de200, {0x2209770, 0xc000bd9540})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc0004c7860, 0xc0003de200, {0x140aaeb, 0x4}, {0x2205728?, 0xc000bf72e0?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc0004c7860, 0xc000e21bc0, 0xc0009ddd00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc0007d8d00, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d2750)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: computed 0 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.CpioArchiveOutputStream: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.createArchiveEntry: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.createArchiveEntry: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.createArchiveEntry: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc000d2a8c0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc000b55620, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc0007232b0, 0xc00149aa00, {0x2209770, 0xc000d37c70})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc0007232b0, 0xc00149aa00, {0x140aaeb, 0x4}, {0x2205728?, 0xc000922920?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc0007232b0, 0xc000b55620, 0xc0009e4700)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc0005ef6a0, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d28d0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: found 1 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java: internal error: org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream.write: recovered panic
+	data: Internal error: unknown type kind:
+		&modelast.Unsupported{}
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a10}, {0x13d4da0, 0xc0009f17c0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/ast.zeroValue(0xc000b55e00, {0x2205608, 0xc000435f40}, 0x2088960, 0x2088978)
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:476 +0xefb
+		gitlab.nethead.at/symflower/symflower/model/ast.ZeroValue(0x12ba4a0?, {0x2205608?, 0xc000435f40?})
+			gitlab.nethead.at/symflower/symflower/model/ast/value.go:378 +0x2b
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).setInvisibleAndFinalFieldsToDefaultValue(0xc000bb24e0, 0xc00149af00, {0x2209770, 0xc000d30190})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:223 +0x2b5
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).createDeclaration(0xc000bb24e0, 0xc00149af00, {0x140aaeb, 0x4}, {0x2205728?, 0xc000bf7400?}, {0x0, 0x0})
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:4760 +0x62d
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.(*symflowerExecution).handleSymbol(0xc000bb24e0, 0xc000b55e00, 0xc0009dde00)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/handle.go:55 +0x645
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.analyzeInternal(0xc0007fe700, 0x2088c88)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:209 +0xe38
+		gitlab.nethead.at/symflower/symflower/symbolicexecution.AnalyzeResult(0x2d49d00?)
+			gitlab.nethead.at/symflower/symflower/symbolicexecution/analyze.go:55 +0x32
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).SymbolicExecutionTestsForSymbol(0xc0000beed0, {0x21e8348, 0xc000d37540}, 0xc0009d2780)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:236 +0x3a5
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Tests(0xc0000beed0, 0xc0000bef00, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:190 +0x2d3
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:157 +0x98
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: computed 2 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: found 2 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:47:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:48:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.byteArray2long: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.fileType: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.fileType: computed 1 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.fileType: found 0 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: computing test cases
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: computed 5 unit tests
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: found 3 problems
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:89:22: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught NegativeArraySizeException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:94:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught java.lang.UnsupportedOperationException
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java:94:13: critical: org.apache.commons.compress.archivers.cpio.CpioUtil.long2byteArray: uncaught java.lang.UnsupportedOperationException
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java: could not generate unit test file for "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(1, 159, 23), End:location.NewCompactFileLocationRaw(1, 159, 39)},
+	    Name:             "alignmentBoundary",
+	    Type:             &modelast.TypePrimitive{
+	        Kind: "int",
+	        Size: 0x20,
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc0009b3e00})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0004617a0, {0x2205848?, 0xc000b76740?}, {0x21f7de8, 0xc000721980}, {0x2208850, 0xc00067d300})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0004617a0, {0x21f7de8, 0xc000721980}, {0x2205848?, 0xc000b76720?}, {0x2208850, 0xc00067d300})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004617a0, {0x21f7de8, 0xc000721980}, {0x2205848?, 0xc000b766e0?}, {0x2208850, 0xc00067d300})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004617a0, {0x21f7de8, 0xc000721980}, {0x2205728?, 0xc000965880?}, {0x22089b0, 0xc0010f0990})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0004617a0, {0x2205728, 0xc000965880}, {0x14113cd, 0x8}, {0x22089b0, 0xc0010f0990}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).expressionExpected(0xc000aa55c0, 0xc0006e2b40?, {0x22089b0, 0xc0010f0990}, {0x2205728, 0xc000965880}, {0x14113cd, 0x8}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:177 +0x27a
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).returnArgumentInitialization(0xc000aa55c0, 0xc0006e2b40, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0x21f7e40, 0xc0017401a0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:229 +0x429
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc000aa55c0, 0xc00002fc40, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:387 +0x1365
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc000aa55c0, 0xc00141d3e0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc0009b9290, 0xc00002fc40)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc001470ff0?, 0xc00053e0b0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc000b76460, {0xc00045db08, 0x4b, 0x1d?}, {0xc0001254e0?, 0xc0012610c8?}, 0xa8b5f9?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc000b76460, {0xc000a73b08, 0x4b, 0x8f})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc0001b73ae, 0x4e})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc0001c0c90, 0x2e}, 0xc001470ed0, {0xc000aa4ec0?, 0x1?, 0xc001261a00?}, 0x1, 0xc001261b08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc0000beed0, 0xc000d2eba0, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc0000beed0?, 0xc0000bef00?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x2d?, 0x124bba0?, {0x21eb890?, 0xc000188960?}, {0x50?, 0x7?, 0x1c?, 0x0?}, 0x2d?, {0xc0000be450, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0005143d8, {0xc000514008?, 0x7d5f1c57e9b8?, 0xc0005143d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000514008}, {0xc00019e000?, 0x44?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000514008?}, {0xc00019e000?, 0xc00007e000?, 0xc00012df10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java: generated unit test file src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtilSymflowerTest.java
+Analyzed 5 out of 5 source files
+Had 1 error that blocks a full analysis
+Generated 105 tests
+Found 29 potential problems
+The following issues prevent a full analysis:
+
+* 18 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 12 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 9 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "other issues"
+	Description: Uncategorized problems.
+

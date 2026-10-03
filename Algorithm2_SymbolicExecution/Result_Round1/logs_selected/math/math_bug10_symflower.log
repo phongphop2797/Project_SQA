@@ -1,0 +1,341 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_10b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.DSCompiler: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compileSizes: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compileDerivativesIndirection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compileLowerIndirection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compileMultiplicationIndirection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compileCompositionIndirection: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeIndex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.convertIndex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(valueCompiler, lowerIndirection) 0 lowerIndirection 0 vSize]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [array(primitive(int, 32, false), primitive(int, 32, false), 0)] [call(select(ensure_not_nil(row), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(derivativesIndirection, index(derivedTermG, j)) 0 orders 0 parameters]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [array(primitive(int, 32, false), primitive(int, 32, false), 0)])) java/util/List<array(primitive(int, 32, false), primitive(int, 32, false))>//toArray [] [call(function(<nil>, , [variable(@@sfl_n0, primitive(int, 32, false))], [variable(, array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0))], block([declaration([@@sfl_out], [array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [nil], ModifierNone), =(@@sfl_out, make(array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0), @@sfl_n0)), declaration([@@sfl_i0], [primitive(int, 32, false)], [0], ModifierNone), loop(<(@@sfl_i0, @@sfl_n0), block([=(index(@@sfl_out, @@sfl_i0), nil)]), =(@@sfl_i0, +(@@sfl_i0, 1)), %!s(<nil>)), return([@@sfl_out])])), [call(select(ensure_not_nil(combined), size!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(cache, i) 0 index(newCache, i) 0 len(ensure_not_nil(index(cache, i)))]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(valueCompiler, multIndirection) 0 multIndirection 0 vSize]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [array(primitive(int, 32, false), primitive(int, 32, false), 0)] [call(select(ensure_not_nil(row), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: unsupported: unsupported type cast
+	data: cast(&(equals, ==(index(termJ, l), index(termK, l))), primitive(bool, 0, false))
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(srcDerivativesIndirection, index) 0 orders 0 unsupported]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: unsupported: encountered an unsupported type
+	data: unsupported(java/util/concurrent/atomic/AtomicReference)
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(valueCompiler, compIndirection) 0 compIndirection 0 vSize]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: org/apache/commons/math3/util/MathArrays
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/concurrent/atomic/AtomicReference), [array(array(pointer(reference(org/apache/commons/math3/analysis/differentiation/DSCompiler)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)])
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(valueCompiler, sizes) 0 sizes 0 parameters]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [array(primitive(int, 32, false), primitive(int, 32, false), 0)])) java/util/List<array(primitive(int, 32, false), primitive(int, 32, false))>//toArray [] [call(function(<nil>, , [variable(@@sfl_n0, primitive(int, 32, false))], [variable(, array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0))], block([declaration([@@sfl_out], [array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)], [nil], ModifierNone), =(@@sfl_out, make(array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0), @@sfl_n0)), declaration([@@sfl_i0], [primitive(int, 32, false)], [0], ModifierNone), loop(<(@@sfl_i0, @@sfl_n0), block([=(index(@@sfl_out, @@sfl_i0), nil)]), =(@@sfl_i0, +(@@sfl_i0, 1)), %!s(<nil>)), return([@@sfl_out])])), [call(select(ensure_not_nil(combined), size!d41d8cd98f00b204e9800998ecf8427e), [])])]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(valueCompiler, derivativesIndirection), i) 0 index(derivativesIndirection, i) 0 -(parameters, 1)]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [index(select(derivativeCompiler, derivativesIndirection), i) 0 index(derivativesIndirection, +(vSize, i)) 0 parameters]]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateVectorFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateMatrixFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/analysis/differentiation/GradientFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateVectorFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/JacobianFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateMatrixFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableFunction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableVectorFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/MultivariateVectorFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableVectorFunction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableFunction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableMatrixFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateMatrixFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableMatrixFunction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableVectorFunction.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateVectorFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableVectorFunction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateFunctionDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateMatrixFunctionDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateMatrixFunction
+src/main/java/org/apache/commons/math3/analysis/differentiation/UnivariateVectorFunctionDifferentiator.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateVectorFunction
+Found 1 Java files
+Found 56 problems in Java files
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: found 39 symbols
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acos: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acos: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acos: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.acos: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sinh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sinh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sinh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.sinh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log1p: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log1p: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log1p: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.log1p: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.cos: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.cos: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: unsupported: org.apache.commons.math3.analysis.differentiation.DSCompiler.cos: unsupported AST node
+	data: -(unsupported)
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tanh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tanh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tanh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.tanh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.checkCompatibility: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.checkCompatibility: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.checkCompatibility: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.checkCompatibility: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atanh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atanh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atanh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.atanh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log10: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log10: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log10: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.log10: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acosh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acosh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.acosh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.acosh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan2: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan2: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan2: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.atan2: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.rootN: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.rootN: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.rootN: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.rootN: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getSize: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getSize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getSize: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.getSize: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.divide: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.divide: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.divide: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.divide: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sin: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sin: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.sin: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.sin: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.taylor: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.taylor: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: unsupported: org.apache.commons.math3.analysis.differentiation.DSCompiler.taylor: unsupported AST node
+	data: /(unsupported, unsupported)
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.remainder: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.remainder: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.remainder: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.remainder: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.expm1: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.expm1: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.expm1: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.expm1: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.subtract: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.subtract: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.pow: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.cosh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.cosh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.cosh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.cosh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.add: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.add: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.add: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.multiply: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.multiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.multiply: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.linearCombination: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getFreeParameters: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getFreeParameters: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getFreeParameters: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.getFreeParameters: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.exp: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.exp: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.exp: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.exp: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asin: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asin: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asin: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.asin: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asinh: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asinh: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.asinh: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.asinh: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compose: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compose: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.compose: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.compose: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeOrders: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeOrders: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeOrders: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeOrders: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.log: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.log: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeIndex: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeIndex: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeIndex: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.getPartialDerivativeIndex: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getOrder: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getOrder: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getOrder: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.getOrder: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tan: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tan: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.tan: found 1 problems
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: internal error: org.apache.commons.math3.analysis.differentiation.DSCompiler.tan: unknown type kind
+	data: [==(select(VariableReference(@m_0, pointer(struct(org/apache/commons/math3/analysis/differentiation/DSCompiler, [], [pointer(reference(java/lang/Object))], [])), @m_0_0), sizes), nil) array(array(primitive(int, 32, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)]
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getCompiler: computing test cases
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getCompiler: computed 0 unit tests
+src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java: org.apache.commons.math3.analysis.differentiation.DSCompiler.getCompiler: found 0 problems
+Analyzed 1 out of 13 source files
+Had 5 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 36 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 35 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 13 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

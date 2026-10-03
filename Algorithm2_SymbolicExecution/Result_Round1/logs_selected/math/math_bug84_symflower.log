@@ -1,0 +1,134 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_84b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.buildSimplex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.evaluateNewSimplex: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/analysis/MultivariateRealFunction
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/MultivariateRealOptimizer
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, simplex) 0 previous 0 len(ensure_not_nil(select(this, simplex)))]]
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxIterationsExceededException
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealConvergenceChecker
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/SimpleScalarValueChecker
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [steps 0 vertexI 0 +(j, 1)]]
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/MaxEvaluationsExceededException
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/GoalType
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealPointValuePair
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math/optimization/direct/DirectSearchOptimizer))), org/apache/commons/math/optimization/direct/DirectSearchOptimizer//optimize!dbf7333d6838f5df64376550ff78a248, [variable(f, unsupported(org/apache/commons/math/analysis/MultivariateRealFunction)), variable(goalType, unsupported(org/apache/commons/math/optimization/GoalType)), variable(startPoint, array(primitive(float, 64, false), primitive(int, 32, false), 0))], [variable(, unsupported(org/apache/commons/math/optimization/RealPointValuePair))], block([unsupported]))
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealConvergenceChecker
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealPointValuePair
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: error: unknown import
+	data: org/apache/commons/math/FunctionEvaluationException
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: error: unknown import
+	data: org/apache/commons/math/optimization/OptimizationException
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: error: unknown import
+	data: org/apache/commons/math/optimization/RealPointValuePair
+Found 3 Java files
+Found 22 problems in Java files
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: found 17 symbols
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: found 3 symbols
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: found 3 symbols
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: internal error: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: internal error: org.apache.commons.math.optimization.direct.NelderMead.NelderMead: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.iterateSimplex: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: org.apache.commons.math.optimization.direct.NelderMead.iterateSimplex: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/NelderMead.java: internal error: org.apache.commons.math.optimization.direct.NelderMead.iterateSimplex: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluate: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluate: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.replaceWorstPoint: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.replaceWorstPoint: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.DirectSearchOptimizer: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.DirectSearchOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getMaxIterations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getMaxIterations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluateSimplex: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.evaluateSimplex: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.getConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setStartConfiguration: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.setConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.incrementIterationsCounter: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.incrementIterationsCounter: computed 0 unit tests
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.iterateSimplex: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java: org.apache.commons.math.optimization.direct.DirectSearchOptimizer.iterateSimplex: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: internal error: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: internal error: org.apache.commons.math.optimization.direct.MultiDirectional.iterateSimplex: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: computing test cases
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: found 1 problems
+src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java: internal error: org.apache.commons.math.optimization.direct.MultiDirectional.MultiDirectional: unknown type kind
+	data: unsupported(org/apache/commons/math/optimization/RealPointValuePair)
+Analyzed 3 out of 3 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 19 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 6 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 2 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

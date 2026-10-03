@@ -1,0 +1,6 @@
+round,scope,project,bug_id,n_test_files,n_generated_lines,fail_buggy,fail_fixed,detected,stmt_cov,branch_cov,gen_time_sec,notes
+Round1,package,Lang,1,1,12,0,0,0,98.1%,87.3%,212,ok(per_method)
+Round1,package,Lang,2,-,-,-,-,-,-,-,-,deprecated_bug
+Round1,package,Lang,3,1,12,0,0,0,98.1%,87.1%,198,ok(per_method)
+Round1,package,Lang,4,1,5,0,0,0,see_log,see_log,242,compile_fail(symflower_api_mismatch)
+Round1,package,Lang,5,0,0,0,0,0,100.0%,96.4%,52,"ok(per_method),coverage=dev_tests_only"

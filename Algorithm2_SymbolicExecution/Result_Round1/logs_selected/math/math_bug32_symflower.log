@@ -1,0 +1,726 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_32b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.Euclidean2D: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.readResolve: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.LineTransform.LineTransform: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.LineTransform.apply: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.LineTransform.apply: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.LineTransform.apply: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.NestedLoops: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.add: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.setClockWise: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.boxBoundary: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.followLoop: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.ComparableSegment.ComparableSegment: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.ComparableSegment.ComparableSegment: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.ComparableSegment.compareTo: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.ComparableSegment.equals: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.ComparableSegment.hashCode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.SegmentsBuilder: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.visitOrder: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.visitInternalNode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.visitLeafNode: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.addContribution: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.SegmentsBuilder.getSorted: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.buildIntervalSet: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: error: unknown import
+	data: org/apache/commons/math3/geometry/Space
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: java/awt/geom/AffineTransform
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Transform
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(point, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(point, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported implements type
+	data: struct(org/apache/commons/math3/geometry/euclidean/twod/Line//LineTransform, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/Transform), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D)), unsupported(org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D)])])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Embedding
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(point, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(hyperplane, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Line)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/Vector
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Hyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(other, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Line)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: unsupported type cast
+	data: cast(original, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Line)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/Region), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/RegionFactory), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Region
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: internal error: not an array type
+	data: struct(org/apache/commons/math3/geometry/euclidean/twod/NestedLoops, [], [pointer(reference(java/lang/Object))], [])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: internal error: not an array type
+	data: struct(org/apache/commons/math3/geometry/euclidean/twod/NestedLoops, [], [pointer(reference(java/lang/Object))], [])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/RegionFactory
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/BSPTreeVisitor
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/BoundaryAttribute
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/BSPTree), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setSize [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [call(org/apache/commons/math3/geometry/euclidean/twod/Vector2D//Vector2D!1026790eb947c50b6a8334e4d2bbfeb3, [/(sumX, *(cast(3, primitive(float, 64, false)), sum)), /(sumY, *(cast(3, primitive(float, 64, false)), sum))])]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/BSPTree), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: internal error: not a boolean type
+	data: if(cast(unsupported, pointer(reference(java/lang/Boolean))), block([unsupported, unsupported]), block([unsupported, unsupported]))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: not a named type
+	data: array(array(pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/SubHyperplane), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/BSPTree
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setSize [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/utilities/AVLTree), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet//ComparableSegment))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported implements type
+	data: struct(org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet//SegmentsBuilder, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/BSPTreeVisitor), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/utilities/AVLTree
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown type
+	data: Order
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> getTree [] [false]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setSize [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setSize [] [/(sum, cast(2, primitive(float, 64, false)))]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> getTree [] [true]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Interval
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/BoundaryAttribute), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/AbstractRegion
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setSize [] [0]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [call(org/apache/commons/math3/geometry/euclidean/twod/Vector2D//Vector2D!1026790eb947c50b6a8334e4d2bbfeb3, [cast(0, primitive(float, 64, false)), cast(0, primitive(float, 64, false))])]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D)), unsupported(org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D)])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: error: unknown function
+	data: [<nil> getTree [] [false]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/utilities/AVLTree), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet//ComparableSegment))])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/BSPTree
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Region/Location
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown function
+	data: [<nil> getRemainingRegion [] []]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: unsupported type cast
+	data: cast(hyperplane, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Line)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Side
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown function
+	data: [<nil> getHyperplane [] []]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/BSPTree), [unsupported(org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D)])
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Hyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/partitioning/Region
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown type
+	data: SplitSubHyperplane
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: unsupported type cast
+	data: cast(hyperplane, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Line)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/geometry/euclidean/oned/Interval
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/geometry/Space
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/geometry/Vector
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(v, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(v, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(p, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(p, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(p, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(v, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(p, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(v, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: unsupported type cast
+	data: cast(p, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: org/apache/commons/math3/geometry/Vector
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: org/apache/commons/math3/geometry/VectorFormat
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: org/apache/commons/math3/util/CompositeFormat
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown function
+	data: [<nil> format [] [toAppendTo pos unsupported unsupported]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: unsupported type cast
+	data: cast(vector, pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Vector2D)))
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown function
+	data: [<nil> parseCoordinates [] [2 source pos]]
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/math3/geometry/euclidean/twod/Line, [], [pointer(reference(java/lang/Object))], [genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D))]), genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/Embedding), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D)), unsupported(org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D)])]) scopeLevelAtEntry:6 scopeLevelAtExit:7]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet, [], [genericInstance(unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion), [pointer(reference(org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D)), unsupported(org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D)])], []) scopeLevelAtEntry:7 scopeLevelAtExit:8]
+Found 9 Java files
+Found 124 problems in Java files
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: found 3 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: found 25 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: found 7 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: found 4 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: found 8 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: found 36 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: found 3 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: found 9 symbols
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getSubSpace: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getSubSpace: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getSubSpace: found 0 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getInstance: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getInstance: computed 1 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getInstance: found 0 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getDimension: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getDimension: computed 1 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D.getDimension: found 0 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.toSubSpace: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.toSubSpace: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.isParallelTo: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.isParallelTo: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.isParallelTo: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.isParallelTo: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setOriginOffset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setOriginOffset: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setOriginOffset: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.setOriginOffset: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOriginOffset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOriginOffset: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOriginOffset: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.getOriginOffset: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.revertSelf: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.revertSelf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.revertSelf: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.revertSelf: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.translateToPoint: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.translateToPoint: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.translateToPoint: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.translateToPoint: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.sameOrientationAs: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.sameOrientationAs: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.contains: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.contains: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.contains: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.contains: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setAngle: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setAngle: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.setAngle: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.setAngle: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: unsupported AST node
+	data: /(-(*(unsupported, unsupported), *(unsupported, unsupported)), d)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeHyperplane: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeHyperplane: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeHyperplane: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeHyperplane: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getOffset: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.copySelf: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.copySelf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.copySelf: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.copySelf: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.toSpace: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.toSpace: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.toSpace: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Line.toSpace: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.intersection: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.intersection: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.intersection: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.intersection: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getTransform: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getTransform: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.reset: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getAngle: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getAngle: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getAngle: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.getAngle: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.Line: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getPointAt: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getPointAt: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getPointAt: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Line.getPointAt: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/euclidean/oned/Vector1D)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getReverse: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getReverse: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.getReverse: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.getReverse: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeSpace: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeSpace: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeSpace: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Line.wholeSpace: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getStart: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getStart: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getStart: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Segment.getStart: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getLine: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getLine: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getLine: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Segment.getLine: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getEnd: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getEnd: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.getEnd: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Segment.getEnd: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Hyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.Segment: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.Segment: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: org.apache.commons.math3.geometry.euclidean.twod.Segment.Segment: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Segment.Segment: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.NestedLoops: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.NestedLoops: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.NestedLoops: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.NestedLoops: unknown type kind
+	data: unsupported
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.add: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.add: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.add: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Region)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.correctOrientation: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.correctOrientation: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.correctOrientation: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/NestedLoops.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.NestedLoops.correctOrientation: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/Region)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.buildNew: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.buildNew: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.buildNew: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.buildNew: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.getVertices: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.getVertices: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.getVertices: unknown type kind
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.computeGeometricalProperties: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.computeGeometricalProperties: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet.PolygonsSet: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractRegion)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.side: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.side: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.buildNew: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.buildNew: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.buildNew: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.SubLine.buildNew: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.split: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.split: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.SubLine.SubLine: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.getSegments: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.getSegments: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: org.apache.commons.math3.geometry.euclidean.twod.SubLine.getSegments: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.SubLine.getSegments: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.equals: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.equals: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.equals: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.hashCode: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.hashCode: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormSq: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormSq: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormSq: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormSq: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isNaN: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isNaN: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isNaN: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isNaN: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isInfinite: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isInfinite: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isInfinite: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.isInfinite: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.dotProduct: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.dotProduct: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.normalize: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.normalize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.normalize: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.normalize: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toArray: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toArray: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toArray: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toArray: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.negate: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.negate: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.negate: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.negate: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getZero: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getZero: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getZero: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getZero: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm1: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm1: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm1: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm1: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNorm: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.subtract: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.scalarMultiply: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.scalarMultiply: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.scalarMultiply: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.scalarMultiply: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: encountered an unsupported type
+	data: unsupported(java/text/NumberFormat)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getX: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getX: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getX: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getX: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceSq: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.toString: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormInf: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormInf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormInf: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getNormInf: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.add: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.add: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.add: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance1: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distance1: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.distanceInf: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.Vector2D: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getY: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getY: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getY: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getY: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getSpace: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getSpace: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getSpace: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.getSpace: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/Vector)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.subtract: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2D.subtract: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.format: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.format: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: encountered an unsupported type
+	data: unsupported(java/text/ParsePosition)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/VectorFormat)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: found 0 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/VectorFormat)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.getInstance: found 0 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/VectorFormat)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: unsupported: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.Vector2DFormat: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/geometry/VectorFormat)
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: computing test cases
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: computed 0 unit tests
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: found 1 problems
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2DFormat.java: internal error: org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat.parse: not a struct type
+	data: unsupported(org/apache/commons/math3/geometry/VectorFormat)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java: generated unit test file src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2DSymflowerTest.java
+Analyzed 9 out of 9 source files
+Had 5 errors that block a full analysis
+Generated 2 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 65 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 18 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 17 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 88 cases of "other issues"
+	Description: Uncategorized problems.
+

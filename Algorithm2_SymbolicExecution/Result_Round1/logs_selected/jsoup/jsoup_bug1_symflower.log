@@ -1,0 +1,801 @@
+Checking for updates
+Latest version already installed
+Analyzing workspace /home/ph7/sqa-project/workspaces/jsoup_1b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.normalise: function is private and therefore inaccessible for tests
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown import
+	data: org/apache/commons/lang/StringEscapeUtils
+src/main/java/org/jsoup/nodes/Attribute.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown type
+	data: LinkedHashMap
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/jsoup/nodes/Attribute))] [unsupported]]
+src/main/java/org/jsoup/nodes/Attributes.java: error: unknown field
+	data: [this struct(org/jsoup/nodes/Attributes, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [pointer(reference(org/jsoup/nodes/Attribute))]))]) Collections]
+src/main/java/org/jsoup/nodes/DataNode.java: error: unknown import
+	data: org/apache/commons/lang/StringEscapeUtils
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Document.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/Document.java: internal error: no supported constructor available
+	data: [struct(org/jsoup/nodes/Element, [], [pointer(reference(org/jsoup/nodes/Node))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/jsoup/nodes/Element.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000a45500})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000bf00a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000a9b3c0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc00080fd80?}, {0xc000a9b0e0, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc0006de3e8, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000a9b0e0, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc00080fd80, 0xb}, {0x0, 0x0, 0x0}, {0xc000a9b0e0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc00080fd80, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000bf0948?, 0xe3d0b8?}, {0xc000a9b0e0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065e300, 0xc0005c4e40)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065e300, {0x21f7d38, 0xc0005c4e40})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065e300, 0xc0005c4f00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000bf0b78?, 0x41aa94?, {0x21f8100?, 0xc0005c4f00?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065e300, {0x21f7238, 0xc0005c8c00})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065e300, {0xc000058a00, 0x4, 0xc000100008?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000bf0d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065e300, 0xc0005b1320)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000bf1160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065e300, {0x2208170, 0xc000810900}, 0xc000665400, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065e300, 0xc000810900)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065e300, 0xc000810900)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065e300, {0x2207578, 0xc000810900})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065e300, 0xc000bf1760, 0xc00064df20, 0xc0001dd680, {0x2207578, 0xc000810900})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760, 0xc00064df20, 0xc0001dd680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Selector
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([siblings], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(call(select(this, parent!d41d8cd98f00b204e9800998ecf8427e), [])), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([siblings], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(call(select(this, parent!d41d8cd98f00b204e9800998ecf8427e), [])), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([siblings], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(call(select(this, parent!d41d8cd98f00b204e9800998ecf8427e), [])), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Element.java: error: unknown type
+	data: LinkedHashSet
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Collector
+src/main/java/org/jsoup/nodes/Element.java: error: unknown type
+	data: Set
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/apache/commons/lang/StringUtils
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([siblings], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(call(select(this, parent!d41d8cd98f00b204e9800998ecf8427e), [])), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Element.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000abbc60})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000bf00a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000ba60c0?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc000124250?}, {0xc000aebd60, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc0006de3e8, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000aebd60, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc000124250, 0xb}, {0x0, 0x0, 0x0}, {0xc000aebd60, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc000124250, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000bf0948?, 0xe3d0b8?}, {0xc000aebd60, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065e300, 0xc0005c5440)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065e300, {0x21f7d38, 0xc0005c5440})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065e300, 0xc0005c5500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000bf0b78?, 0x41aa94?, {0x21f8100?, 0xc0005c5500?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065e300, {0x21f7238, 0xc0005c9e80})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065e300, {0xc000058a40, 0x4, 0xc000100008?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000bf0d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065e300, 0xc0005b13b0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000bf1160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065e300, {0x2208170, 0xc000810900}, 0xc000665500, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065e300, 0xc000810900)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065e300, 0xc000810900)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065e300, {0x2207578, 0xc000810900})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065e300, 0xc000bf1760, 0xc00064df20, 0xc0001dd680, {0x2207578, 0xc000810900})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760, 0xc00064df20, 0xc0001dd680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000bf1760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/parser/Parser
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/parser/Tag
+src/main/java/org/jsoup/nodes/Element.java: error: unknown import
+	data: org/jsoup/select/Elements
+src/main/java/org/jsoup/nodes/Element.java: internal error: no supported constructor available
+	data: [struct(org/jsoup/nodes/Node, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/org/jsoup/nodes/Element.java: internal error: not all elements have the same type
+	data: declaration([children], [pointer(genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Element))]))], [call(select(ensure_not_nil(el), children!d41d8cd98f00b204e9800998ecf8427e), [])], ModifierVisibilityPublic)
+src/main/java/org/jsoup/nodes/Evaluator.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Evaluator.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//contains [] [select(select(this, @org/jsoup/nodes/Evaluator//AttributeKeyPair), value)]]
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: java/net/MalformedURLException
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: java/net/URL
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/jsoup/nodes/Node.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000abac20})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000ce20a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000d11e20?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0xa9c0c5?, 0xc0006bb680?}, {0xc000974720, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc000582c08, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000974720, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc0006bb680, 0xb}, {0x0, 0x0, 0x0}, {0xc000974720, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc0006bb680, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000ce2948?, 0xe3d0b8?}, {0xc000974720, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065fb60, 0xc000763ec0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065fb60, {0x21f7d38, 0xc000763ec0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065fb60, 0xc000778000)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000390500?, 0xc00065fb60?, {0x21f8100?, 0xc000778000?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065fb60, {0x21f7238, 0xc000775d80})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065fb60, {0xc00071cd20, 0x7, 0xc00070c180?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce2d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065fb60, 0xc000776090)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce3160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065fb60, {0x2208170, 0xc000811680}, 0xc0006a8300, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065fb60, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065fb60, 0xc000ce3760, 0xc00064df20, 0xc000477a00, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20, 0xc000477a00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Node.java: error: unknown function
+	data: [genericInstance(reference(java/util/List), [pointer(reference(org/jsoup/nodes/Node))]) java/util/List<org/jsoup/nodes/Node>//set [] [index in]]
+src/main/java/org/jsoup/nodes/Node.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000c3c460})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000ce20a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000b92600?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc0006e2180?}, {0xc000b921a0, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc000582c08, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000b921a0, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc0006e2180, 0xb}, {0x0, 0x0, 0x0}, {0xc000b921a0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc0006e2180, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000ce2948?, 0xe3d0b8?}, {0xc000b921a0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065fb60, 0xc0007789c0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065fb60, {0x21f7d38, 0xc0007789c0})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065fb60, 0xc000778a80)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000ce2b78?, 0x41aa94?, {0x21f8100?, 0xc000778a80?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065fb60, {0x21f7238, 0xc000881900})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065fb60, {0xc00073a180, 0x4, 0x41e391?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce2d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065fb60, 0xc000776360)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce3160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065fb60, {0x2208170, 0xc000811680}, 0xc0006a8800, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065fb60, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065fb60, 0xc000ce3760, 0xc00064df20, 0xc000477a00, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20, 0xc000477a00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Node.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000bbe7e0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000ce20a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000919400?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0x43f908?, 0xc0006e2540?}, {0xc0009190e0, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc000582c08, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc0009190e0, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc0006e2540, 0xb}, {0x0, 0x0, 0x0}, {0xc0009190e0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc0006e2540, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000ce2948?, 0xe3d0b8?}, {0xc0009190e0, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065fb60, 0xc000778e40)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065fb60, {0x21f7d38, 0xc000778e40})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065fb60, 0xc000778f00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000ce2b78?, 0x41aa94?, {0x21f8100?, 0xc000778f00?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065fb60, {0x21f7238, 0xc000884c80})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065fb60, {0xc00073a1c0, 0x4, 0xc000081808?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce2d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065fb60, 0xc0007763f0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce3160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065fb60, {0x2208170, 0xc000811680}, 0xc0006a8900, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065fb60, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065fb60, 0xc000ce3760, 0xc00064df20, 0xc000477a00, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20, 0xc000477a00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/apache/commons/lang/NotImplementedException
+src/main/java/org/jsoup/nodes/Node.java: error: unknown import
+	data: org/apache/commons/lang/StringUtils
+src/main/java/org/jsoup/nodes/Node.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000aba330})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000ce20a8?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000d11e20?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0xa9c0c5?, 0xc0006bb9e0?}, {0xc0009e3860, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc000582c08, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc0009e3860, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc0006bb9e0, 0xb}, {0x0, 0x0, 0x0}, {0xc0009e3860, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc0006bb9e0, 0xb}, {0x0?, 0x0?}, {0x0?, 0xc000ce2948?, 0xe3d0b8?}, {0xc0009e3860, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065fb60, 0xc000778240)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065fb60, {0x21f7d38, 0xc000778240})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionVariableDeclaration(0xc000390500, 0xc00065fb60, 0xc000778300)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6477 +0x72f
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementExpression(0xc000ce2b78?, 0x41aa94?, {0x21f8100?, 0xc000778300?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3976 +0xc5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065fb60, {0x21f7238, 0xc00077b100})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4415 +0x8aa
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065fb60, {0xc00073a100, 0x4, 0xc00070c180?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce2d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065fb60, 0xc000776120)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce3160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065fb60, {0x2208170, 0xc000811680}, 0xc0006a8400, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065fb60, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065fb60, 0xc000ce3760, 0xc00064df20, 0xc000477a00, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20, 0xc000477a00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/Node.java: error: error: unresolved type
+	data: reference(N)
+	child error: (error) Internal error: unknown type:
+		"N"
+		Stacktrace: goroutine 1 [running]:
+		gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25a00}, {0x12473e0, 0xc000bbfdd0})
+			gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+		gitlab.nethead.at/symflower/symflower/model/errors.NewProblemWithErrorSeverity(...)
+			gitlab.nethead.at/symflower/symflower/model/errors/problem.go:321
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).GetType(0xc000ce2210?, {0x2221c30, 0x1})
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:986 +0x85
+		gitlab.nethead.at/symflower/symflower/model/ast.resolve(0xc00070c180, {0x2205848?, 0xc000cb2880}, 0xe0)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:362 +0x78
+		gitlab.nethead.at/symflower/symflower/model/ast.ResolveWithPointers(...)
+			gitlab.nethead.at/symflower/symflower/model/ast/type-resolve.go:326
+		gitlab.nethead.at/symflower/symflower/model/ast.(*TypeGenericInstance).IsCompatibleType(0xc0006b0c80, 0xc00070c180, {0x2205728?, 0xc000d11e20?})
+			gitlab.nethead.at/symflower/symflower/model/ast/type.go:3369 +0x230
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).checkFunctionApplicability(0xc000390500, 0xc0006a8b00, {0x0?, 0x0?}, {0x0?, 0xa9c0c5?, 0xc0006e2730?}, {0xc000d11420, 0x2, 0x2})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:406 +0x66b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).matchOverloadingFunction(0xc000390500, {0xc000582c08, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0, 0x0}, {0xc000d11420, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:451 +0x217
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).getFunction(0xc000390500, {0x0, 0x0}, {0xc0006e2730, 0xb}, {0x0, 0x0, 0x0}, {0xc000d11420, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/overloading.go:224 +0xd2
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodCallResolveOverloads(0xc000390500, {0xc0006e2730, 0xb}, {0x0?, 0x0?}, {0x0?, 0x474719?, 0x20?}, {0xc000d11420, 0x2, ...})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5426 +0x87
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpressionMethodCall(0xc000390500, 0xc00065fb60, 0xc000779200)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:5568 +0x68b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleExpression(0xc000390500, 0xc00065fb60, {0x21f7d38, 0xc000779200})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:6903 +0x785
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatementReturn(0xc000390500, 0xc00065fb60, 0xc000885980)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4352 +0x7c
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatement(0xc000390500, 0xc00065fb60, {0x21f74a0, 0xc000885980})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:4423 +0x745
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleStatements(0xc000390500, 0xc00065fb60, {0xc00071a8d0, 0x1, 0xc000081808?})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3731 +0x85
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock.func1()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3712 +0x45
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce2d50)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBlock(0xc000390500, 0xc00065fb60, 0xc000776480)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:3711 +0x9e
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody.(*transpiler).handleScopedBlockStatement.func2()
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2716 +0x205
+		gitlab.nethead.at/symflower/symflower/model/ast.(*Scope).Scoped(0xc00070c180, 0xc000ce3160)
+			gitlab.nethead.at/symflower/symflower/model/ast/scope.go:297 +0x162
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleScopedBlockStatement(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2693
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleMethodDeclarationBody(0xc000390500, 0xc00065fb60, {0x2208170, 0xc000811680}, 0xc0006a8a00, 0x0)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:2523 +0x61b
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassAndInterfaceDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1534 +0x2f7
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleClassDeclarationBodies(0xc000390500, 0xc00065fb60, 0xc000811680)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/handle.go:1419 +0x106
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies.func1(0xc00065fb60, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:532 +0x1ff
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkSubDeclarations(0xc000390500, 0xc00065fb60, 0xc000ce3760, 0xc00064df20, 0xc000477a00, {0x2207578, 0xc000811680})
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:869 +0x1ee
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFile(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20, 0xc000477a00)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:625 +0x3c5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkPackage(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760, 0xc00064df20)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:583 +0x225
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).walkFilesAndDeclarations(0xc000390500, 0x1, 0x2088c58, 0xc000ce3760)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:566 +0xa5
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.(*transpiler).handleBodies(0xc000390500)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:513 +0x65
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.symbolsWithDependencies(0xc0007120c0, {0x0?, 0x41aa94?, 0x13e43a0?}, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:486 +0x147
+		gitlab.nethead.at/symflower/symflower/language/java/symbol.Symbols(0xc0007120c0, 0x1)
+			gitlab.nethead.at/symflower/symflower/language/java/symbol/symbols.go:457 +0xf2
+		gitlab.nethead.at/symflower/symflower/language/java.Adapter.Symbols(...)
+			gitlab.nethead.at/symflower/symflower/language/java/symbols.go:29
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).transpileLanguage(0xc0007009f0, 0x0, 0x0, {0x220c620, 0x2e6b360})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:136 +0x373
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).Symbols(0xc0007009f0, 0x0, 0x0)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:94 +0x136
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0007060a0?}, {0xc0?, 0x0?, 0x71?, 0x0?}, 0x29?, {0xc0007001b0, ...})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:153 +0x77
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc00016a3d8, {0xc00016a008?, 0x74a00c65cdb8?, 0xc00016a3d8?})
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc00016a008}, {0xc00019e000?, 0x44?, 0x0?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+		gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc00016a008?}, {0xc00019e000?, 0xc000180008?, 0xc000507f10?})
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+		gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+			gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+		main.main.func1()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+		main.main()
+			gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown import
+	data: org/apache/commons/lang/StringEscapeUtils
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown import
+	data: org/apache/commons/lang/Validate
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown import
+	data: org/apache/commons/lang/StringUtils
+src/main/java/org/jsoup/nodes/TextNode.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuilder)) java/lang/StringBuilder//substring [] [-(call(select(ensure_not_nil(sb), length!d41d8cd98f00b204e9800998ecf8427e), []), 1) call(select(ensure_not_nil(sb), length!d41d8cd98f00b204e9800998ecf8427e), [])]]
+Found 1 Java files
+Found 45 problems in Java files
+src/main/java/org/jsoup/nodes/Document.java: found 11 symbols
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.title: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.title: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.title: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.title: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.title: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.title: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.createShell: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.createShell: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.createShell: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.text: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.text: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.text: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.outerHtml: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.outerHtml: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.outerHtml: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.normalise: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.normalise: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.normalise: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.head: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.head: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.head: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.createElement: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.createElement: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.createElement: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.nodeName: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.nodeName: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.nodeName: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.Document: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.Document: computed 0 unit tests
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.body: computing test cases
+src/main/java/org/jsoup/nodes/Document.java: org.jsoup.nodes.Document.body: found 1 problems
+src/main/java/org/jsoup/nodes/Document.java: internal error: org.jsoup.nodes.Document.body: unknown type kind
+	data: unsupported(org/jsoup/parser/Tag)
+Analyzed 1 out of 8 source files
+Had 1 error that blocks a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 23 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 20 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 5 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 4 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "other issues"
+	Description: Uncategorized problems.
+

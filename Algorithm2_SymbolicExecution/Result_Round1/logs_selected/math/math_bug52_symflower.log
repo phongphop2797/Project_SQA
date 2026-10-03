@@ -1,0 +1,399 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_52b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.orthogonalizeMatrix: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/CardanEulerSingularityException.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/CardanEulerSingularityException.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Euclidean3D.java: error: unknown import
+	data: org/apache/commons/math/geometry/Space
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Euclidean3D.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Euclidean2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Line.java: error: unknown import
+	data: org/apache/commons/math/geometry/Vector
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Line.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Line.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Line.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Embedding
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Line.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/NotARotationMatrixException.java: error: unknown import
+	data: org/apache/commons/math/MathException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/NotARotationMatrixException.java: error: unknown import
+	data: org/apache/commons/math/exception/util/Localizable
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [rawLoop 0 index(outline, i) 0 end]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Euclidean2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BoundaryAttribute
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown identifier
+	data: edge
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/RegionFactory
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown type
+	data: Order
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown type
+	data: org/apache/commons/math/geometry/euclidean/twod/Line
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/AbstractSubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BSPTree
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/PolygonsSet
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Vector2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BSPTreeVisitor
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Euclidean2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/PolygonsSet
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/Vector
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Vector2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Embedding
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Hyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Plane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> getBarycenter [] []]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Euclidean2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/SubLine
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setSize [] [unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setSize [] [/(unsupported, 3.0)]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BoundaryAttribute
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> getTree [] [true]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> getTree [] [true]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setSize [] [+(unsupported, scaled)]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [call(org/apache/commons/math/geometry/euclidean/threed/Vector3D//Vector3D!98bb7a0599b54990b05dd92ca93178b9, [1.0, cast(unsupported, pointer(reference(org/apache/commons/math/geometry/euclidean/threed/Vector3D))), scaled, facetB])]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/Vector
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> applyTransform [] [call(org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet//TranslationTransform//TranslationTransform!98b8a7ad2852cac0bcd8870872d26f55, [translation])]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/oned/Euclidean1D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/RegionFactory
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown type
+	data: Order
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> applyTransform [] [call(org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet//RotationTransform//RotationTransform!c6ae23bbfc8ce7f5e8319b7a2152fe28, [center, rotation])]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setSize [] [unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: java/awt/geom/AffineTransform
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BSPTree
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BSPTreeVisitor
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Region
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/AbstractRegion
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> getSize [] []]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Hyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Transform
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown identifier
+	data: cut
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setSize [] [0]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown function
+	data: [<nil> setBarycenter [] [call(org/apache/commons/math/geometry/euclidean/threed/Vector3D//Vector3D!440bb328777dad7e8ed799c817b6aefe, [cast(0, primitive(float, 64, false)), cast(0, primitive(float, 64, false)), cast(0, primitive(float, 64, false))])]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Vector2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: error: unknown import
+	data: org/apache/commons/math/MathRuntimeException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Hyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Region
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/Side
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown type
+	data: org/apache/commons/math/geometry/euclidean/twod/Line
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown function
+	data: [<nil> getRemainingRegion [] []]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/PolygonsSet
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/AbstractSubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/SubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Euclidean2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown type
+	data: SplitSubHyperplane
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown function
+	data: [<nil> getHyperplane [] []]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/oned/Vector1D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/euclidean/twod/Vector2D
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: unknown import
+	data: org/apache/commons/math/geometry/partitioning/BSPTree
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/SubPlane.java: error: not a boolean type
+	data: unsupported
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/exception/MathArithmeticException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/geometry/Vector
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/geometry/Space
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/util/FastMath
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3D.java: error: unknown import
+	data: org/apache/commons/math/util/MathUtils
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: org/apache/commons/math/exception/MathParseException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: org/apache/commons/math/geometry/Vector
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: org/apache/commons/math/util/CompositeFormat
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown function
+	data: [<nil> format [] [toAppendTo pos unsupported unsupported unsupported]]
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown import
+	data: org/apache/commons/math/geometry/VectorFormat
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Vector3DFormat.java: error: unknown function
+	data: [<nil> parseCoordinates [] [3 source pos]]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/math/geometry/euclidean/threed/OutlineExtractor, [], [pointer(reference(java/lang/Object))], []) scopeLevelAtEntry:7 scopeLevelAtExit:8]
+internal error: scope leak
+	data: map[handledNode:struct(org/apache/commons/math/geometry/euclidean/threed/PolyhedronsSet, [], [genericInstance(unsupported(org/apache/commons/math/geometry/partitioning/AbstractRegion), [pointer(reference(org/apache/commons/math/geometry/euclidean/threed/Euclidean3D)), unsupported(org/apache/commons/math/geometry/euclidean/twod/Euclidean2D)])], []) scopeLevelAtEntry:8 scopeLevelAtExit:11]
+Found 1 Java files
+Found 107 problems in Java files
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: found 20 symbols
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.revert: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.revert: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.revert: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngle: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngle: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngle: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngles: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngles: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: unsupported: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAngles: unsupported AST node
+	data: -(unsupported)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: found 2 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: info: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.018217628s, CPUTimeUser:9.793909s, CPUTimeSystem:195.878ms, MemoryUsage:531964}}
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:878:25: critical: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: found 2 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: info: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.016409408s, CPUTimeUser:9.815324s, CPUTimeSystem:199.986ms, MemoryUsage:526072}}
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:897:26: critical: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getMatrix: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getMatrix: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getMatrix: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: info: org.apache.commons.math.geometry.euclidean.threed.Rotation.getMatrix: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.020089332s, CPUTimeUser:9.764119s, CPUTimeSystem:251.899ms, MemoryUsage:544488}}
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyInverseTo: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ2: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ2: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ2: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.Rotation: found errors: (error "line 559 column 75: unknown constant mkPointer (Bool (_ BitVec 32) Pointer) 
+		declared: (declare-fun mkPointer (Bool (_ BitVec 32) Any) Pointer) ")
+		sat
+	
+	data: ExecutionResult{StdOut:"(error \"line 559 column 75: unknown constant mkPointer (Bool (_ BitVec 32) Pointer) \ndeclared: (declare-fun mkPointer (Bool (_ BitVec 32) Any) Pointer) \")\nsat\n", ExitStatus:1, ResourceUsage{WallTime:31.843883ms, CPUTimeUser:27.652ms, CPUTimeSystem:3.95ms, MemoryUsage:50784}}
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAxis: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAxis: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAxis: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.getAxis: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ0: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ0: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ0: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ1: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ1: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ1: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ3: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ3: computed 1 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.getQ3: found 0 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: computed 0 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: found 1 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: internal error: org.apache.commons.math.geometry.euclidean.threed.Rotation.applyTo: not a struct type
+	data: unsupported(org/apache/commons/math/geometry/Vector)
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: computing test cases
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: computed 2 unit tests
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: found 3 problems
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: info: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.01946034s, CPUTimeUser:9.846389s, CPUTimeSystem:167.904ms, MemoryUsage:526076}}
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:1028:14: critical: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:897:26: critical: org.apache.commons.math.geometry.euclidean.threed.Rotation.distance: uncaught java.lang.NullPointerException
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java: could not generate unit test file for "src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 104, 24), End:location.NewCompactFileLocationRaw(8, 104, 25)},
+	    Name:             "q0",
+	    Type:             &modelast.TypePrimitive{
+	        Kind: "float",
+	        Size: 0x40,
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc000859140})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc0004c61c0, {0x2205848?, 0xc000ff30a0?}, {0x21f7de8, 0xc0000b5a80}, {0x2208850, 0xc0007a5bc0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc0004c61c0, {0x21f7de8, 0xc0000b5a80}, {0x2205848?, 0xc000ff3080?}, {0x2208850, 0xc0007a5bc0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004c61c0, {0x21f7de8, 0xc0000b5a80}, {0x2205848?, 0xc000ff3040?}, {0x2208850, 0xc0007a5bc0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc0004c61c0, {0x21f7de8, 0xc0000b5a80}, {0x2205728?, 0xc000d8a580?}, {0x22089b0, 0xc000ef4300})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc0004c61c0, {0x2205728, 0xc000d8a580}, {0xc000705600, 0x2}, {0x22089b0, 0xc000ef4300}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc0004c61c0, {0x2205728, 0xc000d8a580}, {0x22089b0, 0xc000ef4300}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc00081ec40, 0xc00088c3c0, 0x60?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc00081ec40, 0xc000828c00, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc00081ec40, 0xc000d11c20?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc000450510, 0xc000828c00)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc000eae540?, 0xc0007e0160?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc000ff2240, {0xc0003c7d00, 0xa, 0x15?}, {0xc000713260?, 0xa5b512?}, 0xc0015a6cc0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc000ff2240, {0xc0003c7b80, 0xa, 0x10})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc000154aaa, 0x4d})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc0001c07b0, 0x2a}, 0xc000eae4b0, {0xc000129120?, 0x1?, 0xc000a19a00?}, 0x1, 0xc000a19b08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc0000b6e40, 0xc000f18d80, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc0000b6e40?, 0xc0000b6e70?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc0001895e0?}, {0x20?, 0x7?, 0x1c?, 0x0?}, 0x29?, {0xc0003fa3f0, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0000cadd8, {0xc0000caa08?, 0x734f2fbda598?, 0xc0000cadd8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc0000caa08}, {0xc00019e000?, 0x0?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc0000caa08?}, {0xc00019e000?, 0xc00011c3e8?, 0xc0004bbf10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc000110060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Analyzed 1 out of 11 source files
+Had 5 errors that block a full analysis
+Generated 10 tests
+Found 4 potential problems
+The following issues prevent a full analysis:
+
+* 73 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 21 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 6 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 15 cases of "other issues"
+	Description: Uncategorized problems.
+

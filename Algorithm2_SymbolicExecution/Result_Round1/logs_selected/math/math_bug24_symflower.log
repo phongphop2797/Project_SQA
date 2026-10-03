@@ -1,0 +1,257 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_24b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.eval: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.best: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.sortPairs: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/BaseOptimizer
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/util/Incrementor
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/exception/TooManyEvaluationsException
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/optimization/ConvergenceChecker), [pointer(reference(org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair))])
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/apache/commons/math3/optimization/univariate/BrentOptimizer))), org/apache/commons/math3/optimization/univariate/BrentOptimizer//doOptimize!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair)))], block([unsupported]))
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/Precision
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: error: unknown function
+	data: [<nil> getRelativeThreshold [] []]
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: error: unknown function
+	data: [<nil> getAbsoluteThreshold [] []]
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: error: unknown import
+	data: org/apache/commons/math3/optimization/AbstractConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/GoalType
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/optimization/ConvergenceChecker
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: not a named type
+	data: array(pointer(reference(org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair)), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/random/RandomGenerator
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateOptimizer.java: error: unknown import
+	data: org/apache/commons/math3/analysis/UnivariateFunction
+Found 9 Java files
+Found 41 problems in Java files
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateOptimizer.java: found 0 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/package-info.java: found 0 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: found 2 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: found 3 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: found 3 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: found 12 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: found 11 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: found 3 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: found 7 symbols
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.UnivariateMultiStartOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.UnivariateMultiStartOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.UnivariateMultiStartOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getMaxEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getMaxEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getConvergenceChecker: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getConvergenceChecker: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getOptima: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getOptima: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.getOptima: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer.optimize: unknown type kind
+	data: unsupported(org/apache/commons/math3/random/RandomGenerator)
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: unsupported: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/optimization/AbstractConvergenceChecker)
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: unsupported: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.SimpleUnivariateValueChecker: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/optimization/AbstractConvergenceChecker)
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.converged: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.converged: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.converged: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java: unsupported: org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker.converged: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/optimization/AbstractConvergenceChecker)
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: internal error: org.apache.commons.math3.optimization.univariate.BrentOptimizer.BrentOptimizer: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java: org.apache.commons.math3.optimization.univariate.BrentOptimizer.doOptimize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer.optimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer.optimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.UnivariatePointValuePair: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.UnivariatePointValuePair: computed 1 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.UnivariatePointValuePair: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getPoint: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getPoint: computed 1 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getPoint: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getValue: computed 1 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair.getValue: found 0 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getGoalType: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getGoalType: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.computeObjectiveValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.computeObjectiveValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.doOptimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.doOptimize: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getConvergenceChecker: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getConvergenceChecker: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.BaseAbstractUnivariateOptimizer: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.BaseAbstractUnivariateOptimizer: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMin: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMin: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getStartValue: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getStartValue: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMax: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMax: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.optimize: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java: org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer.getMaxEvaluations: computed 0 unit tests
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.search: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.search: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.search: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFLo: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFLo: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getFLo: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getMaxEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getMaxEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getMaxEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getHi: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getHi: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getHi: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getMid: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getMid: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getMid: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFHi: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFHi: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getFHi: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getEvaluations: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getEvaluations: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getEvaluations: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getLo: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getLo: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getLo: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFMid: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.getFMid: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.getFMid: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: computing test cases
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: found 1 problems
+src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java: internal error: org.apache.commons.math3.optimization.univariate.BracketFinder.BracketFinder: unknown type kind
+	data: unsupported(org/apache/commons/math3/util/Incrementor)
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java: generated unit test file src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePairSymflowerTest.java
+Analyzed 9 out of 9 source files
+Had 1 error that blocks a full analysis
+Generated 3 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 34 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 21 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 2 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 6 cases of "other issues"
+	Description: Uncategorized problems.
+

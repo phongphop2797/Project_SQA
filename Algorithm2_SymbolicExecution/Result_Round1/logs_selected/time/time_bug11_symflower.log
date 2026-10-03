@@ -1,0 +1,647 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/time_11b/
+Search for Go files
+Found 0 Go files
+Search for Java files
+Load dependency stdlib:@dev
+Load dependency /home/ph7/sqa-project/workspaces/time_11b:@dev
+Load dependency org/joda/joda-convert:1.2
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.CachedDateTimeZone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getInfo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.createInfo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.Info.Info: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.Info.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.Info.getOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.Info.getStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.buildFixedZone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.getLastRuleSet: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.readFrom: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.OfYear: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.setInstant: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.next: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.previous: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.equals: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.writeTo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.setDayOfMonthNext: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.setDayOfMonthPrevious: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.setDayOfMonth: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.OfYear.setDayOfWeek: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.readFrom: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.Recurrence: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.getOfYear: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.next: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.previous: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.getSaveMillis: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.equals: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.writeTo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.rename: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Recurrence.renameAppend: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.Rule: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.getFromYear: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.getToYear: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.getOfYear: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.getSaveMillis: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Rule.next: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.Transition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.Transition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.Transition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.getMillis: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.getWallOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.getStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.getSaveMillis: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.Transition.isTransitionFrom: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.RuleSet: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.RuleSet: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.getStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.setStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.setFixedSavings: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.addRule: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.setUpperLimit: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.firstTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.nextTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.getUpperLimit: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.RuleSet.buildTailZone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.readFrom: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.DSTZone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.getOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.getStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.isFixed: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.nextTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.previousTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.equals: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.writeTo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DSTZone.findMatchingRecurrence: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.readFrom: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.create: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.PrecalculatedZone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.getNameKey: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.getOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.getStandardOffset: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.isFixed: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.nextTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.previousTransition: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.equals: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.writeTo: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.PrecalculatedZone.isCachable: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.getNameSet: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.createCache: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.printUsage: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Rule.Rule: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Rule.addRecurring: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Rule.formatName: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Rule.toString: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.RuleSet.RuleSet: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.RuleSet.addRule: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.RuleSet.addRecurring: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.Zone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.Zone: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.chain: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.addToBuilder: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.addToBuilder: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.Zone.toString: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.openResource: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.loadZoneData: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.loadZoneInfoMap: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.readZoneInfoMap: function is private and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: unsupported: unsupported type
+	data: pointer(reference(org/joda/time/tz/CachedDateTimeZone)) vs pointer(reference(java/lang/Object))
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/Period
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//DSTZone)) org/joda/time/tz/DateTimeZoneBuilder//DSTZone//getID [] []]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//PrecalculatedZone)) vs pointer(reference(java/lang/Object))
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: &{0xc0005bfd40 <nil> [] 0xc0005c7000 0xc0005c7080 << {None [] [] None}}
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//Rule))] [select(this, iRules)]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [struct(org/joda/time/tz/DateTimeZoneBuilder//DSTZone, [], [unsupported(org/joda/time/DateTimeZone)], []) org/joda/time/tz/DateTimeZoneBuilder//DSTZone//equals [] [select(other, iTailZone)]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/Set), [pointer(reference(java/lang/String))])
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/text/DateFormatSymbols
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/Chronology
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: &{0xc0005bf800 <nil> [] 0xc0005c5f00 0xc0005c6000 << {None [] [] None}}
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: internal error: not all elements have the same type
+	data: [function(<nil>, org/joda/time/tz/FixedDateTimeZone//FixedDateTimeZone!5b65a69d592470be52947f5457eea9ea, [variable(id, pointer(reference(java/lang/String))), variable(nameKey, pointer(reference(java/lang/String))), variable(wallOffset, primitive(int, 32, false)), variable(standardOffset, primitive(int, 32, false))], [variable(, pointer(reference(org/joda/time/tz/FixedDateTimeZone)))], block([declaration([this], [pointer(reference(org/joda/time/tz/FixedDateTimeZone))], [new(pointer(reference(org/joda/time/tz/FixedDateTimeZone)))], ModifierNone), =(this, call(select(this, @@constructor!5b65a69d592470be52947f5457eea9ea), [id, nameKey, wallOffset, standardOffset])), return([this])])) return([call(org/joda/time/tz/FixedDateTimeZone//FixedDateTimeZone!5b65a69d592470be52947f5457eea9ea, [id, nameKey, wallOffset, standardOffset])])]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: internal error: type does not support nil values
+	data: unsupported(java/io/DataOutput)
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/io/DataInputStream
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/io/DataOutputStream
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: &{0xc0005bf6e0 <nil> [] 0xc0005c5b00 0xc0005c5b80 << {None [] [] None}}
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: &{0xc0005bff80 <nil> [] 0xc0005c7800 0xc0005c7880 << {None [] [] None}}
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//RuleSet))] [10]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//DSTZone)) vs pointer(reference(java/lang/Object))
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/chrono/ISOChronology
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: internal error: type does not support nil values
+	data: unsupported(java/io/DataInput)
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//Rule))] [select(rs, iRules)]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/io/DataOutput
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//PrecalculatedZone)) org/joda/time/tz/DateTimeZoneBuilder//PrecalculatedZone//getID [] []]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/DateTime
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/DateTimeUtils
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: org/joda/time/PeriodType
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [struct(org/joda/time/tz/CachedDateTimeZone, [], [unsupported(org/joda/time/DateTimeZone)], []) org/joda/time/tz/CachedDateTimeZone//forZone [] [zone]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//intern [] []]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(reference(org/joda/time/tz/DateTimeZoneBuilder//Rule))] [10]]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: unsupported type
+	data: &{0xc0005bfe60 <nil> [] 0xc0005c7400 0xc0005c7480 << {None [] [] None}}
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown function
+	data: [<nil> getID [] []]
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: error: unknown import
+	data: java/io/DataInput
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Object))])) java/util/Map<java/lang/String,java/lang/Object>//put [] [index(setEn, 4) composite(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), [index(setLoc, 4), index(setLoc, 3)])]]
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown import
+	data: java/text/DateFormatSymbols
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown identifier
+	data: nameSet
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Object))])) java/util/Map<java/lang/String,java/lang/Object>//put [] [index(setEn, 2) composite(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), [index(setLoc, 2), index(setLoc, 1)])]]
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Object))])) java/util/Map<java/lang/String,java/lang/Object>//put [] [call(select(call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, [call(java/lang/String//internalToString!efbb7192f0412fb225b1065a0117385c, [index(setEn, 4)])]), internalConcat!efbb7192f0412fb225b1065a0117385c), [call(java/lang/String//String!9abf27636a492e46fe858f34bef8e9eb, ["-Summer"])]) composite(array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0), [index(setLoc, 4), index(setLoc, 3)])]]
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: unsupported: unsupported type cast
+	data: [cast(call(select(ensure_not_nil(byNameKeyCache), get!4fb2deccef7826b7659de223ac40b91d), [cast(nameKey, pointer(reference(java/lang/Object)))]), array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0)) array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0)]
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown import
+	data: org/joda/time/DateTimeUtils
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: unsupported: not an array type
+	data: unsupported(@@unsupported)
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/HashMap), [unsupported(java/util/Locale), pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Object))]))]))])
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: unsupported: unsupported type
+	data: pointer(reference(org/joda/time/tz/FixedDateTimeZone)) vs pointer(reference(java/lang/Object))
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown type
+	data: java/util/TimeZone
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown function
+	data: [<nil> getID [] []]
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown field
+	data: [this struct(org/joda/time/tz/FixedDateTimeZone, [], [unsupported(org/joda/time/DateTimeZone)], []) java]
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown type
+	data: java/util/SimpleTimeZone
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: error: unknown function
+	data: [pointer(reference(org/joda/time/tz/FixedDateTimeZone)) org/joda/time/tz/FixedDateTimeZone//getID [] []]
+src/main/java/org/joda/time/tz/NameProvider.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/joda/time/tz/Provider.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/joda/time/tz/Provider.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/UTCProvider.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/joda/time/tz/UTCProvider.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/joda/time/tz/UTCProvider.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: unsupported: encountered an unsupported type
+	data: unsupported(ThreadLocal)
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/io/DataOutputStream
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/io/File
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/util/StringTokenizer
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/MutableDateTime
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/format/DateTimeFormatter
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown type
+	data: ThreadLocal
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), unsupported(org/joda/time/DateTimeZone)])) java/util/Map<java/lang/String,org/joda/time/DateTimeZone>//entrySet [] []]
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/util/TreeMap
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/Chronology
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(java/util/TreeMap), [pointer(reference(java/lang/Short)), pointer(reference(java/lang/String))])
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [file]]
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Map), [pointer(reference(java/lang/String)), unsupported(org/joda/time/DateTimeZone)])) java/util/Map<java/lang/String,org/joda/time/DateTimeZone>//putAll [] [map]]
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown function
+	data: [pointer(reference(java/lang/String)) java/lang/String//intern [] []]
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/io/FileOutputStream
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/DateTime
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/LocalDate
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/chrono/LenientChronology
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/format/ISODateTimeFormat
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(ThreadLocal), [pointer(reference(java/lang/Boolean))])
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown function
+	data: [struct(java/lang/String, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/String//intern [] []]
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/DateTimeField
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: error: unknown import
+	data: org/joda/time/chrono/ISOChronology
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/io/File
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/util/concurrent/ConcurrentHashMap
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/util/TreeSet
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown field
+	data: [this struct(org/joda/time/tz/ZoneInfoProvider, [], [pointer(reference(java/lang/Object))], [reference(org/joda/time/tz/Provider)]) ClassLoader]
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: missing return statement
+	data: function(variable(this, pointer(reference(org/joda/time/tz/ZoneInfoProvider))), org/joda/time/tz/ZoneInfoProvider//loadZoneData!efbb7192f0412fb225b1065a0117385c, [variable(id, pointer(reference(java/lang/String)))], [variable(, unsupported(org/joda/time/DateTimeZone))], block([unsupported]))
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/io/DataInputStream
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/lang/ref/SoftReference
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown type
+	data: ClassLoader
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown function
+	data: [struct(org/joda/time/tz/ZoneInfoProvider, [], [pointer(reference(java/lang/Object))], [reference(org/joda/time/tz/Provider)]) org/joda/time/tz/ZoneInfoProvider//@@constructor [] [resourcePath nil false]]
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown import
+	data: org/joda/time/DateTimeZone
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: unsupported: encountered an unsupported type
+	data: unsupported(java/lang/ref/SoftReference)
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown type
+	data: Thread
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: error: unknown function
+	data: [<nil> java/io/FileInputStream//FileInputStream [] [unsupported]]
+Found 9 Java files
+Found 106 problems in Java files
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: found 10 symbols
+src/main/java/org/joda/time/tz/NameProvider.java: found 2 symbols
+src/main/java/org/joda/time/tz/UTCProvider.java: found 3 symbols
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: found 20 symbols
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: found 6 symbols
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: found 12 symbols
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: found 3 symbols
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: found 11 symbols
+src/main/java/org/joda/time/tz/Provider.java: found 2 symbols
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.nextTransition: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.nextTransition: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.nextTransition: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.hashCode: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.hashCode: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.hashCode: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getNameKey: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getNameKey: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.getNameKey: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getStandardOffset: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getStandardOffset: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.getStandardOffset: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getUncachedZone: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getUncachedZone: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.getUncachedZone: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getOffset: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.getOffset: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.getOffset: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.equals: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.equals: computed 0 unit tests
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.forZone: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.forZone: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.forZone: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.isFixed: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.isFixed: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.isFixed: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.previousTransition: computing test cases
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: org.joda.time.tz.CachedDateTimeZone.previousTransition: found 1 problems
+src/main/java/org/joda/time/tz/CachedDateTimeZone.java: internal error: org.joda.time.tz.CachedDateTimeZone.previousTransition: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getAvailableIDs: computing test cases
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getAvailableIDs: computed 0 unit tests
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getAvailableIDs: found 0 problems
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getZone: computing test cases
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getZone: computed 0 unit tests
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.getZone: found 0 problems
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.UTCProvider: computing test cases
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.UTCProvider: computed 1 unit tests
+src/main/java/org/joda/time/tz/UTCProvider.java: org.joda.time.tz.UTCProvider.UTCProvider: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setStandardOffset: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setStandardOffset: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setStandardOffset: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readFrom: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readFrom: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addCutover: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addCutover: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addCutover: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addRecurringSavings: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addRecurringSavings: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.addRecurringSavings: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeMillis: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeMillis: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeMillis: found 1 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: unsupported: org.joda.time.tz.DateTimeZoneBuilder.writeMillis: encountered an unsupported type
+	data: unsupported(java/io/DataOutput)
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.toDateTimeZone: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readFrom: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readFrom: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readFrom: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeTo: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeTo: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setFixedSavings: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setFixedSavings: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.setFixedSavings: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DateTimeZoneBuilder: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DateTimeZoneBuilder: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.DateTimeZoneBuilder: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readMillis: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readMillis: computed 0 unit tests
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.readMillis: found 0 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeTo: computing test cases
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: org.joda.time.tz.DateTimeZoneBuilder.writeTo: found 1 problems
+src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java: internal error: org.joda.time.tz.DateTimeZoneBuilder.writeTo: unknown type kind
+	data: unsupported(org/joda/time/DateTimeZone)
+src/main/java/org/joda/time/tz/NameProvider.java: org.joda.time.tz.NameProvider.getName: computing test cases
+src/main/java/org/joda/time/tz/NameProvider.java: org.joda.time.tz.NameProvider.getName: function is abstract and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/NameProvider.java: org.joda.time.tz.NameProvider.getShortName: computing test cases
+src/main/java/org/joda/time/tz/NameProvider.java: org.joda.time.tz.NameProvider.getShortName: function is abstract and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.test: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.test: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.test: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.verbose: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.verbose: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.verbose: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getStartOfYear: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getStartOfYear: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getStartOfYear: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getLenientISOChronology: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getLenientISOChronology: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.getLenientISOChronology: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseTime: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseTime: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseTime: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.compile: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.compile: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.compile: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseOptional: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseOptional: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseOptional: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.toString: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.toString: computed 1 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.toString: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseYear: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseYear: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseYear: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDataFile: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDataFile: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDataFile: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addCutover: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addCutover: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addCutover: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.main: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.main: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.main: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addRecurring: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addRecurring: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.addRecurring: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseZoneChar: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseZoneChar: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseZoneChar: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: computed 1 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear.DateTimeOfYear: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.writeZoneInfoMap: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.writeZoneInfoMap: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.writeZoneInfoMap: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDayOfWeek: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDayOfWeek: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseDayOfWeek: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseMonth: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseMonth: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.parseMonth: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.ZoneInfoCompiler: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.ZoneInfoCompiler: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: org.joda.time.tz.ZoneInfoCompiler.ZoneInfoCompiler: found 0 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.uncaughtException: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.uncaughtException: found 1 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: org.joda.time.tz.ZoneInfoProvider.uncaughtException: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.getAvailableIDs: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.getAvailableIDs: found 1 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: org.joda.time.tz.ZoneInfoProvider.getAvailableIDs: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.getZone: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.getZone: computed 0 unit tests
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: found 1 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: found 1 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: computing test cases
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: found 1 problems
+src/main/java/org/joda/time/tz/ZoneInfoProvider.java: internal error: org.joda.time.tz.ZoneInfoProvider.ZoneInfoProvider: unknown type kind
+	data: unsupported(java/io/File)
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.DefaultNameProvider: computing test cases
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.DefaultNameProvider: computed 0 unit tests
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.DefaultNameProvider: found 1 problems
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: internal error: org.joda.time.tz.DefaultNameProvider.DefaultNameProvider: unknown type kind
+	data: unsupported
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.getShortName: computing test cases
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.getShortName: computed 0 unit tests
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.getName: computing test cases
+src/main/java/org/joda/time/tz/DefaultNameProvider.java: org.joda.time.tz.DefaultNameProvider.getName: computed 0 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffset: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffset: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffset: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.isFixed: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.isFixed: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.isFixed: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.hashCode: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.hashCode: computed 0 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.hashCode: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.equals: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.equals: computed 0 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.FixedDateTimeZone: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.FixedDateTimeZone: computed 0 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.FixedDateTimeZone: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffsetFromLocal: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffsetFromLocal: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getOffsetFromLocal: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getStandardOffset: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getStandardOffset: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getStandardOffset: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.previousTransition: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.previousTransition: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.previousTransition: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.toTimeZone: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.toTimeZone: computed 0 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.toTimeZone: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getNameKey: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getNameKey: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.getNameKey: found 0 problems
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.nextTransition: computing test cases
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.nextTransition: computed 1 unit tests
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: org.joda.time.tz.FixedDateTimeZone.nextTransition: found 0 problems
+src/main/java/org/joda/time/tz/Provider.java: org.joda.time.tz.Provider.getZone: computing test cases
+src/main/java/org/joda/time/tz/Provider.java: org.joda.time.tz.Provider.getZone: function is abstract and therefore inaccessible for tests
+src/main/java/org/joda/time/tz/Provider.java: org.joda.time.tz.Provider.getAvailableIDs: computing test cases
+src/main/java/org/joda/time/tz/Provider.java: org.joda.time.tz.Provider.getAvailableIDs: function is abstract and therefore inaccessible for tests
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/joda/time/tz/FixedDateTimeZone.java: generated unit test file src/org/joda/time/tz/FixedDateTimeZoneSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/joda/time/tz/UTCProvider.java: generated unit test file src/org/joda/time/tz/UTCProviderSymflowerTest.java
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/joda/time/tz/ZoneInfoCompiler.java: could not generate unit test file for "src/main/java/org/joda/time/tz/ZoneInfoCompiler.java": Internal error: cannot set a final field:
+	&modelast.Variable{
+	    CompactFileRange: location.CompactFileRange{Start:location.NewCompactFileLocationRaw(8, 523, 26), End:location.NewCompactFileLocationRaw(8, 523, 36)},
+	    Name:             "iDayOfMonth",
+	    Type:             &modelast.TypePrimitive{
+	        Kind: "int",
+	        Size: 0x20,
+	    },
+	    Modifier: modelast.ModifierFinal|modelast.ModifierVisibilityPackagePrivate,
+	}
+	Stacktrace: goroutine 1 [running]:
+	gitlab.nethead.at/symflower/symflower/model/errors.NewInternalError({0x21de060, 0x2d25d80}, {0x13e5e60, 0xc000be7c20})
+		gitlab.nethead.at/symflower/symflower/model/errors/error.go:852 +0x4e
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).objectCreation(0xc00093fc70, {0x2205848?, 0xc001221500?}, {0x21f7de8, 0xc0003d4980}, {0x2208850, 0xc000134d80})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1928 +0x34dc
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).literalForReferenceType(0xc00093fc70, {0x21f7de8, 0xc0003d4980}, {0x2205848?, 0xc0012214e0?}, {0x2208850, 0xc000134d80})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1427 +0x17da
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc00093fc70, {0x21f7de8, 0xc0003d4980}, {0x2205848?, 0xc0012214a0?}, {0x2208850, 0xc000134d80})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1138 +0x1318
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).Literal(0xc00093fc70, {0x21f7de8, 0xc0003d4980}, {0x2205728?, 0xc001e2a720?}, {0x22089b0, 0xc00123ab10})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:1128 +0x245
+	gitlab.nethead.at/symflower/symflower/language/java/ast.(*Generator).VariableDeclarationWithAssignment(0xc00093fc70, {0x2205728, 0xc001e2a720}, {0xc000012890, 0x1}, {0x22089b0, 0xc00123ab10}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:548 +0x125
+	gitlab.nethead.at/symflower/symflower/language/java/ast.InitializeVariableOfType(0xc00093fc70, {0x2205728, 0xc001e2a720}, {0x22089b0, 0xc00123ab10}, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/ast/generate.go:3198 +0x16c
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).receiverInitialization(0xc0004fc640, 0xc0003ee0a0, 0xd0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:132 +0x61b
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTestInternal(0xc0004fc640, 0xc0003f0e00, {0x0, 0x0})
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:356 +0xdc9
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).generateUnitTestAddTest(...)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:249
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*TestGeneratorJUnit).AddTest(0xc0004fc640, 0xc0012195c0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/junit.go:61 +0x1d
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).addTest(0xc000559d40, 0xc0003f0e00)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:253 +0x318
+	gitlab.nethead.at/symflower/symflower/language/java/unittest.(*testStyleBasic).AddTest(0xc000ade060?, 0xc001131600?)
+		gitlab.nethead.at/symflower/symflower/language/java/unittest/test-style-basic.go:215 +0x1a
+	gitlab.nethead.at/symflower/symflower/language/java.generateUnitTestFileForType(0xc001220c60, {0xc000c29890, 0x2, 0x1d?}, {0xc000688940?, 0xc000664900?}, 0xc00037bba0?)
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:173 +0x647
+	gitlab.nethead.at/symflower/symflower/language/java.Adapter.GenerateUnitTest({{{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}}}, 0xc001220c60, {0xc0012a00d0, 0x2, 0x2})
+		gitlab.nethead.at/symflower/symflower/language/java/unit-test.go:99 +0x8c8
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles.func1({0xc0001c292a, 0x34})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:345 +0x55e
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.updateTestFiles({0xc0004c23f0, 0x2a}, 0xc000f66ae0, {0xc000cfba80?, 0x1?, 0xc000e6fa00?}, 0x1, 0xc00078bb08)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/tests.go:41 +0xc3
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).updateTestFiles(0xc0004030e0, 0xc000b72c00, 0x1, 0x1)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:330 +0x3e5
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*Generator).UpdateSymflowerTestSuite(0xc0004030e0?, 0xc000403110?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/generate.go:307 +0x3b
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate.(*AnalyzeEngineDefault).UnitTests(0x29?, 0x124bba0?, {0x21eb890?, 0xc00004c840?}, {0x60?, 0x23?, 0x4c?, 0x0?}, 0x29?, {0xc0000ff440, ...})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/generate/analyze.go:162 +0xaa
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*commandUnitTests).Execute(0xc0004968d8, {0xc000496508?, 0x7e8f2c17d918?, 0xc0004968d8?})
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/unit-tests.go:85 +0x2a6
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteNoExit({0x21de020, 0xc000496508}, {0xc00003e050?, 0x44?, 0x0?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:59 +0x2ad
+	gitlab.nethead.at/symflower/symflower/cmd.Execute({0x21de020?, 0xc000496508?}, {0xc00003e050?, 0xc0004aa0e8?, 0xc0004e5f10?})
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:17 +0x26
+	gitlab.nethead.at/symflower/symflower/cmd.ExecuteWithOSArguments(...)
+		gitlab.nethead.at/symflower/symflower/cmd/execute.go:78
+	main.main.func1()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:39 +0x34
+	gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd.(*Command).WithPanicReporter(0xc0000b2060?, 0x0?)
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-local/cmd/cmd.go:151 +0x33
+	main.main()
+		gitlab.nethead.at/symflower/symflower/cmd/symflower-demo/main.go:38 +0x7f
+Analyzed 9 out of 9 source files
+Had 3 errors that block a full analysis
+Generated 10 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 52 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 23 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 22 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 12 cases of "other issues"
+	Description: Uncategorized problems.
+

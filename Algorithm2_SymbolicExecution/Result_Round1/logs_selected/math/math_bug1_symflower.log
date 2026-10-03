@@ -1,0 +1,388 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_1b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/ZeroException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/fraction/BigFractionField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/fraction/BigFractionField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [struct(org/apache/commons/math3/fraction/BigFractionFormat, [], [pointer(reference(org/apache/commons/math3/fraction/AbstractFormat))], [reference(java/io/Serializable)]) org/apache/commons/math3/fraction/BigFractionFormat//format [] [f]]
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: internal error: type does not support nil values
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/util/FastMath
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/Fraction.java: error: unknown import
+	data: org/apache/commons/math3/util/ArithmeticUtils
+src/main/java/org/apache/commons/math3/fraction/FractionConversionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/fraction/FractionConversionException.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/FractionField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/fraction/FractionField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathParseException
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [struct(org/apache/commons/math3/fraction/FractionFormat, [], [pointer(reference(org/apache/commons/math3/fraction/AbstractFormat))], []) org/apache/commons/math3/fraction/FractionFormat//format [] [f]]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/FractionFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown import
+	data: org/apache/commons/math3/util/MathUtils
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [' ']]
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [" / "]]
+src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java: internal error: not all elements have the same type
+	data: primitive(char, 16, true) vs primitive(int, 32, false)
+Found 1 Java files
+Found 72 problems in Java files
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: found 53 symbols
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.divide: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.subtract: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsInt: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsInt: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsInt: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumerator: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumerator: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getNumerator: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.intValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.intValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.intValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.multiply: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.add: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.divide: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominator: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominator: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getDenominator: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.add: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.subtract: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.multiply: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getField: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getField: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getField: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.floatValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.floatValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.floatValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.subtract: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.divide: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.equals: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.equals: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.equals: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.longValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.longValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.longValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsLong: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsLong: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsLong: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.bigDecimalValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.hashCode: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.hashCode: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.hashCode: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.negate: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.negate: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.negate: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.pow: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsLong: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsLong: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getNumeratorAsLong: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.doubleValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.doubleValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.doubleValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.pow: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.percentageValue: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.percentageValue: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.percentageValue: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.divide: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.divide: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.reciprocal: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.reciprocal: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.reciprocal: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.multiply: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.pow: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.subtract: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.subtract: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.add: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.pow: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.pow: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.BigFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.BigFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.abs: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.abs: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.abs: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsInt: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsInt: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getDenominatorAsInt: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getReducedFraction: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.getReducedFraction: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.getReducedFraction: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.compareTo: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.compareTo: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.compareTo: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.multiply: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.multiply: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.add: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.add: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.reduce: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.reduce: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.reduce: unknown type kind
+	data: unsupported(java/math/BigInteger)
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.toString: computing test cases
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: org.apache.commons.math3.fraction.BigFraction.toString: found 1 problems
+src/main/java/org/apache/commons/math3/fraction/BigFraction.java: internal error: org.apache.commons.math3.fraction.BigFraction.toString: unknown type kind
+	data: unsupported(java/math/BigInteger)
+Analyzed 1 out of 10 source files
+Had 0 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 57 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 53 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 10 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 4 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "other issues"
+	Description: Uncategorized problems.
+

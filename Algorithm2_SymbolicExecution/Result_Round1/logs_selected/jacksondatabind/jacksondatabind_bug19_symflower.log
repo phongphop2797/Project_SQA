@@ -1,0 +1,1016 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_19b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._mapType: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._collectionType: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/TypeBase, [], [unsupported(com/fasterxml/jackson/databind/JavaType)], [unsupported(com/fasterxml/jackson/databind/JsonSerializable)]) com/fasterxml/jackson/databind/type/TypeBase//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getComponentType [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ArrayType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ClassKey.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ClassKey.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/TypeBase, [], [unsupported(com/fasterxml/jackson/databind/JavaType)], [unsupported(com/fasterxml/jackson/databind/JsonSerializable)]) com/fasterxml/jackson/databind/type/TypeBase//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [other struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/CollectionLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) com/fasterxml/jackson/databind/type/CollectionLikeType//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/HierarchicType.java: error: unknown import
+	data: java/lang/reflect
+src/main/java/com/fasterxml/jackson/databind/type/HierarchicType.java: error: unknown type
+	data: Type
+src/main/java/com/fasterxml/jackson/databind/type/HierarchicType.java: error: unknown type
+	data: ParameterizedType
+src/main/java/com/fasterxml/jackson/databind/type/HierarchicType.java: internal error: type does not support nil values
+	data: unsupported(ParameterizedType)
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/TypeBase, [], [unsupported(com/fasterxml/jackson/databind/JavaType)], [unsupported(com/fasterxml/jackson/databind/JsonSerializable)]) com/fasterxml/jackson/databind/type/TypeBase//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [other struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/MapLikeType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) com/fasterxml/jackson/databind/type/MapLikeType//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/MapType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [other struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) com/fasterxml/jackson/databind/type/SimpleType//@@constructor [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/ReferenceType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/ReferenceType, [], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [other struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown function
+	data: [<nil> getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [cls]]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [cls]]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _asStatic]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/SimpleType, [], [pointer(reference(com/fasterxml/jackson/databind/type/TypeBase))], []) _class]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonGenerator
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/SerializerProvider
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/TypeBase, [], [unsupported(com/fasterxml/jackson/databind/JavaType)], [unsupported(com/fasterxml/jackson/databind/JsonSerializable)]) _valueHandler]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Short struct(java/lang/Short, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Long struct(java/lang/Long, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown identifier
+	data: Void
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isPrimitive [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Character struct(java/lang/Character, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/TypeBase, [], [unsupported(com/fasterxml/jackson/databind/JavaType)], [unsupported(com/fasterxml/jackson/databind/JsonSerializable)]) _typeHandler]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Byte struct(java/lang/Byte, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Integer struct(java/lang/Integer, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonSerializable
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeSerializer
+src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java: error: unknown field
+	data: [Boolean struct(java/lang/Boolean, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: TypeVariable
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//getModifiers [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//getEnclosingClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getTypeParameters [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/TypeBindings, [], [pointer(reference(java/lang/Object))], []) Collections]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getGenericSuperclass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/type/TypeBindings, [], [pointer(reference(java/lang/Object))], []) Modifier]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: LinkedHashMap
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [raw]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getTypeParameters [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [struct(java/lang/StringBuilder, [], [pointer(reference(java/lang/Object))], [reference(java/lang/CharSequence)]) java/lang/StringBuilder//append [] [select(this, _bindings)]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: HashSet
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/TypeBindings, [], [pointer(reference(java/lang/Object))], []) com/fasterxml/jackson/databind/type/TypeBindings//@@constructor [] [typeFactory nil cc nil]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: internal error: type does not support nil values
+	data: unsupported(ParameterizedType)
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getDeclaringClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [unsupported]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getGenericInterfaces [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [unsupported(com/fasterxml/jackson/databind/JavaType)]) java/util/Collection<com/fasterxml/jackson/databind/JavaType>//toArray [] [make(array(unsupported(com/fasterxml/jackson/databind/JavaType), primitive(int, 32, false), 0), call(select(ensure_not_nil(select(this, _bindings)), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown import
+	data: java/lang/reflect
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/TypeFactory, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) com/fasterxml/jackson/databind/type/TypeFactory//_constructType [] [cls this]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: Type
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown function
+	data: [<nil> _resolveBindings [] [select(this, _contextClass)]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java: error: unknown type
+	data: ParameterizedType
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: ParameterizedType
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) com/fasterxml/jackson/databind/type/CollectionType//construct [] [collectionClass elementType]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getComponentType [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(TypeVariable), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/LRUMap
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [subclass]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported index operator
+	data: unsupported(@@unsupported)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) com/fasterxml/jackson/databind/type/MapType//construct [] [mapClass unsupported unsupported]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getTypeParameters [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [rawType]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) com/fasterxml/jackson/databind/type/CollectionType//construct [] [collectionClass unsupported]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [variable(cls, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], [new(pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], ModifierNone), =(this, call(select(this, @@constructor!5a065a63ea68e7f2ca0df36b62fe3e49), [cls])), return([this])])) return([call(com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [clz])])]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: TypeVariable
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(TypeVariable), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getComponentType [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported node
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [variable(cls, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], [new(pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], ModifierNone), =(this, call(select(this, @@constructor!5a065a63ea68e7f2ca0df36b62fe3e49), [cls])), return([this])])) return([call(com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [rawType])])]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [<nil> _findSuperInterfaceChain [] [subtype supertype]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: com/fasterxml/jackson/core/type/TypeReference
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [parametrized]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Integer struct(java/lang/Integer, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isEnum [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported type
+	data: pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) vs pointer(genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]))
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [variable(cls, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], [new(pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], ModifierNone), =(this, call(select(this, @@constructor!5a065a63ea68e7f2ca0df36b62fe3e49), [cls])), return([this])])) return([call(com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [cast(call(java/lang/Class//Class!e3b1fa59c6d86c11414ab72a3dd3145b, ["Object", "java.lang.Object", "Object"]), pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))])])]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Long struct(java/lang/Long, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [raw2]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/List), [unsupported(com/fasterxml/jackson/databind/JavaType)])) java/util/List<com/fasterxml/jackson/databind/JavaType>//toArray [] [make(array(unsupported(com/fasterxml/jackson/databind/JavaType), primitive(int, 32, false), 0), call(select(ensure_not_nil(paramTypes), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [rawType]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(TypeVariable), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ArrayBuilders
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown import
+	data: java/lang/reflect
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: WildcardType
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]) java/lang/Class<descendant of java/lang/Object>//getTypeParameters [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: Type
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(com/fasterxml/jackson/databind/util/LRUMap), [pointer(reference(com/fasterxml/jackson/databind/type/ClassKey)), unsupported(com/fasterxml/jackson/databind/JavaType)])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [variable(cls, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], [new(pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], ModifierNone), =(this, call(select(this, @@constructor!5a065a63ea68e7f2ca0df36b62fe3e49), [cls])), return([this])])) return([call(com/fasterxml/jackson/databind/type/SimpleType//SimpleType!5a065a63ea68e7f2ca0df36b62fe3e49, [cls])])]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Boolean struct(java/lang/Boolean, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Long struct(java/lang/Long, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [clz]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isEnum [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [clz]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Boolean struct(java/lang/Boolean, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/type/SimpleType//SimpleType!353c3d7690cc218fdf3ef6b2b6c05990, [variable(cls, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))]))), variable(typeNames, array(pointer(reference(java/lang/String)), primitive(int, 32, false), 0)), variable(typeParams, array(unsupported(com/fasterxml/jackson/databind/JavaType), primitive(int, 32, false), 0)), variable(valueHandler, pointer(reference(java/lang/Object))), variable(typeHandler, pointer(reference(java/lang/Object))), variable(asStatic, primitive(bool, 0, false)), variable(parametersFrom, pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])))], [variable(, pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/type/SimpleType))], [new(pointer(reference(com/fasterxml/jackson/databind/type/SimpleType)))], ModifierNone), =(this, call(select(this, @@constructor!353c3d7690cc218fdf3ef6b2b6c05990), [cls, typeNames, typeParams, valueHandler, typeHandler, asStatic, parametersFrom])), return([this])])) return([call(com/fasterxml/jackson/databind/type/SimpleType//SimpleType!353c3d7690cc218fdf3ef6b2b6c05990, [rawType, names, parameterTypes, nil, nil, false, parameterTarget])])]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown type
+	data: GenericArrayType
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown field
+	data: [Integer struct(java/lang/Integer, [], [pointer(reference(java/lang/Object))], []) TYPE]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [subclass]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) com/fasterxml/jackson/databind/type/MapType//construct [] [mapClass keyType valueType]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isArray [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [parametrized]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/MapType, [], [pointer(reference(com/fasterxml/jackson/databind/type/MapLikeType))], []) com/fasterxml/jackson/databind/type/MapType//construct [] [mapClass call(com/fasterxml/jackson/databind/type/TypeFactory//unknownType!d41d8cd98f00b204e9800998ecf8427e, []) call(com/fasterxml/jackson/databind/type/TypeFactory//unknownType!d41d8cd98f00b204e9800998ecf8427e, [])]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isInterface [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: type does not support nil values
+	data: unsupported(ParameterizedType)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [struct(com/fasterxml/jackson/databind/type/CollectionType, [], [pointer(reference(com/fasterxml/jackson/databind/type/CollectionLikeType))], []) com/fasterxml/jackson/databind/type/CollectionType//construct [] [collectionClass call(com/fasterxml/jackson/databind/type/TypeFactory//unknownType!d41d8cd98f00b204e9800998ecf8427e, [])]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [clz]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(TypeVariable), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [<nil> _findSuperClassChain [] [subtype supertype]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(TypeVariable), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(com/fasterxml/jackson/core/type/TypeReference), [wildcard(, pointer(reference(java/lang/Object)))])
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [genericInstance(reference(java/lang/Class), [pointer(reference(java/lang/Object))]) java/lang/Class<java/lang/Object>//isAssignableFrom [] [clz]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: unsupported: unsupported node
+	data: unsupported(java/util/concurrent/atomic/AtomicReference)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getTypeParameters [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [<nil> _constructType [] [elementType nil]]
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//getGenericInterfaces [] []]
+src/main/java/com/fasterxml/jackson/databind/type/TypeModifier.java: error: unknown import
+	data: java/lang/reflect/Type
+src/main/java/com/fasterxml/jackson/databind/type/TypeModifier.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/TypeParser.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/type/TypeParser.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/type/TypeParser.java: error: unknown type
+	data: StringTokenizer
+Found 1 Java files
+Found 389 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: found 54 symbols
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._arrayListSuperInterfaceChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._arrayListSuperInterfaceChain: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._arrayListSuperInterfaceChain: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.rawClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.rawClass: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.rawClass: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.rawClass: unknown type kind
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._hashMapSuperInterfaceChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._hashMapSuperInterfaceChain: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._hashMapSuperInterfaceChain: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructMapType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._resolveVariableViaSubTypes: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._resolveVariableViaSubTypes: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._resolveVariableViaSubTypes: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.moreSpecificType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.moreSpecificType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.moreSpecificType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.defaultInstance: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.defaultInstance: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.defaultInstance: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperTypeChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperTypeChain: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._findSuperTypeChain: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSimpleType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSimpleType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.uncheckedSimpleType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.uncheckedSimpleType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSimpleType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSimpleType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructSimpleType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromArrayType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromArrayType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._fromArrayType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSpecializedType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructSpecializedType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructSpecializedType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromWildcard: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromWildcard: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._fromWildcard: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromParamType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromParamType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.withModifier: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.withModifier: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.withModifier: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructArrayType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromClass: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionLikeType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.findTypeParameters: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.unknownType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.unknownType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.unknownType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionLikeType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromParameterizedClass: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromParameterizedClass: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.clearCache: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.clearCache: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.clearCache: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperInterfaceChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperInterfaceChain: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._doFindSuperInterfaceChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._doFindSuperInterfaceChain: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._doFindSuperInterfaceChain: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperClassChain: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._findSuperClassChain: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._findSuperClassChain: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructFromCanonical: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructFromCanonical: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructFromCanonical: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromVariable: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._fromVariable: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory._fromVariable: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructMapLikeType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructReferenceType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructReferenceType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructReferenceType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructRawCollectionType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._unknownType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._unknownType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructCollectionType: unknown type kind
+	data: unsupported(Type)
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._constructType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory._constructType: computed 0 unit tests
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapLikeType: computing test cases
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapLikeType: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java: internal error: com.fasterxml.jackson.databind.type.TypeFactory.constructRawMapLikeType: unknown type kind
+	data: unsupported(Type)
+Analyzed 1 out of 14 source files
+Had 249 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 75 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 65 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 27 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 5 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 13 cases of "other issues"
+	Description: Uncategorized problems.
+

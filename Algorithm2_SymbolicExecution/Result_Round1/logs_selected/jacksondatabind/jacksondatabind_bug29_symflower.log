@@ -1,0 +1,725 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/jacksondatabind_29b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.ExtTypedProperty: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.hasTypePropertyName: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.hasDefaultType: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.getDefaultTypeId: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.getTypePropertyName: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExtTypedProperty.getProperty: function is private and therefore inaccessible for tests
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapInstantiationProblem [] [e ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _delegateDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _nonStandardCreation]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> injectValues [] [ctxt builder]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e builder unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> injectValues [] [ctxt builder]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e unsupported propName ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapInstantiationProblem [] [e ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _vanillaProcessing]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e builder unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e builder unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _injectables]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _objectIdReader]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e builder unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown type
+	data: BeanDeserializerBase
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _propertyBasedCreator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonMappingException]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown type
+	data: SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _injectables]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _needViewProcesing]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer, [], [unsupported(BeanDeserializerBase)], []) _propertyBasedCreator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _nonStandardCreation]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e unsupported propName ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> injectValues [] [ctxt bean]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _objectIdReader]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonToken
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) JsonMappingException]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e bean unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _delegateDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _valueInstantiator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown import
+	data: java/util/HashSet
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown type
+	data: BeanDeserializerBase
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _propertyBasedCreator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown type
+	data: SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> injectValues [] [ctxt bean]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e bean unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e bean unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapAndThrow [] [e bean unsupported ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _ignoreAllUnknown]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _propertyBasedCreator]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _injectables]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _injectables]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _needViewProcesing]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _beanType]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown function
+	data: [<nil> wrapInstantiationProblem [] [e ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer, [], [unsupported(BeanDeserializerBase)], []) _vanillaProcessing]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/util/Collection), [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)])) java/util/Collection<com/fasterxml/jackson/databind/deser/SettableBeanProperty>//toArray [] [make(array(unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty), primitive(int, 32, false), 0), call(select(ensure_not_nil(props), size!d41d8cd98f00b204e9800998ecf8427e), []))]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)])), reference(java/io/Serializable)]) Arrays]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)] [select(this, _size)]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown function
+	data: [pointer(reference(java/lang/Throwable)) java/lang/Throwable//getCause [] []]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationFeature
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)] [len]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown type
+	data: NoSuchElementException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)] [select(this, _size)]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: internal error: type does not support nil values
+	data: unsupported(java/lang/reflect/InvocationTargetException)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: java/lang/reflect/InvocationTargetException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap, [], [pointer(reference(java/lang/Object))], [pointer(genericInstance(reference(java/lang/Iterable), [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)])), reference(java/io/Serializable)]) Arrays]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java: error: unknown identifier
+	data: deser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/CreatorProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ValueInstantiator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/type/TypeBindings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/BeanDescription
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationConfig
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: AnnotatedParameter
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: LinkedHashMap
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/std/StdValueInstantiator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: java/lang/reflect/Member
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: AnnotatedWithParams
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java: error: unknown function
+	data: [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])) java/lang/Class<descendant of java/lang/Object>//isAssignableFrom [] [oldType]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(HashMap), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Integer))])
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/TokenBuffer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown function
+	data: [<nil> com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler//ExternalTypeHandler [] [call(select(ensure_not_nil(select(this, _properties)), toArray!4ca58e31cd2242105fd0ef5028975b56), [cast(make(array(pointer(reference(com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler//ExtTypedProperty)), primitive(int, 32, false), 0), call(select(ensure_not_nil(select(this, _properties)), size!d41d8cd98f00b204e9800998ecf8427e), [])), array(pointer(reference(java/lang/Object)), primitive(int, 32, false), 0))]) select(this, _nameToPropertyIndex) nil nil]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown type
+	data: HashMap
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(HashMap), [pointer(reference(java/lang/String)), pointer(reference(java/lang/Integer))])
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FailingDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FailingDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FailingDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FailingDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/std/StdDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> deserialize [] [jp ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/deser/impl/FieldProperty//FieldProperty!e51935926f1563cc073bbd43ee884ede, [variable(src, pointer(reference(com/fasterxml/jackson/databind/deser/impl/FieldProperty)))], [variable(, pointer(reference(com/fasterxml/jackson/databind/deser/impl/FieldProperty)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/deser/impl/FieldProperty))], [new(pointer(reference(com/fasterxml/jackson/databind/deser/impl/FieldProperty)))], ModifierNone), =(this, call(select(this, @@constructor!e51935926f1563cc073bbd43ee884ede), [src])), return([this])])) return([call(com/fasterxml/jackson/databind/deser/impl/FieldProperty//FieldProperty!e51935926f1563cc073bbd43ee884ede, [this])])]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> deserialize [] [jp ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedField
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: java/lang/reflect/Field
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown import
+	data: java/lang/reflect/Constructor
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: AnnotatedConstructor
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/InnerClassProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) JsonToken]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/InnerClassProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _valueDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/InnerClassProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _valueTypeDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/ClassUtil
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown type
+	data: JsonToken
+src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java: error: unknown function
+	data: [<nil> deserialize [] [jp ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown function
+	data: [<nil> deserialize [] [p ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> deserialize [] [jp ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> deserialize [] [jp ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e value]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: java/lang/reflect/Method
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java: error: unknown type
+	data: BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NoClassDefFoundDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NoClassDefFoundDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NoClassDefFoundDeserializer.java: error: unknown type
+	data: NoClassDefFoundError
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NoClassDefFoundDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationFeature
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/SimpleObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [src struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown function
+	data: [<nil> deserialize [] [p ctxt]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: internal error: no supported constructor available
+	data: [struct(com/fasterxml/jackson/databind/deser/impl/ReadableObjectId//Referring, [], [pointer(reference(java/lang/Object))], []) function(variable(this, pointer(reference(java/lang/Object))), java/lang/Object//@@constructor!d41d8cd98f00b204e9800998ecf8427e, [], [variable(, pointer(reference(java/lang/Object)))], block([return([this])]))]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _valueDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/UnresolvedForwardReference
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: internal error: not all elements have the same type
+	data: [function(<nil>, com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty//ObjectIdReferenceProperty!7b5f2d2bbe1665cb24a0aa2e1611f720, [variable(src, pointer(reference(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty))), variable(deser, genericInstance(unsupported(JsonDeserializer), [wildcard(, pointer(reference(java/lang/Object)))]))], [variable(, pointer(reference(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty)))], block([declaration([this], [pointer(reference(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty))], [new(pointer(reference(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty)))], ModifierNone), =(this, call(select(this, @@constructor!7b5f2d2bbe1665cb24a0aa2e1611f720), [src, deser])), return([this])])) return([call(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty//ObjectIdReferenceProperty!7b5f2d2bbe1665cb24a0aa2e1611f720, [this, deser])])]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/ObjectIdInfo
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [src struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _objectIdInfo]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) JsonMappingException]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _type]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown type
+	data: SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown type
+	data: PropertyMetadata
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty, [], [unsupported(SettableBeanProperty)], []) _valueDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown type
+	data: PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/ValueInstantiator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: not a boolean type
+	data: unsupported
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: unknown type
+	data: IdKey
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerators
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: unknown type
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator/IdKey
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator, [], [unsupported(com/fasterxml/jackson/annotation/ObjectIdGenerators//PropertyGenerator)], []) _scope]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValue.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValue.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValue.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValue.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableAnyProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationFeature
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableAnyProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: java/util/BitSet
+src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdGenerator
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/UnresolvedForwardReference
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: java/util/LinkedList
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/annotation/ObjectIdResolver
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonLocation
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java: error: unknown import
+	data: java/util/Collections
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonToken
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown function
+	data: [<nil> _throwAsIOE [] [e]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMethod
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: java/lang/reflect/Method
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonMappingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/SetterlessProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _valueTypeDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/SetterlessProperty, [], [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)], []) _valueDeserializer]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java: error: unknown type
+	data: DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/core/JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java: error: unknown import
+	data: com/fasterxml/jackson/databind/jsontype/TypeDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java: error: unknown type
+	data: JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown type
+	data: JsonProcessingException
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)] [call(select(ensure_not_nil(select(this, _properties)), size!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/deser/SettableBeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/NameTransformer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/TokenBuffer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown type
+	data: JsonParser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown identifier
+	data: deser
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JsonDeserializer
+src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java: error: unknown import
+	data: com/fasterxml/jackson/core
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyMetadata
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/util/Annotations
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown type
+	data: Deprecated
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown field
+	data: [this struct(com/fasterxml/jackson/databind/deser/impl/ValueInjector, [], [unsupported(com/fasterxml/jackson/databind/BeanProperty//Std)], []) _member]
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/BeanProperty
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/DeserializationContext
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/JavaType
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/PropertyName
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java: error: unknown import
+	data: com/fasterxml/jackson/databind/introspect/AnnotatedMember
+Found 1 Java files
+Found 322 problems in Java files
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: found 11 symbols
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handleTypePropertyValue: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handleTypePropertyValue: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handleTypePropertyValue: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handlePropertyValue: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handlePropertyValue: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.handlePropertyValue: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserializeAndSet: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserializeAndSet: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserializeAndSet: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserialize: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserialize: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler._deserialize: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.build: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.build: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.build: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.addExternal: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.addExternal: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder.addExternal: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/deser/SettableBeanProperty)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.start: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.start: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.start: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.ExternalTypeHandler: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: computing test cases
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: found 1 problems
+src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java: internal error: com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.complete: unknown type kind
+	data: unsupported(com/fasterxml/jackson/databind/util/TokenBuffer)
+Analyzed 1 out of 24 source files
+Had 66 errors that block a full analysis
+Generated 0 tests
+Found 0 potential problems
+The following issues prevent a full analysis:
+
+* 138 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 78 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 45 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 2 cases of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 4 cases of "other issues"
+	Description: Uncategorized problems.
+

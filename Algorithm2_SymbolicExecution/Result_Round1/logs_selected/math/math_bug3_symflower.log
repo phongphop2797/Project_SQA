@@ -1,0 +1,1152 @@
+Analyzing workspace /home/ph7/sqa-project/workspaces/math_3b/
+Search for Java files
+Load dependency stdlib:@dev
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.MathArrays: function is private and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooLargeException
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/Localizable
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: java/util/concurrent/atomic/AtomicReference
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: java/math/MathContext
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: java/math/RoundingMode
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: java/math/BigInteger
+src/main/java/org/apache/commons/math3/util/BigReal.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/BigRealField.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/BigRealField.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [value]]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] [')']]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown import
+	data: java/text/FieldPosition
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown import
+	data: java/text/ParsePosition
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown function
+	data: [pointer(reference(java/lang/StringBuffer)) java/lang/StringBuffer//append [] ['(']]
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown import
+	data: java/text/NumberFormat
+src/main/java/org/apache/commons/math3/util/CompositeFormat.java: error: unknown import
+	data: java/util/Locale
+src/main/java/org/apache/commons/math3/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/ConvergenceException
+src/main/java/org/apache/commons/math3/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/util/ContinuedFraction.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown import
+	data: org/apache/commons/math3/RealFieldElement
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown function
+	data: [<nil> org/apache/commons/math3/util/Decimal64//Decimal64 [] [NEGATIVE_INFINITY]]
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown function
+	data: [<nil> org/apache/commons/math3/util/Decimal64//Decimal64 [] [POSITIVE_INFINITY]]
+src/main/java/org/apache/commons/math3/util/Decimal64.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/Decimal64Field.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/Decimal64Field.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/DefaultTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/util/DefaultTransformer.java: error: unknown function
+	data: [struct(java/lang/Number, [], [pointer(reference(java/lang/Object))], [reference(java/io/Serializable)]) java/lang/Number//doubleValue [] []]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [d]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, -(&(bits, 9223372036854775807), cast(1, primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [a]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [a]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [a]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [a]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [magnitude]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [magnitude]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/FastMath, [], [pointer(reference(java/lang/Object))], []) StrictMath]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//random [] []]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [<<(cast(+(n, 1023), primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, +(&(bits, 9223372036854775807), cast(1, primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown identifier
+	data: StrictMath
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: internal error: not all elements have the same type
+	data: composite(array(primitive(float, 64, false), primitive(int, 32, false), 0), [0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0, 1.125, 1.25, 1.375, 1.5, 1.625])
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [d]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [^(call(java/lang/Float//floatToIntBits!0a37bd2ce4b9f5cb8abc17a360491bc5, [x]), 1)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [a]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(|(sign, <<(scaledExponent, &(23, 31))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [&(org/apache/commons/math3/util/FastMath//MASK_NON_SIGN_INT, unsupported)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [sign]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(|(sign, <<(cast(scaledExponent, primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false)))), mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//floatToRawIntBits [] [f]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [<<(+(n, 127), &(23, 31))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [sign]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [xl]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, -(&(bits, 2147483647), 1))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(sign, mantissa)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [d]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(<<(cast(i, primitive(int, 64, false)), cast(&(42, 63), primitive(int, 64, false))), 4607182418800017408)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [^(unsupported, 1)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown identifier
+	data: PI
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [x]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [&(org/apache/commons/math3/util/FastMath//MASK_NON_SIGN_LONG, unsupported)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(&(inbits, -9223372036854775808), <<(cast(&(+(exp3, 1023), 2047), primitive(int, 64, false)), cast(&(52, 63), primitive(int, 64, false))))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//doubleToRawLongBits [] [d]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [|(&(inbits, 4503599627370495), 4607182418800017408)]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown function
+	data: [struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) java/lang/Float//intBitsToFloat [] [|(sign, +(&(bits, 2147483647), 1))]]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) MAX_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Float struct(java/lang/Float, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/FastMath.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathCalc.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/util/FastMathCalc.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: not a named type
+	data: array(array(primitive(float, 64, false), primitive(int, 32, false), 0), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/FastMathLiteralArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/Incrementor.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/util/Incrementor.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/util/IterationEvent.java: error: unknown import
+	data: java/util/EventObject
+src/main/java/org/apache/commons/math3/util/IterationListener.java: error: unknown import
+	data: java/util/EventListener
+src/main/java/org/apache/commons/math3/util/IterationManager.java: error: unknown import
+	data: java/util/concurrent/CopyOnWriteArrayList
+src/main/java/org/apache/commons/math3/util/IterationManager.java: error: unknown import
+	data: org/apache/commons/math3/exception/MaxCountExceededException
+src/main/java/org/apache/commons/math3/util/IterationManager.java: error: unknown function
+	data: [genericInstance(reference(java/util/Collection), [reference(org/apache/commons/math3/util/IterationListener)]) java/util/Collection<org/apache/commons/math3/util/IterationListener>//remove [] [listener]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: unsupported AST node
+	data: &{0xc0014de900 <nil> [] 0xc0014e0480 0xc0014d6900 {None [] [] None}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [s3]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [source 0 output 0 call(org/apache/commons/math3/util/FastMath//min!2ac0ebcb23011db97774191b8c6fdbe3, [len, len(ensure_not_nil(source))])]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [source 0 output 0 call(org/apache/commons/math3/util/FastMath//min!2ac0ebcb23011db97774191b8c6fdbe3, [len, len(ensure_not_nil(source))])]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/NonMonotonicSequenceException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: unsupported AST node
+	data: reference(T)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(x3max, +(/(s2, x3max), *(x3max, s3)))]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [<nil> java/util/ArrayList//ArrayList [pointer(genericInstance(reference(org/apache/commons/math3/util/Pair), [pointer(reference(java/lang/Double)), pointer(reference(java/lang/Integer))]))] [len]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(org/apache/commons/math3/util/MathUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math3/util/MathUtils//checkNotNull [] [x]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: java/util/Collections
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [+(s1, /(/(s2, x1max), x1max))]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/Field), [reference(T)])
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: unsupported AST node
+	data: genericInstance(unsupported(org/apache/commons/math3/Field), [reference(T)])
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//sqrt [] [*(s2, +(cast(1, primitive(float, 64, false)), *(/(x3max, s2), *(x3max, s3))))]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotPositiveException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(primitive(float, 64, false), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: unsupported AST node
+	data: genericParameter(T, [pointer(genericInstance(reference(java/lang/Comparable), [wildcard(reference(T), pointer(reference(java/lang/Object)))]))])
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(org/apache/commons/math3/util/MathUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math3/util/MathUtils//checkNotNull [] [in]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown identifier
+	data: this
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown function
+	data: [struct(org/apache/commons/math3/util/MathUtils, [], [pointer(reference(java/lang/Object))], []) org/apache/commons/math3/util/MathUtils//checkNotNull [] [h]]
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: unknown import
+	data: org/apache/commons/math3/exception/NoDataException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: error: not a named type
+	data: array(reference(T), primitive(int, 32, false), 0)
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotFiniteNumberException
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/Localizable
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown field
+	data: [Byte struct(java/lang/Byte, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown field
+	data: [Short struct(java/lang/Short, [], [pointer(reference(java/lang/Object))], []) MIN_VALUE]
+src/main/java/org/apache/commons/math3/util/MathUtils.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math3/exception/DimensionMismatchException
+src/main/java/org/apache/commons/math3/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/util/MultidimensionalCounter.java: error: unknown import
+	data: org/apache/commons/math3/exception/OutOfRangeException
+src/main/java/org/apache/commons/math3/util/NumberTransformer.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, values) 0 select(this, values) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, states) 0 select(this, states) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, keys) 0 select(this, keys) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java: internal error: missing return statement
+	data: function(<nil>, org/apache/commons/math3/util/OpenIntToDoubleHashMap//findInsertionIndex!58002e7704d160bfc09403e6f432c39c, [variable(keys, array(primitive(int, 32, false), primitive(int, 32, false), 0)), variable(states, array(primitive(int, 8, false), primitive(int, 32, false), 0)), variable(key, primitive(int, 32, false)), variable(mask, primitive(int, 32, false))], [variable(, primitive(int, 32, false))], block([unsupported]))
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, values) 0 select(this, values) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [<nil> org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator//Iterator [pointer(reference(java/lang/Object))] []]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [pointer(reference(java/io/ObjectInputStream)) java/io/ObjectInputStream//defaultReadObject [] []]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) values]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/lang/reflect/Array
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown type
+	data: SuppressWarnings
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: internal error: missing return statement
+	data: function(<nil>, org/apache/commons/math3/util/OpenIntToFieldHashMap//findInsertionIndex!58002e7704d160bfc09403e6f432c39c, [variable(keys, array(primitive(int, 32, false), primitive(int, 32, false), 0)), variable(states, array(primitive(int, 8, false), primitive(int, 32, false), 0)), variable(key, primitive(int, 32, false)), variable(mask, primitive(int, 32, false))], [variable(, primitive(int, 32, false))], block([unsupported]))
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/util/ConcurrentModificationException
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: java/util/NoSuchElementException
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math3/Field
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown import
+	data: org/apache/commons/math3/FieldElement
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, keys) 0 select(this, keys) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(source, states) 0 select(this, states) 0 length]]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) count]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) keys]
+src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java: error: unknown field
+	data: [this struct(org/apache/commons/math3/util/OpenIntToFieldHashMap//Iterator, [], [pointer(reference(java/lang/Object))], []) states]
+src/main/java/org/apache/commons/math3/util/Pair.java: error: unknown identifier
+	data: result
+src/main/java/org/apache/commons/math3/util/Pair.java: error: unknown function
+	data: [genericInstance(reference(org/apache/commons/math3/util/Pair), [reference(K), reference(V)]) org/apache/commons/math3/util/Pair//@@constructor [] [call(select(ensure_not_nil(entry), getKey!d41d8cd98f00b204e9800998ecf8427e), []) call(select(ensure_not_nil(entry), getValue!d41d8cd98f00b204e9800998ecf8427e), [])]]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathArithmeticException
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/Precision.java: error: call is ambiguous
+	data: [[function(<nil>, org/apache/commons/math3/util/FastMath//pow!1026790eb947c50b6a8334e4d2bbfeb3, [variable(x, primitive(float, 64, false)), variable(y, primitive(float, 64, false))], [variable(, primitive(float, 64, false))], block([declaration([lns], [array(primitive(float, 64, false), primitive(int, 32, false), 0)], [make(array(primitive(float, 64, false), primitive(int, 32, false), 0), 2)], Modifier(1048584)), if(==(y, 0.0), block([return([1.0])]), %!s(<nil>)), if(!=(x, x), block([return([x])]), %!s(<nil>)), if(==(x, cast(0, primitive(float, 64, false))), block([declaration([bits], [primitive(int, 64, false)], [unsupported], ModifierVisibilityPublic), if(!=(&(bits, -9223372036854775808), 0), block([declaration([yi], [primitive(int, 64, false)], [cast(y, primitive(int, 64, false))], ModifierVisibilityPublic), if(&&(&&(<(y, cast(0, primitive(float, 64, false))), ==(y, cast(yi, primitive(float, 64, false)))), ==(&(yi, 1), 1)), block([return([unsupported])]), %!s(<nil>)), if(&&(&&(>(y, cast(0, primitive(float, 64, false))), ==(y, cast(yi, primitive(float, 64, false)))), ==(&(yi, 1), 1)), block([return([-0.0])]), %!s(<nil>))]), %!s(<nil>)), if(<(y, cast(0, primitive(float, 64, false))), block([return([unsupported])]), %!s(<nil>)), if(>(y, cast(0, primitive(float, 64, false))), block([return([0.0])]), %!s(<nil>)), return([unsupported])]), %!s(<nil>)), if(==(x, unsupported), block([if(!=(y, y), block([return([y])]), %!s(<nil>)), if(<(y, 0.0), block([return([0.0])]), block([return([unsupported])]))]), %!s(<nil>)), if(==(y, unsupported), block([if(==(*(x, x), 1.0), block([return([unsupported])]), %!s(<nil>)), if(>(*(x, x), 1.0), block([return([unsupported])]), block([return([0.0])]))]), %!s(<nil>)), if(==(x, unsupported), block([if(!=(y, y), block([return([y])]), %!s(<nil>)), if(<(y, cast(0, primitive(float, 64, false))), block([declaration([yi], [primitive(int, 64, false)], [cast(y, primitive(int, 64, false))], ModifierVisibilityPublic), if(&&(==(y, cast(yi, primitive(float, 64, false))), ==(&(yi, 1), 1)), block([return([-0.0])]), %!s(<nil>)), return([0.0])]), %!s(<nil>)), if(>(y, cast(0, primitive(float, 64, false))), block([declaration([yi], [primitive(int, 64, false)], [cast(y, primitive(int, 64, false))], ModifierVisibilityPublic), if(&&(==(y, cast(yi, primitive(float, 64, false))), ==(&(yi, 1), 1)), block([return([unsupported])]), %!s(<nil>)), return([unsupported])]), %!s(<nil>))]), %!s(<nil>)), if(==(y, unsupported), block([if(==(*(x, x), 1.0), block([return([unsupported])]), %!s(<nil>)), if(<(*(x, x), 1.0), block([return([unsupported])]), block([return([0.0])]))]), %!s(<nil>)), if(<(x, cast(0, primitive(float, 64, false))), block([if(||(>=(y, org/apache/commons/math3/util/FastMath//TWO_POWER_53), <=(y, -(org/apache/commons/math3/util/FastMath//TWO_POWER_53))), block([return([call(org/apache/commons/math3/util/FastMath//pow!1026790eb947c50b6a8334e4d2bbfeb3, [-(x), y])])]), %!s(<nil>)), if(==(y, cast(cast(y, primitive(int, 64, false)), primitive(float, 64, false))), block([return([conditional(==(&(cast(y, primitive(int, 64, false)), 1), 0), [call(org/apache/commons/math3/util/FastMath//pow!1026790eb947c50b6a8334e4d2bbfeb3, [-(x), y]), -(call(org/apache/commons/math3/util/FastMath//pow!1026790eb947c50b6a8334e4d2bbfeb3, [-(x), y]))])])]), block([return([unsupported])]))]), %!s(<nil>)), declaration([ya], [primitive(float, 64, false)], [0.0], ModifierVisibilityPublic), declaration([yb], [primitive(float, 64, false)], [0.0], ModifierVisibilityPublic), if(&&(<(y, 80000000000000000000000000000000000000000000000000000000000000000000000088665867782176504774095815122819583085769636736435525811790327703996851220927784468839050795353501236474938215468894529844848211679893694638481717067421954803225379299185414397464654537208325445340257775051615234715664368271360.0), >(y, -80000000000000000000000000000000000000000000000000000000000000000000000088665867782176504774095815122819583085769636736435525811790327703996851220927784468839050795353501236474938215468894529844848211679893694638481717067421954803225379299185414397464654537208325445340257775051615234715664368271360.0)), block([declaration([tmp1], [primitive(float, 64, false)], [*(y, cast(org/apache/commons/math3/util/FastMath//HEX_40000000, primitive(float, 64, false)))], ModifierVisibilityPublic), =(ya, -(+(y, tmp1), tmp1)), =(yb, -(y, ya))]), block([declaration([tmp1], [primitive(float, 64, false)], [*(y, 0.000000000931322574615478515625)], ModifierVisibilityPublic), declaration([tmp2], [primitive(float, 64, false)], [*(tmp1, 0.000000000931322574615478515625)], ModifierVisibilityPublic), =(ya, *(*(-(+(tmp1, tmp2), tmp1), cast(org/apache/commons/math3/util/FastMath//HEX_40000000, primitive(float, 64, false))), cast(org/apache/commons/math3/util/FastMath//HEX_40000000, primitive(float, 64, false)))), =(yb, -(y, ya))])), declaration([lores], [primitive(float, 64, false)], [call(org/apache/commons/math3/util/FastMath//log!3219a640d5a4c71d3b159c92637d9c72, [x, lns])], Modifier(1048584)), if(call(java/lang/Double//isInfinite!5bf0b9c067f960fc8e4f1dbf7e8b205e, [lores]), block([return([lores])]), %!s(<nil>)), declaration([lna], [primitive(float, 64, false)], [index(lns, 0)], ModifierVisibilityPublic), declaration([lnb], [primitive(float, 64, false)], [index(lns, 1)], ModifierVisibilityPublic), declaration([tmp1], [primitive(float, 64, false)], [*(lna, cast(org/apache/commons/math3/util/FastMath//HEX_40000000, primitive(float, 64, false)))], ModifierVisibilityPublic), declaration([tmp2], [primitive(float, 64, false)], [-(+(lna, tmp1), tmp1)], ModifierVisibilityPublic), =(lnb, cast(+(lnb, -(lna, tmp2)), primitive(float, 64, false))), =(lna, tmp2), declaration([aa], [primitive(float, 64, false)], [*(lna, ya)], Modifier(1048584)), declaration([ab], [primitive(float, 64, false)], [+(+(*(lna, yb), *(lnb, ya)), *(lnb, yb))], Modifier(1048584)), =(lna, +(aa, ab)), =(lnb, -(-(-(lna, aa), ab))), declaration([z], [primitive(float, 64, false)], [/(1.0, 120.0)], ModifierVisibilityPublic), =(z, +(*(z, lnb), /(1.0, 24.0))), =(z, +(*(z, lnb), /(1.0, 6.0))), =(z, +(*(z, lnb), 0.5)), =(z, +(*(z, lnb), 1.0)), =(z, *(z, lnb)), declaration([result], [primitive(float, 64, false)], [call(org/apache/commons/math3/util/FastMath//exp!d18d16613c51ad54bbe1cf0f4e9318db, [lna, z, nil])], Modifier(1048584)), return([result])])) function(<nil>, org/apache/commons/math3/util/FastMath//pow!943083c06ce80218f82e7d60a021249b, [variable(d, primitive(float, 64, false)), variable(e, primitive(int, 32, false))], [variable(, primitive(float, 64, false))], block([if(==(e, 0), block([return([1.0])]), if(<(e, 0), block([=(e, -(e)), =(d, /(1.0, d))]), %!s(<nil>))), declaration([splitFactor], [primitive(int, 32, false)], [134217729], Modifier(1048584)), declaration([cd], [primitive(float, 64, false)], [*(cast(splitFactor, primitive(float, 64, false)), d)], Modifier(1048584)), declaration([d1High], [primitive(float, 64, false)], [-(cd, -(cd, d))], Modifier(1048584)), declaration([d1Low], [primitive(float, 64, false)], [-(d, d1High)], Modifier(1048584)), declaration([resultHigh], [primitive(float, 64, false)], [cast(1, primitive(float, 64, false))], ModifierVisibilityPublic), declaration([resultLow], [primitive(float, 64, false)], [cast(0, primitive(float, 64, false))], ModifierVisibilityPublic), declaration([d2p], [primitive(float, 64, false)], [d], ModifierVisibilityPublic), declaration([d2pHigh], [primitive(float, 64, false)], [d1High], ModifierVisibilityPublic), declaration([d2pLow], [primitive(float, 64, false)], [d1Low], ModifierVisibilityPublic), loop(!=(e, 0), block([if(!=(&(e, 1), 0), block([declaration([tmpHigh], [primitive(float, 64, false)], [*(resultHigh, d2p)], Modifier(1048584)), declaration([cRH], [primitive(float, 64, false)], [*(cast(splitFactor, primitive(float, 64, false)), resultHigh)], Modifier(1048584)), declaration([rHH], [primitive(float, 64, false)], [-(cRH, -(cRH, resultHigh))], Modifier(1048584)), declaration([rHL], [primitive(float, 64, false)], [-(resultHigh, rHH)], Modifier(1048584)), declaration([tmpLow], [primitive(float, 64, false)], [-(*(rHL, d2pLow), -(-(-(tmpHigh, *(rHH, d2pHigh)), *(rHL, d2pHigh)), *(rHH, d2pLow)))], Modifier(1048584)), =(resultHigh, tmpHigh), =(resultLow, +(*(resultLow, d2p), tmpLow))]), %!s(<nil>)), declaration([tmpHigh], [primitive(float, 64, false)], [*(d2pHigh, d2p)], Modifier(1048584)), declaration([cD2pH], [primitive(float, 64, false)], [*(cast(splitFactor, primitive(float, 64, false)), d2pHigh)], Modifier(1048584)), declaration([d2pHH], [primitive(float, 64, false)], [-(cD2pH, -(cD2pH, d2pHigh))], Modifier(1048584)), declaration([d2pHL], [primitive(float, 64, false)], [-(d2pHigh, d2pHH)], Modifier(1048584)), declaration([tmpLow], [primitive(float, 64, false)], [-(*(d2pHL, d2pLow), -(-(-(tmpHigh, *(d2pHH, d2pHigh)), *(d2pHL, d2pHigh)), *(d2pHH, d2pLow)))], Modifier(1048584)), declaration([cTmpH], [primitive(float, 64, false)], [*(cast(splitFactor, primitive(float, 64, false)), tmpHigh)], Modifier(1048584)), =(d2pHigh, -(cTmpH, -(cTmpH, tmpHigh))), =(d2pLow, +(+(*(d2pLow, d2p), tmpLow), -(tmpHigh, d2pHigh))), =(d2p, +(d2pHigh, d2pLow)), =(e, >>(e, 1))]), %!s(<nil>), %!s(<nil>)), return([+(resultHigh, resultLow)])]))] [10.0 scale]]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown function
+	data: [struct(java/lang/Math, [], [pointer(reference(java/lang/Object))], []) java/lang/Math//floor [] [unscaled]]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [<<(-(org/apache/commons/math3/util/Precision//EXPONENT_OFFSET, 53), cast(&(52, 63), primitive(int, 64, false)))]]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NEGATIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown import
+	data: java/math/BigDecimal
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown function
+	data: [struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) java/lang/Double//longBitsToDouble [] [<<(-(org/apache/commons/math3/util/Precision//EXPONENT_OFFSET, 1022), cast(&(52, 63), primitive(int, 64, false)))]]
+src/main/java/org/apache/commons/math3/util/Precision.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) POSITIVE_INFINITY]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) elementArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) 0 tempArray 0 len(ensure_not_nil(select(this, internalArray)))]]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathInternalError
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown type
+	data: Deprecated
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) tempArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/NumberIsTooSmallException
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) 0 tempArray 0 len(ensure_not_nil(select(this, internalArray)))]]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: java/util/Arrays
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalStateException
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/NotStrictlyPositiveException
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/util/LocalizedFormats
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown import
+	data: org/apache/commons/math3/exception/NullArgumentException
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [select(this, internalArray) select(this, startIndex) tempArray 0 select(this, numElements)]]
+src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java: error: unknown function
+	data: [struct(java/lang/System, [], [pointer(reference(java/lang/Object))], []) java/lang/System//arraycopy [] [values 0 tempArray select(this, numElements) len(ensure_not_nil(values))]]
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), reference(org/apache/commons/math3/util/NumberTransformer)]) java/util/Map<java/lang/Class<descendant of java/lang/Object>,org/apache/commons/math3/util/NumberTransformer>//entrySet [] []]
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown import
+	data: java/util/HashMap
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown import
+	data: java/util/Set
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown import
+	data: org/apache/commons/math3/exception/MathIllegalArgumentException
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown function
+	data: [genericInstance(reference(java/util/Map), [pointer(genericInstance(reference(java/lang/Class), [wildcard(, pointer(reference(java/lang/Object)))])), reference(org/apache/commons/math3/util/NumberTransformer)]) java/util/Map<java/lang/Class<descendant of java/lang/Object>,org/apache/commons/math3/util/NumberTransformer>//keySet [] []]
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown field
+	data: [Double struct(java/lang/Double, [], [pointer(reference(java/lang/Object))], []) NaN]
+src/main/java/org/apache/commons/math3/util/TransformerMap.java: error: unknown function
+	data: [pointer(reference(java/lang/Object)) java/lang/Object//getClass [] []]
+Found 1 Java files
+Found 468 problems in Java files
+src/main/java/org/apache/commons/math3/util/MathArrays.java: found 42 symbols
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkRectangular: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkRectangular: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkRectangular: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: org.apache.commons.math3.util.MathArrays.isMonotonic: unsupported type
+	data: wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(pointer(genericInstance(reference(java/lang/Comparable), [wildcard(reference(T), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))])), pointer(reference(java/lang/Object)))
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scaleInPlace: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scaleInPlace: computed 3 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scaleInPlace: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:103:29: critical: org.apache.commons.math3.util.MathArrays.scaleInPlace: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computed 4 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: found 7 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.linearCombination: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.002727201s, CPUTimeUser:9.853738s, CPUTimeSystem:31.992ms, MemoryUsage:176224}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.linearCombination: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.006281744s, CPUTimeUser:9.805283s, CPUTimeSystem:111.877ms, MemoryUsage:176224}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.linearCombination: test generation timed out
+src/main/java/org/apache/commons/math3/util/MathArrays.java:845:36: critical: org.apache.commons.math3.util.MathArrays.linearCombination: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:816:25: critical: org.apache.commons.math3.util.MathArrays.linearCombination: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:817:20: critical: org.apache.commons.math3.util.MathArrays.linearCombination: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:846:31: critical: org.apache.commons.math3.util.MathArrays.linearCombination: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:686:30: critical: org.apache.commons.math3.util.MathArrays.sortInPlace: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.Function.evaluate: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.Function.evaluate: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.isMonotonic: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.isMonotonic: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.isMonotonic: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:754:32: critical: org.apache.commons.math3.util.MathArrays.copyOf: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distance1: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:777:31: critical: org.apache.commons.math3.util.MathArrays.copyOf: uncaught NegativeArraySizeException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.convolve: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.convolve: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.convolve: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.safeNorm: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.safeNorm: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.safeNorm: found 5 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.safeNorm: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.011943721s, CPUTimeUser:9.792461s, CPUTimeSystem:155.816ms, MemoryUsage:282208}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.safeNorm: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.008999355s, CPUTimeUser:9.727361s, CPUTimeSystem:139.703ms, MemoryUsage:282172}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.safeNorm: solver timed out
+	data: ExecutionResult{ExitStatus:-1, ResourceUsage{WallTime:10.009522657s, CPUTimeUser:9.882865s, CPUTimeSystem:103.903ms, MemoryUsage:281260}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java: info: org.apache.commons.math3.util.MathArrays.safeNorm: test generation timed out
+src/main/java/org/apache/commons/math3/util/MathArrays.java:590:25: critical: org.apache.commons.math3.util.MathArrays.safeNorm: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: computed 3 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:497:29: critical: org.apache.commons.math3.util.MathArrays.checkNonNegative: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.normalizeArray: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.normalizeArray: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.normalizeArray: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.distanceInf: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: computed 5 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkNonNegative: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:513:29: critical: org.apache.commons.math3.util.MathArrays.checkNonNegative: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:514:33: critical: org.apache.commons.math3.util.MathArrays.checkNonNegative: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkPositive: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkPositive: computed 3 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkPositive: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:481:29: critical: org.apache.commons.math3.util.MathArrays.checkPositive: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeSubtract: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeSubtract: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeSubtract: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:142:13: critical: org.apache.commons.math3.util.MathArrays.ebeSubtract: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:142:25: critical: org.apache.commons.math3.util.MathArrays.ebeSubtract: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.checkOrder: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught ArrayIndexOutOfBoundsException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:376:27: critical: org.apache.commons.math3.util.MathArrays.checkOrder: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeMultiply: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeMultiply: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeMultiply: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:164:13: critical: org.apache.commons.math3.util.MathArrays.ebeMultiply: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:164:25: critical: org.apache.commons.math3.util.MathArrays.ebeMultiply: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeDivide: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeDivide: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeDivide: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:186:13: critical: org.apache.commons.math3.util.MathArrays.ebeDivide: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:186:25: critical: org.apache.commons.math3.util.MathArrays.ebeDivide: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:792:34: critical: org.apache.commons.math3.util.MathArrays.copyOf: uncaught NegativeArraySizeException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equals: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.sortInPlace: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: internal error: org.apache.commons.math3.util.MathArrays.sortInPlace: found errors: (error "line 137 column 79: unknown constant mkPointer (Bool (_ BitVec 32) Pointer) 
+		declared: (declare-fun mkPointer (Bool (_ BitVec 32) Any) Pointer) ")
+		sat
+	
+	data: ExecutionResult{StdOut:"(error \"line 137 column 79: unknown constant mkPointer (Bool (_ BitVec 32) Pointer) \ndeclared: (declare-fun mkPointer (Bool (_ BitVec 32) Any) Pointer) \")\nsat\n", ExitStatus:1, ResourceUsage{WallTime:29.65174ms, CPUTimeUser:20.962ms, CPUTimeSystem:8.385ms, MemoryUsage:176224}}
+src/main/java/org/apache/commons/math3/util/MathArrays.java:686:30: critical: org.apache.commons.math3.util.MathArrays.sortInPlace: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.buildArray: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: unsupported: org.apache.commons.math3.util.MathArrays.buildArray: encountered an unsupported type
+	data: unsupported(org/apache/commons/math3/Field)
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.Function.evaluate: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.Function.evaluate: function is abstract and therefore inaccessible for tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: computed 1 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.copyOf: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:764:32: critical: org.apache.commons.math3.util.MathArrays.copyOf: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeAdd: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeAdd: computed 2 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.ebeAdd: found 2 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:120:13: critical: org.apache.commons.math3.util.MathArrays.ebeAdd: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java:120:25: critical: org.apache.commons.math3.util.MathArrays.ebeAdd: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.equalsIncludingNaN: found 0 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scale: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scale: computed 3 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.scale: found 1 problems
+src/main/java/org/apache/commons/math3/util/MathArrays.java:86:38: critical: org.apache.commons.math3.util.MathArrays.scale: uncaught java.lang.NullPointerException
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computing test cases
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: computed 0 unit tests
+src/main/java/org/apache/commons/math3/util/MathArrays.java: org.apache.commons.math3.util.MathArrays.linearCombination: found 0 problems
+Symflower's table driven test style is not supported, switching to basic style
+src/main/java/org/apache/commons/math3/util/MathArrays.java: generated unit test file src/main/java/org/apache/commons/math3/util/MathArraysSymflowerTest.java
+Analyzed 1 out of 25 source files
+Had 285 errors that block a full analysis
+Generated 44 tests
+Found 33 potential problems
+The following issues prevent a full analysis:
+
+* 86 cases of "unknown function"
+	Description: Functions could not be resolved. This occurs due to missing dependencies,
+  or if a called function is removed due to some other problem.
+
+* 85 cases of "unknown import"
+	Description: Imports could not be resolved. This is likely due to missing dependencies.
+
+* 4 cases of "unknown type"
+	Description: Types could not be resolved. This could be because of missing dependencies
+  or a consequence of some other problem.
+
+* 1 case of "not all elements have the same type"
+	Description: Arguments of a function call do not match the parameter types. This usually
+  occurs if a called method is removed due to some other problem, and another
+  method with the same name is selected to be called.
+
+* 1 case of "unsupported type"
+	Description: Types required for analysis are not supported. This can include raw generics,
+  or reflection types like "java.lang.Class".
+
+* 16 cases of "other issues"
+	Description: Uncategorized problems.
+
