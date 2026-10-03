@@ -20,6 +20,6 @@
 | Mockito | Mockito/results.csv | 38 | 38 | 0 | 0 | 0 - |
 | Time | Time/results.csv | 26 | 26 | 7 | 217 | 0 - |
 
-รวมทั้งหมด: **810 แถว** (854 active + 9 deprecated ที่บันทึกสถานะไว้) — ดูรายละเอียดต่อ bug ได้ที่ `all_bugs_summary.csv`
+รวมทั้งหมด: **857 แถว** = 854 active + 3 deprecated แถวของ Lang (อีก 6 deprecated ของ Cli/Closure/JacksonDatabind/Time ถูกข้ามตั้งแต่รัน) — ดูรายละเอียดต่อ bug ได้ที่ `all_bugs_summary.csv`
 
 หมายเหตุ: per-bug raw logs (symflower/test/coverage) เก็บครบในเครื่อง; ใน repo นี้ใส่ตัวอย่าง 3 bugs/project ที่ `logs_selected/` และ Lang ครบทุก bug เพื่อคุมขนาด repo
