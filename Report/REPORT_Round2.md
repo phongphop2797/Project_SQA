@@ -179,7 +179,8 @@ AI จับ bug ได้เพราะ **bug report ที่ใส่ใน 
 | 12 | รันขนานชนกัน (workspace/git lock/meta CSV) | flock checkout, CSV ต่อ bug, worker self-contained (git clean + วางไฟล์ใหม่) |
 | 13 | WSL RAM default 7GB ไม่พอรันขนาน | `.wslconfig` memory=12GB + ลด mem/worker |
 | 14 | workspace เปลือง disk หลายร้อย GB | ลบ workspace ทันทีหลังเก็บ log ต่อ bug |
-| 15 | Lang ช่วง 40–47 หลุดจากการวางแผนช่วง | ตรวจ integrity จับช่องว่างได้ → รันเติม + กู้ 49–65 จาก repo copy |
+| 15 | Lang ช่วง 40–47 หลุดจากการวางแผนช่วง
+| 16 | Chart checkout ต้องใช้ svn (Subversion) ที่ไม่ได้ติดตั้ง — 26 bugs fail ตั้งแต่ checkout จนตรวจพบภายหลังจากกระบวนการตรวจ logs_selected | `apt install subversion` + รีรัน Chart (อยู่ในคิว) | | ตรวจ integrity จับช่องว่างได้ → รันเติม + กู้ 49–65 จาก repo copy |
 
 ## 7. Threats to Validity
 
